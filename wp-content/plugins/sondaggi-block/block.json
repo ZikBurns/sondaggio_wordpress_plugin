@@ -1,0 +1,9 @@
+{
+    "apiVersion": 2,
+    "title": "Sondaggi",
+    "name": "gutenberg-block/sondaggi",
+    "category": "layout",
+    "icon": "universal-access-alt",
+    "editorScript": "file:./block.js",
+    "data": ""
+}
