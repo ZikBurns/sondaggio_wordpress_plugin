@@ -25,7 +25,8 @@ import { useState, useEffect } from '@wordpress/element';
  */
 export default function save({ attributes }) {
 	const { idson, title, sondaggi_elenco } = attributes;
-	
+	debugger;
+
 	var choice;
 	var showStats = true;
 	function handleFormSubmit (event) {
@@ -36,11 +37,12 @@ export default function save({ attributes }) {
 			sondaggi_elenco[0].count++;
 		} 
 		else sondaggi_elenco[1].count++;
-
+		
+		var parameters_to_send = {id:idson, elenco: sondaggi_elenco,risposta:choice};
 		console.log('You have selected:', choice );
-		fetch(`http://localhost/wordpress/index.php/wp-json/wp/v2/sondaggi`, {
+		fetch(`http://localhost/wordpress/wp-admin/admin-ajax.php`, {
 			method: 'POST',
-			body: JSON.stringify(sondaggi_elenco),
+			body: JSON.stringify(parameters_to_send),
 			headers: {
 				'Content-Type': 'application/json'
 			}
@@ -49,57 +51,49 @@ export default function save({ attributes }) {
 		.catch(err => console.error("Error:", err));
 		showStats=false;
 	}
-
-	if(showStats){
-		var bigresponse = sondaggi_elenco[0].count + sondaggi_elenco[1].count;
-		var per0 = parseInt(sondaggi_elenco[0].count / bigresponse * 100);
-		var per1 = parseInt(sondaggi_elenco[1].count / bigresponse * 100);
-
-		return (
+	var bigresponse = sondaggi_elenco[0].count + sondaggi_elenco[1].count;
+	var per0 = parseInt(sondaggi_elenco[0].count / bigresponse * 100);
+	var per1 = parseInt(sondaggi_elenco[1].count / bigresponse * 100);
+	return (
+		<div { ...useBlockProps.save() }>
+			<p>{idson ? title: "Choose a sondaggio"}</p>
+			{idson && <div>
+					<label>
+						<input type="radio" 
+						id = {sondaggi_elenco[0].text}
+						value={sondaggi_elenco[0].text}
+						name="choice"
+						onChange={
+						choice = sondaggi_elenco[0].text
+						}
+						/>
+						{sondaggi_elenco[0].text+" "}
+						{sondaggi_elenco[0].count}
+					</label>
+					<label>
+						<input type="radio" 
+						id = {sondaggi_elenco[1].text}
+						value={sondaggi_elenco[1].text} 
+						name="choice"
+						onChange={
+						choice = sondaggi_elenco[1].text
+						}
+						/>
+						{sondaggi_elenco[1].text+" "}
+						{sondaggi_elenco[1].count}
+					</label>
+					<button class="more-link" onClick={e=>handleFormSubmit(e)}>Save</button>
+				</div>
+			}
 			<dl>
 				<dt>
-					{idson ? title: "Choose a sondaggio"}
 				</dt>
 				<dd class={`percentage percentage-`+per0}><span class="text">{sondaggi_elenco[0].text}: { sondaggi_elenco[0].count}</span></dd>
 				<dd class={`percentage percentage-`+per1}><span class="text">{sondaggi_elenco[1].text}: { sondaggi_elenco[1].count}</span></dd>
 			</dl>
-		);
-	}
-	else{
-		return (
-			<div { ...useBlockProps.save() }>
-				<p>{idson ? title: "Choose a sondaggio"}</p>
-				{idson && <div>
-						<label>
-						  <input type="radio" 
-						  id = {sondaggi_elenco[0].text}
-						  value={sondaggi_elenco[0].text}
-						  name="choice"
-						  onChange={
-							choice = sondaggi_elenco[0].text
-						  }
-						  />
-						  {sondaggi_elenco[0].text+" "}
-						  {sondaggi_elenco[0].count}
-						</label>
-						<label>
-						  <input type="radio" 
-						  id = {sondaggi_elenco[1].text}
-						  value={sondaggi_elenco[1].text} 
-						  name="choice"
-						  onChange={
-							choice = sondaggi_elenco[1].text
-						  }
-						  />
-						  {sondaggi_elenco[1].text+" "}
-						  {sondaggi_elenco[1].count}
-						</label>
-					  <button class="more-link">Save</button>
-					</div>
-			}
-			</div>
-		);
-	}
+		</div>
+	);
+	
 	
 
 }
