@@ -163,8 +163,8 @@ add_action( 'init', 'myguten_register_post_meta' );
 add_action('wp_enqueue_scripts', 'insert_js');
 
 function insert_js(){
-    wp_localize_script('miscript','ajax_obj',['ajaxurl'=>admin_url('admin-ajax.php')]);
 	wp_enqueue_script('miscript',plugin_dir_url(__FILE__). '/js/script.js', array(), '1', true);
+    wp_localize_script('miscript','ajax_obj',['ajaxurl'=>admin_url('admin-ajax.php')]);
 }
 
 

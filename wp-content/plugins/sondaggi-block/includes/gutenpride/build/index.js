@@ -330,8 +330,7 @@ function save(_ref) {
     name: "choice",
     onChange: choice = sondaggi_elenco[1].text
   }), sondaggi_elenco[1].text + " ", sondaggi_elenco[1].count), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {
-    class: "more-link",
-    onClick: e => handleFormSubmit(e)
+    id: "btnSave"
   }, "Save")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("dl", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("dt", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("dd", {
     class: `percentage percentage-` + per0
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
@@ -445,7 +444,7 @@ module.exports = window["wp"]["i18n"];
   \************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"create-block/gutenpride","version":"0.1.0","title":"Gutenpride","category":"widgets","icon":"smiley","description":"Example static block scaffolded with Create Block tool.","supports":{"html":false},"attributes":{"idson":{"type":"string"},"title":{"type":"string"},"sondaggi_elenco":{"type":"array"}},"textdomain":"gutenpride","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"create-block/gutenpride","version":"0.1.0","title":"Gutenpride","category":"widgets","icon":"smiley","description":"Example static block scaffolded with Create Block tool.","supports":{"html":false},"attributes":{"idson":{"type":"string"},"title":{"type":"string"},"sondaggi_elenco":{"type":"array"}},"textdomain":"gutenpride","editorScript":"file:./index.js","script":"file:./js/index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
 
 /***/ })
 

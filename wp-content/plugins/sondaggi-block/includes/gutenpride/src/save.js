@@ -26,7 +26,7 @@ import { useState, useEffect } from '@wordpress/element';
 export default function save({ attributes }) {
 	const { idson, title, sondaggi_elenco } = attributes;
 	debugger;
-
+	
 	var choice;
 	var showStats = true;
 	function handleFormSubmit (event) {
@@ -56,7 +56,7 @@ export default function save({ attributes }) {
 	var per1 = parseInt(sondaggi_elenco[1].count / bigresponse * 100);
 	return (
 		<div { ...useBlockProps.save() }>
-			<p>{idson ? title: "Choose a sondaggio"}</p>
+			<p>{idson ? title : "Choose a sondaggio"}</p>
 			{idson && <div>
 					<label>
 						<input type="radio" 
@@ -82,7 +82,7 @@ export default function save({ attributes }) {
 						{sondaggi_elenco[1].text+" "}
 						{sondaggi_elenco[1].count}
 					</label>
-					<button class="more-link" onClick={e=>handleFormSubmit(e)}>Save</button>
+					<button id="btnSave">Save</button>
 				</div>
 			}
 			<dl>
@@ -93,7 +93,4 @@ export default function save({ attributes }) {
 			</dl>
 		</div>
 	);
-	
-	
-
 }

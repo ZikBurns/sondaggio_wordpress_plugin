@@ -23,6 +23,7 @@
   },
   "textdomain": "gutenpride",
   "editorScript": "file:./index.js",
+  "script": "file:./js/index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css"
 }
