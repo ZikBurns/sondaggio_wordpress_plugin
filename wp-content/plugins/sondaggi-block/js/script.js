@@ -1,16 +1,44 @@
 var form;
 var radioButtons; 
-const initForm = () => {
-	form = document.querySelector('#sendForm');        
-	radioButtons = document.querySelectorAll('input[name="choice"]');
-	
-	form.addEventListener("submit", doStuff);
-	console.log(ajax_obj);  
-  }
-  
-  document.addEventListener('DOMContentLoaded', () => {
-	initForm();
-  });
+debugger;
+if(document.cookie.includes("sondaggioSent")){
+	/*const resultschart = document.querySelector('#resultChart');        
+	resultschart.style.display='block';
+	const frontsondaggio = document.querySelector('#frontSondaggio');        
+	frontsondaggio.style.display = 'none';
+*/
+	const idson = document.querySelector('#idson').innerHTML; 
+	var formData = new FormData();
+	formData.append("selected", null);
+	formData.append("action", "send");
+	formData.append("idson", idson);
+	fetch(ajax_obj.ajaxurl,{
+        method:'POST',
+        body: formData
+    })
+	.then(response => response.json())
+	.then(function(data) {
+		updateChart(data);
+	})
+    .catch(err => console.error("Error:", err));   
+} 
+else{
+	const initForm = () => {
+		form = document.querySelector('#sendForm');        
+		radioButtons = document.querySelectorAll('input[name="choice"]');
+		
+		form.addEventListener("submit", doStuff);
+		console.log(ajax_obj);  
+	  }
+	  
+	  document.addEventListener('DOMContentLoaded', () => {
+		initForm();
+	  });
+}
+
+
+
+
 
 function doStuff(event){
 	event.preventDefault();
@@ -35,48 +63,33 @@ function doStuff(event){
     })
 	.then(response => response.json())
 	.then(function(data) {
-		console.log(data);
-		/*
-		const resultschart = document.querySelector('#resultChart');        
-		resultschart.style.visibility='visible';
-		const frontsondaggio = document.querySelector('#frontSondaggio');        
-		frontsondaggio.style.visibility = 'hidden';
-		*/
-		var chosenbar = document.querySelector('#bar'+index).innerHTML;
-		var splitbar = chosenbar.split(": ");
-		var firstpart = splitbar[splitbar.length-2]
-		var secondpart = splitbar[splitbar.length-1]
-		secondpart = parseInt(secondpart)+1;
-		chosenbar = firstpart+": "+secondpart;
-		document.querySelector('#bar'+index).innerHTML = chosenbar;
-		document.cookie = "sondaggioSent=true";
+		updateChart(data);
 	})
-    .catch(err => console.error("Error:", err));
+    .catch(err => console.error("Error:", err));   
 
-/*
-	var xhr = new XMLHttpRequest();
-	xhr.open('POST','http://localhost/wordpress/wp-admin/admin-ajax.php', true);
-	xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-	xhr.send(formData);
+}
 
-	xhr.onreadystatechange = function() {
-		if (xhr.readyState == 4 && xhr.status == 200) {
-			alert("Form submitted successfully");
-			console.log(xhr.responseText);
+function updateChart(data){
+	console.log(data);
 
-			const resultschart = document.querySelector('#resultChart');        
-			resultschart.style.visibility='visible';
-			const frontsondaggio = document.querySelector('#frontSondaggio');        
-			frontsondaggio.style.visibility = 'invisible';
-			
-			document.querySelector('#bar'+index).innerHTML = document.querySelector('#bar'+index).innerHTML +1 ;        
+	const resultschart = document.querySelector('#resultChart');        
+	resultschart.style.display='block';
+	const frontsondaggio = document.querySelector('#frontSondaggio');        
+	frontsondaggio.style.display = 'none';
 
-		}
-		    var parameters_to_send = {selected: selectedRadio, idson: idson, action: "ajax_send" };
+	var updatedRes = data[3][0].count;
+	var chosenbar = document.querySelector('#bar'+0).innerHTML;
+	var splitbar = chosenbar.split(": ");
+	var firstpart = splitbar[splitbar.length-2]
+	chosenbar = firstpart+": "+updatedRes;
+	document.querySelector('#bar'+0).innerHTML = chosenbar;
+	
+	var updatedRes = data[3][1].count;
+	var chosenbar = document.querySelector('#bar'+1).innerHTML;
+	var splitbar = chosenbar.split(": ");
+	var firstpart = splitbar[splitbar.length-2]
+	chosenbar = firstpart+": "+updatedRes;
+	document.querySelector('#bar'+1).innerHTML = chosenbar;
 
-	}*/
-
-
-    
-
+	document.cookie = "sondaggioSent=true";
 }

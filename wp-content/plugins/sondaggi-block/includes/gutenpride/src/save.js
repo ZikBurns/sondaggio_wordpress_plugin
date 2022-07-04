@@ -28,46 +28,24 @@ export default function save({ attributes }) {
 	
 	var choice;
 	var showStats = true;
-	/*
-	function handleFormSubmit (event) {
-		event.preventDefault();
-		const reactAppData = window.wpRoomDesigner || {}
-		const { ajax_url} = reactAppData
-		if(choice == sondaggi_elenco[0].text){
-			sondaggi_elenco[0].count++;
-		} 
-		else sondaggi_elenco[1].count++;
-		
-		var parameters_to_send = {id:idson, elenco: sondaggi_elenco,risposta:choice};
-		console.log('You have selected:', choice );
-		fetch(`http://localhost/wordpress/wp-admin/admin-ajax.php`, {
-			method: 'POST',
-			body: JSON.stringify(parameters_to_send),
-			headers: {
-				'Content-Type': 'application/json'
-			}
-		}).then(res => res.json())
-		.then(data => console.log(data))
-		.catch(err => console.error("Error:", err));
-		showStats=false;
-	}*/
+	
 	var bigresponse = sondaggi_elenco[0].count + sondaggi_elenco[1].count;
 	var per0 = parseInt(sondaggi_elenco[0].count / bigresponse * 100);
 	var per1 = parseInt(sondaggi_elenco[1].count / bigresponse * 100);
 	var stylesondaggio;
 	var styleresults;
-	if(document.cookie.includes("sondaggioSent")){
-		stylesondaggio="visibility: hidden;"
-		styleresults="visibility: visible;"
-	} 
-	else{
-		stylesondaggio="visibility: visible;"
-		styleresults="visibility: hidden;"
-	}
+	//if(document.cookie.includes("sondaggioSent")){
+		stylesondaggio="display: block;"
+		styleresults="display: none;"
+	//} 
+	/*else{
+		stylesondaggio="display: block;"
+		styleresults="display: none;"
+	}*/
 
 	return (
 		<div { ...useBlockProps.save() }>
-			<div id='frontSondaggio' style="visibility: visible;">
+			<div id='frontSondaggio' style={stylesondaggio}>
 				<p>{idson ? title : "Choose a sondaggio"}</p>
 				{idson && <form id="sendForm">
 						<label>
@@ -98,7 +76,7 @@ export default function save({ attributes }) {
 					</form>
 				}
 			</div>
-			<div id='resultChart' style="visibility: hidden;">
+			<div id='resultChart' style={styleresults}>
 				<dl>
 					<dt>
 					</dt>

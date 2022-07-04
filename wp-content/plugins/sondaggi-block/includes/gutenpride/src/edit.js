@@ -40,6 +40,7 @@ import './editor.scss';
  * @return {WPElement} Element to render.
  */
 export default function Edit({ setAttributes, attributes }) {
+	const { idson, title, sondaggi_elenco } = attributes;
 	const posts = useSelect ( (select) =>{
 		return select('core').getEntityRecords('postType', 'sondaggi');
 	} );
@@ -53,7 +54,11 @@ export default function Edit({ setAttributes, attributes }) {
 		if (selectedQuestion) {
 			selectedQuestionString = [selectedQuestion.title.raw+' ('+selectedQuestion.id+')'];
 			answers =selectedQuestion.meta.sondaggio[0];
-			var selectedOption= answers[0].text;			
+			if(answers) var selectedOption= answers[0].text;
+			else{
+				answers=sondaggi_elenco;
+				var selectedOption= answers[0].text;
+			}			
 		}
 		/*if (attributes.sondaggi_elenco){
 			answers = attributes.sondaggi_elenco

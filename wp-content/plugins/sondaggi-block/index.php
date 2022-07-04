@@ -54,9 +54,6 @@ function create_posttype() {
                 'custom-fields',
                 'title'
             )
-                
-            
-  
         )
     );
 }
@@ -163,7 +160,7 @@ add_action( 'init', 'myguten_register_post_meta' );
 add_action('wp_enqueue_scripts', 'insert_js');
 
 function insert_js(){
-    wp_enqueue_script('miscript',plugin_dir_url(__FILE__). '/js/script.js', array(), '1', true);
+    wp_enqueue_script('miscript',plugin_dir_url(__FILE__). '/js/script.js', array(), '3', true);
     wp_localize_script('miscript','ajax_obj',['ajaxurl'=>admin_url('admin-ajax.php')]);
 }
 
@@ -180,29 +177,30 @@ function send_content()
 
     if(isset($_POST['idson'])) $id_post = intval($_POST['idson']);
 	$selected = strval($_POST['selected']);
-
-    $boxmeta = get_post_meta($id_post, 'sondaggio');
-    $newboxmeta = get_post_meta($id_post, 'sondaggio');
-    $newboxmeta[0][$selected]['count'] = $boxmeta[0][$selected]['count'] + 1 ;
-    $status = update_post_meta($id_post, 'sondaggio',$newboxmeta[0]);
+    if (isset($selected)){
+        $boxmeta = get_post_meta($id_post, 'sondaggio',true);
+        $newboxmeta = get_post_meta($id_post, 'sondaggio',true);
+        $newboxmeta[$selected]['count'] = $boxmeta[$selected]['count'] + 1 ;
+        $status = update_post_meta($id_post, 'sondaggio',$newboxmeta);
+    }
 
     $return = [$id_post,$selected,$boxmeta, $newboxmeta,$status ];
     wp_send_json($return);
 	wp_die();
 }
-
+/*
 add_action('wp_enqueue_scripts','visibility_controller');
 function visibility_controller()
 {
     if(isset($_COOKIE['sondaggioSent']))
     {
-        wp_register_script( 'visibility-control', plugins_url( '/js/vcontroller.js' , __FILE__ ) );
+        wp_register_script( 'visibility-control', plugins_url( '/js/vis.js' , __FILE__ ) );
         wp_enqueue_script( 'visibility-control' );
     }
     else
     {
-        wp_register_script( 'invisibility-control', plugins_url( '/js/nonvcontroller.js' , __FILE__ ) );
+        wp_register_script( 'invisibility-control', plugins_url( '/js/invis.js' , __FILE__ ) );
         wp_enqueue_script( 'invisibility-control' );
     }
 }
-
+*/

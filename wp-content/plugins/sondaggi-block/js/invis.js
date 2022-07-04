@@ -1,3 +1,4 @@
+debugger;
 
 const frontsondaggio = document.querySelector('#frontSondaggio');  
 if(frontsondaggio) frontsondaggio.style.visibility = 'hidden';
