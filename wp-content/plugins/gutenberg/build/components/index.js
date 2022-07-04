@@ -1,8 +1,8 @@
-/******/ (function() { // webpackBootstrap
+/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ 3720:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _arrayLikeToArray(arr, len) {
   if (len == null || len > arr.length) len = arr.length;
@@ -20,7 +20,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 9822:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _arrayWithHoles(arr) {
   if (Array.isArray(arr)) return arr;
@@ -32,7 +32,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 1588:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var arrayLikeToArray = __webpack_require__(3720);
 
@@ -46,7 +46,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 9168:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _assertThisInitialized(self) {
   if (self === void 0) {
@@ -62,7 +62,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 8239:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _defineProperty(obj, key, value) {
   if (key in obj) {
@@ -85,7 +85,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 6164:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _extends() {
   module.exports = _extends = Object.assign || function (target) {
@@ -112,7 +112,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 6856:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var setPrototypeOf = __webpack_require__(4307);
 
@@ -128,7 +128,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 9736:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -142,7 +142,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 3805:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var _typeof = (__webpack_require__(8630)["default"]);
 
@@ -202,7 +202,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 1325:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _iterableToArray(iter) {
   if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
@@ -214,7 +214,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 8616:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _iterableToArrayLimit(arr, i) {
   var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"];
@@ -252,7 +252,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 533:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _nonIterableRest() {
   throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
@@ -264,7 +264,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 333:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _nonIterableSpread() {
   throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
@@ -276,7 +276,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 7509:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var objectWithoutPropertiesLoose = __webpack_require__(9446);
 
@@ -305,7 +305,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 9446:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
@@ -328,7 +328,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 4307:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _setPrototypeOf(o, p) {
   module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
@@ -346,7 +346,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 6739:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var arrayWithHoles = __webpack_require__(9822);
 
@@ -366,7 +366,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 8669:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var arrayWithoutHoles = __webpack_require__(1588);
 
@@ -386,7 +386,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 8630:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _typeof(obj) {
   "@babel/helpers - typeof";
@@ -414,7 +414,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 7698:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var arrayLikeToArray = __webpack_require__(3720);
 
@@ -433,7 +433,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ 2424:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -476,7 +476,7 @@ function getComponentName(Component) {
 /***/ }),
 
 /***/ 814:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -497,7 +497,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 8622:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -528,7 +528,7 @@ function wrapValidator(validator, typeName) {
 /***/ }),
 
 /***/ 5096:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -586,7 +586,7 @@ module.exports = {
 /***/ }),
 
 /***/ 9549:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -655,7 +655,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 4882:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports =  true ? __webpack_require__(5096) : 0;
 
@@ -664,7 +664,7 @@ module.exports =  true ? __webpack_require__(5096) : 0;
 /***/ }),
 
 /***/ 2507:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -730,7 +730,7 @@ module.exports = defineProperties;
 /***/ }),
 
 /***/ 6003:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -781,7 +781,7 @@ module.exports = function getName() {
 /***/ }),
 
 /***/ 2763:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -807,7 +807,7 @@ module.exports = bound;
 /***/ }),
 
 /***/ 1535:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -820,7 +820,7 @@ module.exports = __webpack_require__(7720);
 /***/ }),
 
 /***/ 9154:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -835,7 +835,7 @@ module.exports = function getPolyfill() {
 /***/ }),
 
 /***/ 8722:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -878,7 +878,7 @@ module.exports = function shimName() {
 /***/ }),
 
 /***/ 7720:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -956,7 +956,7 @@ module.exports = reflectApply
 /***/ }),
 
 /***/ 4536:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 /** @license React v16.13.1
@@ -979,7 +979,7 @@ exports.isValidElementType=function(a){return"string"===typeof a||"function"===t
 /***/ }),
 
 /***/ 5053:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -992,7 +992,7 @@ if (true) {
 /***/ }),
 
 /***/ 4485:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1065,7 +1065,7 @@ module.exports = function flat() {
 /***/ }),
 
 /***/ 116:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1092,7 +1092,7 @@ module.exports = boundFlat;
 /***/ }),
 
 /***/ 616:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1107,7 +1107,7 @@ module.exports = function getPolyfill() {
 /***/ }),
 
 /***/ 2059:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1129,7 +1129,7 @@ module.exports = function shimFlat() {
 /***/ }),
 
 /***/ 7615:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1152,7 +1152,7 @@ module.exports = function callBoundIntrinsic(name, allowMissing) {
 /***/ }),
 
 /***/ 2550:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1193,7 +1193,7 @@ if ($defineProperty) {
 /***/ }),
 
 /***/ 4403:
-/***/ (function(module, exports) {
+/***/ ((module, exports) => {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
   Copyright (c) 2018 Jed Watson.
@@ -1257,12 +1257,12 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /***/ }),
 
 /***/ 8495:
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "addEventListener": function() { return /* binding */ addEventListener; }
+/* harmony export */   "addEventListener": () => (/* binding */ addEventListener)
 /* harmony export */ });
 var CAN_USE_DOM = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
 
@@ -1475,7 +1475,7 @@ function addEventListener(target, eventName, listener, options) {
 /***/ }),
 
 /***/ 9170:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1539,7 +1539,7 @@ module.exports = defineProperties;
 /***/ }),
 
 /***/ 8110:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -1569,7 +1569,7 @@ module.exports = function contains(other) {
 /***/ }),
 
 /***/ 6789:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1597,7 +1597,7 @@ module.exports = boundContains;
 /***/ }),
 
 /***/ 7727:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1663,7 +1663,7 @@ module.exports = defineProperties;
 /***/ }),
 
 /***/ 8267:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1690,7 +1690,7 @@ module.exports = function getPolyfill() {
 /***/ }),
 
 /***/ 714:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1721,7 +1721,7 @@ module.exports = function shimContains() {
 /***/ }),
 
 /***/ 1345:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1862,7 +1862,7 @@ module.exports = scrollIntoView;
 /***/ }),
 
 /***/ 5425:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -1872,7 +1872,7 @@ module.exports = __webpack_require__(1345);
 /***/ }),
 
 /***/ 5022:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -2318,7 +2318,7 @@ module.exports = _extends({
 /***/ }),
 
 /***/ 9214:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 var __webpack_unused_export__;
@@ -2341,7 +2341,7 @@ __webpack_unused_export__=y;
 /***/ }),
 
 /***/ 2797:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -2354,7 +2354,7 @@ if (true) {
 /***/ }),
 
 /***/ 1980:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -2412,7 +2412,7 @@ function shallowEqual(objA, objB) {
 /***/ }),
 
 /***/ 3803:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -2441,7 +2441,7 @@ module.exports = function is(a, b) {
 /***/ }),
 
 /***/ 7124:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -2626,7 +2626,7 @@ module.exports = function GetIntrinsic(name, allowMissing) {
 /***/ }),
 
 /***/ 2820:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -3327,7 +3327,7 @@ module.exports = ES6;
 /***/ }),
 
 /***/ 9212:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -3351,7 +3351,7 @@ module.exports = ES2016;
 /***/ }),
 
 /***/ 2176:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -3384,7 +3384,7 @@ module.exports = ES2017;
 /***/ }),
 
 /***/ 6112:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -3634,7 +3634,7 @@ module.exports = ES5;
 /***/ }),
 
 /***/ 3034:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var bind = __webpack_require__(1930);
 var has = bind.call(Function.call, Object.prototype.hasOwnProperty);
@@ -3658,7 +3658,7 @@ module.exports = function assign(target, source) {
 /***/ }),
 
 /***/ 2590:
-/***/ (function(module) {
+/***/ ((module) => {
 
 var $isNaN = Number.isNaN || function (a) { return a !== a; };
 
@@ -3668,7 +3668,7 @@ module.exports = Number.isFinite || function (x) { return typeof x === 'number' 
 /***/ }),
 
 /***/ 1569:
-/***/ (function(module) {
+/***/ ((module) => {
 
 module.exports = Number.isNaN || function isNaN(a) {
 	return a !== a;
@@ -3678,7 +3678,7 @@ module.exports = Number.isNaN || function isNaN(a) {
 /***/ }),
 
 /***/ 6777:
-/***/ (function(module) {
+/***/ ((module) => {
 
 module.exports = function isPrimitive(value) {
 	return value === null || (typeof value !== 'function' && typeof value !== 'object');
@@ -3688,7 +3688,7 @@ module.exports = function isPrimitive(value) {
 /***/ }),
 
 /***/ 1295:
-/***/ (function(module) {
+/***/ ((module) => {
 
 module.exports = function mod(number, modulo) {
 	var remain = number % modulo;
@@ -3699,7 +3699,7 @@ module.exports = function mod(number, modulo) {
 /***/ }),
 
 /***/ 5954:
-/***/ (function(module) {
+/***/ ((module) => {
 
 module.exports = function sign(number) {
 	return number >= 0 ? 1 : -1;
@@ -3709,7 +3709,7 @@ module.exports = function sign(number) {
 /***/ }),
 
 /***/ 8023:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -3754,7 +3754,7 @@ module.exports = function ToPrimitive(input, PreferredType) {
 /***/ }),
 
 /***/ 6120:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -3836,7 +3836,7 @@ module.exports = function ToPrimitive(input, PreferredType) {
 /***/ }),
 
 /***/ 3777:
-/***/ (function(module) {
+/***/ ((module) => {
 
 module.exports = function isPrimitive(value) {
 	return value === null || (typeof value !== 'function' && typeof value !== 'object');
@@ -3846,7 +3846,7 @@ module.exports = function isPrimitive(value) {
 /***/ }),
 
 /***/ 2920:
-/***/ (function(module) {
+/***/ ((module) => {
 
 //
 // Main
@@ -3997,7 +3997,7 @@ module.exports.strategies = {
 /***/ }),
 
 /***/ 4175:
-/***/ (function(module) {
+/***/ ((module) => {
 
 
 var hasOwn = Object.prototype.hasOwnProperty;
@@ -4026,7 +4026,7 @@ module.exports = function forEach (obj, fn, ctx) {
 /***/ }),
 
 /***/ 9930:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -4086,7 +4086,7 @@ module.exports = function bind(that) {
 /***/ }),
 
 /***/ 1930:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -4099,7 +4099,7 @@ module.exports = Function.prototype.bind || implementation;
 /***/ }),
 
 /***/ 7105:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -4134,7 +4134,7 @@ module.exports = functionsHaveNames;
 /***/ }),
 
 /***/ 1801:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -4455,7 +4455,7 @@ module.exports = function GetIntrinsic(name, allowMissing) {
 /***/ }),
 
 /***/ 658:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -4476,7 +4476,7 @@ module.exports = function hasNativeSymbols() {
 /***/ }),
 
 /***/ 8838:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -4526,7 +4526,7 @@ module.exports = function hasSymbols() {
 /***/ }),
 
 /***/ 5371:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -4625,7 +4625,7 @@ module.exports = globalCache;
 /***/ }),
 
 /***/ 7115:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 // Copyright (c) 2014 Rafael Caricio. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
@@ -4971,7 +4971,7 @@ exports.parse = (GradientParser || {}).parse;
 /***/ }),
 
 /***/ 5682:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -5021,7 +5021,7 @@ module.exports = function hasSymbols() {
 /***/ }),
 
 /***/ 9284:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -5034,7 +5034,7 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 /***/ }),
 
 /***/ 3138:
-/***/ (function(module) {
+/***/ ((module) => {
 
 module.exports =
 /******/ (function(modules) { // webpackBootstrap
@@ -5296,7 +5296,7 @@ module.exports =
 /***/ }),
 
 /***/ 1281:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -5407,7 +5407,7 @@ module.exports = hoistNonReactStatics;
 /***/ }),
 
 /***/ 5443:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -5452,7 +5452,7 @@ module.exports = function isCallable(value) {
 /***/ }),
 
 /***/ 8659:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -5480,7 +5480,7 @@ module.exports = function isDateObject(value) {
 /***/ }),
 
 /***/ 5278:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -5527,7 +5527,7 @@ module.exports = function isRegex(value) {
 /***/ }),
 
 /***/ 3082:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -5562,7 +5562,7 @@ if (hasSymbols) {
 /***/ }),
 
 /***/ 5834:
-/***/ (function(module, exports) {
+/***/ ((module, exports) => {
 
 Object.defineProperty(exports, "__esModule", ({
   value: true
@@ -5576,7 +5576,7 @@ module.exports = exports['default'];
 /***/ }),
 
 /***/ 4937:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var root = __webpack_require__(158);
 
@@ -5589,7 +5589,7 @@ module.exports = Symbol;
 /***/ }),
 
 /***/ 194:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var Symbol = __webpack_require__(4937),
     getRawTag = __webpack_require__(5401),
@@ -5624,7 +5624,7 @@ module.exports = baseGetTag;
 /***/ }),
 
 /***/ 2383:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var trimmedEndIndex = __webpack_require__(8725);
 
@@ -5650,7 +5650,7 @@ module.exports = baseTrim;
 /***/ }),
 
 /***/ 4528:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /** Detect free variable `global` from Node.js. */
 var freeGlobal = typeof __webpack_require__.g == 'object' && __webpack_require__.g && __webpack_require__.g.Object === Object && __webpack_require__.g;
@@ -5661,7 +5661,7 @@ module.exports = freeGlobal;
 /***/ }),
 
 /***/ 5401:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var Symbol = __webpack_require__(4937);
 
@@ -5714,7 +5714,7 @@ module.exports = getRawTag;
 /***/ }),
 
 /***/ 2445:
-/***/ (function(module) {
+/***/ ((module) => {
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -5743,7 +5743,7 @@ module.exports = objectToString;
 /***/ }),
 
 /***/ 158:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var freeGlobal = __webpack_require__(4528);
 
@@ -5759,7 +5759,7 @@ module.exports = root;
 /***/ }),
 
 /***/ 8725:
-/***/ (function(module) {
+/***/ ((module) => {
 
 /** Used to match a single whitespace character. */
 var reWhitespace = /\s/;
@@ -5785,7 +5785,7 @@ module.exports = trimmedEndIndex;
 /***/ }),
 
 /***/ 6897:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var isObject = __webpack_require__(3619),
     now = __webpack_require__(8253),
@@ -5983,7 +5983,7 @@ module.exports = debounce;
 /***/ }),
 
 /***/ 3619:
-/***/ (function(module) {
+/***/ ((module) => {
 
 /**
  * Checks if `value` is the
@@ -6021,7 +6021,7 @@ module.exports = isObject;
 /***/ }),
 
 /***/ 1653:
-/***/ (function(module) {
+/***/ ((module) => {
 
 /**
  * Checks if `value` is object-like. A value is object-like if it's not `null`
@@ -6057,7 +6057,7 @@ module.exports = isObjectLike;
 /***/ }),
 
 /***/ 1878:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseGetTag = __webpack_require__(194),
     isObjectLike = __webpack_require__(1653);
@@ -6093,7 +6093,7 @@ module.exports = isSymbol;
 /***/ }),
 
 /***/ 8253:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var root = __webpack_require__(158);
 
@@ -6123,7 +6123,7 @@ module.exports = now;
 /***/ }),
 
 /***/ 8172:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var debounce = __webpack_require__(6897),
     isObject = __webpack_require__(3619);
@@ -6199,7 +6199,7 @@ module.exports = throttle;
 /***/ }),
 
 /***/ 4360:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var baseTrim = __webpack_require__(2383),
     isObject = __webpack_require__(3619),
@@ -6270,7 +6270,7 @@ module.exports = toNumber;
 /***/ }),
 
 /***/ 9756:
-/***/ (function(module) {
+/***/ ((module) => {
 
 /**
  * Memize options object.
@@ -6438,7 +6438,7 @@ module.exports = memize;
 /***/ }),
 
 /***/ 8383:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -6568,7 +6568,7 @@ module.exports = keysShim;
 /***/ }),
 
 /***/ 806:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -6608,7 +6608,7 @@ module.exports = keysShim;
 /***/ }),
 
 /***/ 4418:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -6633,7 +6633,7 @@ module.exports = function isArguments(value) {
 /***/ }),
 
 /***/ 2148:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -6682,7 +6682,7 @@ module.exports = function assign(target, source1) {
 /***/ }),
 
 /***/ 4011:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -6707,7 +6707,7 @@ module.exports = polyfill;
 /***/ }),
 
 /***/ 293:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -6766,7 +6766,7 @@ module.exports = function getPolyfill() {
 /***/ }),
 
 /***/ 2666:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -6788,7 +6788,7 @@ module.exports = function shimAssign() {
 /***/ }),
 
 /***/ 1631:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -6814,7 +6814,7 @@ module.exports = function values(O) {
 /***/ }),
 
 /***/ 5861:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -6840,7 +6840,7 @@ module.exports = polyfill;
 /***/ }),
 
 /***/ 7057:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -6906,7 +6906,7 @@ module.exports = defineProperties;
 /***/ }),
 
 /***/ 604:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -6917,7 +6917,7 @@ module.exports = __webpack_require__(2559);
 /***/ }),
 
 /***/ 2559:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -6939,7 +6939,7 @@ module.exports = function CheckObjectCoercible(value, optMessage) {
 /***/ }),
 
 /***/ 779:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -6954,7 +6954,7 @@ module.exports = function getPolyfill() {
 /***/ }),
 
 /***/ 7256:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -7018,7 +7018,7 @@ module.exports = function shimValues() {
 /***/ }),
 
 /***/ 4530:
-/***/ (function(module, exports) {
+/***/ ((module, exports) => {
 
 Object.defineProperty(exports, "__esModule", ({
   value: true
@@ -7036,7 +7036,7 @@ module.exports = exports['default'];
 /***/ }),
 
 /***/ 5372:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 /**
@@ -7108,7 +7108,7 @@ module.exports = function() {
 /***/ }),
 
 /***/ 2652:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -7127,7 +7127,7 @@ if (false) { var throwOnDirectAccess, ReactIs; } else {
 /***/ }),
 
 /***/ 9567:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 /**
@@ -7147,7 +7147,7 @@ module.exports = ReactPropTypesSecret;
 /***/ }),
 
 /***/ 1666:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var now = __webpack_require__(6279)
   , root = typeof window === 'undefined' ? __webpack_require__.g : window
@@ -7229,7 +7229,7 @@ module.exports.polyfill = function(object) {
 /***/ }),
 
 /***/ 4821:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 /** @license React v16.8.4
@@ -7252,7 +7252,7 @@ exports.isSuspense=function(a){return t(a)===p};
 /***/ }),
 
 /***/ 338:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -7265,7 +7265,7 @@ if (true) {
 /***/ }),
 
 /***/ 9217:
-/***/ (function(module) {
+/***/ ((module) => {
 
 var messages = {
   invalidPredicate: '`predicate` must be a function',
@@ -7391,7 +7391,7 @@ module.exports = {
 /***/ }),
 
 /***/ 6150:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var moment = __webpack_require__(6292);
 var momentValidationWrapper = __webpack_require__(3416);
@@ -7438,7 +7438,7 @@ module.exports = {
 /***/ }),
 
 /***/ 3416:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var moment = __webpack_require__(6292);
 
@@ -7465,7 +7465,7 @@ module.exports = {
 /***/ }),
 
 /***/ 2239:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -7704,7 +7704,7 @@ OutsideClickHandler.defaultProps = defaultProps;
 /***/ }),
 
 /***/ 6606:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 // eslint-disable-next-line import/no-unresolved
 module.exports = __webpack_require__(2239);
@@ -7713,7 +7713,7 @@ module.exports = __webpack_require__(2239);
 /***/ }),
 
 /***/ 5080:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -7731,7 +7731,7 @@ var DIRECTIONS = exports.DIRECTIONS = {
 /***/ }),
 
 /***/ 6640:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -7755,7 +7755,7 @@ exports["default"] = _propTypes2['default'].shape({
 /***/ }),
 
 /***/ 1601:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -7781,7 +7781,7 @@ exports["default"] = _propTypes2['default'].oneOf((0, _object2['default'])(_cons
 /***/ }),
 
 /***/ 7818:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -7930,7 +7930,7 @@ function withDirection(WrappedComponent) {
 /***/ }),
 
 /***/ 3933:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 
@@ -8035,7 +8035,7 @@ module.exports = deepmerge_1;
 /***/ }),
 
 /***/ 7015:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -8146,7 +8146,7 @@ module.exports = hoistNonReactStatics;
 /***/ }),
 
 /***/ 2150:
-/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // eslint-disable-next-line import/no-unresolved
 __webpack_require__(8039);
@@ -8155,7 +8155,7 @@ __webpack_require__(8039);
 /***/ }),
 
 /***/ 5293:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -8515,7 +8515,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 3105:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -8782,7 +8782,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 4624:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -9183,7 +9183,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 7485:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -9213,7 +9213,7 @@ CalendarWeek.propTypes =  false ? 0 : {};
 /***/ }),
 
 /***/ 8294:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -9243,7 +9243,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 7287:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -9273,7 +9273,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 4718:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -9304,7 +9304,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 5618:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -10574,7 +10574,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 4185:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -10979,7 +10979,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 3768:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -11339,7 +11339,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 4916:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 var __webpack_unused_export__;
@@ -12048,7 +12048,7 @@ DayPickerSingleDateController.defaultProps = defaultProps;
 /***/ }),
 
 /***/ 1726:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -12143,7 +12143,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 2300:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -12173,7 +12173,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 7360:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -12203,7 +12203,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 5724:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -12271,7 +12271,7 @@ exports.MODIFIER_KEY_NAMES = MODIFIER_KEY_NAMES;
 /***/ }),
 
 /***/ 1764:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -12526,7 +12526,7 @@ exports.CalendarDayPhrases = CalendarDayPhrases;
 /***/ }),
 
 /***/ 8039:
-/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
@@ -12540,7 +12540,7 @@ var _registerCSSInterfaceWithDefaultTheme = _interopRequireDefault(__webpack_req
 /***/ }),
 
 /***/ 5547:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -12563,7 +12563,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 135:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -12586,7 +12586,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 975:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -12628,7 +12628,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 3476:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -12651,7 +12651,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 2302:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -12674,7 +12674,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 2251:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -12864,7 +12864,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 7399:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -12906,7 +12906,7 @@ function calculateDimension(el, axis) {
 /***/ }),
 
 /***/ 1268:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -12923,7 +12923,7 @@ function getActiveElement() {
 /***/ }),
 
 /***/ 4246:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -12998,7 +12998,7 @@ function getCalendarDaySettings(day, ariaLabelFormat, daySize, modifiers, phrase
 /***/ }),
 
 /***/ 2793:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13059,7 +13059,7 @@ function getCalendarMonthWeeks(month, enableOutsideDays) {
 /***/ }),
 
 /***/ 5127:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -13077,7 +13077,7 @@ function getCalendarMonthWidth(daySize) {
 /***/ }),
 
 /***/ 3472:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13106,7 +13106,7 @@ function getNumberOfCalendarMonthWeeks(month) {
 /***/ }),
 
 /***/ 5064:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -13129,7 +13129,7 @@ function getPhrase(phrase, args) {
 /***/ }),
 
 /***/ 3312:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13158,7 +13158,7 @@ function getPhrasePropTypes(defaultPhrases) {
 /***/ }),
 
 /***/ 5550:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13185,7 +13185,7 @@ function getPooledMoment(dayString) {
 /***/ }),
 
 /***/ 4641:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -13209,7 +13209,7 @@ function getPreviousMonthMemoLast(month) {
 /***/ }),
 
 /***/ 8421:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -13231,7 +13231,7 @@ function getTransformStyles(transformValue) {
 /***/ }),
 
 /***/ 9867:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13294,7 +13294,7 @@ function getVisibleDays(month, numberOfMonths, enableOutsideDays, withoutTransit
 /***/ }),
 
 /***/ 9720:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13320,7 +13320,7 @@ function isAfterDay(a, b) {
 /***/ }),
 
 /***/ 443:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13350,7 +13350,7 @@ function isBeforeDay(a, b) {
 /***/ }),
 
 /***/ 6979:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13413,7 +13413,7 @@ function isDayVisible(day, month, numberOfMonths, enableOutsideDays) {
 /***/ }),
 
 /***/ 2831:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13437,7 +13437,7 @@ function isNextMonth(a, b) {
 /***/ }),
 
 /***/ 4302:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13461,7 +13461,7 @@ function isPrevMonth(a, b) {
 /***/ }),
 
 /***/ 2455:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13485,7 +13485,7 @@ function isSameDay(a, b) {
 /***/ }),
 
 /***/ 4387:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13509,7 +13509,7 @@ function isSameMonth(a, b) {
 /***/ }),
 
 /***/ 336:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -13526,7 +13526,7 @@ function isTransitionEndSupported() {
 /***/ }),
 
 /***/ 1887:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13664,7 +13664,7 @@ function deleteModifier(updatedDays, day, modifier, props, state) {
 /***/ }),
 
 /***/ 9780:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -13686,7 +13686,7 @@ function noflip(value) {
 /***/ }),
 
 /***/ 5479:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13709,7 +13709,7 @@ function registerCSSInterfaceWithDefaultTheme() {
 /***/ }),
 
 /***/ 9979:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13734,7 +13734,7 @@ function registerInterfaceWithDefaultTheme(reactWithStylesInterface) {
 /***/ }),
 
 /***/ 6135:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13763,7 +13763,7 @@ function toISODateString(date, currentFormat) {
 /***/ }),
 
 /***/ 2476:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13792,7 +13792,7 @@ function toISOMonthString(date, currentFormat) {
 /***/ }),
 
 /***/ 7526:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -13817,7 +13817,7 @@ function toMomentObject(dateString, customFormat) {
 /***/ }),
 
 /***/ 5930:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 var __webpack_unused_export__;
@@ -13899,7 +13899,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 9486:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -13916,7 +13916,7 @@ exports.MAX_SPECIFICITY = MAX_SPECIFICITY;
 /***/ }),
 
 /***/ 3848:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -13942,7 +13942,7 @@ function getClassName(namespace, styleName) {
 /***/ }),
 
 /***/ 6526:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -13994,7 +13994,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 6331:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 // eslint-disable-next-line import/no-unresolved
 module.exports = __webpack_require__(5930)["default"];
@@ -14003,7 +14003,7 @@ module.exports = __webpack_require__(5930)["default"];
 /***/ }),
 
 /***/ 9997:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -14115,7 +14115,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 2258:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -14172,7 +14172,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 3174:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -14193,7 +14193,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 6161:
-/***/ (function(__unused_webpack_module, exports) {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
@@ -14241,7 +14241,7 @@ function withPerf(methodName) {
 /***/ }),
 
 /***/ 7928:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -14601,7 +14601,7 @@ exports.css = css;
 /***/ }),
 
 /***/ 9351:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
@@ -14627,7 +14627,7 @@ exports["default"] = _default;
 /***/ }),
 
 /***/ 9196:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = window["React"];
@@ -14635,7 +14635,7 @@ module.exports = window["React"];
 /***/ }),
 
 /***/ 6292:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = window["moment"];
@@ -14670,31 +14670,31 @@ module.exports = window["moment"];
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
-/******/ 	!function() {
+/******/ 	(() => {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = function(module) {
+/******/ 		__webpack_require__.n = (module) => {
 /******/ 			var getter = module && module.__esModule ?
-/******/ 				function() { return module['default']; } :
-/******/ 				function() { return module; };
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
 /******/ 			__webpack_require__.d(getter, { a: getter });
 /******/ 			return getter;
 /******/ 		};
-/******/ 	}();
+/******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
-/******/ 	!function() {
+/******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = function(exports, definition) {
+/******/ 		__webpack_require__.d = (exports, definition) => {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
 /******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
 /******/ 				}
 /******/ 			}
 /******/ 		};
-/******/ 	}();
+/******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
-/******/ 	!function() {
+/******/ 	(() => {
 /******/ 		__webpack_require__.g = (function() {
 /******/ 			if (typeof globalThis === 'object') return globalThis;
 /******/ 			try {
@@ -14703,248 +14703,248 @@ module.exports = window["moment"];
 /******/ 				if (typeof window === 'object') return window;
 /******/ 			}
 /******/ 		})();
-/******/ 	}();
+/******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	!function() {
-/******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
-/******/ 	}();
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
-/******/ 	!function() {
+/******/ 	(() => {
 /******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = function(exports) {
+/******/ 		__webpack_require__.r = (exports) => {
 /******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
 /******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	}();
+/******/ 	})();
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
-!function() {
+(() => {
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "AnglePickerControl": function() { return /* reexport */ AnglePickerControl; },
-  "Animate": function() { return /* reexport */ Animate; },
-  "Autocomplete": function() { return /* reexport */ Autocomplete; },
-  "BaseControl": function() { return /* reexport */ base_control; },
-  "BlockQuotation": function() { return /* reexport */ external_wp_primitives_namespaceObject.BlockQuotation; },
-  "Button": function() { return /* reexport */ build_module_button; },
-  "ButtonGroup": function() { return /* reexport */ button_group; },
-  "Card": function() { return /* reexport */ card_component; },
-  "CardBody": function() { return /* reexport */ card_body_component; },
-  "CardDivider": function() { return /* reexport */ card_divider_component; },
-  "CardFooter": function() { return /* reexport */ card_footer_component; },
-  "CardHeader": function() { return /* reexport */ card_header_component; },
-  "CardMedia": function() { return /* reexport */ card_media_component; },
-  "CheckboxControl": function() { return /* reexport */ checkbox_control; },
-  "Circle": function() { return /* reexport */ external_wp_primitives_namespaceObject.Circle; },
-  "ClipboardButton": function() { return /* reexport */ ClipboardButton; },
-  "ColorIndicator": function() { return /* reexport */ color_indicator; },
-  "ColorPalette": function() { return /* reexport */ ColorPalette; },
-  "ColorPicker": function() { return /* reexport */ LegacyAdapter; },
-  "ComboboxControl": function() { return /* reexport */ combobox_control; },
-  "CustomGradientPicker": function() { return /* reexport */ CustomGradientPicker; },
-  "CustomSelectControl": function() { return /* reexport */ CustomSelectControl; },
-  "Dashicon": function() { return /* reexport */ dashicon; },
-  "DatePicker": function() { return /* reexport */ date; },
-  "DateTimePicker": function() { return /* reexport */ build_module_date_time; },
-  "Disabled": function() { return /* reexport */ disabled; },
-  "Draggable": function() { return /* reexport */ Draggable; },
-  "DropZone": function() { return /* reexport */ DropZoneComponent; },
-  "DropZoneProvider": function() { return /* reexport */ DropZoneProvider; },
-  "Dropdown": function() { return /* reexport */ Dropdown; },
-  "DropdownMenu": function() { return /* reexport */ dropdown_menu; },
-  "DuotonePicker": function() { return /* reexport */ duotone_picker; },
-  "DuotoneSwatch": function() { return /* reexport */ duotone_swatch; },
-  "ExternalLink": function() { return /* reexport */ external_link; },
-  "Fill": function() { return /* reexport */ slot_fill_Fill; },
-  "Flex": function() { return /* reexport */ flex_component; },
-  "FlexBlock": function() { return /* reexport */ flex_block_component; },
-  "FlexItem": function() { return /* reexport */ flex_item_component; },
-  "FocalPointPicker": function() { return /* reexport */ focal_point_picker; },
-  "FocusReturnProvider": function() { return /* reexport */ with_focus_return_Provider; },
-  "FocusableIframe": function() { return /* reexport */ FocusableIframe; },
-  "FontSizePicker": function() { return /* reexport */ font_size_picker; },
-  "FormFileUpload": function() { return /* reexport */ form_file_upload; },
-  "FormToggle": function() { return /* reexport */ form_toggle; },
-  "FormTokenField": function() { return /* reexport */ form_token_field; },
-  "G": function() { return /* reexport */ external_wp_primitives_namespaceObject.G; },
-  "GradientPicker": function() { return /* reexport */ GradientPicker; },
-  "Guide": function() { return /* reexport */ Guide; },
-  "GuidePage": function() { return /* reexport */ GuidePage; },
-  "HorizontalRule": function() { return /* reexport */ external_wp_primitives_namespaceObject.HorizontalRule; },
-  "Icon": function() { return /* reexport */ build_module_icon; },
-  "IconButton": function() { return /* reexport */ deprecated; },
-  "IsolatedEventContainer": function() { return /* reexport */ isolated_event_container; },
-  "KeyboardShortcuts": function() { return /* reexport */ keyboard_shortcuts; },
-  "MenuGroup": function() { return /* reexport */ menu_group; },
-  "MenuItem": function() { return /* reexport */ menu_item; },
-  "MenuItemsChoice": function() { return /* reexport */ MenuItemsChoice; },
-  "Modal": function() { return /* reexport */ modal; },
-  "NavigableMenu": function() { return /* reexport */ navigable_container_menu; },
-  "Notice": function() { return /* reexport */ build_module_notice; },
-  "NoticeList": function() { return /* reexport */ list; },
-  "Panel": function() { return /* reexport */ panel; },
-  "PanelBody": function() { return /* reexport */ body; },
-  "PanelHeader": function() { return /* reexport */ panel_header; },
-  "PanelRow": function() { return /* reexport */ row; },
-  "Path": function() { return /* reexport */ external_wp_primitives_namespaceObject.Path; },
-  "Placeholder": function() { return /* reexport */ placeholder; },
-  "Polygon": function() { return /* reexport */ external_wp_primitives_namespaceObject.Polygon; },
-  "Popover": function() { return /* reexport */ popover; },
-  "QueryControls": function() { return /* reexport */ QueryControls; },
-  "RadioControl": function() { return /* reexport */ RadioControl; },
-  "RangeControl": function() { return /* reexport */ range_control; },
-  "Rect": function() { return /* reexport */ external_wp_primitives_namespaceObject.Rect; },
-  "ResizableBox": function() { return /* reexport */ resizable_box; },
-  "ResponsiveWrapper": function() { return /* reexport */ responsive_wrapper; },
-  "SVG": function() { return /* reexport */ external_wp_primitives_namespaceObject.SVG; },
-  "SandBox": function() { return /* reexport */ Sandbox; },
-  "ScrollLock": function() { return /* reexport */ ScrollLock; },
-  "SearchControl": function() { return /* reexport */ search_control; },
-  "SelectControl": function() { return /* reexport */ select_control; },
-  "Slot": function() { return /* reexport */ slot_fill_Slot; },
-  "SlotFillProvider": function() { return /* reexport */ Provider; },
-  "Snackbar": function() { return /* reexport */ snackbar; },
-  "SnackbarList": function() { return /* reexport */ snackbar_list; },
-  "Spinner": function() { return /* reexport */ Spinner; },
-  "TabPanel": function() { return /* reexport */ TabPanel; },
-  "TabbableContainer": function() { return /* reexport */ tabbable; },
-  "TextControl": function() { return /* reexport */ text_control; },
-  "TextHighlight": function() { return /* reexport */ text_highlight; },
-  "TextareaControl": function() { return /* reexport */ textarea_control; },
-  "TimePicker": function() { return /* reexport */ time; },
-  "Tip": function() { return /* reexport */ build_module_tip; },
-  "ToggleControl": function() { return /* reexport */ ToggleControl; },
-  "Toolbar": function() { return /* reexport */ toolbar; },
-  "ToolbarButton": function() { return /* reexport */ toolbar_button; },
-  "ToolbarDropdownMenu": function() { return /* reexport */ toolbar_dropdown_menu; },
-  "ToolbarGroup": function() { return /* reexport */ toolbar_group; },
-  "ToolbarItem": function() { return /* reexport */ toolbar_item; },
-  "Tooltip": function() { return /* reexport */ tooltip; },
-  "TreeSelect": function() { return /* reexport */ TreeSelect; },
-  "VisuallyHidden": function() { return /* reexport */ visually_hidden_component; },
-  "__experimentalAlignmentMatrixControl": function() { return /* reexport */ AlignmentMatrixControl; },
-  "__experimentalBorderBoxControl": function() { return /* reexport */ border_box_control_component; },
-  "__experimentalBorderControl": function() { return /* reexport */ border_control_component; },
-  "__experimentalBoxControl": function() { return /* reexport */ BoxControl; },
-  "__experimentalConfirmDialog": function() { return /* reexport */ confirm_dialog_component; },
-  "__experimentalDimensionControl": function() { return /* reexport */ dimension_control; },
-  "__experimentalDivider": function() { return /* reexport */ divider_component; },
-  "__experimentalElevation": function() { return /* reexport */ elevation_component; },
-  "__experimentalGrid": function() { return /* reexport */ grid_component; },
-  "__experimentalHStack": function() { return /* reexport */ h_stack_component; },
-  "__experimentalHasSplitBorders": function() { return /* reexport */ hasSplitBorders; },
-  "__experimentalHeading": function() { return /* reexport */ heading_component; },
-  "__experimentalInputControl": function() { return /* reexport */ input_control; },
-  "__experimentalIsDefinedBorder": function() { return /* reexport */ isDefinedBorder; },
-  "__experimentalIsEmptyBorder": function() { return /* reexport */ isEmptyBorder; },
-  "__experimentalItem": function() { return /* reexport */ item_component; },
-  "__experimentalItemGroup": function() { return /* reexport */ item_group_component; },
-  "__experimentalNavigation": function() { return /* reexport */ Navigation; },
-  "__experimentalNavigationBackButton": function() { return /* reexport */ back_button; },
-  "__experimentalNavigationGroup": function() { return /* reexport */ NavigationGroup; },
-  "__experimentalNavigationItem": function() { return /* reexport */ NavigationItem; },
-  "__experimentalNavigationMenu": function() { return /* reexport */ NavigationMenu; },
-  "__experimentalNavigatorBackButton": function() { return /* reexport */ navigator_back_button_component; },
-  "__experimentalNavigatorButton": function() { return /* reexport */ navigator_button_component; },
-  "__experimentalNavigatorProvider": function() { return /* reexport */ navigator_provider_component; },
-  "__experimentalNavigatorScreen": function() { return /* reexport */ navigator_screen_component; },
-  "__experimentalNumberControl": function() { return /* reexport */ number_control; },
-  "__experimentalPaletteEdit": function() { return /* reexport */ PaletteEdit; },
-  "__experimentalParseQuantityAndUnitFromRawValue": function() { return /* reexport */ parseQuantityAndUnitFromRawValue; },
-  "__experimentalRadio": function() { return /* reexport */ build_module_radio; },
-  "__experimentalRadioGroup": function() { return /* reexport */ radio_group; },
-  "__experimentalScrollable": function() { return /* reexport */ scrollable_component; },
-  "__experimentalSpacer": function() { return /* reexport */ spacer_component; },
-  "__experimentalStyleProvider": function() { return /* reexport */ StyleProvider; },
-  "__experimentalSurface": function() { return /* reexport */ surface_component; },
-  "__experimentalText": function() { return /* reexport */ text_component; },
-  "__experimentalToggleGroupControl": function() { return /* reexport */ toggle_group_control_component; },
-  "__experimentalToggleGroupControlOption": function() { return /* reexport */ ToggleGroupControlOption; },
-  "__experimentalToggleGroupControlOptionIcon": function() { return /* reexport */ ToggleGroupControlOptionIcon; },
-  "__experimentalToolbarContext": function() { return /* reexport */ toolbar_context; },
-  "__experimentalToolsPanel": function() { return /* reexport */ tools_panel_component; },
-  "__experimentalToolsPanelContext": function() { return /* reexport */ ToolsPanelContext; },
-  "__experimentalToolsPanelItem": function() { return /* reexport */ tools_panel_item_component; },
-  "__experimentalTreeGrid": function() { return /* reexport */ tree_grid; },
-  "__experimentalTreeGridCell": function() { return /* reexport */ cell; },
-  "__experimentalTreeGridItem": function() { return /* reexport */ tree_grid_item; },
-  "__experimentalTreeGridRow": function() { return /* reexport */ tree_grid_row; },
-  "__experimentalTruncate": function() { return /* reexport */ truncate_component; },
-  "__experimentalUnitControl": function() { return /* reexport */ unit_control; },
-  "__experimentalUseCustomUnits": function() { return /* reexport */ useCustomUnits; },
-  "__experimentalUseNavigator": function() { return /* reexport */ use_navigator; },
-  "__experimentalUseSlot": function() { return /* reexport */ use_slot_useSlot; },
-  "__experimentalVStack": function() { return /* reexport */ v_stack_component; },
-  "__experimentalView": function() { return /* reexport */ component; },
-  "__experimentalZStack": function() { return /* reexport */ z_stack_component; },
-  "__unstableComposite": function() { return /* reexport */ Composite; },
-  "__unstableCompositeGroup": function() { return /* reexport */ CompositeGroup; },
-  "__unstableCompositeItem": function() { return /* reexport */ CompositeItem; },
-  "__unstableDisclosureContent": function() { return /* reexport */ DisclosureContent; },
-  "__unstableGetAnimateClassName": function() { return /* reexport */ getAnimateClassName; },
-  "__unstableMotion": function() { return /* reexport */ motion; },
-  "__unstableUseAutocompleteProps": function() { return /* reexport */ useAutocompleteProps; },
-  "__unstableUseCompositeState": function() { return /* reexport */ useCompositeState; },
-  "__unstableUseNavigateRegions": function() { return /* reexport */ useNavigateRegions; },
-  "createSlotFill": function() { return /* reexport */ createSlotFill; },
-  "navigateRegions": function() { return /* reexport */ navigate_regions; },
-  "withConstrainedTabbing": function() { return /* reexport */ with_constrained_tabbing; },
-  "withFallbackStyles": function() { return /* reexport */ with_fallback_styles; },
-  "withFilters": function() { return /* reexport */ withFilters; },
-  "withFocusOutside": function() { return /* reexport */ with_focus_outside; },
-  "withFocusReturn": function() { return /* reexport */ with_focus_return; },
-  "withNotices": function() { return /* reexport */ with_notices; },
-  "withSpokenMessages": function() { return /* reexport */ with_spoken_messages; }
+  "AnglePickerControl": () => (/* reexport */ AnglePickerControl),
+  "Animate": () => (/* reexport */ Animate),
+  "Autocomplete": () => (/* reexport */ Autocomplete),
+  "BaseControl": () => (/* reexport */ base_control),
+  "BlockQuotation": () => (/* reexport */ external_wp_primitives_namespaceObject.BlockQuotation),
+  "Button": () => (/* reexport */ build_module_button),
+  "ButtonGroup": () => (/* reexport */ button_group),
+  "Card": () => (/* reexport */ card_component),
+  "CardBody": () => (/* reexport */ card_body_component),
+  "CardDivider": () => (/* reexport */ card_divider_component),
+  "CardFooter": () => (/* reexport */ card_footer_component),
+  "CardHeader": () => (/* reexport */ card_header_component),
+  "CardMedia": () => (/* reexport */ card_media_component),
+  "CheckboxControl": () => (/* reexport */ checkbox_control),
+  "Circle": () => (/* reexport */ external_wp_primitives_namespaceObject.Circle),
+  "ClipboardButton": () => (/* reexport */ ClipboardButton),
+  "ColorIndicator": () => (/* reexport */ color_indicator),
+  "ColorPalette": () => (/* reexport */ ColorPalette),
+  "ColorPicker": () => (/* reexport */ LegacyAdapter),
+  "ComboboxControl": () => (/* reexport */ combobox_control),
+  "CustomGradientPicker": () => (/* reexport */ CustomGradientPicker),
+  "CustomSelectControl": () => (/* reexport */ CustomSelectControl),
+  "Dashicon": () => (/* reexport */ dashicon),
+  "DatePicker": () => (/* reexport */ date),
+  "DateTimePicker": () => (/* reexport */ build_module_date_time),
+  "Disabled": () => (/* reexport */ disabled),
+  "Draggable": () => (/* reexport */ Draggable),
+  "DropZone": () => (/* reexport */ DropZoneComponent),
+  "DropZoneProvider": () => (/* reexport */ DropZoneProvider),
+  "Dropdown": () => (/* reexport */ Dropdown),
+  "DropdownMenu": () => (/* reexport */ dropdown_menu),
+  "DuotonePicker": () => (/* reexport */ duotone_picker),
+  "DuotoneSwatch": () => (/* reexport */ duotone_swatch),
+  "ExternalLink": () => (/* reexport */ external_link),
+  "Fill": () => (/* reexport */ slot_fill_Fill),
+  "Flex": () => (/* reexport */ flex_component),
+  "FlexBlock": () => (/* reexport */ flex_block_component),
+  "FlexItem": () => (/* reexport */ flex_item_component),
+  "FocalPointPicker": () => (/* reexport */ focal_point_picker),
+  "FocusReturnProvider": () => (/* reexport */ with_focus_return_Provider),
+  "FocusableIframe": () => (/* reexport */ FocusableIframe),
+  "FontSizePicker": () => (/* reexport */ font_size_picker),
+  "FormFileUpload": () => (/* reexport */ form_file_upload),
+  "FormToggle": () => (/* reexport */ form_toggle),
+  "FormTokenField": () => (/* reexport */ form_token_field),
+  "G": () => (/* reexport */ external_wp_primitives_namespaceObject.G),
+  "GradientPicker": () => (/* reexport */ GradientPicker),
+  "Guide": () => (/* reexport */ Guide),
+  "GuidePage": () => (/* reexport */ GuidePage),
+  "HorizontalRule": () => (/* reexport */ external_wp_primitives_namespaceObject.HorizontalRule),
+  "Icon": () => (/* reexport */ build_module_icon),
+  "IconButton": () => (/* reexport */ deprecated),
+  "IsolatedEventContainer": () => (/* reexport */ isolated_event_container),
+  "KeyboardShortcuts": () => (/* reexport */ keyboard_shortcuts),
+  "MenuGroup": () => (/* reexport */ menu_group),
+  "MenuItem": () => (/* reexport */ menu_item),
+  "MenuItemsChoice": () => (/* reexport */ MenuItemsChoice),
+  "Modal": () => (/* reexport */ modal),
+  "NavigableMenu": () => (/* reexport */ navigable_container_menu),
+  "Notice": () => (/* reexport */ build_module_notice),
+  "NoticeList": () => (/* reexport */ list),
+  "Panel": () => (/* reexport */ panel),
+  "PanelBody": () => (/* reexport */ body),
+  "PanelHeader": () => (/* reexport */ panel_header),
+  "PanelRow": () => (/* reexport */ row),
+  "Path": () => (/* reexport */ external_wp_primitives_namespaceObject.Path),
+  "Placeholder": () => (/* reexport */ placeholder),
+  "Polygon": () => (/* reexport */ external_wp_primitives_namespaceObject.Polygon),
+  "Popover": () => (/* reexport */ popover),
+  "QueryControls": () => (/* reexport */ QueryControls),
+  "RadioControl": () => (/* reexport */ radio_control),
+  "RangeControl": () => (/* reexport */ range_control),
+  "Rect": () => (/* reexport */ external_wp_primitives_namespaceObject.Rect),
+  "ResizableBox": () => (/* reexport */ resizable_box),
+  "ResponsiveWrapper": () => (/* reexport */ responsive_wrapper),
+  "SVG": () => (/* reexport */ external_wp_primitives_namespaceObject.SVG),
+  "SandBox": () => (/* reexport */ Sandbox),
+  "ScrollLock": () => (/* reexport */ ScrollLock),
+  "SearchControl": () => (/* reexport */ search_control),
+  "SelectControl": () => (/* reexport */ select_control),
+  "Slot": () => (/* reexport */ slot_fill_Slot),
+  "SlotFillProvider": () => (/* reexport */ Provider),
+  "Snackbar": () => (/* reexport */ snackbar),
+  "SnackbarList": () => (/* reexport */ snackbar_list),
+  "Spinner": () => (/* reexport */ Spinner),
+  "TabPanel": () => (/* reexport */ TabPanel),
+  "TabbableContainer": () => (/* reexport */ tabbable),
+  "TextControl": () => (/* reexport */ text_control),
+  "TextHighlight": () => (/* reexport */ text_highlight),
+  "TextareaControl": () => (/* reexport */ textarea_control),
+  "TimePicker": () => (/* reexport */ time),
+  "Tip": () => (/* reexport */ build_module_tip),
+  "ToggleControl": () => (/* reexport */ ToggleControl),
+  "Toolbar": () => (/* reexport */ toolbar),
+  "ToolbarButton": () => (/* reexport */ toolbar_button),
+  "ToolbarDropdownMenu": () => (/* reexport */ toolbar_dropdown_menu),
+  "ToolbarGroup": () => (/* reexport */ toolbar_group),
+  "ToolbarItem": () => (/* reexport */ toolbar_item),
+  "Tooltip": () => (/* reexport */ tooltip),
+  "TreeSelect": () => (/* reexport */ tree_select),
+  "VisuallyHidden": () => (/* reexport */ visually_hidden_component),
+  "__experimentalAlignmentMatrixControl": () => (/* reexport */ AlignmentMatrixControl),
+  "__experimentalBorderBoxControl": () => (/* reexport */ border_box_control_component),
+  "__experimentalBorderControl": () => (/* reexport */ border_control_component),
+  "__experimentalBoxControl": () => (/* reexport */ BoxControl),
+  "__experimentalConfirmDialog": () => (/* reexport */ confirm_dialog_component),
+  "__experimentalDimensionControl": () => (/* reexport */ dimension_control),
+  "__experimentalDivider": () => (/* reexport */ divider_component),
+  "__experimentalElevation": () => (/* reexport */ elevation_component),
+  "__experimentalGrid": () => (/* reexport */ grid_component),
+  "__experimentalHStack": () => (/* reexport */ h_stack_component),
+  "__experimentalHasSplitBorders": () => (/* reexport */ hasSplitBorders),
+  "__experimentalHeading": () => (/* reexport */ heading_component),
+  "__experimentalInputControl": () => (/* reexport */ input_control),
+  "__experimentalIsDefinedBorder": () => (/* reexport */ isDefinedBorder),
+  "__experimentalIsEmptyBorder": () => (/* reexport */ isEmptyBorder),
+  "__experimentalItem": () => (/* reexport */ item_component),
+  "__experimentalItemGroup": () => (/* reexport */ item_group_component),
+  "__experimentalNavigation": () => (/* reexport */ Navigation),
+  "__experimentalNavigationBackButton": () => (/* reexport */ back_button),
+  "__experimentalNavigationGroup": () => (/* reexport */ NavigationGroup),
+  "__experimentalNavigationItem": () => (/* reexport */ NavigationItem),
+  "__experimentalNavigationMenu": () => (/* reexport */ NavigationMenu),
+  "__experimentalNavigatorBackButton": () => (/* reexport */ navigator_back_button_component),
+  "__experimentalNavigatorButton": () => (/* reexport */ navigator_button_component),
+  "__experimentalNavigatorProvider": () => (/* reexport */ navigator_provider_component),
+  "__experimentalNavigatorScreen": () => (/* reexport */ navigator_screen_component),
+  "__experimentalNumberControl": () => (/* reexport */ number_control),
+  "__experimentalPaletteEdit": () => (/* reexport */ PaletteEdit),
+  "__experimentalParseQuantityAndUnitFromRawValue": () => (/* reexport */ parseQuantityAndUnitFromRawValue),
+  "__experimentalRadio": () => (/* reexport */ build_module_radio),
+  "__experimentalRadioGroup": () => (/* reexport */ radio_group),
+  "__experimentalScrollable": () => (/* reexport */ scrollable_component),
+  "__experimentalSpacer": () => (/* reexport */ spacer_component),
+  "__experimentalStyleProvider": () => (/* reexport */ StyleProvider),
+  "__experimentalSurface": () => (/* reexport */ surface_component),
+  "__experimentalText": () => (/* reexport */ text_component),
+  "__experimentalToggleGroupControl": () => (/* reexport */ toggle_group_control_component),
+  "__experimentalToggleGroupControlOption": () => (/* reexport */ ToggleGroupControlOption),
+  "__experimentalToggleGroupControlOptionIcon": () => (/* reexport */ ToggleGroupControlOptionIcon),
+  "__experimentalToolbarContext": () => (/* reexport */ toolbar_context),
+  "__experimentalToolsPanel": () => (/* reexport */ tools_panel_component),
+  "__experimentalToolsPanelContext": () => (/* reexport */ ToolsPanelContext),
+  "__experimentalToolsPanelItem": () => (/* reexport */ tools_panel_item_component),
+  "__experimentalTreeGrid": () => (/* reexport */ tree_grid),
+  "__experimentalTreeGridCell": () => (/* reexport */ cell),
+  "__experimentalTreeGridItem": () => (/* reexport */ tree_grid_item),
+  "__experimentalTreeGridRow": () => (/* reexport */ tree_grid_row),
+  "__experimentalTruncate": () => (/* reexport */ truncate_component),
+  "__experimentalUnitControl": () => (/* reexport */ unit_control),
+  "__experimentalUseCustomUnits": () => (/* reexport */ useCustomUnits),
+  "__experimentalUseNavigator": () => (/* reexport */ use_navigator),
+  "__experimentalUseSlot": () => (/* reexport */ use_slot_useSlot),
+  "__experimentalVStack": () => (/* reexport */ v_stack_component),
+  "__experimentalView": () => (/* reexport */ component),
+  "__experimentalZStack": () => (/* reexport */ z_stack_component),
+  "__unstableComposite": () => (/* reexport */ Composite),
+  "__unstableCompositeGroup": () => (/* reexport */ CompositeGroup),
+  "__unstableCompositeItem": () => (/* reexport */ CompositeItem),
+  "__unstableDisclosureContent": () => (/* reexport */ DisclosureContent),
+  "__unstableGetAnimateClassName": () => (/* reexport */ getAnimateClassName),
+  "__unstableMotion": () => (/* reexport */ motion),
+  "__unstableUseAutocompleteProps": () => (/* reexport */ useAutocompleteProps),
+  "__unstableUseCompositeState": () => (/* reexport */ useCompositeState),
+  "__unstableUseNavigateRegions": () => (/* reexport */ useNavigateRegions),
+  "createSlotFill": () => (/* reexport */ createSlotFill),
+  "navigateRegions": () => (/* reexport */ navigate_regions),
+  "withConstrainedTabbing": () => (/* reexport */ with_constrained_tabbing),
+  "withFallbackStyles": () => (/* reexport */ with_fallback_styles),
+  "withFilters": () => (/* reexport */ withFilters),
+  "withFocusOutside": () => (/* reexport */ with_focus_outside),
+  "withFocusReturn": () => (/* reexport */ with_focus_return),
+  "withNotices": () => (/* reexport */ with_notices),
+  "withSpokenMessages": () => (/* reexport */ with_spoken_messages)
 });
 
 // NAMESPACE OBJECT: ./packages/components/build-module/text/styles.js
 var text_styles_namespaceObject = {};
 __webpack_require__.r(text_styles_namespaceObject);
 __webpack_require__.d(text_styles_namespaceObject, {
-  "Text": function() { return Text; },
-  "block": function() { return styles_block; },
-  "destructive": function() { return destructive; },
-  "highlighterText": function() { return highlighterText; },
-  "muted": function() { return muted; },
-  "positive": function() { return positive; },
-  "upperCase": function() { return upperCase; }
+  "Text": () => (Text),
+  "block": () => (styles_block),
+  "destructive": () => (destructive),
+  "highlighterText": () => (highlighterText),
+  "muted": () => (muted),
+  "positive": () => (positive),
+  "upperCase": () => (upperCase)
 });
 
 // NAMESPACE OBJECT: ./packages/components/build-module/ui/tooltip/styles.js
 var tooltip_styles_namespaceObject = {};
 __webpack_require__.r(tooltip_styles_namespaceObject);
 __webpack_require__.d(tooltip_styles_namespaceObject, {
-  "TooltipContent": function() { return TooltipContent; },
-  "TooltipPopoverView": function() { return TooltipPopoverView; },
-  "TooltipShortcut": function() { return TooltipShortcut; },
-  "noOutline": function() { return noOutline; }
+  "TooltipContent": () => (TooltipContent),
+  "TooltipPopoverView": () => (TooltipPopoverView),
+  "TooltipShortcut": () => (TooltipShortcut),
+  "noOutline": () => (noOutline)
 });
 
 // NAMESPACE OBJECT: ./packages/components/build-module/toggle-group-control/toggle-group-control-option-base/styles.js
 var toggle_group_control_option_base_styles_namespaceObject = {};
 __webpack_require__.r(toggle_group_control_option_base_styles_namespaceObject);
 __webpack_require__.d(toggle_group_control_option_base_styles_namespaceObject, {
-  "ButtonContentView": function() { return ButtonContentView; },
-  "LabelView": function() { return LabelView; },
-  "buttonActive": function() { return buttonActive; },
-  "buttonView": function() { return buttonView; },
-  "labelBlock": function() { return labelBlock; },
-  "medium": function() { return medium; },
-  "separatorActive": function() { return separatorActive; }
+  "ButtonContentView": () => (ButtonContentView),
+  "LabelView": () => (LabelView),
+  "buttonActive": () => (buttonActive),
+  "buttonView": () => (buttonView),
+  "labelBlock": () => (labelBlock),
+  "medium": () => (medium),
+  "separatorActive": () => (separatorActive)
 });
 
 ;// CONCATENATED MODULE: external ["wp","primitives"]
-var external_wp_primitives_namespaceObject = window["wp"]["primitives"];
+const external_wp_primitives_namespaceObject = window["wp"]["primitives"];
 ;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
 function extends_extends() {
   extends_extends = Object.assign || function (target) {
@@ -14964,16 +14964,14 @@ function extends_extends() {
   return extends_extends.apply(this, arguments);
 }
 ;// CONCATENATED MODULE: external ["wp","element"]
-var external_wp_element_namespaceObject = window["wp"]["element"];
-;// CONCATENATED MODULE: external "lodash"
-var external_lodash_namespaceObject = window["lodash"];
+const external_wp_element_namespaceObject = window["wp"]["element"];
 // EXTERNAL MODULE: ./node_modules/classnames/index.js
 var classnames = __webpack_require__(4403);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
 ;// CONCATENATED MODULE: external ["wp","i18n"]
-var external_wp_i18n_namespaceObject = window["wp"]["i18n"];
+const external_wp_i18n_namespaceObject = window["wp"]["i18n"];
 ;// CONCATENATED MODULE: external ["wp","compose"]
-var external_wp_compose_namespaceObject = window["wp"]["compose"];
+const external_wp_compose_namespaceObject = window["wp"]["compose"];
 ;// CONCATENATED MODULE: ./node_modules/reakit/es/_rollupPluginBabelHelpers-1f0bf8c2.js
 function _defineProperty(obj, key, value) {
   if (key in obj) {
@@ -17449,6 +17447,8 @@ var CompositeItem = createComponent({
 
 
 
+;// CONCATENATED MODULE: external "lodash"
+const external_lodash_namespaceObject = window["lodash"];
 ;// CONCATENATED MODULE: ./node_modules/@floating-ui/core/dist/floating-ui.core.esm.min.js
 function t(t){return t.split("-")[0]}function floating_ui_core_esm_min_e(t){return t.split("-")[1]}function floating_ui_core_esm_min_n(e){return["top","bottom"].includes(t(e))?"x":"y"}function r(t){return"y"===t?"height":"width"}function i(i,o,a){let{reference:l,floating:s}=i;const c=l.x+l.width/2-s.width/2,f=l.y+l.height/2-s.height/2,u=floating_ui_core_esm_min_n(o),m=r(u),g=l[m]/2-s[m]/2,d="x"===u;let p;switch(t(o)){case"top":p={x:c,y:l.y-s.height};break;case"bottom":p={x:c,y:l.y+l.height};break;case"right":p={x:l.x+l.width,y:f};break;case"left":p={x:l.x-s.width,y:f};break;default:p={x:l.x,y:l.y}}switch(floating_ui_core_esm_min_e(o)){case"start":p[u]-=g*(a&&d?-1:1);break;case"end":p[u]+=g*(a&&d?-1:1)}return p}const floating_ui_core_esm_min_o=async(t,e,n)=>{const{placement:r="bottom",strategy:o="absolute",middleware:a=[],platform:l}=n,s=await(null==l.isRTL?void 0:l.isRTL(e));let c=await l.getElementRects({reference:t,floating:e,strategy:o}),{x:f,y:u}=i(c,r,s),m=r,g={};for(let n=0;n<a.length;n++){const{name:d,fn:p}=a[n],{x:h,y:y,data:x,reset:w}=await p({x:f,y:u,initialPlacement:r,placement:m,strategy:o,middlewareData:g,rects:c,platform:l,elements:{reference:t,floating:e}});f=null!=h?h:f,u=null!=y?y:u,g={...g,[d]:{...g[d],...x}},w&&("object"==typeof w&&(w.placement&&(m=w.placement),w.rects&&(c=!0===w.rects?await l.getElementRects({reference:t,floating:e,strategy:o}):w.rects),({x:f,y:u}=i(c,m,s))),n=-1)}return{x:f,y:u,placement:m,strategy:o,middlewareData:g}};function floating_ui_core_esm_min_a(t){return"number"!=typeof t?function(t){return{top:0,right:0,bottom:0,left:0,...t}}(t):{top:t,right:t,bottom:t,left:t}}function l(t){return{...t,top:t.y,left:t.x,right:t.x+t.width,bottom:t.y+t.height}}async function s(t,e){var n;void 0===e&&(e={});const{x:r,y:i,platform:o,rects:s,elements:c,strategy:f}=t,{boundary:u="clippingAncestors",rootBoundary:m="viewport",elementContext:g="floating",altBoundary:d=!1,padding:p=0}=e,h=floating_ui_core_esm_min_a(p),y=c[d?"floating"===g?"reference":"floating":g],x=l(await o.getClippingRect({element:null==(n=await(null==o.isElement?void 0:o.isElement(y)))||n?y:y.contextElement||await(null==o.getDocumentElement?void 0:o.getDocumentElement(c.floating)),boundary:u,rootBoundary:m,strategy:f})),w=l(o.convertOffsetParentRelativeRectToViewportRelativeRect?await o.convertOffsetParentRelativeRectToViewportRelativeRect({rect:"floating"===g?{...s.floating,x:r,y:i}:s.reference,offsetParent:await(null==o.getOffsetParent?void 0:o.getOffsetParent(c.floating)),strategy:f}):s[g]);return{top:x.top-w.top+h.top,bottom:w.bottom-x.bottom+h.bottom,left:x.left-w.left+h.left,right:w.right-x.right+h.right}}const c=Math.min,f=Math.max;function u(t,e,n){return f(t,c(e,n))}const m=t=>({name:"arrow",options:t,async fn(e){const{element:i,padding:o=0}=null!=t?t:{},{x:l,y:s,placement:c,rects:f,platform:m}=e;if(null==i)return{};const g=floating_ui_core_esm_min_a(o),d={x:l,y:s},p=floating_ui_core_esm_min_n(c),h=r(p),y=await m.getDimensions(i),x="y"===p?"top":"left",w="y"===p?"bottom":"right",v=f.reference[h]+f.reference[p]-d[p]-f.floating[h],b=d[p]-f.reference[p],R=await(null==m.getOffsetParent?void 0:m.getOffsetParent(i)),A=R?"y"===p?R.clientHeight||0:R.clientWidth||0:0,P=v/2-b/2,T=g[x],O=A-y[h]-g[w],D=A/2-y[h]/2+P,L=u(T,D,O);return{data:{[p]:L,centerOffset:D-L}}}}),g={left:"right",right:"left",bottom:"top",top:"bottom"};function d(t){return t.replace(/left|right|bottom|top/g,(t=>g[t]))}function p(t,i,o){void 0===o&&(o=!1);const a=floating_ui_core_esm_min_e(t),l=floating_ui_core_esm_min_n(t),s=r(l);let c="x"===l?a===(o?"end":"start")?"right":"left":"start"===a?"bottom":"top";return i.reference[s]>i.floating[s]&&(c=d(c)),{main:c,cross:d(c)}}const h={start:"end",end:"start"};function y(t){return t.replace(/start|end/g,(t=>h[t]))}const x=["top","right","bottom","left"],w=x.reduce(((t,e)=>t.concat(e,e+"-start",e+"-end")),[]);const v=function(n){return void 0===n&&(n={}),{name:"autoPlacement",options:n,async fn(r){var i,o,a,l,c;const{x:f,y:u,rects:m,middlewareData:g,placement:d,platform:h,elements:x}=r,{alignment:v=null,allowedPlacements:b=w,autoAlignment:R=!0,...A}=n,P=function(n,r,i){return(n?[...i.filter((t=>floating_ui_core_esm_min_e(t)===n)),...i.filter((t=>floating_ui_core_esm_min_e(t)!==n))]:i.filter((e=>t(e)===e))).filter((t=>!n||floating_ui_core_esm_min_e(t)===n||!!r&&y(t)!==t))}(v,R,b),T=await s(r,A),O=null!=(i=null==(o=g.autoPlacement)?void 0:o.index)?i:0,D=P[O];if(null==D)return{};const{main:L,cross:k}=p(D,m,await(null==h.isRTL?void 0:h.isRTL(x.floating)));if(d!==D)return{x:f,y:u,reset:{placement:P[0]}};const E=[T[t(D)],T[L],T[k]],C=[...null!=(a=null==(l=g.autoPlacement)?void 0:l.overflows)?a:[],{placement:D,overflows:E}],B=P[O+1];if(B)return{data:{index:O+1,overflows:C},reset:{placement:B}};const H=C.slice().sort(((t,e)=>t.overflows[0]-e.overflows[0])),V=null==(c=H.find((t=>{let{overflows:e}=t;return e.every((t=>t<=0))})))?void 0:c.placement,F=null!=V?V:H[0].placement;return F!==d?{data:{index:O+1,overflows:C},reset:{placement:F}}:{}}}};const b=function(e){return void 0===e&&(e={}),{name:"flip",options:e,async fn(n){var r;const{placement:i,middlewareData:o,rects:a,initialPlacement:l,platform:c,elements:f}=n,{mainAxis:u=!0,crossAxis:m=!0,fallbackPlacements:g,fallbackStrategy:h="bestFit",flipAlignment:x=!0,...w}=e,v=t(i),b=g||(v===l||!x?[d(l)]:function(t){const e=d(t);return[y(t),e,y(e)]}(l)),R=[l,...b],A=await s(n,w),P=[];let T=(null==(r=o.flip)?void 0:r.overflows)||[];if(u&&P.push(A[v]),m){const{main:t,cross:e}=p(i,a,await(null==c.isRTL?void 0:c.isRTL(f.floating)));P.push(A[t],A[e])}if(T=[...T,{placement:i,overflows:P}],!P.every((t=>t<=0))){var O,D;const t=(null!=(O=null==(D=o.flip)?void 0:D.index)?O:0)+1,e=R[t];if(e)return{data:{index:t,overflows:T},reset:{placement:e}};let n="bottom";switch(h){case"bestFit":{var L;const t=null==(L=T.map((t=>[t,t.overflows.filter((t=>t>0)).reduce(((t,e)=>t+e),0)])).sort(((t,e)=>t[1]-e[1]))[0])?void 0:L[0].placement;t&&(n=t);break}case"initialPlacement":n=l}if(i!==n)return{reset:{placement:n}}}return{}}}};function R(t,e){return{top:t.top-e.height,right:t.right-e.width,bottom:t.bottom-e.height,left:t.left-e.width}}function A(t){return x.some((e=>t[e]>=0))}const P=function(t){let{strategy:e="referenceHidden",...n}=void 0===t?{}:t;return{name:"hide",async fn(t){const{rects:r}=t;switch(e){case"referenceHidden":{const e=R(await s(t,{...n,elementContext:"reference"}),r.reference);return{data:{referenceHiddenOffsets:e,referenceHidden:A(e)}}}case"escaped":{const e=R(await s(t,{...n,altBoundary:!0}),r.floating);return{data:{escapedOffsets:e,escaped:A(e)}}}default:return{}}}}};const T=function(r){return void 0===r&&(r=0),{name:"offset",options:r,async fn(i){const{x:o,y:a,placement:l,rects:s,platform:c,elements:f}=i,u=function(r,i,o,a){void 0===a&&(a=!1);const l=t(r),s=floating_ui_core_esm_min_e(r),c="x"===floating_ui_core_esm_min_n(r),f=["left","top"].includes(l)?-1:1,u=a&&c?-1:1,m="function"==typeof o?o({...i,placement:r}):o;let{mainAxis:g,crossAxis:d,alignmentAxis:p}="number"==typeof m?{mainAxis:m,crossAxis:0,alignmentAxis:null}:{mainAxis:0,crossAxis:0,alignmentAxis:null,...m};return s&&"number"==typeof p&&(d="end"===s?-1*p:p),c?{x:d*u,y:g*f}:{x:g*f,y:d*u}}(l,s,r,await(null==c.isRTL?void 0:c.isRTL(f.floating)));return{x:o+u.x,y:a+u.y,data:u}}}};function O(t){return"x"===t?"y":"x"}const D=function(e){return void 0===e&&(e={}),{name:"shift",options:e,async fn(r){const{x:i,y:o,placement:a}=r,{mainAxis:l=!0,crossAxis:c=!1,limiter:f={fn:t=>{let{x:e,y:n}=t;return{x:e,y:n}}},...m}=e,g={x:i,y:o},d=await s(r,m),p=floating_ui_core_esm_min_n(t(a)),h=O(p);let y=g[p],x=g[h];if(l){const t="y"===p?"bottom":"right";y=u(y+d["y"===p?"top":"left"],y,y-d[t])}if(c){const t="y"===h?"bottom":"right";x=u(x+d["y"===h?"top":"left"],x,x-d[t])}const w=f.fn({...r,[p]:y,[h]:x});return{...w,data:{x:w.x-i,y:w.y-o}}}}},L=function(e){return void 0===e&&(e={}),{options:e,fn(r){const{x:i,y:o,placement:a,rects:l,middlewareData:s}=r,{offset:c=0,mainAxis:f=!0,crossAxis:u=!0}=e,m={x:i,y:o},g=floating_ui_core_esm_min_n(a),d=O(g);let p=m[g],h=m[d];const y="function"==typeof c?c({...l,placement:a}):c,x="number"==typeof y?{mainAxis:y,crossAxis:0}:{mainAxis:0,crossAxis:0,...y};if(f){const t="y"===g?"height":"width",e=l.reference[g]-l.floating[t]+x.mainAxis,n=l.reference[g]+l.reference[t]-x.mainAxis;p<e?p=e:p>n&&(p=n)}if(u){var w,v,b,R;const e="y"===g?"width":"height",n=["top","left"].includes(t(a)),r=l.reference[d]-l.floating[e]+(n&&null!=(w=null==(v=s.offset)?void 0:v[d])?w:0)+(n?0:x.crossAxis),i=l.reference[d]+l.reference[e]+(n?0:null!=(b=null==(R=s.offset)?void 0:R[d])?b:0)-(n?x.crossAxis:0);h<r?h=r:h>i&&(h=i)}return{[g]:p,[d]:h}}}},k=function(n){return void 0===n&&(n={}),{name:"size",options:n,async fn(r){const{placement:i,rects:o,platform:a,elements:l}=r,{apply:c,...u}=n,m=await s(r,u),g=t(i),d=floating_ui_core_esm_min_e(i);let p,h;"top"===g||"bottom"===g?(p=g,h=d===(await(null==a.isRTL?void 0:a.isRTL(l.floating))?"start":"end")?"left":"right"):(h=g,p="end"===d?"top":"bottom");const y=f(m.left,0),x=f(m.right,0),w=f(m.top,0),v=f(m.bottom,0),b={height:o.floating.height-(["left","right"].includes(i)?2*(0!==w||0!==v?w+v:f(m.top,m.bottom)):m[p]),width:o.floating.width-(["top","bottom"].includes(i)?2*(0!==y||0!==x?y+x:f(m.left,m.right)):m[h])},R=await a.getDimensions(l.floating);null==c||c({...b,...o});const A=await a.getDimensions(l.floating);return R.width!==A.width||R.height!==A.height?{reset:{rects:!0}}:{}}}},E=function(e){return void 0===e&&(e={}),{name:"inline",options:e,async fn(r){var i;const{placement:o,elements:s,rects:u,platform:m,strategy:g}=r,{padding:d=2,x:p,y:h}=e,y=l(m.convertOffsetParentRelativeRectToViewportRelativeRect?await m.convertOffsetParentRelativeRectToViewportRelativeRect({rect:u.reference,offsetParent:await(null==m.getOffsetParent?void 0:m.getOffsetParent(s.floating)),strategy:g}):u.reference),x=null!=(i=await(null==m.getClientRects?void 0:m.getClientRects(s.reference)))?i:[],w=floating_ui_core_esm_min_a(d);const v=await m.getElementRects({reference:{getBoundingClientRect:function(){var e;if(2===x.length&&x[0].left>x[1].right&&null!=p&&null!=h)return null!=(e=x.find((t=>p>t.left-w.left&&p<t.right+w.right&&h>t.top-w.top&&h<t.bottom+w.bottom)))?e:y;if(x.length>=2){if("x"===floating_ui_core_esm_min_n(o)){const e=x[0],n=x[x.length-1],r="top"===t(o),i=e.top,a=n.bottom,l=r?e.left:n.left,s=r?e.right:n.right;return{top:i,bottom:a,left:l,right:s,width:s-l,height:a-i,x:l,y:i}}const e="left"===t(o),r=f(...x.map((t=>t.right))),i=c(...x.map((t=>t.left))),a=x.filter((t=>e?t.left===i:t.right===r)),l=a[0].top,s=a[a.length-1].bottom;return{top:l,bottom:s,left:i,right:r,width:r-i,height:s-l,x:i,y:l}}return y}},floating:s.floating,strategy:g});return u.reference.x!==v.reference.x||u.reference.y!==v.reference.y||u.reference.width!==v.reference.width||u.reference.height!==v.reference.height?{reset:{rects:v}}:{}}}};
 
@@ -17456,7 +17456,7 @@ function t(t){return t.split("-")[0]}function floating_ui_core_esm_min_e(t){retu
 function floating_ui_dom_esm_min_n(t){return t&&t.document&&t.location&&t.alert&&t.setInterval}function floating_ui_dom_esm_min_o(t){if(null==t)return window;if(!floating_ui_dom_esm_min_n(t)){const e=t.ownerDocument;return e&&e.defaultView||window}return t}function floating_ui_dom_esm_min_i(t){return floating_ui_dom_esm_min_o(t).getComputedStyle(t)}function floating_ui_dom_esm_min_r(t){return floating_ui_dom_esm_min_n(t)?"":t?(t.nodeName||"").toLowerCase():""}function floating_ui_dom_esm_min_l(t){return t instanceof floating_ui_dom_esm_min_o(t).HTMLElement}function floating_ui_dom_esm_min_c(t){return t instanceof floating_ui_dom_esm_min_o(t).Element}function floating_ui_dom_esm_min_f(t){if("undefined"==typeof ShadowRoot)return!1;return t instanceof floating_ui_dom_esm_min_o(t).ShadowRoot||t instanceof ShadowRoot}function floating_ui_dom_esm_min_s(t){const{overflow:e,overflowX:n,overflowY:o}=floating_ui_dom_esm_min_i(t);return/auto|scroll|overlay|hidden/.test(e+o+n)}function floating_ui_dom_esm_min_u(t){return["table","td","th"].includes(floating_ui_dom_esm_min_r(t))}function floating_ui_dom_esm_min_d(t){const e=navigator.userAgent.toLowerCase().includes("firefox"),n=floating_ui_dom_esm_min_i(t);return"none"!==n.transform||"none"!==n.perspective||"paint"===n.contain||["transform","perspective"].includes(n.willChange)||e&&"filter"===n.willChange||e&&!!n.filter&&"none"!==n.filter}function floating_ui_dom_esm_min_h(){return!/^((?!chrome|android).)*safari/i.test(navigator.userAgent)}const floating_ui_dom_esm_min_a=Math.min,floating_ui_dom_esm_min_g=Math.max,floating_ui_dom_esm_min_p=Math.round;function floating_ui_dom_esm_min_m(t,e,n){var i,r,f,s;void 0===e&&(e=!1),void 0===n&&(n=!1);const u=t.getBoundingClientRect();let d=1,a=1;e&&floating_ui_dom_esm_min_l(t)&&(d=t.offsetWidth>0&&floating_ui_dom_esm_min_p(u.width)/t.offsetWidth||1,a=t.offsetHeight>0&&floating_ui_dom_esm_min_p(u.height)/t.offsetHeight||1);const g=floating_ui_dom_esm_min_c(t)?floating_ui_dom_esm_min_o(t):window,m=!floating_ui_dom_esm_min_h()&&n,w=(u.left+(m&&null!=(i=null==(r=g.visualViewport)?void 0:r.offsetLeft)?i:0))/d,v=(u.top+(m&&null!=(f=null==(s=g.visualViewport)?void 0:s.offsetTop)?f:0))/a,y=u.width/d,x=u.height/a;return{width:y,height:x,top:v,right:w+y,bottom:v+x,left:w,x:w,y:v}}function floating_ui_dom_esm_min_w(t){return(e=t,(e instanceof floating_ui_dom_esm_min_o(e).Node?t.ownerDocument:t.document)||window.document).documentElement;var e}function floating_ui_dom_esm_min_v(t){return floating_ui_dom_esm_min_c(t)?{scrollLeft:t.scrollLeft,scrollTop:t.scrollTop}:{scrollLeft:t.pageXOffset,scrollTop:t.pageYOffset}}function floating_ui_dom_esm_min_y(t){return floating_ui_dom_esm_min_m(floating_ui_dom_esm_min_w(t)).left+floating_ui_dom_esm_min_v(t).scrollLeft}function floating_ui_dom_esm_min_x(t,e,n){const o=floating_ui_dom_esm_min_l(e),i=floating_ui_dom_esm_min_w(e),c=floating_ui_dom_esm_min_m(t,o&&function(t){const e=floating_ui_dom_esm_min_m(t);return floating_ui_dom_esm_min_p(e.width)!==t.offsetWidth||floating_ui_dom_esm_min_p(e.height)!==t.offsetHeight}(e),"fixed"===n);let f={scrollLeft:0,scrollTop:0};const u={x:0,y:0};if(o||!o&&"fixed"!==n)if(("body"!==floating_ui_dom_esm_min_r(e)||floating_ui_dom_esm_min_s(i))&&(f=floating_ui_dom_esm_min_v(e)),floating_ui_dom_esm_min_l(e)){const t=floating_ui_dom_esm_min_m(e,!0);u.x=t.x+e.clientLeft,u.y=t.y+e.clientTop}else i&&(u.x=floating_ui_dom_esm_min_y(i));return{x:c.left+f.scrollLeft-u.x,y:c.top+f.scrollTop-u.y,width:c.width,height:c.height}}function floating_ui_dom_esm_min_L(t){return"html"===floating_ui_dom_esm_min_r(t)?t:t.assignedSlot||t.parentNode||(floating_ui_dom_esm_min_f(t)?t.host:null)||floating_ui_dom_esm_min_w(t)}function floating_ui_dom_esm_min_b(t){return floating_ui_dom_esm_min_l(t)&&"fixed"!==getComputedStyle(t).position?t.offsetParent:null}function floating_ui_dom_esm_min_R(t){const e=floating_ui_dom_esm_min_o(t);let n=floating_ui_dom_esm_min_b(t);for(;n&&floating_ui_dom_esm_min_u(n)&&"static"===getComputedStyle(n).position;)n=floating_ui_dom_esm_min_b(n);return n&&("html"===floating_ui_dom_esm_min_r(n)||"body"===floating_ui_dom_esm_min_r(n)&&"static"===getComputedStyle(n).position&&!floating_ui_dom_esm_min_d(n))?e:n||function(t){let e=floating_ui_dom_esm_min_L(t);for(floating_ui_dom_esm_min_f(e)&&(e=e.host);floating_ui_dom_esm_min_l(e)&&!["html","body"].includes(floating_ui_dom_esm_min_r(e));){if(floating_ui_dom_esm_min_d(e))return e;e=e.parentNode}return null}(t)||e}function floating_ui_dom_esm_min_T(t){if(floating_ui_dom_esm_min_l(t))return{width:t.offsetWidth,height:t.offsetHeight};const e=floating_ui_dom_esm_min_m(t);return{width:e.width,height:e.height}}function W(t){const e=floating_ui_dom_esm_min_L(t);return["html","body","#document"].includes(floating_ui_dom_esm_min_r(e))?t.ownerDocument.body:floating_ui_dom_esm_min_l(e)&&floating_ui_dom_esm_min_s(e)?e:W(e)}function C(t,e){var n;void 0===e&&(e=[]);const i=W(t),r=i===(null==(n=t.ownerDocument)?void 0:n.body),l=floating_ui_dom_esm_min_o(i),c=r?[l].concat(l.visualViewport||[],floating_ui_dom_esm_min_s(i)?i:[]):i,f=e.concat(c);return r?f:f.concat(C(c))}function floating_ui_dom_esm_min_E(e,n,r){return"viewport"===n?l(function(t,e){const n=floating_ui_dom_esm_min_o(t),i=floating_ui_dom_esm_min_w(t),r=n.visualViewport;let l=i.clientWidth,c=i.clientHeight,f=0,s=0;if(r){l=r.width,c=r.height;const t=floating_ui_dom_esm_min_h();(t||!t&&"fixed"===e)&&(f=r.offsetLeft,s=r.offsetTop)}return{width:l,height:c,x:f,y:s}}(e,r)):floating_ui_dom_esm_min_c(n)?function(t,e){const n=floating_ui_dom_esm_min_m(t,!1,"fixed"===e),o=n.top+t.clientTop,i=n.left+t.clientLeft;return{top:o,left:i,x:i,y:o,right:i+t.clientWidth,bottom:o+t.clientHeight,width:t.clientWidth,height:t.clientHeight}}(n,r):l(function(t){var e;const n=floating_ui_dom_esm_min_w(t),o=floating_ui_dom_esm_min_v(t),r=null==(e=t.ownerDocument)?void 0:e.body,l=floating_ui_dom_esm_min_g(n.scrollWidth,n.clientWidth,r?r.scrollWidth:0,r?r.clientWidth:0),c=floating_ui_dom_esm_min_g(n.scrollHeight,n.clientHeight,r?r.scrollHeight:0,r?r.clientHeight:0);let f=-o.scrollLeft+floating_ui_dom_esm_min_y(t);const s=-o.scrollTop;return"rtl"===floating_ui_dom_esm_min_i(r||n).direction&&(f+=floating_ui_dom_esm_min_g(n.clientWidth,r?r.clientWidth:0)-l),{width:l,height:c,x:f,y:s}}(floating_ui_dom_esm_min_w(e)))}function H(t){const e=C(t),n=["absolute","fixed"].includes(floating_ui_dom_esm_min_i(t).position)&&floating_ui_dom_esm_min_l(t)?floating_ui_dom_esm_min_R(t):t;return floating_ui_dom_esm_min_c(n)?e.filter((t=>floating_ui_dom_esm_min_c(t)&&function(t,e){const n=null==e||null==e.getRootNode?void 0:e.getRootNode();if(null!=t&&t.contains(e))return!0;if(n&&floating_ui_dom_esm_min_f(n)){let n=e;do{if(n&&t===n)return!0;n=n.parentNode||n.host}while(n)}return!1}(t,n)&&"body"!==floating_ui_dom_esm_min_r(t))):[]}const S={getClippingRect:function(t){let{element:e,boundary:n,rootBoundary:o,strategy:i}=t;const r=[..."clippingAncestors"===n?H(e):[].concat(n),o],l=r[0],c=r.reduce(((t,n)=>{const o=floating_ui_dom_esm_min_E(e,n,i);return t.top=floating_ui_dom_esm_min_g(o.top,t.top),t.right=floating_ui_dom_esm_min_a(o.right,t.right),t.bottom=floating_ui_dom_esm_min_a(o.bottom,t.bottom),t.left=floating_ui_dom_esm_min_g(o.left,t.left),t}),floating_ui_dom_esm_min_E(e,l,i));return{width:c.right-c.left,height:c.bottom-c.top,x:c.left,y:c.top}},convertOffsetParentRelativeRectToViewportRelativeRect:function(t){let{rect:e,offsetParent:n,strategy:o}=t;const i=floating_ui_dom_esm_min_l(n),c=floating_ui_dom_esm_min_w(n);if(n===c)return e;let f={scrollLeft:0,scrollTop:0};const u={x:0,y:0};if((i||!i&&"fixed"!==o)&&(("body"!==floating_ui_dom_esm_min_r(n)||floating_ui_dom_esm_min_s(c))&&(f=floating_ui_dom_esm_min_v(n)),floating_ui_dom_esm_min_l(n))){const t=floating_ui_dom_esm_min_m(n,!0);u.x=t.x+n.clientLeft,u.y=t.y+n.clientTop}return{...e,x:e.x-f.scrollLeft+u.x,y:e.y-f.scrollTop+u.y}},isElement:floating_ui_dom_esm_min_c,getDimensions:floating_ui_dom_esm_min_T,getOffsetParent:floating_ui_dom_esm_min_R,getDocumentElement:floating_ui_dom_esm_min_w,getElementRects:t=>{let{reference:e,floating:n,strategy:o}=t;return{reference:floating_ui_dom_esm_min_x(e,floating_ui_dom_esm_min_R(n),o),floating:{...floating_ui_dom_esm_min_T(n),x:0,y:0}}},getClientRects:t=>Array.from(t.getClientRects()),isRTL:t=>"rtl"===floating_ui_dom_esm_min_i(t).direction};function floating_ui_dom_esm_min_D(t,e,n,o){void 0===o&&(o={});const{ancestorScroll:i=!0,ancestorResize:r=!0,elementResize:l=!0,animationFrame:f=!1}=o;let s=!1;const u=i&&!f,d=r&&!f,h=l&&!f,a=u||d?[...floating_ui_dom_esm_min_c(t)?C(t):[],...C(e)]:[];a.forEach((t=>{u&&t.addEventListener("scroll",n,{passive:!0}),d&&t.addEventListener("resize",n)}));let g,p=null;h&&(p=new ResizeObserver(n),floating_ui_dom_esm_min_c(t)&&p.observe(t),p.observe(e));let w=f?floating_ui_dom_esm_min_m(t):null;return f&&function e(){if(s)return;const o=floating_ui_dom_esm_min_m(t);!w||o.x===w.x&&o.y===w.y&&o.width===w.width&&o.height===w.height||n();w=o,g=requestAnimationFrame(e)}(),()=>{var t;s=!0,a.forEach((t=>{u&&t.removeEventListener("scroll",n),d&&t.removeEventListener("resize",n)})),null==(t=p)||t.disconnect(),p=null,f&&cancelAnimationFrame(g)}}const N=(t,n,o)=>floating_ui_core_esm_min_o(t,n,{platform:S,...o});
 
 ;// CONCATENATED MODULE: external "ReactDOM"
-var external_ReactDOM_namespaceObject = window["ReactDOM"];
+const external_ReactDOM_namespaceObject = window["ReactDOM"];
 ;// CONCATENATED MODULE: ./node_modules/@floating-ui/react-dom/dist/floating-ui.react-dom.esm.js
 
 
@@ -17657,10 +17657,10 @@ const close_close = (0,external_wp_element_namespaceObject.createElement)(extern
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"
 }));
-/* harmony default export */ var library_close = (close_close);
+/* harmony default export */ const library_close = (close_close);
 
 ;// CONCATENATED MODULE: external ["wp","deprecated"]
-var external_wp_deprecated_namespaceObject = window["wp"]["deprecated"];
+const external_wp_deprecated_namespaceObject = window["wp"]["deprecated"];
 var external_wp_deprecated_default = /*#__PURE__*/__webpack_require__.n(external_wp_deprecated_namespaceObject);
 ;// CONCATENATED MODULE: ./packages/components/build-module/dashicon/index.js
 
@@ -17691,7 +17691,7 @@ function Dashicon(_ref) {
   }, extraProps));
 }
 
-/* harmony default export */ var dashicon = (Dashicon);
+/* harmony default export */ const dashicon = (Dashicon);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/icon/index.js
 
@@ -17764,10 +17764,10 @@ function Icon(_ref) {
   return icon;
 }
 
-/* harmony default export */ var build_module_icon = (Icon);
+/* harmony default export */ const build_module_icon = (Icon);
 
 ;// CONCATENATED MODULE: external ["wp","warning"]
-var external_wp_warning_namespaceObject = window["wp"]["warning"];
+const external_wp_warning_namespaceObject = window["wp"]["warning"];
 ;// CONCATENATED MODULE: ./packages/components/build-module/ui/context/context-system-provider.js
 
 
@@ -19245,7 +19245,7 @@ var createCache = function createCache(options) {
   return cache;
 };
 
-/* harmony default export */ var emotion_cache_browser_esm = (createCache);
+/* harmony default export */ const emotion_cache_browser_esm = (createCache);
 
 ;// CONCATENATED MODULE: ./node_modules/@emotion/hash/dist/hash.browser.esm.js
 /* eslint-disable */
@@ -19302,7 +19302,7 @@ function murmur2(str) {
   return ((h ^ h >>> 15) >>> 0).toString(36);
 }
 
-/* harmony default export */ var hash_browser_esm = (murmur2);
+/* harmony default export */ const hash_browser_esm = (murmur2);
 
 ;// CONCATENATED MODULE: ./node_modules/@emotion/unitless/dist/unitless.browser.esm.js
 var unitlessKeys = {
@@ -19354,7 +19354,7 @@ var unitlessKeys = {
   strokeWidth: 1
 };
 
-/* harmony default export */ var unitless_browser_esm = (unitlessKeys);
+/* harmony default export */ const unitless_browser_esm = (unitlessKeys);
 
 ;// CONCATENATED MODULE: ./node_modules/@emotion/memoize/dist/memoize.browser.esm.js
 function memoize(fn) {
@@ -19365,7 +19365,7 @@ function memoize(fn) {
   };
 }
 
-/* harmony default export */ var memoize_browser_esm = (memoize);
+/* harmony default export */ const memoize_browser_esm = (memoize);
 
 ;// CONCATENATED MODULE: ./node_modules/@emotion/serialize/dist/emotion-serialize.browser.esm.js
 
@@ -20003,7 +20003,7 @@ var emotion_css_create_instance_esm_classnames = function classnames(args) {
   return cls;
 };
 
-/* harmony default export */ var emotion_css_create_instance_esm = (createEmotion);
+/* harmony default export */ const emotion_css_create_instance_esm = (createEmotion);
 
 ;// CONCATENATED MODULE: ./node_modules/@emotion/css/dist/emotion-css.esm.js
 
@@ -20305,7 +20305,7 @@ var isPropValid = /* #__PURE__ */memoize_browser_esm(function (prop) {
 /* Z+1 */
 );
 
-/* harmony default export */ var emotion_is_prop_valid_browser_esm = (isPropValid);
+/* harmony default export */ const emotion_is_prop_valid_browser_esm = (isPropValid);
 
 ;// CONCATENATED MODULE: ./node_modules/@emotion/styled/base/dist/emotion-styled-base.browser.esm.js
 
@@ -20466,7 +20466,7 @@ var createStyled = function createStyled(tag, options) {
   };
 };
 
-/* harmony default export */ var emotion_styled_base_browser_esm = (createStyled);
+/* harmony default export */ const emotion_styled_base_browser_esm = (createStyled);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/view/component.js
 
@@ -20501,7 +20501,7 @@ const View = emotion_styled_base_browser_esm("div",  true ? {
 
 View.selector = '.components-view';
 View.displayName = 'View';
-/* harmony default export */ var component = (View);
+/* harmony default export */ const component = (View);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/visually-hidden/component.js
 
@@ -20551,7 +20551,7 @@ function VisuallyHidden(props, forwardedRef) {
 
 
 const ConnectedVisuallyHidden = contextConnect(VisuallyHidden, 'VisuallyHidden');
-/* harmony default export */ var visually_hidden_component = (ConnectedVisuallyHidden);
+/* harmony default export */ const visually_hidden_component = (ConnectedVisuallyHidden);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/button/index.js
 
@@ -20727,7 +20727,7 @@ function Button(props, ref) {
     id: descriptionId
   }, describedBy)));
 }
-/* harmony default export */ var build_module_button = ((0,external_wp_element_namespaceObject.forwardRef)(Button));
+/* harmony default export */ const build_module_button = ((0,external_wp_element_namespaceObject.forwardRef)(Button));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/scroll-lock/index.js
 /**
@@ -20805,7 +20805,7 @@ const SlotFillContext = (0,external_wp_element_namespaceObject.createContext)({
   getFills: () => {},
   subscribe: () => {}
 });
-/* harmony default export */ var context = (SlotFillContext);
+/* harmony default export */ const context = (SlotFillContext);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/slot-fill/use-slot.js
 // @ts-nocheck
@@ -20842,7 +20842,7 @@ const useSlot = name => {
   return slot;
 };
 
-/* harmony default export */ var use_slot = (useSlot);
+/* harmony default export */ const use_slot = (useSlot);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/slot-fill/fill.js
 
@@ -20850,13 +20850,8 @@ const useSlot = name => {
 // @ts-nocheck
 
 /**
- * External dependencies
- */
-
-/**
  * WordPress dependencies
  */
-
 
 /**
  * Internal dependencies
@@ -20904,7 +20899,7 @@ function FillComponent(_ref) {
   } // If a function is passed as a child, provide it with the fillProps.
 
 
-  if ((0,external_lodash_namespaceObject.isFunction)(children)) {
+  if (typeof children === 'function') {
     children = children(slot.props.fillProps);
   }
 
@@ -20922,7 +20917,7 @@ const Fill = props => (0,external_wp_element_namespaceObject.createElement)(cont
   }));
 });
 
-/* harmony default export */ var fill = (Fill);
+/* harmony default export */ const fill = (Fill);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/slot-fill/slot.js
 
@@ -20943,6 +20938,16 @@ const Fill = props => (0,external_wp_element_namespaceObject.createElement)(cont
  */
 
 
+/**
+ * Whether the argument is a function.
+ *
+ * @param {*} maybeFunc The argument to check.
+ * @return {boolean} True if the argument is a function, false otherwise.
+ */
+
+function isFunction(maybeFunc) {
+  return typeof maybeFunc === 'function';
+}
 
 class SlotComponent extends external_wp_element_namespaceObject.Component {
   constructor() {
@@ -20999,7 +21004,7 @@ class SlotComponent extends external_wp_element_namespaceObject.Component {
       getFills
     } = this.props;
     const fills = (0,external_lodash_namespaceObject.map)(getFills(name, this), fill => {
-      const fillChildren = (0,external_lodash_namespaceObject.isFunction)(fill.children) ? fill.children(fillProps) : fill.children;
+      const fillChildren = isFunction(fill.children) ? fill.children(fillProps) : fill.children;
       return external_wp_element_namespaceObject.Children.map(fillChildren, (child, childIndex) => {
         if (!child || (0,external_lodash_namespaceObject.isString)(child)) {
           return child;
@@ -21013,8 +21018,8 @@ class SlotComponent extends external_wp_element_namespaceObject.Component {
     }).filter( // In some cases fills are rendered only when some conditions apply.
     // This ensures that we only use non-empty fills when rendering, i.e.,
     // it allows us to render wrappers only when the fills are actually present.
-    (0,external_lodash_namespaceObject.negate)(external_wp_element_namespaceObject.isEmptyElement));
-    return (0,external_wp_element_namespaceObject.createElement)(external_wp_element_namespaceObject.Fragment, null, (0,external_lodash_namespaceObject.isFunction)(children) ? children(fills) : fills);
+    element => !(0,external_wp_element_namespaceObject.isEmptyElement)(element));
+    return (0,external_wp_element_namespaceObject.createElement)(external_wp_element_namespaceObject.Fragment, null, isFunction(children) ? children(fills) : fills);
   }
 
 }
@@ -21032,7 +21037,7 @@ const Slot = props => (0,external_wp_element_namespaceObject.createElement)(cont
   }));
 });
 
-/* harmony default export */ var slot = (Slot);
+/* harmony default export */ const slot = (Slot);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/slot-fill/bubbles-virtually/slot-fill-context.js
 // @ts-nocheck
@@ -21053,7 +21058,7 @@ const slot_fill_context_SlotFillContext = (0,external_wp_element_namespaceObject
   registerFill: () => {},
   unregisterFill: () => {}
 });
-/* harmony default export */ var slot_fill_context = (slot_fill_context_SlotFillContext);
+/* harmony default export */ const slot_fill_context = (slot_fill_context_SlotFillContext);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/slot-fill/bubbles-virtually/use-slot.js
 // @ts-nocheck
@@ -21109,7 +21114,7 @@ function rng() {
   return getRandomValues(rnds8);
 }
 ;// CONCATENATED MODULE: ./node_modules/uuid/dist/esm-browser/regex.js
-/* harmony default export */ var regex = (/^(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|00000000-0000-0000-0000-000000000000)$/i);
+/* harmony default export */ const regex = (/^(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|00000000-0000-0000-0000-000000000000)$/i);
 ;// CONCATENATED MODULE: ./node_modules/uuid/dist/esm-browser/validate.js
 
 
@@ -21117,7 +21122,7 @@ function validate(uuid) {
   return typeof uuid === 'string' && regex.test(uuid);
 }
 
-/* harmony default export */ var esm_browser_validate = (validate);
+/* harmony default export */ const esm_browser_validate = (validate);
 ;// CONCATENATED MODULE: ./node_modules/uuid/dist/esm-browser/stringify.js
 
 /**
@@ -21148,7 +21153,7 @@ function stringify_stringify(arr) {
   return uuid;
 }
 
-/* harmony default export */ var esm_browser_stringify = (stringify_stringify);
+/* harmony default export */ const esm_browser_stringify = (stringify_stringify);
 ;// CONCATENATED MODULE: ./node_modules/uuid/dist/esm-browser/v4.js
 
 
@@ -21173,7 +21178,7 @@ function v4(options, buf, offset) {
   return esm_browser_stringify(rnds);
 }
 
-/* harmony default export */ var esm_browser_v4 = (v4);
+/* harmony default export */ const esm_browser_v4 = (v4);
 ;// CONCATENATED MODULE: ./packages/components/build-module/style-provider/index.js
 
 // @ts-nocheck
@@ -21327,10 +21332,10 @@ function slot_Slot(_ref, forwardedRef) {
   }, props));
 }
 
-/* harmony default export */ var bubbles_virtually_slot = ((0,external_wp_element_namespaceObject.forwardRef)(slot_Slot));
+/* harmony default export */ const bubbles_virtually_slot = ((0,external_wp_element_namespaceObject.forwardRef)(slot_Slot));
 
 ;// CONCATENATED MODULE: external ["wp","isShallowEqual"]
-var external_wp_isShallowEqual_namespaceObject = window["wp"]["isShallowEqual"];
+const external_wp_isShallowEqual_namespaceObject = window["wp"]["isShallowEqual"];
 var external_wp_isShallowEqual_default = /*#__PURE__*/__webpack_require__.n(external_wp_isShallowEqual_namespaceObject);
 ;// CONCATENATED MODULE: ./packages/components/build-module/slot-fill/bubbles-virtually/slot-fill-provider.js
 
@@ -22085,7 +22090,7 @@ function PopoverSlot(_ref3, ref) {
 
 PopoverContainer.Slot = (0,external_wp_element_namespaceObject.forwardRef)(PopoverSlot);
 PopoverContainer.__unstableSlotNameProvider = slotNameContext.Provider;
-/* harmony default export */ var popover = (PopoverContainer);
+/* harmony default export */ const popover = (PopoverContainer);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/shortcut/index.js
 
@@ -22135,7 +22140,7 @@ function Shortcut(_ref) {
   }, displayText);
 }
 
-/* harmony default export */ var build_module_shortcut = (Shortcut);
+/* harmony default export */ const build_module_shortcut = (Shortcut);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/tooltip/index.js
 
@@ -22206,7 +22211,8 @@ const addPopoverToGrandchildren = _ref3 => {
     className: "components-tooltip",
     "aria-hidden": "true",
     animate: false,
-    offset: 12
+    offset: 12,
+    __unstableShift: true
   }, text, (0,external_wp_element_namespaceObject.createElement)(build_module_shortcut, {
     className: "components-tooltip__shortcut",
     shortcut: shortcut
@@ -22362,7 +22368,7 @@ function Tooltip(props) {
   });
 }
 
-/* harmony default export */ var tooltip = (Tooltip);
+/* harmony default export */ const tooltip = (Tooltip);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/alignment-matrix-control/utils.js
 /**
@@ -22956,7 +22962,7 @@ const COLORS = Object.assign({}, BASE, {
   admin: ADMIN,
   ui: UI
 });
-/* harmony default export */ var colors_values = ((/* unused pure expression or super */ null && (COLORS)));
+/* harmony default export */ const colors_values = ((/* unused pure expression or super */ null && (COLORS)));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/utils/reduce-motion.js
 /**
@@ -24842,7 +24848,6 @@ function AlignmentMatrixControlIcon(_ref) {
  * External dependencies
  */
 
-
 /**
  * WordPress dependencies
  */
@@ -24860,6 +24865,8 @@ function AlignmentMatrixControlIcon(_ref) {
 
 
 
+const noop = () => {};
+
 function useBaseId(id) {
   const instanceId = (0,external_wp_compose_namespaceObject.useInstanceId)(AlignmentMatrixControl, 'alignment-matrix-control');
   return id || instanceId;
@@ -24872,7 +24879,7 @@ function AlignmentMatrixControl(_ref) {
     label = (0,external_wp_i18n_namespaceObject.__)('Alignment Matrix Control'),
     defaultValue = 'center center',
     value,
-    onChange = external_lodash_namespaceObject.noop,
+    onChange = noop,
     width = 92,
     ...props
   } = _ref;
@@ -25732,7 +25739,7 @@ const startLoop = () => {
 };
 const getFrameData = () => es_frame;
 
-/* harmony default export */ var es = (sync);
+/* harmony default export */ const es = (sync);
 
 
 ;// CONCATENATED MODULE: ./node_modules/popmotion/dist/es/utils/mix.mjs
@@ -34586,7 +34593,7 @@ function FlexBlock(props, forwardedRef) {
 
 
 const ConnectedFlexBlock = contextConnect(FlexBlock, 'FlexBlock');
-/* harmony default export */ var flex_block_component = (ConnectedFlexBlock);
+/* harmony default export */ const flex_block_component = (ConnectedFlexBlock);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/flex/flex-item/component.js
 
@@ -34622,7 +34629,7 @@ function FlexItem(props, forwardedRef) {
 
 
 const ConnectedFlexItem = contextConnect(FlexItem, 'FlexItem');
-/* harmony default export */ var flex_item_component = (ConnectedFlexItem);
+/* harmony default export */ const flex_item_component = (ConnectedFlexItem);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/ui/utils/use-responsive-value.js
 /**
@@ -34889,6 +34896,7 @@ function useFlex(props) {
   const isColumn = typeof direction === 'string' && !!direction.includes('column');
   const isReverse = typeof direction === 'string' && direction.includes('reverse');
   const cx = useCx();
+  const rtlWatchResult = rtl.watch();
   const classes = (0,external_wp_element_namespaceObject.useMemo)(() => {
     const sx = {};
     sx.Base = /*#__PURE__*/emotion_react_browser_esm_css({
@@ -34919,8 +34927,9 @@ function useFlex(props) {
       marginLeft: !isColumn && isReverse ? 0 : undefined,
       marginRight: !isColumn && !isReverse ? 0 : undefined
     })(), ";}" + ( true ? "" : 0),  true ? "" : 0);
-    return cx(Flex, sx.Base, wrap ? sx.WrapItems : sx.Items, isColumn ? ItemsColumn : ItemsRow, className);
-  }, [align, className, cx, direction, expanded, gap, isColumn, isReverse, justify, wrap, rtl.watch()]);
+    return cx(Flex, sx.Base, wrap ? sx.WrapItems : sx.Items, isColumn ? ItemsColumn : ItemsRow, className); // rtlWatchResult is needed to refresh styles when the writing direction changes
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [align, className, cx, direction, expanded, gap, isColumn, isReverse, justify, wrap, rtlWatchResult]);
   return { ...otherProps,
     className: classes,
     isColumn
@@ -34991,7 +35000,7 @@ function component_Flex(props, forwardedRef) {
 
 
 const ConnectedFlex = contextConnect(component_Flex, 'Flex');
-/* harmony default export */ var flex_component = (ConnectedFlex);
+/* harmony default export */ const flex_component = (ConnectedFlex);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/truncate/styles.js
 function truncate_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
@@ -35287,7 +35296,7 @@ const TOGGLE_GROUP_CONTROL_PROPS = {
 }; // Using Object.assign to avoid creating circular references when emitting
 // TypeScript type declarations.
 
-/* harmony default export */ var config_values = (Object.assign({}, CONTROL_PROPS, TOGGLE_GROUP_CONTROL_PROPS, {
+/* harmony default export */ const config_values = (Object.assign({}, CONTROL_PROPS, TOGGLE_GROUP_CONTROL_PROPS, {
   colorDivider: 'rgba(0, 0, 0, 0.1)',
   colorScrollbarThumb: 'rgba(0, 0, 0, 0.2)',
   colorScrollbarThumbHover: 'rgba(0, 0, 0, 0.5)',
@@ -35791,7 +35800,7 @@ function component_Text(props, forwardedRef) {
 
 
 const ConnectedText = contextConnect(component_Text, 'Text');
-/* harmony default export */ var text_component = (ConnectedText);
+/* harmony default export */ const text_component = (ConnectedText);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/input-control/styles/input-control-styles.js
 
@@ -36105,7 +36114,7 @@ function Backdrop(_ref) {
 }
 
 const MemoizedBackdrop = (0,external_wp_element_namespaceObject.memo)(Backdrop);
-/* harmony default export */ var backdrop = (MemoizedBackdrop);
+/* harmony default export */ const backdrop = (MemoizedBackdrop);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/input-control/label.js
 
@@ -36233,7 +36242,7 @@ function InputBase(_ref, ref) {
     })))
   );
 }
-/* harmony default export */ var input_base = ((0,external_wp_element_namespaceObject.forwardRef)(InputBase));
+/* harmony default export */ const input_base = ((0,external_wp_element_namespaceObject.forwardRef)(InputBase));
 
 ;// CONCATENATED MODULE: ./node_modules/@use-gesture/core/dist/maths-b2a210f4.esm.js
 function maths_b2a210f4_esm_clamp(v, min, max) {
@@ -36487,9 +36496,9 @@ function call(v, ...args) {
     return v;
   }
 }
-function noop() {}
+function actions_5ad85d2f_esm_noop() {}
 function chain(...fns) {
-  if (fns.length === 0) return noop;
+  if (fns.length === 0) return actions_5ad85d2f_esm_noop;
   if (fns.length === 1) return fns[0];
   return function () {
     let result;
@@ -38340,7 +38349,7 @@ function useDragCursor(isDragging, dragDirection) {
       // @ts-expect-error
       document.documentElement.style.cursor = null;
     }
-  }, [isDragging]);
+  }, [isDragging, dragCursor]);
   return dragCursor;
 }
 function useDraft(props) {
@@ -38665,7 +38674,6 @@ function useInputControlStateReducer() {
  */
 
 
-
 /**
  * WordPress dependencies
  */
@@ -38678,6 +38686,8 @@ function useInputControlStateReducer() {
 
 
 
+const input_field_noop = () => {};
+
 function InputField(_ref, ref) {
   let {
     disabled = false,
@@ -38687,14 +38697,14 @@ function InputField(_ref, ref) {
     isDragEnabled = false,
     isFocused,
     isPressEnterToChange = false,
-    onBlur = external_lodash_namespaceObject.noop,
-    onChange = external_lodash_namespaceObject.noop,
-    onDrag = external_lodash_namespaceObject.noop,
-    onDragEnd = external_lodash_namespaceObject.noop,
-    onDragStart = external_lodash_namespaceObject.noop,
-    onFocus = external_lodash_namespaceObject.noop,
-    onKeyDown = external_lodash_namespaceObject.noop,
-    onValidate = external_lodash_namespaceObject.noop,
+    onBlur = input_field_noop,
+    onChange = input_field_noop,
+    onDrag = input_field_noop,
+    onDragEnd = input_field_noop,
+    onDragStart = input_field_noop,
+    onFocus = input_field_noop,
+    onKeyDown = input_field_noop,
+    onValidate = input_field_noop,
     size = 'default',
     setIsFocused,
     stateReducer = state => state,
@@ -38882,7 +38892,7 @@ function InputField(_ref, ref) {
 }
 
 const ForwardedComponent = (0,external_wp_element_namespaceObject.forwardRef)(InputField);
-/* harmony default export */ var input_field = (ForwardedComponent);
+/* harmony default export */ const input_field = (ForwardedComponent);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/input-control/index.js
 
@@ -38891,7 +38901,6 @@ const ForwardedComponent = (0,external_wp_element_namespaceObject.forwardRef)(In
 /**
  * External dependencies
  */
-
 
 
 /**
@@ -38906,6 +38915,8 @@ const ForwardedComponent = (0,external_wp_element_namespaceObject.forwardRef)(In
 
 
 
+
+const input_control_noop = () => {};
 
 function input_control_useUniqueId(idProp) {
   const instanceId = (0,external_wp_compose_namespaceObject.useInstanceId)(InputControl);
@@ -38924,9 +38935,9 @@ function UnforwardedInputControl(_ref, ref) {
     isPressEnterToChange = false,
     label,
     labelPosition = 'top',
-    onChange = external_lodash_namespaceObject.noop,
-    onValidate = external_lodash_namespaceObject.noop,
-    onKeyDown = external_lodash_namespaceObject.noop,
+    onChange = input_control_noop,
+    onValidate = input_control_noop,
+    onKeyDown = input_control_noop,
     prefix,
     size = 'default',
     suffix,
@@ -38991,1344 +39002,7 @@ function UnforwardedInputControl(_ref, ref) {
  */
 
 const InputControl = (0,external_wp_element_namespaceObject.forwardRef)(UnforwardedInputControl);
-/* harmony default export */ var input_control = (InputControl);
-
-;// CONCATENATED MODULE: ./packages/components/build-module/angle-picker-control/styles/angle-picker-control-styles.js
-
-
-function angle_picker_control_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
-
-/**
- * External dependencies
- */
-
-/**
- * Internal dependencies
- */
-
-
-
-
-const CIRCLE_SIZE = 32;
-const INNER_CIRCLE_SIZE = 3;
-const angle_picker_control_styles_Root = /*#__PURE__*/emotion_styled_base_browser_esm(flex_component,  true ? {
-  target: "e65ony43"
-} : 0)("margin-bottom:", space(2), ";" + ( true ? "" : 0));
-const CircleRoot = emotion_styled_base_browser_esm("div",  true ? {
-  target: "e65ony42"
-} : 0)("border-radius:50%;border:", config_values.borderWidth, " solid ", COLORS.ui.border, ";box-sizing:border-box;cursor:grab;height:", CIRCLE_SIZE, "px;overflow:hidden;width:", CIRCLE_SIZE, "px;" + ( true ? "" : 0));
-const CircleIndicatorWrapper = emotion_styled_base_browser_esm("div",  true ? {
-  target: "e65ony41"
-} : 0)( true ? {
-  name: "1bhd2sw",
-  styles: "box-sizing:border-box;position:relative;width:100%;height:100%"
-} : 0);
-const CircleIndicator = emotion_styled_base_browser_esm("div",  true ? {
-  target: "e65ony40"
-} : 0)("background:", COLORS.admin.theme, ";border-radius:50%;border:", INNER_CIRCLE_SIZE, "px solid ", COLORS.admin.theme, ";bottom:0;box-sizing:border-box;display:block;height:0px;left:0;margin:auto;position:absolute;right:0;top:-", CIRCLE_SIZE / 2, "px;width:0px;" + ( true ? "" : 0));
-
-;// CONCATENATED MODULE: ./packages/components/build-module/angle-picker-control/angle-circle.js
-
-
-
-/**
- * WordPress dependencies
- */
-
-
-/**
- * Internal dependencies
- */
-
-
-
-function AngleCircle(_ref) {
-  let {
-    value,
-    onChange,
-    ...props
-  } = _ref;
-  const angleCircleRef = (0,external_wp_element_namespaceObject.useRef)();
-  const angleCircleCenter = (0,external_wp_element_namespaceObject.useRef)();
-  const previousCursorValue = (0,external_wp_element_namespaceObject.useRef)();
-
-  const setAngleCircleCenter = () => {
-    const rect = angleCircleRef.current.getBoundingClientRect();
-    angleCircleCenter.current = {
-      x: rect.x + rect.width / 2,
-      y: rect.y + rect.height / 2
-    };
-  };
-
-  const changeAngleToPosition = event => {
-    const {
-      x: centerX,
-      y: centerY
-    } = angleCircleCenter.current; // Prevent (drag) mouse events from selecting and accidentally
-    // triggering actions from other elements.
-
-    event.preventDefault(); // Input control needs to lose focus and by preventDefault above, it doesn't.
-
-    event.target.focus();
-    onChange(getAngle(centerX, centerY, event.clientX, event.clientY));
-  };
-
-  const {
-    startDrag,
-    isDragging
-  } = (0,external_wp_compose_namespaceObject.__experimentalUseDragging)({
-    onDragStart: event => {
-      setAngleCircleCenter();
-      changeAngleToPosition(event);
-    },
-    onDragMove: changeAngleToPosition,
-    onDragEnd: changeAngleToPosition
-  });
-  (0,external_wp_element_namespaceObject.useEffect)(() => {
-    if (isDragging) {
-      if (previousCursorValue.current === undefined) {
-        previousCursorValue.current = document.body.style.cursor;
-      }
-
-      document.body.style.cursor = 'grabbing';
-    } else {
-      document.body.style.cursor = previousCursorValue.current || null;
-      previousCursorValue.current = undefined;
-    }
-  }, [isDragging]);
-  return (
-    /* eslint-disable jsx-a11y/no-static-element-interactions */
-    (0,external_wp_element_namespaceObject.createElement)(CircleRoot, extends_extends({
-      ref: angleCircleRef,
-      onMouseDown: startDrag,
-      className: "components-angle-picker-control__angle-circle",
-      style: isDragging ? {
-        cursor: 'grabbing'
-      } : undefined
-    }, props), (0,external_wp_element_namespaceObject.createElement)(CircleIndicatorWrapper, {
-      style: value ? {
-        transform: `rotate(${value}deg)`
-      } : undefined,
-      className: "components-angle-picker-control__angle-circle-indicator-wrapper",
-      tabIndex: -1
-    }, (0,external_wp_element_namespaceObject.createElement)(CircleIndicator, {
-      className: "components-angle-picker-control__angle-circle-indicator"
-    })))
-    /* eslint-enable jsx-a11y/no-static-element-interactions */
-
-  );
-}
-
-function getAngle(centerX, centerY, pointX, pointY) {
-  const y = pointY - centerY;
-  const x = pointX - centerX;
-  const angleInRadians = Math.atan2(y, x);
-  const angleInDeg = Math.round(angleInRadians * (180 / Math.PI)) + 90;
-
-  if (angleInDeg < 0) {
-    return 360 + angleInDeg;
-  }
-
-  return angleInDeg;
-}
-
-/* harmony default export */ var angle_circle = (AngleCircle);
-
-;// CONCATENATED MODULE: ./packages/components/build-module/spacer/hook.js
-/**
- * External dependencies
- */
-
-/**
- * Internal dependencies
- */
-
-
-
-
-
-const isDefined = o => typeof o !== 'undefined' && o !== null;
-
-function useSpacer(props) {
-  const {
-    className,
-    margin,
-    marginBottom = 2,
-    marginLeft,
-    marginRight,
-    marginTop,
-    marginX,
-    marginY,
-    padding,
-    paddingBottom,
-    paddingLeft,
-    paddingRight,
-    paddingTop,
-    paddingX,
-    paddingY,
-    ...otherProps
-  } = useContextSystem(props, 'Spacer');
-  const cx = useCx();
-  const classes = cx(isDefined(margin) && /*#__PURE__*/emotion_react_browser_esm_css("margin:", space(margin), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(marginY) && /*#__PURE__*/emotion_react_browser_esm_css("margin-bottom:", space(marginY), ";margin-top:", space(marginY), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(marginX) && /*#__PURE__*/emotion_react_browser_esm_css("margin-left:", space(marginX), ";margin-right:", space(marginX), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(marginTop) && /*#__PURE__*/emotion_react_browser_esm_css("margin-top:", space(marginTop), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(marginBottom) && /*#__PURE__*/emotion_react_browser_esm_css("margin-bottom:", space(marginBottom), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(marginLeft) && rtl({
-    marginLeft: space(marginLeft)
-  })(), isDefined(marginRight) && rtl({
-    marginRight: space(marginRight)
-  })(), isDefined(padding) && /*#__PURE__*/emotion_react_browser_esm_css("padding:", space(padding), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(paddingY) && /*#__PURE__*/emotion_react_browser_esm_css("padding-bottom:", space(paddingY), ";padding-top:", space(paddingY), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(paddingX) && /*#__PURE__*/emotion_react_browser_esm_css("padding-left:", space(paddingX), ";padding-right:", space(paddingX), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(paddingTop) && /*#__PURE__*/emotion_react_browser_esm_css("padding-top:", space(paddingTop), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(paddingBottom) && /*#__PURE__*/emotion_react_browser_esm_css("padding-bottom:", space(paddingBottom), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(paddingLeft) && rtl({
-    paddingLeft: space(paddingLeft)
-  })(), isDefined(paddingRight) && rtl({
-    paddingRight: space(paddingRight)
-  })(), className);
-  return { ...otherProps,
-    className: classes
-  };
-}
-
-;// CONCATENATED MODULE: ./packages/components/build-module/spacer/component.js
-
-
-
-/**
- * External dependencies
- */
-
-/**
- * Internal dependencies
- */
-
-
-
-
-function Spacer(props, forwardedRef) {
-  const spacerProps = useSpacer(props);
-  return (0,external_wp_element_namespaceObject.createElement)(component, extends_extends({}, spacerProps, {
-    ref: forwardedRef
-  }));
-}
-/**
- * `Spacer` is a primitive layout component that providers inner (`padding`) or outer (`margin`) space in-between components. It can also be used to adaptively provide space within an `HStack` or `VStack`.
- *
- * `Spacer` comes with a bunch of shorthand props to adjust `margin` and `padding`. The values of these props work as a multiplier to the library's grid system (base of `4px`).
- *
- * @example
- * ```jsx
- * import { Spacer } from `@wordpress/components`
- *
- * function Example() {
- *   return (
- *     <View>
- *       <Spacer>
- *         <Heading>WordPress.org</Heading>
- *       </Spacer>
- *       <Text>
- *         Code is Poetry
- *       </Text>
- *     </View>
- *   );
- * }
- * ```
- */
-
-
-const ConnectedSpacer = contextConnect(Spacer, 'Spacer');
-/* harmony default export */ var spacer_component = (ConnectedSpacer);
-
-;// CONCATENATED MODULE: ./packages/components/build-module/angle-picker-control/index.js
-
-
-/**
- * External dependencies
- */
-
-/**
- * WordPress dependencies
- */
-
-
-/**
- * Internal dependencies
- */
-
-
-
-
-
-
-
-
-function AnglePickerControl(_ref) {
-  let {
-    className,
-    label = (0,external_wp_i18n_namespaceObject.__)('Angle'),
-    onChange,
-    value
-  } = _ref;
-
-  const handleOnNumberChange = unprocessedValue => {
-    const inputValue = unprocessedValue !== '' ? parseInt(unprocessedValue, 10) : 0;
-    onChange(inputValue);
-  };
-
-  const classes = classnames_default()('components-angle-picker-control', className);
-  return (0,external_wp_element_namespaceObject.createElement)(angle_picker_control_styles_Root, {
-    className: classes
-  }, (0,external_wp_element_namespaceObject.createElement)(flex_block_component, null, (0,external_wp_element_namespaceObject.createElement)(input_control, {
-    label: label,
-    className: "components-angle-picker-control__input-field",
-    max: 360,
-    min: 0,
-    onChange: handleOnNumberChange,
-    size: "__unstable-large",
-    step: "1",
-    value: value,
-    hideHTMLArrows: true,
-    suffix: (0,external_wp_element_namespaceObject.createElement)(spacer_component, {
-      as: text_component,
-      marginBottom: 0,
-      marginRight: space(3),
-      style: {
-        color: 'var( --wp-admin-theme-color )'
-      }
-    }, "\xB0")
-  })), (0,external_wp_element_namespaceObject.createElement)(flex_item_component, {
-    style: {
-      marginLeft: space(4),
-      marginBottom: space(1),
-      marginTop: 'auto'
-    }
-  }, (0,external_wp_element_namespaceObject.createElement)(angle_circle, {
-    "aria-hidden": "true",
-    value: value,
-    onChange: onChange
-  })));
-}
-
-;// CONCATENATED MODULE: external ["wp","keycodes"]
-var external_wp_keycodes_namespaceObject = window["wp"]["keycodes"];
-;// CONCATENATED MODULE: external ["wp","richText"]
-var external_wp_richText_namespaceObject = window["wp"]["richText"];
-;// CONCATENATED MODULE: external ["wp","a11y"]
-var external_wp_a11y_namespaceObject = window["wp"]["a11y"];
-;// CONCATENATED MODULE: ./packages/components/build-module/autocomplete/get-default-use-items.js
-/**
- * External dependencies
- */
-
-/**
- * WordPress dependencies
- */
-
-
-
-function filterOptions(search) {
-  let options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
-  let maxResults = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 10;
-  const filtered = [];
-
-  for (let i = 0; i < options.length; i++) {
-    const option = options[i]; // Merge label into keywords.
-
-    let {
-      keywords = []
-    } = option;
-
-    if ('string' === typeof option.label) {
-      keywords = [...keywords, option.label];
-    }
-
-    const isMatch = keywords.some(keyword => search.test((0,external_lodash_namespaceObject.deburr)(keyword)));
-
-    if (!isMatch) {
-      continue;
-    }
-
-    filtered.push(option); // Abort early if max reached.
-
-    if (filtered.length === maxResults) {
-      break;
-    }
-  }
-
-  return filtered;
-}
-
-function getDefaultUseItems(autocompleter) {
-  return filterValue => {
-    const [items, setItems] = (0,external_wp_element_namespaceObject.useState)([]);
-    /*
-     * We support both synchronous and asynchronous retrieval of completer options
-     * but internally treat all as async so we maintain a single, consistent code path.
-     *
-     * Because networks can be slow, and the internet is wonderfully unpredictable,
-     * we don't want two promises updating the state at once. This ensures that only
-     * the most recent promise will act on `optionsData`. This doesn't use the state
-     * because `setState` is batched, and so there's no guarantee that setting
-     * `activePromise` in the state would result in it actually being in `this.state`
-     * before the promise resolves and we check to see if this is the active promise or not.
-     */
-
-    (0,external_wp_element_namespaceObject.useLayoutEffect)(() => {
-      const {
-        options,
-        isDebounced
-      } = autocompleter;
-      const loadOptions = (0,external_lodash_namespaceObject.debounce)(() => {
-        const promise = Promise.resolve(typeof options === 'function' ? options(filterValue) : options).then(optionsData => {
-          if (promise.canceled) {
-            return;
-          }
-
-          const keyedOptions = optionsData.map((optionData, optionIndex) => ({
-            key: `${autocompleter.name}-${optionIndex}`,
-            value: optionData,
-            label: autocompleter.getOptionLabel(optionData),
-            keywords: autocompleter.getOptionKeywords ? autocompleter.getOptionKeywords(optionData) : [],
-            isDisabled: autocompleter.isOptionDisabled ? autocompleter.isOptionDisabled(optionData) : false
-          })); // Create a regular expression to filter the options.
-
-          const search = new RegExp('(?:\\b|\\s|^)' + (0,external_lodash_namespaceObject.escapeRegExp)(filterValue), 'i');
-          setItems(filterOptions(search, keyedOptions));
-        });
-        return promise;
-      }, isDebounced ? 250 : 0);
-      const promise = loadOptions();
-      return () => {
-        loadOptions.cancel();
-
-        if (promise) {
-          promise.canceled = true;
-        }
-      };
-    }, [filterValue]);
-    return [items];
-  };
-}
-
-;// CONCATENATED MODULE: ./packages/components/build-module/autocomplete/autocompleter-ui.js
-
-
-/**
- * External dependencies
- */
-
-
-/**
- * WordPress dependencies
- */
-
-
-
-/**
- * Internal dependencies
- */
-
-
-
-
-function getAutoCompleterUI(autocompleter) {
-  const useItems = autocompleter.useItems ? autocompleter.useItems : getDefaultUseItems(autocompleter);
-
-  function AutocompleterUI(_ref) {
-    let {
-      filterValue,
-      instanceId,
-      listBoxId,
-      className,
-      selectedIndex,
-      onChangeOptions,
-      onSelect,
-      onReset,
-      value,
-      contentRef
-    } = _ref;
-    const [items] = useItems(filterValue);
-    const anchorRef = (0,external_wp_richText_namespaceObject.useAnchorRef)({
-      ref: contentRef,
-      value
-    });
-    (0,external_wp_element_namespaceObject.useLayoutEffect)(() => {
-      onChangeOptions(items);
-    }, [onChangeOptions, items]);
-
-    if (!items.length > 0) {
-      return null;
-    }
-
-    return (0,external_wp_element_namespaceObject.createElement)(popover, {
-      focusOnMount: false,
-      onClose: onReset,
-      position: "top right",
-      className: "components-autocomplete__popover",
-      anchorRef: anchorRef
-    }, (0,external_wp_element_namespaceObject.createElement)("div", {
-      id: listBoxId,
-      role: "listbox",
-      className: "components-autocomplete__results"
-    }, (0,external_lodash_namespaceObject.map)(items, (option, index) => (0,external_wp_element_namespaceObject.createElement)(build_module_button, {
-      key: option.key,
-      id: `components-autocomplete-item-${instanceId}-${option.key}`,
-      role: "option",
-      "aria-selected": index === selectedIndex,
-      disabled: option.isDisabled,
-      className: classnames_default()('components-autocomplete__result', className, {
-        'is-selected': index === selectedIndex
-      }),
-      onClick: () => onSelect(option)
-    }, option.label))));
-  }
-
-  return AutocompleterUI;
-}
-
-;// CONCATENATED MODULE: ./packages/components/build-module/autocomplete/index.js
-
-
-/**
- * External dependencies
- */
-
-/**
- * WordPress dependencies
- */
-
-
-
-
-
-
-
-/**
- * Internal dependencies
- */
-
-
-/**
- * A raw completer option.
- *
- * @typedef {*} CompleterOption
- */
-
-/**
- * @callback FnGetOptions
- *
- * @return {(CompleterOption[]|Promise.<CompleterOption[]>)} The completer options or a promise for them.
- */
-
-/**
- * @callback FnGetOptionKeywords
- * @param {CompleterOption} option a completer option.
- *
- * @return {string[]} list of key words to search.
- */
-
-/**
- * @callback FnIsOptionDisabled
- * @param {CompleterOption} option a completer option.
- *
- * @return {string[]} whether or not the given option is disabled.
- */
-
-/**
- * @callback FnGetOptionLabel
- * @param {CompleterOption} option a completer option.
- *
- * @return {(string|Array.<(string|WPElement)>)} list of react components to render.
- */
-
-/**
- * @callback FnAllowContext
- * @param {string} before the string before the auto complete trigger and query.
- * @param {string} after  the string after the autocomplete trigger and query.
- *
- * @return {boolean} true if the completer can handle.
- */
-
-/**
- * @typedef {Object} OptionCompletion
- * @property {'insert-at-caret'|'replace'} action the intended placement of the completion.
- * @property {OptionCompletionValue}       value  the completion value.
- */
-
-/**
- * A completion value.
- *
- * @typedef {(string|WPElement|Object)} OptionCompletionValue
- */
-
-/**
- * @callback FnGetOptionCompletion
- * @param {CompleterOption} value the value of the completer option.
- * @param {string}          query the text value of the autocomplete query.
- *
- * @return {(OptionCompletion|OptionCompletionValue)} the completion for the given option. If an
- * 													   OptionCompletionValue is returned, the
- * 													   completion action defaults to `insert-at-caret`.
- */
-
-/**
- * @typedef {Object} WPCompleter
- * @property {string}                           name                a way to identify a completer, useful for selective overriding.
- * @property {?string}                          className           A class to apply to the popup menu.
- * @property {string}                           triggerPrefix       the prefix that will display the menu.
- * @property {(CompleterOption[]|FnGetOptions)} options             the completer options or a function to get them.
- * @property {?FnGetOptionKeywords}             getOptionKeywords   get the keywords for a given option.
- * @property {?FnIsOptionDisabled}              isOptionDisabled    get whether or not the given option is disabled.
- * @property {FnGetOptionLabel}                 getOptionLabel      get the label for a given option.
- * @property {?FnAllowContext}                  allowContext        filter the context under which the autocomplete activates.
- * @property {FnGetOptionCompletion}            getOptionCompletion get the completion associated with a given option.
- */
-
-function useAutocomplete(_ref) {
-  let {
-    record,
-    onChange,
-    onReplace,
-    completers,
-    contentRef
-  } = _ref;
-  const debouncedSpeak = (0,external_wp_compose_namespaceObject.useDebounce)(external_wp_a11y_namespaceObject.speak, 500);
-  const instanceId = (0,external_wp_compose_namespaceObject.useInstanceId)(useAutocomplete);
-  const [selectedIndex, setSelectedIndex] = (0,external_wp_element_namespaceObject.useState)(0);
-  const [filteredOptions, setFilteredOptions] = (0,external_wp_element_namespaceObject.useState)([]);
-  const [filterValue, setFilterValue] = (0,external_wp_element_namespaceObject.useState)('');
-  const [autocompleter, setAutocompleter] = (0,external_wp_element_namespaceObject.useState)(null);
-  const [AutocompleterUI, setAutocompleterUI] = (0,external_wp_element_namespaceObject.useState)(null);
-  const backspacing = (0,external_wp_element_namespaceObject.useRef)(false);
-
-  function insertCompletion(replacement) {
-    const end = record.start;
-    const start = end - autocompleter.triggerPrefix.length - filterValue.length;
-    const toInsert = (0,external_wp_richText_namespaceObject.create)({
-      html: (0,external_wp_element_namespaceObject.renderToString)(replacement)
-    });
-    onChange((0,external_wp_richText_namespaceObject.insert)(record, toInsert, start, end));
-  }
-
-  function select(option) {
-    const {
-      getOptionCompletion
-    } = autocompleter || {};
-
-    if (option.isDisabled) {
-      return;
-    }
-
-    if (getOptionCompletion) {
-      const completion = getOptionCompletion(option.value, filterValue);
-      const {
-        action,
-        value
-      } = undefined === completion.action || undefined === completion.value ? {
-        action: 'insert-at-caret',
-        value: completion
-      } : completion;
-
-      if ('replace' === action) {
-        onReplace([value]); // When replacing, the component will unmount, so don't reset
-        // state (below) on an unmounted component.
-
-        return;
-      } else if ('insert-at-caret' === action) {
-        insertCompletion(value);
-      }
-    } // Reset autocomplete state after insertion rather than before
-    // so insertion events don't cause the completion menu to redisplay.
-
-
-    reset();
-  }
-
-  function reset() {
-    setSelectedIndex(0);
-    setFilteredOptions([]);
-    setFilterValue('');
-    setAutocompleter(null);
-    setAutocompleterUI(null);
-  }
-
-  function announce(options) {
-    if (!debouncedSpeak) {
-      return;
-    }
-
-    if (!!options.length) {
-      debouncedSpeak((0,external_wp_i18n_namespaceObject.sprintf)(
-      /* translators: %d: number of results. */
-      (0,external_wp_i18n_namespaceObject._n)('%d result found, use up and down arrow keys to navigate.', '%d results found, use up and down arrow keys to navigate.', options.length), options.length), 'assertive');
-    } else {
-      debouncedSpeak((0,external_wp_i18n_namespaceObject.__)('No results.'), 'assertive');
-    }
-  }
-  /**
-   * Load options for an autocompleter.
-   *
-   * @param {Array} options
-   */
-
-
-  function onChangeOptions(options) {
-    setSelectedIndex(options.length === filteredOptions.length ? selectedIndex : 0);
-    setFilteredOptions(options);
-    announce(options);
-  }
-
-  function handleKeyDown(event) {
-    backspacing.current = event.keyCode === external_wp_keycodes_namespaceObject.BACKSPACE;
-
-    if (!autocompleter) {
-      return;
-    }
-
-    if (filteredOptions.length === 0) {
-      return;
-    }
-
-    if (event.defaultPrevented) {
-      return;
-    }
-
-    switch (event.keyCode) {
-      case external_wp_keycodes_namespaceObject.UP:
-        setSelectedIndex((selectedIndex === 0 ? filteredOptions.length : selectedIndex) - 1);
-        break;
-
-      case external_wp_keycodes_namespaceObject.DOWN:
-        setSelectedIndex((selectedIndex + 1) % filteredOptions.length);
-        break;
-
-      case external_wp_keycodes_namespaceObject.ESCAPE:
-        setAutocompleter(null);
-        setAutocompleterUI(null);
-        event.preventDefault();
-        break;
-
-      case external_wp_keycodes_namespaceObject.ENTER:
-        select(filteredOptions[selectedIndex]);
-        break;
-
-      case external_wp_keycodes_namespaceObject.LEFT:
-      case external_wp_keycodes_namespaceObject.RIGHT:
-        reset();
-        return;
-
-      default:
-        return;
-    } // Any handled keycode should prevent original behavior. This relies on
-    // the early return in the default case.
-
-
-    event.preventDefault();
-  } // textContent is a primitive (string), memoizing is not strictly necessary
-  // but this is a preemptive performance improvement, since the autocompleter
-  // is a potential bottleneck for the editor type metric.
-
-
-  const textContent = (0,external_wp_element_namespaceObject.useMemo)(() => {
-    if ((0,external_wp_richText_namespaceObject.isCollapsed)(record)) {
-      return (0,external_wp_richText_namespaceObject.getTextContent)((0,external_wp_richText_namespaceObject.slice)(record, 0));
-    }
-  }, [record]);
-  (0,external_wp_element_namespaceObject.useEffect)(() => {
-    if (!textContent) {
-      reset();
-      return;
-    }
-
-    const text = (0,external_lodash_namespaceObject.deburr)(textContent);
-    const textAfterSelection = (0,external_wp_richText_namespaceObject.getTextContent)((0,external_wp_richText_namespaceObject.slice)(record, undefined, (0,external_wp_richText_namespaceObject.getTextContent)(record).length));
-    const completer = (0,external_lodash_namespaceObject.find)(completers, _ref2 => {
-      let {
-        triggerPrefix,
-        allowContext
-      } = _ref2;
-      const index = text.lastIndexOf(triggerPrefix);
-
-      if (index === -1) {
-        return false;
-      }
-
-      const textWithoutTrigger = text.slice(index + triggerPrefix.length);
-      const tooDistantFromTrigger = textWithoutTrigger.length > 50; // 50 chars seems to be a good limit.
-      // This is a final barrier to prevent the effect from completing with
-      // an extremely long string, which causes the editor to slow-down
-      // significantly. This could happen, for example, if `matchingWhileBackspacing`
-      // is true and one of the "words" end up being too long. If that's the case,
-      // it will be caught by this guard.
-
-      if (tooDistantFromTrigger) return false;
-      const mismatch = filteredOptions.length === 0;
-      const wordsFromTrigger = textWithoutTrigger.split(/\s/); // We need to allow the effect to run when not backspacing and if there
-      // was a mismatch. i.e when typing a trigger + the match string or when
-      // clicking in an existing trigger word on the page. We do that if we
-      // detect that we have one word from trigger in the current textual context.
-      //
-      // Ex.: "Some text @a" <-- "@a" will be detected as the trigger word and
-      // allow the effect to run. It will run until there's a mismatch.
-
-      const hasOneTriggerWord = wordsFromTrigger.length === 1; // This is used to allow the effect to run when backspacing and if
-      // "touching" a word that "belongs" to a trigger. We consider a "trigger
-      // word" any word up to the limit of 3 from the trigger character.
-      // Anything beyond that is ignored if there's a mismatch. This allows
-      // us to "escape" a mismatch when backspacing, but still imposing some
-      // sane limits.
-      //
-      // Ex: "Some text @marcelo sekkkk" <--- "kkkk" caused a mismatch, but
-      // if the user presses backspace here, it will show the completion popup again.
-
-      const matchingWhileBackspacing = backspacing.current && textWithoutTrigger.split(/\s/).length <= 3;
-
-      if (mismatch && !(matchingWhileBackspacing || hasOneTriggerWord)) {
-        return false;
-      }
-
-      if (allowContext && !allowContext(text.slice(0, index), textAfterSelection)) {
-        return false;
-      }
-
-      if (/^\s/.test(textWithoutTrigger) || /\s\s+$/.test(textWithoutTrigger)) {
-        return false;
-      }
-
-      return /[\u0000-\uFFFF]*$/.test(textWithoutTrigger);
-    });
-
-    if (!completer) {
-      reset();
-      return;
-    }
-
-    const safeTrigger = (0,external_lodash_namespaceObject.escapeRegExp)(completer.triggerPrefix);
-    const match = text.slice(text.lastIndexOf(completer.triggerPrefix)).match(new RegExp(`${safeTrigger}([\u0000-\uFFFF]*)$`));
-    const query = match && match[1];
-    setAutocompleter(completer);
-    setAutocompleterUI(() => completer !== autocompleter ? getAutoCompleterUI(completer) : AutocompleterUI);
-    setFilterValue(query);
-  }, [textContent, AutocompleterUI, autocompleter, completers, record, filteredOptions.length]);
-  const {
-    key: selectedKey = ''
-  } = filteredOptions[selectedIndex] || {};
-  const {
-    className
-  } = autocompleter || {};
-  const isExpanded = !!autocompleter && filteredOptions.length > 0;
-  const listBoxId = isExpanded ? `components-autocomplete-listbox-${instanceId}` : null;
-  const activeId = isExpanded ? `components-autocomplete-item-${instanceId}-${selectedKey}` : null;
-  const hasSelection = record.start !== undefined;
-  return {
-    listBoxId,
-    activeId,
-    onKeyDown: handleKeyDown,
-    popover: hasSelection && AutocompleterUI && (0,external_wp_element_namespaceObject.createElement)(AutocompleterUI, {
-      className: className,
-      filterValue: filterValue,
-      instanceId: instanceId,
-      listBoxId: listBoxId,
-      selectedIndex: selectedIndex,
-      onChangeOptions: onChangeOptions,
-      onSelect: select,
-      value: record,
-      contentRef: contentRef,
-      reset: reset
-    })
-  };
-}
-
-function useAutocompleteProps(options) {
-  const ref = (0,external_wp_element_namespaceObject.useRef)();
-  const onKeyDownRef = (0,external_wp_element_namespaceObject.useRef)();
-  const {
-    popover,
-    listBoxId,
-    activeId,
-    onKeyDown
-  } = useAutocomplete({ ...options,
-    contentRef: ref
-  });
-  onKeyDownRef.current = onKeyDown;
-  return {
-    ref: (0,external_wp_compose_namespaceObject.useMergeRefs)([ref, (0,external_wp_compose_namespaceObject.useRefEffect)(element => {
-      function _onKeyDown(event) {
-        onKeyDownRef.current(event);
-      }
-
-      element.addEventListener('keydown', _onKeyDown);
-      return () => {
-        element.removeEventListener('keydown', _onKeyDown);
-      };
-    }, [])]),
-    children: popover,
-    'aria-autocomplete': listBoxId ? 'list' : undefined,
-    'aria-owns': listBoxId,
-    'aria-activedescendant': activeId
-  };
-}
-function Autocomplete(_ref3) {
-  let {
-    children,
-    isSelected,
-    ...options
-  } = _ref3;
-  const {
-    popover,
-    ...props
-  } = useAutocomplete(options);
-  return (0,external_wp_element_namespaceObject.createElement)(external_wp_element_namespaceObject.Fragment, null, children(props), isSelected && popover);
-}
-
-;// CONCATENATED MODULE: ./packages/components/build-module/utils/font-values.js
-/* harmony default export */ var font_values = ({
-  'default.fontFamily': "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-  'default.fontSize': '13px',
-  'helpText.fontSize': '12px',
-  mobileTextMinFontSize: '16px'
-});
-
-;// CONCATENATED MODULE: ./packages/components/build-module/utils/font.js
-/**
- * External dependencies
- */
-
-/**
- * Internal dependencies
- */
-
-
-/**
- *
- * @param {keyof FONT} value Path of value from `FONT`
- * @return {string} Font rule value
- */
-
-function font(value) {
-  return (0,external_lodash_namespaceObject.get)(font_values, value, '');
-}
-
-;// CONCATENATED MODULE: ./packages/components/build-module/base-control/styles/base-control-styles.js
-
-
-function base_control_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
-
-/**
- * External dependencies
- */
-
-/**
- * Internal dependencies
- */
-
-
-
-const base_control_styles_Wrapper = emotion_styled_base_browser_esm("div",  true ? {
-  target: "ej5x27r4"
-} : 0)("font-family:", font('default.fontFamily'), ";font-size:", font('default.fontSize'), ";" + ( true ? "" : 0));
-
-const deprecatedMarginField = _ref2 => {
-  let {
-    __nextHasNoMarginBottom = false
-  } = _ref2;
-  return !__nextHasNoMarginBottom && /*#__PURE__*/emotion_react_browser_esm_css("margin-bottom:", space(2), ";" + ( true ? "" : 0),  true ? "" : 0);
-};
-
-const StyledField = emotion_styled_base_browser_esm("div",  true ? {
-  target: "ej5x27r3"
-} : 0)(deprecatedMarginField, " .components-panel__row &{margin-bottom:inherit;}" + ( true ? "" : 0));
-const labelStyles = /*#__PURE__*/emotion_react_browser_esm_css("display:inline-block;margin-bottom:", space(2), ";" + ( true ? "" : 0),  true ? "" : 0);
-const StyledLabel = emotion_styled_base_browser_esm("label",  true ? {
-  target: "ej5x27r2"
-} : 0)(labelStyles, ";" + ( true ? "" : 0));
-
-var base_control_styles_ref =  true ? {
-  name: "11yad0w",
-  styles: "margin-bottom:revert"
-} : 0;
-
-const deprecatedMarginHelp = _ref3 => {
-  let {
-    __nextHasNoMarginBottom = false
-  } = _ref3;
-  return !__nextHasNoMarginBottom && base_control_styles_ref;
-};
-
-const StyledHelp = emotion_styled_base_browser_esm("p",  true ? {
-  target: "ej5x27r1"
-} : 0)("margin-top:", space(2), ";margin-bottom:0;font-size:", font('helpText.fontSize'), ";font-style:normal;color:", COLORS.mediumGray.text, ";", deprecatedMarginHelp, ";" + ( true ? "" : 0));
-const StyledVisualLabel = emotion_styled_base_browser_esm("span",  true ? {
-  target: "ej5x27r0"
-} : 0)(labelStyles, ";" + ( true ? "" : 0));
-
-;// CONCATENATED MODULE: ./packages/components/build-module/base-control/index.js
-
-
-/**
- * External dependencies
- */
-
-
-/**
- * Internal dependencies
- */
-
-
-/**
- * `BaseControl` is a component used to generate labels and help text for components handling user inputs.
- *
- * @example
- * // Render a `BaseControl` for a textarea input
- * import { BaseControl } from '@wordpress/components';
- *
- * // The `id` prop is necessary to accessibly associate the label with the textarea
- * const MyBaseControl = () => (
- *   <BaseControl id="textarea-1" label="Text" help="Enter some text" __nextHasNoMarginBottom={ true }>
- *     <textarea id="textarea-1" />
- *   </BaseControl>
- * );
- */
-
-const BaseControl = _ref => {
-  let {
-    __nextHasNoMarginBottom = false,
-    id,
-    label,
-    hideLabelFromVision = false,
-    help,
-    className,
-    children
-  } = _ref;
-  return (0,external_wp_element_namespaceObject.createElement)(base_control_styles_Wrapper, {
-    className: classnames_default()('components-base-control', className)
-  }, (0,external_wp_element_namespaceObject.createElement)(StyledField, {
-    className: "components-base-control__field" // TODO: Official deprecation for this should start after all internal usages have been migrated
-    ,
-    __nextHasNoMarginBottom: __nextHasNoMarginBottom
-  }, label && id && (hideLabelFromVision ? (0,external_wp_element_namespaceObject.createElement)(visually_hidden_component, {
-    as: "label",
-    htmlFor: id
-  }, label) : (0,external_wp_element_namespaceObject.createElement)(StyledLabel, {
-    className: "components-base-control__label",
-    htmlFor: id
-  }, label)), label && !id && (hideLabelFromVision ? (0,external_wp_element_namespaceObject.createElement)(visually_hidden_component, {
-    as: "label"
-  }, label) : (0,external_wp_element_namespaceObject.createElement)(BaseControl.VisualLabel, null, label)), children), !!help && (0,external_wp_element_namespaceObject.createElement)(StyledHelp, {
-    id: id ? id + '__help' : undefined,
-    className: "components-base-control__help",
-    __nextHasNoMarginBottom: __nextHasNoMarginBottom
-  }, help));
-};
-/**
- * `BaseControl.VisualLabel` is used to render a purely visual label inside a `BaseControl` component.
- *
- * It should only be used in cases where the children being rendered inside `BaseControl` are already accessibly labeled,
- * e.g., a button, but we want an additional visual label for that section equivalent to the labels `BaseControl` would
- * otherwise use if the `label` prop was passed.
- *
- * @example
- * import { BaseControl } from '@wordpress/components';
- *
- * const MyBaseControl = () => (
- * 	<BaseControl help="This button is already accessibly labeled.">
- * 		<BaseControl.VisualLabel>Author</BaseControl.VisualLabel>
- * 		<Button>Select an author</Button>
- * 	</BaseControl>
- * );
- */
-
-const VisualLabel = _ref2 => {
-  let {
-    className,
-    children
-  } = _ref2;
-  return (0,external_wp_element_namespaceObject.createElement)(StyledVisualLabel, {
-    className: classnames_default()('components-base-control__label', className)
-  }, children);
-};
-BaseControl.VisualLabel = VisualLabel;
-/* harmony default export */ var base_control = (BaseControl);
-
-;// CONCATENATED MODULE: ./packages/icons/build-module/library/link.js
-
-
-/**
- * WordPress dependencies
- */
-
-const link_link = (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "http://www.w3.org/2000/svg",
-  viewBox: "0 0 24 24"
-}, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
-  d: "M15.6 7.2H14v1.5h1.6c2 0 3.7 1.7 3.7 3.7s-1.7 3.7-3.7 3.7H14v1.5h1.6c2.8 0 5.2-2.3 5.2-5.2 0-2.9-2.3-5.2-5.2-5.2zM4.7 12.4c0-2 1.7-3.7 3.7-3.7H10V7.2H8.4c-2.9 0-5.2 2.3-5.2 5.2 0 2.9 2.3 5.2 5.2 5.2H10v-1.5H8.4c-2 0-3.7-1.7-3.7-3.7zm4.6.9h5.3v-1.5H9.3v1.5z"
-}));
-/* harmony default export */ var library_link = (link_link);
-
-;// CONCATENATED MODULE: ./packages/icons/build-module/library/link-off.js
-
-
-/**
- * WordPress dependencies
- */
-
-const linkOff = (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "http://www.w3.org/2000/svg",
-  viewBox: "0 0 24 24"
-}, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
-  d: "M15.6 7.3h-.7l1.6-3.5-.9-.4-3.9 8.5H9v1.5h2l-1.3 2.8H8.4c-2 0-3.7-1.7-3.7-3.7s1.7-3.7 3.7-3.7H10V7.3H8.4c-2.9 0-5.2 2.3-5.2 5.2 0 2.9 2.3 5.2 5.2 5.2H9l-1.4 3.2.9.4 5.7-12.5h1.4c2 0 3.7 1.7 3.7 3.7s-1.7 3.7-3.7 3.7H14v1.5h1.6c2.9 0 5.2-2.3 5.2-5.2 0-2.9-2.4-5.2-5.2-5.2z"
-}));
-/* harmony default export */ var link_off = (linkOff);
-
-;// CONCATENATED MODULE: ./packages/components/build-module/border-box-control/styles.js
-function border_box_control_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
-
-/**
- * External dependencies
- */
-
-/**
- * Internal dependencies
- */
-
-
-
-const BorderBoxControl = /*#__PURE__*/emotion_react_browser_esm_css( true ? "" : 0,  true ? "" : 0);
-const LinkedBorderControl =  true ? {
-  name: "82a6rk",
-  styles: "flex:1"
-} : 0;
-const BorderBoxControlLinkedButton = __next36pxDefaultSize => {
-  return /*#__PURE__*/emotion_react_browser_esm_css("flex:0;flex-basis:36px;margin-top:", __next36pxDefaultSize ? '6px' : '3px', ";" + ( true ? "" : 0),  true ? "" : 0);
-};
-
-const BorderBoxStyleWithFallback = border => {
-  const {
-    color = COLORS.gray[200],
-    style = 'solid',
-    width = config_values.borderWidth
-  } = border || {};
-  const clampedWidth = width !== config_values.borderWidth ? `clamp(1px, ${width}, 10px)` : width;
-  const hasVisibleBorder = !!width && width !== '0' || !!color;
-  const borderStyle = hasVisibleBorder ? style || 'solid' : style;
-  return `${color} ${borderStyle} ${clampedWidth}`;
-};
-
-const borderBoxControlVisualizer = (borders, __next36pxDefaultSize) => {
-  return /*#__PURE__*/emotion_react_browser_esm_css("position:absolute;top:", __next36pxDefaultSize ? '18px' : '15px', ";right:30px;bottom:", __next36pxDefaultSize ? '18px' : '15px', ";left:30px;border-top:", BorderBoxStyleWithFallback(borders === null || borders === void 0 ? void 0 : borders.top), ";border-bottom:", BorderBoxStyleWithFallback(borders === null || borders === void 0 ? void 0 : borders.bottom), ";", rtl({
-    borderLeft: BorderBoxStyleWithFallback(borders === null || borders === void 0 ? void 0 : borders.left)
-  })(), " ", rtl({
-    borderRight: BorderBoxStyleWithFallback(borders === null || borders === void 0 ? void 0 : borders.right)
-  })(), ";" + ( true ? "" : 0),  true ? "" : 0);
-};
-const borderBoxControlSplitControls = () => /*#__PURE__*/emotion_react_browser_esm_css("position:relative;flex:1;", rtl({
-  marginRight: space(3)
-}, {
-  marginLeft: space(3)
-})(), ";" + ( true ? "" : 0),  true ? "" : 0);
-const CenteredBorderControl =  true ? {
-  name: "1nwbfnf",
-  styles: "grid-column:span 2;margin:0 auto"
-} : 0;
-const rightBorderControl = () => /*#__PURE__*/emotion_react_browser_esm_css(rtl({
-  marginLeft: 'auto'
-}, {
-  marginRight: 'auto'
-})(), ";" + ( true ? "" : 0),  true ? "" : 0);
-
-;// CONCATENATED MODULE: ./packages/components/build-module/border-box-control/border-box-control-linked-button/hook.js
-/**
- * WordPress dependencies
- */
-
-/**
- * Internal dependencies
- */
-
-
-
-
-function useBorderBoxControlLinkedButton(props) {
-  const {
-    className,
-    __next36pxDefaultSize = false,
-    ...otherProps
-  } = useContextSystem(props, 'BorderBoxControlLinkedButton'); // Generate class names.
-
-  const cx = useCx();
-  const classes = (0,external_wp_element_namespaceObject.useMemo)(() => {
-    return cx(BorderBoxControlLinkedButton(__next36pxDefaultSize), className);
-  }, [className, cx, __next36pxDefaultSize]);
-  return { ...otherProps,
-    className: classes
-  };
-}
-
-;// CONCATENATED MODULE: ./packages/components/build-module/border-box-control/border-box-control-linked-button/component.js
-
-
-
-/**
- * WordPress dependencies
- */
-
-
-/**
- * Internal dependencies
- */
-
-
-
-
-
-
-
-const component_BorderBoxControlLinkedButton = (props, forwardedRef) => {
-  const {
-    className,
-    isLinked,
-    ...buttonProps
-  } = useBorderBoxControlLinkedButton(props);
-  const label = isLinked ? (0,external_wp_i18n_namespaceObject.__)('Unlink sides') : (0,external_wp_i18n_namespaceObject.__)('Link sides');
-  return (0,external_wp_element_namespaceObject.createElement)(tooltip, {
-    text: label
-  }, (0,external_wp_element_namespaceObject.createElement)(component, {
-    className: className
-  }, (0,external_wp_element_namespaceObject.createElement)(build_module_button, extends_extends({}, buttonProps, {
-    variant: isLinked ? 'primary' : 'secondary',
-    isSmall: true,
-    icon: isLinked ? library_link : link_off,
-    iconSize: 16,
-    "aria-label": label,
-    ref: forwardedRef
-  }))));
-};
-
-const ConnectedBorderBoxControlLinkedButton = contextConnect(component_BorderBoxControlLinkedButton, 'BorderBoxControlLinkedButton');
-/* harmony default export */ var border_box_control_linked_button_component = (ConnectedBorderBoxControlLinkedButton);
-
-;// CONCATENATED MODULE: ./packages/components/build-module/border-box-control/border-box-control-visualizer/hook.js
-/**
- * WordPress dependencies
- */
-
-/**
- * Internal dependencies
- */
-
-
-
-
-function useBorderBoxControlVisualizer(props) {
-  const {
-    className,
-    value,
-    __next36pxDefaultSize = false,
-    ...otherProps
-  } = useContextSystem(props, 'BorderBoxControlVisualizer'); // Generate class names.
-
-  const cx = useCx();
-  const rtlWatchResult = rtl.watch();
-  const classes = (0,external_wp_element_namespaceObject.useMemo)(() => {
-    return cx(borderBoxControlVisualizer(value, __next36pxDefaultSize), className); // rtlWatchResult is needed to refresh styles when the writing direction changes
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [cx, className, value, __next36pxDefaultSize, rtlWatchResult]);
-  return { ...otherProps,
-    className: classes,
-    value
-  };
-}
-
-;// CONCATENATED MODULE: ./packages/components/build-module/border-box-control/border-box-control-visualizer/component.js
-
-
-
-/**
- * WordPress dependencies
- */
-
-/**
- * Internal dependencies
- */
-
-
-
-
-const BorderBoxControlVisualizer = (props, forwardedRef) => {
-  const {
-    value,
-    ...otherProps
-  } = useBorderBoxControlVisualizer(props);
-  return (0,external_wp_element_namespaceObject.createElement)(component, extends_extends({}, otherProps, {
-    ref: forwardedRef
-  }));
-};
-
-const ConnectedBorderBoxControlVisualizer = contextConnect(BorderBoxControlVisualizer, 'BorderBoxControlVisualizer');
-/* harmony default export */ var border_box_control_visualizer_component = (ConnectedBorderBoxControlVisualizer);
-
-;// CONCATENATED MODULE: ./packages/icons/build-module/library/close-small.js
-
-
-/**
- * WordPress dependencies
- */
-
-const closeSmall = (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "http://www.w3.org/2000/svg",
-  viewBox: "0 0 24 24"
-}, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
-  d: "M12 13.06l3.712 3.713 1.061-1.06L13.061 12l3.712-3.712-1.06-1.06L12 10.938 8.288 7.227l-1.061 1.06L10.939 12l-3.712 3.712 1.06 1.061L12 13.061z"
-}));
-/* harmony default export */ var close_small = (closeSmall);
-
-;// CONCATENATED MODULE: ./packages/icons/build-module/library/line-solid.js
-
-
-/**
- * WordPress dependencies
- */
-
-const lineSolid = (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "http://www.w3.org/2000/svg",
-  width: "24",
-  height: "24",
-  fill: "none"
-}, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
-  d: "M5 11.25h14v1.5H5z"
-}));
-/* harmony default export */ var line_solid = (lineSolid);
-
-;// CONCATENATED MODULE: ./packages/icons/build-module/library/line-dashed.js
-
-
-/**
- * WordPress dependencies
- */
-
-const lineDashed = (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "http://www.w3.org/2000/svg",
-  width: "24",
-  height: "24",
-  fill: "none"
-}, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
-  fillRule: "evenodd",
-  d: "M5 11.25h3v1.5H5v-1.5zm5.5 0h3v1.5h-3v-1.5zm8.5 0h-3v1.5h3v-1.5z",
-  clipRule: "evenodd"
-}));
-/* harmony default export */ var line_dashed = (lineDashed);
-
-;// CONCATENATED MODULE: ./packages/icons/build-module/library/line-dotted.js
-
-
-/**
- * WordPress dependencies
- */
-
-const lineDotted = (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "http://www.w3.org/2000/svg",
-  width: "24",
-  height: "24",
-  fill: "none"
-}, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
-  fillRule: "evenodd",
-  d: "M5.25 11.25h1.5v1.5h-1.5v-1.5zm3 0h1.5v1.5h-1.5v-1.5zm4.5 0h-1.5v1.5h1.5v-1.5zm1.5 0h1.5v1.5h-1.5v-1.5zm4.5 0h-1.5v1.5h1.5v-1.5z",
-  clipRule: "evenodd"
-}));
-/* harmony default export */ var line_dotted = (lineDotted);
+/* harmony default export */ const input_control = (InputControl);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/number-control/styles/number-control-styles.js
 
@@ -40734,7 +39408,1348 @@ function NumberControl(_ref, ref) {
     }
   }));
 }
-/* harmony default export */ var number_control = ((0,external_wp_element_namespaceObject.forwardRef)(NumberControl));
+/* harmony default export */ const number_control = ((0,external_wp_element_namespaceObject.forwardRef)(NumberControl));
+
+;// CONCATENATED MODULE: ./packages/components/build-module/angle-picker-control/styles/angle-picker-control-styles.js
+
+
+function angle_picker_control_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+
+/**
+ * External dependencies
+ */
+
+/**
+ * Internal dependencies
+ */
+
+
+
+
+const CIRCLE_SIZE = 32;
+const INNER_CIRCLE_SIZE = 3;
+const angle_picker_control_styles_Root = /*#__PURE__*/emotion_styled_base_browser_esm(flex_component,  true ? {
+  target: "e65ony43"
+} : 0)("margin-bottom:", space(2), ";" + ( true ? "" : 0));
+const CircleRoot = emotion_styled_base_browser_esm("div",  true ? {
+  target: "e65ony42"
+} : 0)("border-radius:50%;border:", config_values.borderWidth, " solid ", COLORS.ui.border, ";box-sizing:border-box;cursor:grab;height:", CIRCLE_SIZE, "px;overflow:hidden;width:", CIRCLE_SIZE, "px;" + ( true ? "" : 0));
+const CircleIndicatorWrapper = emotion_styled_base_browser_esm("div",  true ? {
+  target: "e65ony41"
+} : 0)( true ? {
+  name: "1bhd2sw",
+  styles: "box-sizing:border-box;position:relative;width:100%;height:100%"
+} : 0);
+const CircleIndicator = emotion_styled_base_browser_esm("div",  true ? {
+  target: "e65ony40"
+} : 0)("background:", COLORS.admin.theme, ";border-radius:50%;border:", INNER_CIRCLE_SIZE, "px solid ", COLORS.admin.theme, ";bottom:0;box-sizing:border-box;display:block;height:0px;left:0;margin:auto;position:absolute;right:0;top:-", CIRCLE_SIZE / 2, "px;width:0px;" + ( true ? "" : 0));
+
+;// CONCATENATED MODULE: ./packages/components/build-module/angle-picker-control/angle-circle.js
+
+
+
+/**
+ * WordPress dependencies
+ */
+
+
+/**
+ * Internal dependencies
+ */
+
+
+
+function AngleCircle(_ref) {
+  let {
+    value,
+    onChange,
+    ...props
+  } = _ref;
+  const angleCircleRef = (0,external_wp_element_namespaceObject.useRef)();
+  const angleCircleCenter = (0,external_wp_element_namespaceObject.useRef)();
+  const previousCursorValue = (0,external_wp_element_namespaceObject.useRef)();
+
+  const setAngleCircleCenter = () => {
+    const rect = angleCircleRef.current.getBoundingClientRect();
+    angleCircleCenter.current = {
+      x: rect.x + rect.width / 2,
+      y: rect.y + rect.height / 2
+    };
+  };
+
+  const changeAngleToPosition = event => {
+    const {
+      x: centerX,
+      y: centerY
+    } = angleCircleCenter.current; // Prevent (drag) mouse events from selecting and accidentally
+    // triggering actions from other elements.
+
+    event.preventDefault(); // Input control needs to lose focus and by preventDefault above, it doesn't.
+
+    event.target.focus();
+    onChange(getAngle(centerX, centerY, event.clientX, event.clientY));
+  };
+
+  const {
+    startDrag,
+    isDragging
+  } = (0,external_wp_compose_namespaceObject.__experimentalUseDragging)({
+    onDragStart: event => {
+      setAngleCircleCenter();
+      changeAngleToPosition(event);
+    },
+    onDragMove: changeAngleToPosition,
+    onDragEnd: changeAngleToPosition
+  });
+  (0,external_wp_element_namespaceObject.useEffect)(() => {
+    if (isDragging) {
+      if (previousCursorValue.current === undefined) {
+        previousCursorValue.current = document.body.style.cursor;
+      }
+
+      document.body.style.cursor = 'grabbing';
+    } else {
+      document.body.style.cursor = previousCursorValue.current || null;
+      previousCursorValue.current = undefined;
+    }
+  }, [isDragging]);
+  return (
+    /* eslint-disable jsx-a11y/no-static-element-interactions */
+    (0,external_wp_element_namespaceObject.createElement)(CircleRoot, extends_extends({
+      ref: angleCircleRef,
+      onMouseDown: startDrag,
+      className: "components-angle-picker-control__angle-circle",
+      style: isDragging ? {
+        cursor: 'grabbing'
+      } : undefined
+    }, props), (0,external_wp_element_namespaceObject.createElement)(CircleIndicatorWrapper, {
+      style: value ? {
+        transform: `rotate(${value}deg)`
+      } : undefined,
+      className: "components-angle-picker-control__angle-circle-indicator-wrapper",
+      tabIndex: -1
+    }, (0,external_wp_element_namespaceObject.createElement)(CircleIndicator, {
+      className: "components-angle-picker-control__angle-circle-indicator"
+    })))
+    /* eslint-enable jsx-a11y/no-static-element-interactions */
+
+  );
+}
+
+function getAngle(centerX, centerY, pointX, pointY) {
+  const y = pointY - centerY;
+  const x = pointX - centerX;
+  const angleInRadians = Math.atan2(y, x);
+  const angleInDeg = Math.round(angleInRadians * (180 / Math.PI)) + 90;
+
+  if (angleInDeg < 0) {
+    return 360 + angleInDeg;
+  }
+
+  return angleInDeg;
+}
+
+/* harmony default export */ const angle_circle = (AngleCircle);
+
+;// CONCATENATED MODULE: ./packages/components/build-module/spacer/hook.js
+/**
+ * External dependencies
+ */
+
+/**
+ * Internal dependencies
+ */
+
+
+
+
+
+const isDefined = o => typeof o !== 'undefined' && o !== null;
+
+function useSpacer(props) {
+  const {
+    className,
+    margin,
+    marginBottom = 2,
+    marginLeft,
+    marginRight,
+    marginTop,
+    marginX,
+    marginY,
+    padding,
+    paddingBottom,
+    paddingLeft,
+    paddingRight,
+    paddingTop,
+    paddingX,
+    paddingY,
+    ...otherProps
+  } = useContextSystem(props, 'Spacer');
+  const cx = useCx();
+  const classes = cx(isDefined(margin) && /*#__PURE__*/emotion_react_browser_esm_css("margin:", space(margin), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(marginY) && /*#__PURE__*/emotion_react_browser_esm_css("margin-bottom:", space(marginY), ";margin-top:", space(marginY), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(marginX) && /*#__PURE__*/emotion_react_browser_esm_css("margin-left:", space(marginX), ";margin-right:", space(marginX), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(marginTop) && /*#__PURE__*/emotion_react_browser_esm_css("margin-top:", space(marginTop), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(marginBottom) && /*#__PURE__*/emotion_react_browser_esm_css("margin-bottom:", space(marginBottom), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(marginLeft) && rtl({
+    marginLeft: space(marginLeft)
+  })(), isDefined(marginRight) && rtl({
+    marginRight: space(marginRight)
+  })(), isDefined(padding) && /*#__PURE__*/emotion_react_browser_esm_css("padding:", space(padding), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(paddingY) && /*#__PURE__*/emotion_react_browser_esm_css("padding-bottom:", space(paddingY), ";padding-top:", space(paddingY), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(paddingX) && /*#__PURE__*/emotion_react_browser_esm_css("padding-left:", space(paddingX), ";padding-right:", space(paddingX), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(paddingTop) && /*#__PURE__*/emotion_react_browser_esm_css("padding-top:", space(paddingTop), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(paddingBottom) && /*#__PURE__*/emotion_react_browser_esm_css("padding-bottom:", space(paddingBottom), ";" + ( true ? "" : 0),  true ? "" : 0), isDefined(paddingLeft) && rtl({
+    paddingLeft: space(paddingLeft)
+  })(), isDefined(paddingRight) && rtl({
+    paddingRight: space(paddingRight)
+  })(), className);
+  return { ...otherProps,
+    className: classes
+  };
+}
+
+;// CONCATENATED MODULE: ./packages/components/build-module/spacer/component.js
+
+
+
+/**
+ * External dependencies
+ */
+
+/**
+ * Internal dependencies
+ */
+
+
+
+
+function Spacer(props, forwardedRef) {
+  const spacerProps = useSpacer(props);
+  return (0,external_wp_element_namespaceObject.createElement)(component, extends_extends({}, spacerProps, {
+    ref: forwardedRef
+  }));
+}
+/**
+ * `Spacer` is a primitive layout component that providers inner (`padding`) or outer (`margin`) space in-between components. It can also be used to adaptively provide space within an `HStack` or `VStack`.
+ *
+ * `Spacer` comes with a bunch of shorthand props to adjust `margin` and `padding`. The values of these props work as a multiplier to the library's grid system (base of `4px`).
+ *
+ * @example
+ * ```jsx
+ * import { Spacer } from `@wordpress/components`
+ *
+ * function Example() {
+ *   return (
+ *     <View>
+ *       <Spacer>
+ *         <Heading>WordPress.org</Heading>
+ *       </Spacer>
+ *       <Text>
+ *         Code is Poetry
+ *       </Text>
+ *     </View>
+ *   );
+ * }
+ * ```
+ */
+
+
+const ConnectedSpacer = contextConnect(Spacer, 'Spacer');
+/* harmony default export */ const spacer_component = (ConnectedSpacer);
+
+;// CONCATENATED MODULE: ./packages/components/build-module/angle-picker-control/index.js
+
+
+/**
+ * External dependencies
+ */
+
+/**
+ * WordPress dependencies
+ */
+
+
+/**
+ * Internal dependencies
+ */
+
+
+
+
+
+
+
+
+function AnglePickerControl(_ref) {
+  let {
+    className,
+    label = (0,external_wp_i18n_namespaceObject.__)('Angle'),
+    onChange,
+    value
+  } = _ref;
+
+  const handleOnNumberChange = unprocessedValue => {
+    const inputValue = unprocessedValue !== '' ? parseInt(unprocessedValue, 10) : 0;
+    onChange(inputValue);
+  };
+
+  const classes = classnames_default()('components-angle-picker-control', className);
+  return (0,external_wp_element_namespaceObject.createElement)(angle_picker_control_styles_Root, {
+    className: classes
+  }, (0,external_wp_element_namespaceObject.createElement)(flex_block_component, null, (0,external_wp_element_namespaceObject.createElement)(number_control, {
+    label: label,
+    className: "components-angle-picker-control__input-field",
+    max: 360,
+    min: 0,
+    onChange: handleOnNumberChange,
+    size: "__unstable-large",
+    step: "1",
+    value: value,
+    hideHTMLArrows: true,
+    suffix: (0,external_wp_element_namespaceObject.createElement)(spacer_component, {
+      as: text_component,
+      marginBottom: 0,
+      marginRight: space(3),
+      style: {
+        color: 'var( --wp-admin-theme-color )'
+      }
+    }, "\xB0")
+  })), (0,external_wp_element_namespaceObject.createElement)(flex_item_component, {
+    style: {
+      marginLeft: space(4),
+      marginBottom: space(1),
+      marginTop: 'auto'
+    }
+  }, (0,external_wp_element_namespaceObject.createElement)(angle_circle, {
+    "aria-hidden": "true",
+    value: value,
+    onChange: onChange
+  })));
+}
+
+;// CONCATENATED MODULE: external ["wp","keycodes"]
+const external_wp_keycodes_namespaceObject = window["wp"]["keycodes"];
+;// CONCATENATED MODULE: external ["wp","richText"]
+const external_wp_richText_namespaceObject = window["wp"]["richText"];
+;// CONCATENATED MODULE: external ["wp","a11y"]
+const external_wp_a11y_namespaceObject = window["wp"]["a11y"];
+;// CONCATENATED MODULE: ./packages/components/build-module/autocomplete/get-default-use-items.js
+/**
+ * External dependencies
+ */
+
+/**
+ * WordPress dependencies
+ */
+
+
+
+function filterOptions(search) {
+  let options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
+  let maxResults = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 10;
+  const filtered = [];
+
+  for (let i = 0; i < options.length; i++) {
+    const option = options[i]; // Merge label into keywords.
+
+    let {
+      keywords = []
+    } = option;
+
+    if ('string' === typeof option.label) {
+      keywords = [...keywords, option.label];
+    }
+
+    const isMatch = keywords.some(keyword => search.test((0,external_lodash_namespaceObject.deburr)(keyword)));
+
+    if (!isMatch) {
+      continue;
+    }
+
+    filtered.push(option); // Abort early if max reached.
+
+    if (filtered.length === maxResults) {
+      break;
+    }
+  }
+
+  return filtered;
+}
+
+function getDefaultUseItems(autocompleter) {
+  return filterValue => {
+    const [items, setItems] = (0,external_wp_element_namespaceObject.useState)([]);
+    /*
+     * We support both synchronous and asynchronous retrieval of completer options
+     * but internally treat all as async so we maintain a single, consistent code path.
+     *
+     * Because networks can be slow, and the internet is wonderfully unpredictable,
+     * we don't want two promises updating the state at once. This ensures that only
+     * the most recent promise will act on `optionsData`. This doesn't use the state
+     * because `setState` is batched, and so there's no guarantee that setting
+     * `activePromise` in the state would result in it actually being in `this.state`
+     * before the promise resolves and we check to see if this is the active promise or not.
+     */
+
+    (0,external_wp_element_namespaceObject.useLayoutEffect)(() => {
+      const {
+        options,
+        isDebounced
+      } = autocompleter;
+      const loadOptions = (0,external_lodash_namespaceObject.debounce)(() => {
+        const promise = Promise.resolve(typeof options === 'function' ? options(filterValue) : options).then(optionsData => {
+          if (promise.canceled) {
+            return;
+          }
+
+          const keyedOptions = optionsData.map((optionData, optionIndex) => ({
+            key: `${autocompleter.name}-${optionIndex}`,
+            value: optionData,
+            label: autocompleter.getOptionLabel(optionData),
+            keywords: autocompleter.getOptionKeywords ? autocompleter.getOptionKeywords(optionData) : [],
+            isDisabled: autocompleter.isOptionDisabled ? autocompleter.isOptionDisabled(optionData) : false
+          })); // Create a regular expression to filter the options.
+
+          const search = new RegExp('(?:\\b|\\s|^)' + (0,external_lodash_namespaceObject.escapeRegExp)(filterValue), 'i');
+          setItems(filterOptions(search, keyedOptions));
+        });
+        return promise;
+      }, isDebounced ? 250 : 0);
+      const promise = loadOptions();
+      return () => {
+        loadOptions.cancel();
+
+        if (promise) {
+          promise.canceled = true;
+        }
+      };
+    }, [filterValue]);
+    return [items];
+  };
+}
+
+;// CONCATENATED MODULE: ./packages/components/build-module/autocomplete/autocompleter-ui.js
+
+
+/**
+ * External dependencies
+ */
+
+
+/**
+ * WordPress dependencies
+ */
+
+
+
+/**
+ * Internal dependencies
+ */
+
+
+
+
+function getAutoCompleterUI(autocompleter) {
+  const useItems = autocompleter.useItems ? autocompleter.useItems : getDefaultUseItems(autocompleter);
+
+  function AutocompleterUI(_ref) {
+    let {
+      filterValue,
+      instanceId,
+      listBoxId,
+      className,
+      selectedIndex,
+      onChangeOptions,
+      onSelect,
+      onReset,
+      value,
+      contentRef
+    } = _ref;
+    const [items] = useItems(filterValue);
+    const anchorRef = (0,external_wp_richText_namespaceObject.useAnchorRef)({
+      ref: contentRef,
+      value
+    });
+    (0,external_wp_element_namespaceObject.useLayoutEffect)(() => {
+      onChangeOptions(items); // Temporarily disabling exhaustive-deps to avoid introducing unexpected side effecst.
+      // See https://github.com/WordPress/gutenberg/pull/41820
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [items]);
+
+    if (!items.length > 0) {
+      return null;
+    }
+
+    return (0,external_wp_element_namespaceObject.createElement)(popover, {
+      focusOnMount: false,
+      onClose: onReset,
+      position: "top right",
+      className: "components-autocomplete__popover",
+      anchorRef: anchorRef
+    }, (0,external_wp_element_namespaceObject.createElement)("div", {
+      id: listBoxId,
+      role: "listbox",
+      className: "components-autocomplete__results"
+    }, (0,external_lodash_namespaceObject.map)(items, (option, index) => (0,external_wp_element_namespaceObject.createElement)(build_module_button, {
+      key: option.key,
+      id: `components-autocomplete-item-${instanceId}-${option.key}`,
+      role: "option",
+      "aria-selected": index === selectedIndex,
+      disabled: option.isDisabled,
+      className: classnames_default()('components-autocomplete__result', className, {
+        'is-selected': index === selectedIndex
+      }),
+      onClick: () => onSelect(option)
+    }, option.label))));
+  }
+
+  return AutocompleterUI;
+}
+
+;// CONCATENATED MODULE: ./packages/components/build-module/autocomplete/index.js
+
+
+/**
+ * External dependencies
+ */
+
+/**
+ * WordPress dependencies
+ */
+
+
+
+
+
+
+
+/**
+ * Internal dependencies
+ */
+
+
+/**
+ * A raw completer option.
+ *
+ * @typedef {*} CompleterOption
+ */
+
+/**
+ * @callback FnGetOptions
+ *
+ * @return {(CompleterOption[]|Promise.<CompleterOption[]>)} The completer options or a promise for them.
+ */
+
+/**
+ * @callback FnGetOptionKeywords
+ * @param {CompleterOption} option a completer option.
+ *
+ * @return {string[]} list of key words to search.
+ */
+
+/**
+ * @callback FnIsOptionDisabled
+ * @param {CompleterOption} option a completer option.
+ *
+ * @return {string[]} whether or not the given option is disabled.
+ */
+
+/**
+ * @callback FnGetOptionLabel
+ * @param {CompleterOption} option a completer option.
+ *
+ * @return {(string|Array.<(string|WPElement)>)} list of react components to render.
+ */
+
+/**
+ * @callback FnAllowContext
+ * @param {string} before the string before the auto complete trigger and query.
+ * @param {string} after  the string after the autocomplete trigger and query.
+ *
+ * @return {boolean} true if the completer can handle.
+ */
+
+/**
+ * @typedef {Object} OptionCompletion
+ * @property {'insert-at-caret'|'replace'} action the intended placement of the completion.
+ * @property {OptionCompletionValue}       value  the completion value.
+ */
+
+/**
+ * A completion value.
+ *
+ * @typedef {(string|WPElement|Object)} OptionCompletionValue
+ */
+
+/**
+ * @callback FnGetOptionCompletion
+ * @param {CompleterOption} value the value of the completer option.
+ * @param {string}          query the text value of the autocomplete query.
+ *
+ * @return {(OptionCompletion|OptionCompletionValue)} the completion for the given option. If an
+ * 													   OptionCompletionValue is returned, the
+ * 													   completion action defaults to `insert-at-caret`.
+ */
+
+/**
+ * @typedef {Object} WPCompleter
+ * @property {string}                           name                a way to identify a completer, useful for selective overriding.
+ * @property {?string}                          className           A class to apply to the popup menu.
+ * @property {string}                           triggerPrefix       the prefix that will display the menu.
+ * @property {(CompleterOption[]|FnGetOptions)} options             the completer options or a function to get them.
+ * @property {?FnGetOptionKeywords}             getOptionKeywords   get the keywords for a given option.
+ * @property {?FnIsOptionDisabled}              isOptionDisabled    get whether or not the given option is disabled.
+ * @property {FnGetOptionLabel}                 getOptionLabel      get the label for a given option.
+ * @property {?FnAllowContext}                  allowContext        filter the context under which the autocomplete activates.
+ * @property {FnGetOptionCompletion}            getOptionCompletion get the completion associated with a given option.
+ */
+
+function useAutocomplete(_ref) {
+  let {
+    record,
+    onChange,
+    onReplace,
+    completers,
+    contentRef
+  } = _ref;
+  const debouncedSpeak = (0,external_wp_compose_namespaceObject.useDebounce)(external_wp_a11y_namespaceObject.speak, 500);
+  const instanceId = (0,external_wp_compose_namespaceObject.useInstanceId)(useAutocomplete);
+  const [selectedIndex, setSelectedIndex] = (0,external_wp_element_namespaceObject.useState)(0);
+  const [filteredOptions, setFilteredOptions] = (0,external_wp_element_namespaceObject.useState)([]);
+  const [filterValue, setFilterValue] = (0,external_wp_element_namespaceObject.useState)('');
+  const [autocompleter, setAutocompleter] = (0,external_wp_element_namespaceObject.useState)(null);
+  const [AutocompleterUI, setAutocompleterUI] = (0,external_wp_element_namespaceObject.useState)(null);
+  const backspacing = (0,external_wp_element_namespaceObject.useRef)(false);
+
+  function insertCompletion(replacement) {
+    const end = record.start;
+    const start = end - autocompleter.triggerPrefix.length - filterValue.length;
+    const toInsert = (0,external_wp_richText_namespaceObject.create)({
+      html: (0,external_wp_element_namespaceObject.renderToString)(replacement)
+    });
+    onChange((0,external_wp_richText_namespaceObject.insert)(record, toInsert, start, end));
+  }
+
+  function select(option) {
+    const {
+      getOptionCompletion
+    } = autocompleter || {};
+
+    if (option.isDisabled) {
+      return;
+    }
+
+    if (getOptionCompletion) {
+      const completion = getOptionCompletion(option.value, filterValue);
+      const {
+        action,
+        value
+      } = undefined === completion.action || undefined === completion.value ? {
+        action: 'insert-at-caret',
+        value: completion
+      } : completion;
+
+      if ('replace' === action) {
+        onReplace([value]); // When replacing, the component will unmount, so don't reset
+        // state (below) on an unmounted component.
+
+        return;
+      } else if ('insert-at-caret' === action) {
+        insertCompletion(value);
+      }
+    } // Reset autocomplete state after insertion rather than before
+    // so insertion events don't cause the completion menu to redisplay.
+
+
+    reset();
+  }
+
+  function reset() {
+    setSelectedIndex(0);
+    setFilteredOptions([]);
+    setFilterValue('');
+    setAutocompleter(null);
+    setAutocompleterUI(null);
+  }
+
+  function announce(options) {
+    if (!debouncedSpeak) {
+      return;
+    }
+
+    if (!!options.length) {
+      debouncedSpeak((0,external_wp_i18n_namespaceObject.sprintf)(
+      /* translators: %d: number of results. */
+      (0,external_wp_i18n_namespaceObject._n)('%d result found, use up and down arrow keys to navigate.', '%d results found, use up and down arrow keys to navigate.', options.length), options.length), 'assertive');
+    } else {
+      debouncedSpeak((0,external_wp_i18n_namespaceObject.__)('No results.'), 'assertive');
+    }
+  }
+  /**
+   * Load options for an autocompleter.
+   *
+   * @param {Array} options
+   */
+
+
+  function onChangeOptions(options) {
+    setSelectedIndex(options.length === filteredOptions.length ? selectedIndex : 0);
+    setFilteredOptions(options);
+    announce(options);
+  }
+
+  function handleKeyDown(event) {
+    backspacing.current = event.keyCode === external_wp_keycodes_namespaceObject.BACKSPACE;
+
+    if (!autocompleter) {
+      return;
+    }
+
+    if (filteredOptions.length === 0) {
+      return;
+    }
+
+    if (event.defaultPrevented) {
+      return;
+    }
+
+    switch (event.keyCode) {
+      case external_wp_keycodes_namespaceObject.UP:
+        setSelectedIndex((selectedIndex === 0 ? filteredOptions.length : selectedIndex) - 1);
+        break;
+
+      case external_wp_keycodes_namespaceObject.DOWN:
+        setSelectedIndex((selectedIndex + 1) % filteredOptions.length);
+        break;
+
+      case external_wp_keycodes_namespaceObject.ESCAPE:
+        setAutocompleter(null);
+        setAutocompleterUI(null);
+        event.preventDefault();
+        break;
+
+      case external_wp_keycodes_namespaceObject.ENTER:
+        select(filteredOptions[selectedIndex]);
+        break;
+
+      case external_wp_keycodes_namespaceObject.LEFT:
+      case external_wp_keycodes_namespaceObject.RIGHT:
+        reset();
+        return;
+
+      default:
+        return;
+    } // Any handled keycode should prevent original behavior. This relies on
+    // the early return in the default case.
+
+
+    event.preventDefault();
+  } // textContent is a primitive (string), memoizing is not strictly necessary
+  // but this is a preemptive performance improvement, since the autocompleter
+  // is a potential bottleneck for the editor type metric.
+
+
+  const textContent = (0,external_wp_element_namespaceObject.useMemo)(() => {
+    if ((0,external_wp_richText_namespaceObject.isCollapsed)(record)) {
+      return (0,external_wp_richText_namespaceObject.getTextContent)((0,external_wp_richText_namespaceObject.slice)(record, 0));
+    }
+  }, [record]);
+  (0,external_wp_element_namespaceObject.useEffect)(() => {
+    if (!textContent) {
+      reset();
+      return;
+    }
+
+    const text = (0,external_lodash_namespaceObject.deburr)(textContent);
+    const textAfterSelection = (0,external_wp_richText_namespaceObject.getTextContent)((0,external_wp_richText_namespaceObject.slice)(record, undefined, (0,external_wp_richText_namespaceObject.getTextContent)(record).length));
+    const completer = (0,external_lodash_namespaceObject.find)(completers, _ref2 => {
+      let {
+        triggerPrefix,
+        allowContext
+      } = _ref2;
+      const index = text.lastIndexOf(triggerPrefix);
+
+      if (index === -1) {
+        return false;
+      }
+
+      const textWithoutTrigger = text.slice(index + triggerPrefix.length);
+      const tooDistantFromTrigger = textWithoutTrigger.length > 50; // 50 chars seems to be a good limit.
+      // This is a final barrier to prevent the effect from completing with
+      // an extremely long string, which causes the editor to slow-down
+      // significantly. This could happen, for example, if `matchingWhileBackspacing`
+      // is true and one of the "words" end up being too long. If that's the case,
+      // it will be caught by this guard.
+
+      if (tooDistantFromTrigger) return false;
+      const mismatch = filteredOptions.length === 0;
+      const wordsFromTrigger = textWithoutTrigger.split(/\s/); // We need to allow the effect to run when not backspacing and if there
+      // was a mismatch. i.e when typing a trigger + the match string or when
+      // clicking in an existing trigger word on the page. We do that if we
+      // detect that we have one word from trigger in the current textual context.
+      //
+      // Ex.: "Some text @a" <-- "@a" will be detected as the trigger word and
+      // allow the effect to run. It will run until there's a mismatch.
+
+      const hasOneTriggerWord = wordsFromTrigger.length === 1; // This is used to allow the effect to run when backspacing and if
+      // "touching" a word that "belongs" to a trigger. We consider a "trigger
+      // word" any word up to the limit of 3 from the trigger character.
+      // Anything beyond that is ignored if there's a mismatch. This allows
+      // us to "escape" a mismatch when backspacing, but still imposing some
+      // sane limits.
+      //
+      // Ex: "Some text @marcelo sekkkk" <--- "kkkk" caused a mismatch, but
+      // if the user presses backspace here, it will show the completion popup again.
+
+      const matchingWhileBackspacing = backspacing.current && textWithoutTrigger.split(/\s/).length <= 3;
+
+      if (mismatch && !(matchingWhileBackspacing || hasOneTriggerWord)) {
+        return false;
+      }
+
+      if (allowContext && !allowContext(text.slice(0, index), textAfterSelection)) {
+        return false;
+      }
+
+      if (/^\s/.test(textWithoutTrigger) || /\s\s+$/.test(textWithoutTrigger)) {
+        return false;
+      }
+
+      return /[\u0000-\uFFFF]*$/.test(textWithoutTrigger);
+    });
+
+    if (!completer) {
+      reset();
+      return;
+    }
+
+    const safeTrigger = (0,external_lodash_namespaceObject.escapeRegExp)(completer.triggerPrefix);
+    const match = text.slice(text.lastIndexOf(completer.triggerPrefix)).match(new RegExp(`${safeTrigger}([\u0000-\uFFFF]*)$`));
+    const query = match && match[1];
+    setAutocompleter(completer);
+    setAutocompleterUI(() => completer !== autocompleter ? getAutoCompleterUI(completer) : AutocompleterUI);
+    setFilterValue(query); // Temporarily disabling exhaustive-deps to avoid introducing unexpected side effecst.
+    // See https://github.com/WordPress/gutenberg/pull/41820
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [textContent]);
+  const {
+    key: selectedKey = ''
+  } = filteredOptions[selectedIndex] || {};
+  const {
+    className
+  } = autocompleter || {};
+  const isExpanded = !!autocompleter && filteredOptions.length > 0;
+  const listBoxId = isExpanded ? `components-autocomplete-listbox-${instanceId}` : null;
+  const activeId = isExpanded ? `components-autocomplete-item-${instanceId}-${selectedKey}` : null;
+  const hasSelection = record.start !== undefined;
+  return {
+    listBoxId,
+    activeId,
+    onKeyDown: handleKeyDown,
+    popover: hasSelection && AutocompleterUI && (0,external_wp_element_namespaceObject.createElement)(AutocompleterUI, {
+      className: className,
+      filterValue: filterValue,
+      instanceId: instanceId,
+      listBoxId: listBoxId,
+      selectedIndex: selectedIndex,
+      onChangeOptions: onChangeOptions,
+      onSelect: select,
+      value: record,
+      contentRef: contentRef,
+      reset: reset
+    })
+  };
+}
+
+function useAutocompleteProps(options) {
+  const ref = (0,external_wp_element_namespaceObject.useRef)();
+  const onKeyDownRef = (0,external_wp_element_namespaceObject.useRef)();
+  const {
+    popover,
+    listBoxId,
+    activeId,
+    onKeyDown
+  } = useAutocomplete({ ...options,
+    contentRef: ref
+  });
+  onKeyDownRef.current = onKeyDown;
+  return {
+    ref: (0,external_wp_compose_namespaceObject.useMergeRefs)([ref, (0,external_wp_compose_namespaceObject.useRefEffect)(element => {
+      function _onKeyDown(event) {
+        onKeyDownRef.current(event);
+      }
+
+      element.addEventListener('keydown', _onKeyDown);
+      return () => {
+        element.removeEventListener('keydown', _onKeyDown);
+      };
+    }, [])]),
+    children: popover,
+    'aria-autocomplete': listBoxId ? 'list' : undefined,
+    'aria-owns': listBoxId,
+    'aria-activedescendant': activeId
+  };
+}
+function Autocomplete(_ref3) {
+  let {
+    children,
+    isSelected,
+    ...options
+  } = _ref3;
+  const {
+    popover,
+    ...props
+  } = useAutocomplete(options);
+  return (0,external_wp_element_namespaceObject.createElement)(external_wp_element_namespaceObject.Fragment, null, children(props), isSelected && popover);
+}
+
+;// CONCATENATED MODULE: ./packages/components/build-module/utils/font-values.js
+/* harmony default export */ const font_values = ({
+  'default.fontFamily': "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+  'default.fontSize': '13px',
+  'helpText.fontSize': '12px',
+  mobileTextMinFontSize: '16px'
+});
+
+;// CONCATENATED MODULE: ./packages/components/build-module/utils/font.js
+/**
+ * External dependencies
+ */
+
+/**
+ * Internal dependencies
+ */
+
+
+/**
+ *
+ * @param {keyof FONT} value Path of value from `FONT`
+ * @return {string} Font rule value
+ */
+
+function font(value) {
+  return (0,external_lodash_namespaceObject.get)(font_values, value, '');
+}
+
+;// CONCATENATED MODULE: ./packages/components/build-module/base-control/styles/base-control-styles.js
+
+
+function base_control_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+
+/**
+ * External dependencies
+ */
+
+/**
+ * Internal dependencies
+ */
+
+
+
+const base_control_styles_Wrapper = emotion_styled_base_browser_esm("div",  true ? {
+  target: "ej5x27r4"
+} : 0)("font-family:", font('default.fontFamily'), ";font-size:", font('default.fontSize'), ";" + ( true ? "" : 0));
+
+const deprecatedMarginField = _ref2 => {
+  let {
+    __nextHasNoMarginBottom = false
+  } = _ref2;
+  return !__nextHasNoMarginBottom && /*#__PURE__*/emotion_react_browser_esm_css("margin-bottom:", space(2), ";" + ( true ? "" : 0),  true ? "" : 0);
+};
+
+const StyledField = emotion_styled_base_browser_esm("div",  true ? {
+  target: "ej5x27r3"
+} : 0)(deprecatedMarginField, " .components-panel__row &{margin-bottom:inherit;}" + ( true ? "" : 0));
+const labelStyles = /*#__PURE__*/emotion_react_browser_esm_css("display:inline-block;margin-bottom:", space(2), ";" + ( true ? "" : 0),  true ? "" : 0);
+const StyledLabel = emotion_styled_base_browser_esm("label",  true ? {
+  target: "ej5x27r2"
+} : 0)(labelStyles, ";" + ( true ? "" : 0));
+
+var base_control_styles_ref =  true ? {
+  name: "11yad0w",
+  styles: "margin-bottom:revert"
+} : 0;
+
+const deprecatedMarginHelp = _ref3 => {
+  let {
+    __nextHasNoMarginBottom = false
+  } = _ref3;
+  return !__nextHasNoMarginBottom && base_control_styles_ref;
+};
+
+const StyledHelp = emotion_styled_base_browser_esm("p",  true ? {
+  target: "ej5x27r1"
+} : 0)("margin-top:", space(2), ";margin-bottom:0;font-size:", font('helpText.fontSize'), ";font-style:normal;color:", COLORS.mediumGray.text, ";", deprecatedMarginHelp, ";" + ( true ? "" : 0));
+const StyledVisualLabel = emotion_styled_base_browser_esm("span",  true ? {
+  target: "ej5x27r0"
+} : 0)(labelStyles, ";" + ( true ? "" : 0));
+
+;// CONCATENATED MODULE: ./packages/components/build-module/base-control/index.js
+
+
+/**
+ * External dependencies
+ */
+
+
+/**
+ * Internal dependencies
+ */
+
+
+/**
+ * `BaseControl` is a component used to generate labels and help text for components handling user inputs.
+ *
+ * @example
+ * // Render a `BaseControl` for a textarea input
+ * import { BaseControl } from '@wordpress/components';
+ *
+ * // The `id` prop is necessary to accessibly associate the label with the textarea
+ * const MyBaseControl = () => (
+ *   <BaseControl id="textarea-1" label="Text" help="Enter some text" __nextHasNoMarginBottom={ true }>
+ *     <textarea id="textarea-1" />
+ *   </BaseControl>
+ * );
+ */
+
+const BaseControl = _ref => {
+  let {
+    __nextHasNoMarginBottom = false,
+    id,
+    label,
+    hideLabelFromVision = false,
+    help,
+    className,
+    children
+  } = _ref;
+  return (0,external_wp_element_namespaceObject.createElement)(base_control_styles_Wrapper, {
+    className: classnames_default()('components-base-control', className)
+  }, (0,external_wp_element_namespaceObject.createElement)(StyledField, {
+    className: "components-base-control__field" // TODO: Official deprecation for this should start after all internal usages have been migrated
+    ,
+    __nextHasNoMarginBottom: __nextHasNoMarginBottom
+  }, label && id && (hideLabelFromVision ? (0,external_wp_element_namespaceObject.createElement)(visually_hidden_component, {
+    as: "label",
+    htmlFor: id
+  }, label) : (0,external_wp_element_namespaceObject.createElement)(StyledLabel, {
+    className: "components-base-control__label",
+    htmlFor: id
+  }, label)), label && !id && (hideLabelFromVision ? (0,external_wp_element_namespaceObject.createElement)(visually_hidden_component, {
+    as: "label"
+  }, label) : (0,external_wp_element_namespaceObject.createElement)(BaseControl.VisualLabel, null, label)), children), !!help && (0,external_wp_element_namespaceObject.createElement)(StyledHelp, {
+    id: id ? id + '__help' : undefined,
+    className: "components-base-control__help",
+    __nextHasNoMarginBottom: __nextHasNoMarginBottom
+  }, help));
+};
+/**
+ * `BaseControl.VisualLabel` is used to render a purely visual label inside a `BaseControl` component.
+ *
+ * It should only be used in cases where the children being rendered inside `BaseControl` are already accessibly labeled,
+ * e.g., a button, but we want an additional visual label for that section equivalent to the labels `BaseControl` would
+ * otherwise use if the `label` prop was passed.
+ *
+ * @example
+ * import { BaseControl } from '@wordpress/components';
+ *
+ * const MyBaseControl = () => (
+ * 	<BaseControl help="This button is already accessibly labeled.">
+ * 		<BaseControl.VisualLabel>Author</BaseControl.VisualLabel>
+ * 		<Button>Select an author</Button>
+ * 	</BaseControl>
+ * );
+ */
+
+const VisualLabel = _ref2 => {
+  let {
+    className,
+    children
+  } = _ref2;
+  return (0,external_wp_element_namespaceObject.createElement)(StyledVisualLabel, {
+    className: classnames_default()('components-base-control__label', className)
+  }, children);
+};
+BaseControl.VisualLabel = VisualLabel;
+/* harmony default export */ const base_control = (BaseControl);
+
+;// CONCATENATED MODULE: ./packages/icons/build-module/library/link.js
+
+
+/**
+ * WordPress dependencies
+ */
+
+const link_link = (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.SVG, {
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 24 24"
+}, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
+  d: "M15.6 7.2H14v1.5h1.6c2 0 3.7 1.7 3.7 3.7s-1.7 3.7-3.7 3.7H14v1.5h1.6c2.8 0 5.2-2.3 5.2-5.2 0-2.9-2.3-5.2-5.2-5.2zM4.7 12.4c0-2 1.7-3.7 3.7-3.7H10V7.2H8.4c-2.9 0-5.2 2.3-5.2 5.2 0 2.9 2.3 5.2 5.2 5.2H10v-1.5H8.4c-2 0-3.7-1.7-3.7-3.7zm4.6.9h5.3v-1.5H9.3v1.5z"
+}));
+/* harmony default export */ const library_link = (link_link);
+
+;// CONCATENATED MODULE: ./packages/icons/build-module/library/link-off.js
+
+
+/**
+ * WordPress dependencies
+ */
+
+const linkOff = (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.SVG, {
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 24 24"
+}, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
+  d: "M15.6 7.3h-.7l1.6-3.5-.9-.4-3.9 8.5H9v1.5h2l-1.3 2.8H8.4c-2 0-3.7-1.7-3.7-3.7s1.7-3.7 3.7-3.7H10V7.3H8.4c-2.9 0-5.2 2.3-5.2 5.2 0 2.9 2.3 5.2 5.2 5.2H9l-1.4 3.2.9.4 5.7-12.5h1.4c2 0 3.7 1.7 3.7 3.7s-1.7 3.7-3.7 3.7H14v1.5h1.6c2.9 0 5.2-2.3 5.2-5.2 0-2.9-2.4-5.2-5.2-5.2z"
+}));
+/* harmony default export */ const link_off = (linkOff);
+
+;// CONCATENATED MODULE: ./packages/components/build-module/border-box-control/styles.js
+function border_box_control_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+
+/**
+ * External dependencies
+ */
+
+/**
+ * Internal dependencies
+ */
+
+
+
+const BorderBoxControl = /*#__PURE__*/emotion_react_browser_esm_css( true ? "" : 0,  true ? "" : 0);
+const LinkedBorderControl =  true ? {
+  name: "82a6rk",
+  styles: "flex:1"
+} : 0;
+const BorderBoxControlLinkedButton = __next36pxDefaultSize => {
+  return /*#__PURE__*/emotion_react_browser_esm_css("flex:0;flex-basis:36px;margin-top:", __next36pxDefaultSize ? '6px' : '3px', ";" + ( true ? "" : 0),  true ? "" : 0);
+};
+
+const BorderBoxStyleWithFallback = border => {
+  const {
+    color = COLORS.gray[200],
+    style = 'solid',
+    width = config_values.borderWidth
+  } = border || {};
+  const clampedWidth = width !== config_values.borderWidth ? `clamp(1px, ${width}, 10px)` : width;
+  const hasVisibleBorder = !!width && width !== '0' || !!color;
+  const borderStyle = hasVisibleBorder ? style || 'solid' : style;
+  return `${color} ${borderStyle} ${clampedWidth}`;
+};
+
+const borderBoxControlVisualizer = (borders, __next36pxDefaultSize) => {
+  return /*#__PURE__*/emotion_react_browser_esm_css("position:absolute;top:", __next36pxDefaultSize ? '18px' : '15px', ";right:30px;bottom:", __next36pxDefaultSize ? '18px' : '15px', ";left:30px;border-top:", BorderBoxStyleWithFallback(borders === null || borders === void 0 ? void 0 : borders.top), ";border-bottom:", BorderBoxStyleWithFallback(borders === null || borders === void 0 ? void 0 : borders.bottom), ";", rtl({
+    borderLeft: BorderBoxStyleWithFallback(borders === null || borders === void 0 ? void 0 : borders.left)
+  })(), " ", rtl({
+    borderRight: BorderBoxStyleWithFallback(borders === null || borders === void 0 ? void 0 : borders.right)
+  })(), ";" + ( true ? "" : 0),  true ? "" : 0);
+};
+const borderBoxControlSplitControls = () => /*#__PURE__*/emotion_react_browser_esm_css("position:relative;flex:1;", rtl({
+  marginRight: space(3)
+}, {
+  marginLeft: space(3)
+})(), ";" + ( true ? "" : 0),  true ? "" : 0);
+const CenteredBorderControl =  true ? {
+  name: "1nwbfnf",
+  styles: "grid-column:span 2;margin:0 auto"
+} : 0;
+const rightBorderControl = () => /*#__PURE__*/emotion_react_browser_esm_css(rtl({
+  marginLeft: 'auto'
+}, {
+  marginRight: 'auto'
+})(), ";" + ( true ? "" : 0),  true ? "" : 0);
+
+;// CONCATENATED MODULE: ./packages/components/build-module/border-box-control/border-box-control-linked-button/hook.js
+/**
+ * WordPress dependencies
+ */
+
+/**
+ * Internal dependencies
+ */
+
+
+
+
+function useBorderBoxControlLinkedButton(props) {
+  const {
+    className,
+    __next36pxDefaultSize = false,
+    ...otherProps
+  } = useContextSystem(props, 'BorderBoxControlLinkedButton'); // Generate class names.
+
+  const cx = useCx();
+  const classes = (0,external_wp_element_namespaceObject.useMemo)(() => {
+    return cx(BorderBoxControlLinkedButton(__next36pxDefaultSize), className);
+  }, [className, cx, __next36pxDefaultSize]);
+  return { ...otherProps,
+    className: classes
+  };
+}
+
+;// CONCATENATED MODULE: ./packages/components/build-module/border-box-control/border-box-control-linked-button/component.js
+
+
+
+/**
+ * WordPress dependencies
+ */
+
+
+/**
+ * Internal dependencies
+ */
+
+
+
+
+
+
+
+const component_BorderBoxControlLinkedButton = (props, forwardedRef) => {
+  const {
+    className,
+    isLinked,
+    ...buttonProps
+  } = useBorderBoxControlLinkedButton(props);
+  const label = isLinked ? (0,external_wp_i18n_namespaceObject.__)('Unlink sides') : (0,external_wp_i18n_namespaceObject.__)('Link sides');
+  return (0,external_wp_element_namespaceObject.createElement)(tooltip, {
+    text: label
+  }, (0,external_wp_element_namespaceObject.createElement)(component, {
+    className: className
+  }, (0,external_wp_element_namespaceObject.createElement)(build_module_button, extends_extends({}, buttonProps, {
+    variant: isLinked ? 'primary' : 'secondary',
+    isSmall: true,
+    icon: isLinked ? library_link : link_off,
+    iconSize: 16,
+    "aria-label": label,
+    ref: forwardedRef
+  }))));
+};
+
+const ConnectedBorderBoxControlLinkedButton = contextConnect(component_BorderBoxControlLinkedButton, 'BorderBoxControlLinkedButton');
+/* harmony default export */ const border_box_control_linked_button_component = (ConnectedBorderBoxControlLinkedButton);
+
+;// CONCATENATED MODULE: ./packages/components/build-module/border-box-control/border-box-control-visualizer/hook.js
+/**
+ * WordPress dependencies
+ */
+
+/**
+ * Internal dependencies
+ */
+
+
+
+
+function useBorderBoxControlVisualizer(props) {
+  const {
+    className,
+    value,
+    __next36pxDefaultSize = false,
+    ...otherProps
+  } = useContextSystem(props, 'BorderBoxControlVisualizer'); // Generate class names.
+
+  const cx = useCx();
+  const rtlWatchResult = rtl.watch();
+  const classes = (0,external_wp_element_namespaceObject.useMemo)(() => {
+    return cx(borderBoxControlVisualizer(value, __next36pxDefaultSize), className); // rtlWatchResult is needed to refresh styles when the writing direction changes
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [cx, className, value, __next36pxDefaultSize, rtlWatchResult]);
+  return { ...otherProps,
+    className: classes,
+    value
+  };
+}
+
+;// CONCATENATED MODULE: ./packages/components/build-module/border-box-control/border-box-control-visualizer/component.js
+
+
+
+/**
+ * WordPress dependencies
+ */
+
+/**
+ * Internal dependencies
+ */
+
+
+
+
+const BorderBoxControlVisualizer = (props, forwardedRef) => {
+  const {
+    value,
+    ...otherProps
+  } = useBorderBoxControlVisualizer(props);
+  return (0,external_wp_element_namespaceObject.createElement)(component, extends_extends({}, otherProps, {
+    ref: forwardedRef
+  }));
+};
+
+const ConnectedBorderBoxControlVisualizer = contextConnect(BorderBoxControlVisualizer, 'BorderBoxControlVisualizer');
+/* harmony default export */ const border_box_control_visualizer_component = (ConnectedBorderBoxControlVisualizer);
+
+;// CONCATENATED MODULE: ./packages/icons/build-module/library/close-small.js
+
+
+/**
+ * WordPress dependencies
+ */
+
+const closeSmall = (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.SVG, {
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 24 24"
+}, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
+  d: "M12 13.06l3.712 3.713 1.061-1.06L13.061 12l3.712-3.712-1.06-1.06L12 10.938 8.288 7.227l-1.061 1.06L10.939 12l-3.712 3.712 1.06 1.061L12 13.061z"
+}));
+/* harmony default export */ const close_small = (closeSmall);
+
+;// CONCATENATED MODULE: ./packages/icons/build-module/library/line-solid.js
+
+
+/**
+ * WordPress dependencies
+ */
+
+const lineSolid = (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.SVG, {
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "24",
+  height: "24",
+  fill: "none"
+}, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
+  d: "M5 11.25h14v1.5H5z"
+}));
+/* harmony default export */ const line_solid = (lineSolid);
+
+;// CONCATENATED MODULE: ./packages/icons/build-module/library/line-dashed.js
+
+
+/**
+ * WordPress dependencies
+ */
+
+const lineDashed = (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.SVG, {
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "24",
+  height: "24",
+  fill: "none"
+}, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
+  fillRule: "evenodd",
+  d: "M5 11.25h3v1.5H5v-1.5zm5.5 0h3v1.5h-3v-1.5zm8.5 0h-3v1.5h3v-1.5z",
+  clipRule: "evenodd"
+}));
+/* harmony default export */ const line_dashed = (lineDashed);
+
+;// CONCATENATED MODULE: ./packages/icons/build-module/library/line-dotted.js
+
+
+/**
+ * WordPress dependencies
+ */
+
+const lineDotted = (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.SVG, {
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "24",
+  height: "24",
+  fill: "none"
+}, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
+  fillRule: "evenodd",
+  d: "M5.25 11.25h1.5v1.5h-1.5v-1.5zm3 0h1.5v1.5h-1.5v-1.5zm4.5 0h-1.5v1.5h1.5v-1.5zm1.5 0h1.5v1.5h-1.5v-1.5zm4.5 0h-1.5v1.5h1.5v-1.5z",
+  clipRule: "evenodd"
+}));
+/* harmony default export */ const line_dotted = (lineDotted);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/unit-control/styles/unit-control-styles.js
 
@@ -41001,7 +41016,7 @@ const BorderControlStylePicker = (props, forwardedRef) => {
 };
 
 const ConnectedBorderControlStylePicker = contextConnect(BorderControlStylePicker, 'BorderControlStylePicker');
-/* harmony default export */ var border_control_style_picker_component = (ConnectedBorderControlStylePicker);
+/* harmony default export */ const border_control_style_picker_component = (ConnectedBorderControlStylePicker);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/color-indicator/index.js
 
@@ -41027,7 +41042,7 @@ const ColorIndicator = _ref => {
   }, props));
 };
 
-/* harmony default export */ var color_indicator = (ColorIndicator);
+/* harmony default export */ const color_indicator = (ColorIndicator);
 
 ;// CONCATENATED MODULE: ./packages/components/node_modules/colord/plugins/a11y.mjs
 var a11y_o=function(o){var t=o/255;return t<.04045?t/12.92:Math.pow((t+.055)/1.055,2.4)},a11y_t=function(t){return.2126*a11y_o(t.r)+.7152*a11y_o(t.g)+.0722*a11y_o(t.b)};/* harmony default export */ function a11y(o){o.prototype.luminance=function(){return o=a11y_t(this.rgba),void 0===(r=2)&&(r=0),void 0===n&&(n=Math.pow(10,r)),Math.round(n*o)/n+0;var o,r,n},o.prototype.contrast=function(r){void 0===r&&(r="#FFF");var n,a,i,e,v,u,d,c=r instanceof o?r:new o(r);return e=this.rgba,v=c.toRgb(),u=a11y_t(e),d=a11y_t(v),n=u>d?(u+.05)/(d+.05):(d+.05)/(u+.05),void 0===(a=2)&&(a=0),void 0===i&&(i=Math.pow(10,a)),Math.floor(i*n)/i+0},o.prototype.isReadable=function(o,t){return void 0===o&&(o="#FFF"),void 0===t&&(t={}),this.contrast(o)>=(e=void 0===(i=(r=t).size)?"normal":i,"AAA"===(a=void 0===(n=r.level)?"AA":n)&&"normal"===e?7:"AA"===a&&"large"===e?3:4.5);var r,n,a,i,e}}
@@ -41082,10 +41097,10 @@ function Dropdown(props) {
   const containerRef = (0,external_wp_element_namespaceObject.useRef)();
   const [isOpen, setIsOpen] = useObservableState(false, onToggle);
   (0,external_wp_element_namespaceObject.useEffect)(() => () => {
-    if (onToggle) {
+    if (onToggle && isOpen) {
       onToggle(false);
     }
-  }, []);
+  }, [onToggle, isOpen]);
 
   function toggle() {
     setIsOpen(!isOpen);
@@ -41397,7 +41412,7 @@ function HStack(props, forwardedRef) {
 
 
 const ConnectedHStack = contextConnect(HStack, 'HStack');
-/* harmony default export */ var h_stack_component = (ConnectedHStack);
+/* harmony default export */ const h_stack_component = (ConnectedHStack);
 
 ;// CONCATENATED MODULE: ./packages/icons/build-module/icon/index.js
 /**
@@ -41429,7 +41444,7 @@ function icon_Icon(_ref) {
   });
 }
 
-/* harmony default export */ var icons_build_module_icon = (icon_Icon);
+/* harmony default export */ const icons_build_module_icon = (icon_Icon);
 
 ;// CONCATENATED MODULE: ./packages/icons/build-module/library/chevron-down.js
 
@@ -41444,7 +41459,7 @@ const chevronDown = (0,external_wp_element_namespaceObject.createElement)(extern
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M17.5 11.6L12 16l-5.5-4.4.9-1.2L12 14l4.5-3.6 1 1.2z"
 }));
-/* harmony default export */ var chevron_down = (chevronDown);
+/* harmony default export */ const chevron_down = (chevronDown);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/select-control/styles/select-control-styles.js
 
@@ -41568,6 +41583,8 @@ const DownArrowWrapper = emotion_styled_base_browser_esm("div",  true ? {
 
 
 
+const select_control_noop = () => {};
+
 function select_control_useUniqueId(idProp) {
   const instanceId = (0,external_wp_compose_namespaceObject.useInstanceId)(SelectControl);
   const id = `inspector-select-control-${instanceId}`;
@@ -41583,9 +41600,9 @@ function UnforwardedSelectControl(_ref, ref) {
     id: idProp,
     label,
     multiple = false,
-    onBlur = external_lodash_namespaceObject.noop,
-    onChange = external_lodash_namespaceObject.noop,
-    onFocus = external_lodash_namespaceObject.noop,
+    onBlur = select_control_noop,
+    onChange = select_control_noop,
+    onFocus = select_control_noop,
     options = [],
     size = 'default',
     value: valueProp,
@@ -41706,7 +41723,7 @@ function UnforwardedSelectControl(_ref, ref) {
 
 
 const SelectControl = (0,external_wp_element_namespaceObject.forwardRef)(UnforwardedSelectControl);
-/* harmony default export */ var select_control = (SelectControl);
+/* harmony default export */ const select_control = (SelectControl);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/utils/hooks/use-controlled-state.js
 /**
@@ -41795,7 +41812,7 @@ function useControlledState(currentState) {
   return [state, setState];
 }
 
-/* harmony default export */ var use_controlled_state = (useControlledState);
+/* harmony default export */ const use_controlled_state = (useControlledState);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/range-control/utils.js
 // @ts-nocheck
@@ -41814,6 +41831,8 @@ function useControlledState(currentState) {
  */
 
 
+
+const utils_noop = () => {};
 /**
  * A float supported clamp function for a specific value.
  *
@@ -41823,6 +41842,7 @@ function useControlledState(currentState) {
  *
  * @return {number} A (float) number
  */
+
 
 function floatClamp(value, min, max) {
   if (typeof value !== 'number') {
@@ -41879,10 +41899,10 @@ function useControlledRangeValue(_ref) {
 
 function useDebouncedHoverInteraction(_ref2) {
   let {
-    onHide = external_lodash_namespaceObject.noop,
-    onMouseLeave = external_lodash_namespaceObject.noop,
-    onMouseMove = external_lodash_namespaceObject.noop,
-    onShow = external_lodash_namespaceObject.noop,
+    onHide = utils_noop,
+    onMouseLeave = utils_noop,
+    onMouseMove = utils_noop,
+    onShow = utils_noop,
     timeout = 300
   } = _ref2;
   const [show, setShow] = (0,external_wp_element_namespaceObject.useState)(false);
@@ -42157,13 +42177,8 @@ const ActionRightWrapper = emotion_styled_base_browser_esm("span",  true ? {
 // @ts-nocheck
 
 /**
- * External dependencies
- */
-
-/**
  * WordPress dependencies
  */
-
 
 /**
  * Internal dependencies
@@ -42172,14 +42187,16 @@ const ActionRightWrapper = emotion_styled_base_browser_esm("span",  true ? {
 
 
 
+const input_range_noop = () => {};
+
 function input_range_InputRange(_ref, ref) {
   let {
     describedBy,
     label,
-    onHideTooltip = external_lodash_namespaceObject.noop,
-    onMouseLeave = external_lodash_namespaceObject.noop,
-    onMouseMove = external_lodash_namespaceObject.noop,
-    onShowTooltip = external_lodash_namespaceObject.noop,
+    onHideTooltip = input_range_noop,
+    onMouseLeave = input_range_noop,
+    onMouseMove = input_range_noop,
+    onShowTooltip = input_range_noop,
     value,
     ...props
   } = _ref;
@@ -42201,7 +42218,7 @@ function input_range_InputRange(_ref, ref) {
 }
 
 const input_range_ForwardedComponent = (0,external_wp_element_namespaceObject.forwardRef)(input_range_InputRange);
-/* harmony default export */ var input_range = (input_range_ForwardedComponent);
+/* harmony default export */ const input_range = (input_range_ForwardedComponent);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/range-control/mark.js
 
@@ -42456,6 +42473,8 @@ function useTooltipPosition(_ref2) {
 
 
 
+const range_control_noop = () => {};
+
 function RangeControl(_ref, ref) {
   var _inputRef$current;
 
@@ -42475,11 +42494,11 @@ function RangeControl(_ref, ref) {
     marks = false,
     max = 100,
     min = 0,
-    onBlur = external_lodash_namespaceObject.noop,
-    onChange = external_lodash_namespaceObject.noop,
-    onFocus = external_lodash_namespaceObject.noop,
-    onMouseMove = external_lodash_namespaceObject.noop,
-    onMouseLeave = external_lodash_namespaceObject.noop,
+    onBlur = range_control_noop,
+    onChange = range_control_noop,
+    onFocus = range_control_noop,
+    onMouseMove = range_control_noop,
+    onMouseLeave = range_control_noop,
     railColor,
     resetFallbackValue,
     renderTooltipContent = v => v,
@@ -42531,7 +42550,7 @@ function RangeControl(_ref, ref) {
   const wrapperClasses = classnames_default()('components-range-control__wrapper', !!marks && 'is-marked');
   const id = (0,external_wp_compose_namespaceObject.useInstanceId)(RangeControl, 'inspector-range-control');
   const describedBy = !!help ? `${id}__help` : undefined;
-  const enableTooltip = showTooltipProp !== false && (0,external_lodash_namespaceObject.isFinite)(value);
+  const enableTooltip = showTooltipProp !== false && Number.isFinite(value);
 
   const handleOnRangeChange = event => {
     const nextValue = parseFloat(event.target.value);
@@ -42699,7 +42718,7 @@ function RangeControl(_ref, ref) {
 }
 
 const range_control_ForwardedComponent = (0,external_wp_element_namespaceObject.forwardRef)(RangeControl);
-/* harmony default export */ var range_control = (range_control_ForwardedComponent);
+/* harmony default export */ const range_control = (range_control_ForwardedComponent);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/color-picker/styles.js
 
@@ -42773,7 +42792,7 @@ const copy_copy = (0,external_wp_element_namespaceObject.createElement)(external
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M20.2 8v11c0 .7-.6 1.2-1.2 1.2H6v1.5h13c1.5 0 2.7-1.2 2.7-2.8V8zM18 16.4V4.6c0-.9-.7-1.6-1.6-1.6H4.6C3.7 3 3 3.7 3 4.6v11.8c0 .9.7 1.6 1.6 1.6h11.8c.9 0 1.6-.7 1.6-1.6zm-13.5 0V4.6c0-.1.1-.1.1-.1h11.8c.1 0 .1.1.1.1v11.8c0 .1-.1.1-.1.1H4.6l-.1-.1z"
 }));
-/* harmony default export */ var library_copy = (copy_copy);
+/* harmony default export */ const library_copy = (copy_copy);
 
 ;// CONCATENATED MODULE: ./node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js
 function getBoundingClientRect(element) {
@@ -43457,7 +43476,7 @@ function effect(_ref) {
 } // eslint-disable-next-line import/no-unused-modules
 
 
-/* harmony default export */ var eventListeners = ({
+/* harmony default export */ const eventListeners = ({
   name: 'eventListeners',
   enabled: true,
   phase: 'write',
@@ -43568,7 +43587,7 @@ function popperOffsets(_ref) {
 } // eslint-disable-next-line import/no-unused-modules
 
 
-/* harmony default export */ var modifiers_popperOffsets = ({
+/* harmony default export */ const modifiers_popperOffsets = ({
   name: 'popperOffsets',
   enabled: true,
   phase: 'read',
@@ -43706,7 +43725,7 @@ function computeStyles(_ref4) {
 } // eslint-disable-next-line import/no-unused-modules
 
 
-/* harmony default export */ var modifiers_computeStyles = ({
+/* harmony default export */ const modifiers_computeStyles = ({
   name: 'computeStyles',
   enabled: true,
   phase: 'beforeWrite',
@@ -43789,7 +43808,7 @@ function applyStyles_effect(_ref2) {
 } // eslint-disable-next-line import/no-unused-modules
 
 
-/* harmony default export */ var modifiers_applyStyles = ({
+/* harmony default export */ const modifiers_applyStyles = ({
   name: 'applyStyles',
   enabled: true,
   phase: 'write',
@@ -43844,7 +43863,7 @@ function offset(_ref2) {
 } // eslint-disable-next-line import/no-unused-modules
 
 
-/* harmony default export */ var modifiers_offset = ({
+/* harmony default export */ const modifiers_offset = ({
   name: 'offset',
   enabled: true,
   phase: 'main',
@@ -44318,7 +44337,7 @@ function flip(_ref) {
 } // eslint-disable-next-line import/no-unused-modules
 
 
-/* harmony default export */ var modifiers_flip = ({
+/* harmony default export */ const modifiers_flip = ({
   name: 'flip',
   enabled: true,
   phase: 'main',
@@ -44449,7 +44468,7 @@ function preventOverflow(_ref) {
 } // eslint-disable-next-line import/no-unused-modules
 
 
-/* harmony default export */ var modifiers_preventOverflow = ({
+/* harmony default export */ const modifiers_preventOverflow = ({
   name: 'preventOverflow',
   enabled: true,
   phase: 'main',
@@ -44541,7 +44560,7 @@ function arrow_effect(_ref2) {
 } // eslint-disable-next-line import/no-unused-modules
 
 
-/* harmony default export */ var modifiers_arrow = ({
+/* harmony default export */ const modifiers_arrow = ({
   name: 'arrow',
   enabled: true,
   phase: 'main',
@@ -44605,7 +44624,7 @@ function hide(_ref) {
 } // eslint-disable-next-line import/no-unused-modules
 
 
-/* harmony default export */ var modifiers_hide = ({
+/* harmony default export */ const modifiers_hide = ({
   name: 'hide',
   enabled: true,
   phase: 'main',
@@ -45473,7 +45492,7 @@ function component_Shortcut(props, forwardedRef) {
 }
 
 const ConnectedShortcut = contextConnect(component_Shortcut, 'Shortcut');
-/* harmony default export */ var shortcut_component = (ConnectedShortcut);
+/* harmony default export */ const shortcut_component = (ConnectedShortcut);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/utils/z-index.js
 const Flyout = 10000;
@@ -45555,7 +45574,7 @@ function content_TooltipContent(props, forwardedRef) {
   }), (0,external_wp_element_namespaceObject.createElement)(content_TooltipPopoverView, null, children));
 }
 
-/* harmony default export */ var tooltip_content = (contextConnect(content_TooltipContent, 'TooltipContent'));
+/* harmony default export */ const tooltip_content = (contextConnect(content_TooltipContent, 'TooltipContent'));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/ui/tooltip/component.js
 
@@ -45648,7 +45667,7 @@ function component_Tooltip(props, forwardedRef) {
 
 
 const ConnectedTooltip = contextConnect(component_Tooltip, 'Tooltip');
-/* harmony default export */ var tooltip_component = (ConnectedTooltip);
+/* harmony default export */ const tooltip_component = (ConnectedTooltip);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/color-picker/color-copy-button.js
 
@@ -46200,7 +46219,7 @@ const ColorPicker = (props, forwardedRef) => {
 };
 
 const ConnectedColorPicker = contextConnect(ColorPicker, 'ColorPicker');
-/* harmony default export */ var color_picker_component = (ConnectedColorPicker);
+/* harmony default export */ const color_picker_component = (ConnectedColorPicker);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/color-picker/use-deprecated-props.js
 /**
@@ -46302,7 +46321,7 @@ const check = (0,external_wp_element_namespaceObject.createElement)(external_wp_
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M16.7 7.1l-6.3 8.5-3.3-2.5-.9 1.2 4.5 3.4L17.9 8z"
 }));
-/* harmony default export */ var library_check = (check);
+/* harmony default export */ const library_check = (check);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/circular-option-picker/index.js
 
@@ -46473,7 +46492,7 @@ function VStack(props, forwardedRef) {
 
 
 const ConnectedVStack = contextConnect(VStack, 'VStack');
-/* harmony default export */ var v_stack_component = (ConnectedVStack);
+/* harmony default export */ const v_stack_component = (ConnectedVStack);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/truncate/component.js
 
@@ -46522,7 +46541,7 @@ function component_Truncate(props, forwardedRef) {
 
 
 const ConnectedTruncate = contextConnect(component_Truncate, 'Truncate');
-/* harmony default export */ var truncate_component = (ConnectedTruncate);
+/* harmony default export */ const truncate_component = (ConnectedTruncate);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/heading/hook.js
 /**
@@ -46596,7 +46615,7 @@ function UnconnectedHeading(props, forwardedRef) {
 
 
 const Heading = contextConnect(UnconnectedHeading, 'Heading');
-/* harmony default export */ var heading_component = (Heading);
+/* harmony default export */ const heading_component = (Heading);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/color-palette/styles.js
 
@@ -47409,7 +47428,7 @@ const BorderControlDropdown = (props, forwardedRef) => {
 };
 
 const ConnectedBorderControlDropdown = contextConnect(BorderControlDropdown, 'BorderControlDropdown');
-/* harmony default export */ var border_control_dropdown_component = (ConnectedBorderControlDropdown);
+/* harmony default export */ const border_control_dropdown_component = (ConnectedBorderControlDropdown);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/unit-control/unit-select-control.js
 
@@ -47711,7 +47730,7 @@ function UnforwardedUnitControl(unitControlProps, forwardedRef) {
 
 const UnitControl = (0,external_wp_element_namespaceObject.forwardRef)(UnforwardedUnitControl);
 
-/* harmony default export */ var unit_control = (UnitControl);
+/* harmony default export */ const unit_control = (UnitControl);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/border-control/border-control/hook.js
 /**
@@ -47933,7 +47952,7 @@ const BorderControl = (props, forwardedRef) => {
 };
 
 const ConnectedBorderControl = contextConnect(BorderControl, 'BorderControl');
-/* harmony default export */ var border_control_component = (ConnectedBorderControl);
+/* harmony default export */ const border_control_component = (ConnectedBorderControl);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/grid/utils.js
 const grid_utils_ALIGNMENTS = {
@@ -48106,7 +48125,7 @@ function Grid(props, forwardedRef) {
 
 
 const ConnectedGrid = contextConnect(Grid, 'Grid');
-/* harmony default export */ var grid_component = (ConnectedGrid);
+/* harmony default export */ const grid_component = (ConnectedGrid);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/border-box-control/border-box-control-split-controls/hook.js
 /**
@@ -48237,7 +48256,7 @@ const BorderBoxControlSplitControls = (props, forwardedRef) => {
 };
 
 const ConnectedBorderBoxControlSplitControls = contextConnect(BorderBoxControlSplitControls, 'BorderBoxControlSplitControls');
-/* harmony default export */ var border_box_control_split_controls_component = (ConnectedBorderBoxControlSplitControls);
+/* harmony default export */ const border_box_control_split_controls_component = (ConnectedBorderBoxControlSplitControls);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/border-box-control/utils.js
 /**
@@ -48583,7 +48602,7 @@ const component_BorderBoxControl = (props, forwardedRef) => {
 };
 
 const ConnectedBorderBoxControl = contextConnect(component_BorderBoxControl, 'BorderBoxControl');
-/* harmony default export */ var border_box_control_component = (ConnectedBorderBoxControl);
+/* harmony default export */ const border_box_control_component = (ConnectedBorderBoxControl);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/box-control/styles/box-control-styles.js
 
@@ -48696,20 +48715,22 @@ const box_control_styles_UnitControl = /*#__PURE__*/emotion_styled_base_browser_
  * External dependencies
  */
 
-
 /**
  * Internal dependencies
  */
 
 
 
+
+const unit_control_noop = () => {};
+
 function BoxUnitControl(_ref) {
   let {
     isFirst,
     isLast,
     isOnly,
-    onHoverOn = external_lodash_namespaceObject.noop,
-    onHoverOff = external_lodash_namespaceObject.noop,
+    onHoverOn = unit_control_noop,
+    onHoverOff = unit_control_noop,
     label,
     value,
     ...props
@@ -48952,21 +48973,19 @@ function normalizeSides(sides) {
 
 
 /**
- * External dependencies
- */
-
-/**
  * Internal dependencies
  */
 
 
 
+const all_input_control_noop = () => {};
+
 function AllInputControl(_ref) {
   let {
-    onChange = external_lodash_namespaceObject.noop,
-    onFocus = external_lodash_namespaceObject.noop,
-    onHoverOn = external_lodash_namespaceObject.noop,
-    onHoverOff = external_lodash_namespaceObject.noop,
+    onChange = all_input_control_noop,
+    onFocus = all_input_control_noop,
+    onHoverOn = all_input_control_noop,
+    onHoverOff = all_input_control_noop,
     values,
     sides,
     selectedUnits,
@@ -49059,10 +49078,6 @@ function AllInputControl(_ref) {
 
 
 /**
- * External dependencies
- */
-
-/**
  * Internal dependencies
  */
 
@@ -49070,12 +49085,14 @@ function AllInputControl(_ref) {
 
 
 
+const input_controls_noop = () => {};
+
 function BoxInputControls(_ref) {
   let {
-    onChange = external_lodash_namespaceObject.noop,
-    onFocus = external_lodash_namespaceObject.noop,
-    onHoverOn = external_lodash_namespaceObject.noop,
-    onHoverOff = external_lodash_namespaceObject.noop,
+    onChange = input_controls_noop,
+    onFocus = input_controls_noop,
+    onHoverOn = input_controls_noop,
+    onHoverOff = input_controls_noop,
     values,
     selectedUnits,
     setSelectedUnits,
@@ -49486,13 +49503,8 @@ function LinkedButton(_ref) {
 
 
 /**
- * External dependencies
- */
-
-/**
  * WordPress dependencies
  */
-
 
 
 
@@ -49516,6 +49528,8 @@ const defaultInputProps = {
   min: 0
 };
 
+const box_control_noop = () => {};
+
 function box_control_useUniqueId(idProp) {
   const instanceId = (0,external_wp_compose_namespaceObject.useInstanceId)(BoxControl, 'inspector-box-control');
   return idProp || instanceId;
@@ -49525,7 +49539,7 @@ function BoxControl(_ref) {
   let {
     id: idProp,
     inputProps = defaultInputProps,
-    onChange = external_lodash_namespaceObject.noop,
+    onChange = box_control_noop,
     label = (0,external_wp_i18n_namespaceObject.__)('Box Control'),
     values: valuesProp,
     units,
@@ -49665,7 +49679,7 @@ function UnforwardedButtonGroup(props, ref) {
 
 
 const ButtonGroup = (0,external_wp_element_namespaceObject.forwardRef)(UnforwardedButtonGroup);
-/* harmony default export */ var button_group = (ButtonGroup);
+/* harmony default export */ const button_group = (ButtonGroup);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/elevation/styles.js
 function elevation_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
@@ -49818,7 +49832,7 @@ function component_Elevation(props, forwardedRef) {
 
 
 const ConnectedElevation = contextConnect(component_Elevation, 'Elevation');
-/* harmony default export */ var elevation_component = (ConnectedElevation);
+/* harmony default export */ const elevation_component = (ConnectedElevation);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/card/styles.js
 function card_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
@@ -50183,7 +50197,7 @@ function component_Card(props, forwardedRef) {
 
 
 const ConnectedCard = contextConnect(component_Card, 'Card');
-/* harmony default export */ var card_component = (ConnectedCard);
+/* harmony default export */ const card_component = (ConnectedCard);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/scrollable/styles.js
 function scrollable_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
@@ -50297,7 +50311,7 @@ function component_Scrollable(props, forwardedRef) {
 
 
 const ConnectedScrollable = contextConnect(component_Scrollable, 'Scrollable');
-/* harmony default export */ var scrollable_component = (ConnectedScrollable);
+/* harmony default export */ const scrollable_component = (ConnectedScrollable);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/card/card-body/hook.js
 /**
@@ -50382,7 +50396,7 @@ function CardBody(props, forwardedRef) {
 
 
 const ConnectedCardBody = contextConnect(CardBody, 'CardBody');
-/* harmony default export */ var card_body_component = (ConnectedCardBody);
+/* harmony default export */ const card_body_component = (ConnectedCardBody);
 
 ;// CONCATENATED MODULE: ./node_modules/reakit/es/Separator/Separator.js
 
@@ -50547,7 +50561,7 @@ function UnconnectedDivider(props, forwardedRef) {
 
 
 const component_Divider = contextConnect(UnconnectedDivider, 'Divider');
-/* harmony default export */ var divider_component = (component_Divider);
+/* harmony default export */ const divider_component = (component_Divider);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/card/card-divider/hook.js
 /**
@@ -50617,7 +50631,7 @@ function CardDivider(props, forwardedRef) {
 
 
 const ConnectedCardDivider = contextConnect(CardDivider, 'CardDivider');
-/* harmony default export */ var card_divider_component = (ConnectedCardDivider);
+/* harmony default export */ const card_divider_component = (ConnectedCardDivider);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/card/card-footer/hook.js
 /**
@@ -50690,7 +50704,7 @@ function CardFooter(props, forwardedRef) {
 
 
 const ConnectedCardFooter = contextConnect(CardFooter, 'CardFooter');
-/* harmony default export */ var card_footer_component = (ConnectedCardFooter);
+/* harmony default export */ const card_footer_component = (ConnectedCardFooter);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/card/card-header/hook.js
 /**
@@ -50761,7 +50775,7 @@ function CardHeader(props, forwardedRef) {
 
 
 const ConnectedCardHeader = contextConnect(CardHeader, 'CardHeader');
-/* harmony default export */ var card_header_component = (ConnectedCardHeader);
+/* harmony default export */ const card_header_component = (ConnectedCardHeader);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/card/card-media/hook.js
 /**
@@ -50833,7 +50847,7 @@ function CardMedia(props, forwardedRef) {
 
 
 const ConnectedCardMedia = contextConnect(CardMedia, 'CardMedia');
-/* harmony default export */ var card_media_component = (ConnectedCardMedia);
+/* harmony default export */ const card_media_component = (ConnectedCardMedia);
 
 ;// CONCATENATED MODULE: ./packages/icons/build-module/library/reset.js
 
@@ -50848,7 +50862,7 @@ const reset_reset = (0,external_wp_element_namespaceObject.createElement)(extern
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M7 11.5h10V13H7z"
 }));
-/* harmony default export */ var library_reset = (reset_reset);
+/* harmony default export */ const library_reset = (reset_reset);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/checkbox-control/index.js
 
@@ -50961,7 +50975,7 @@ props) {
     htmlFor: id
   }, label));
 }
-/* harmony default export */ var checkbox_control = (CheckboxControl);
+/* harmony default export */ const checkbox_control = (CheckboxControl);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/clipboard-button/index.js
 
@@ -51039,7 +51053,7 @@ const plus = (0,external_wp_element_namespaceObject.createElement)(external_wp_p
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M18 11.2h-5.2V6h-1.6v5.2H6v1.6h5.2V18h1.6v-5.2H18z"
 }));
-/* harmony default export */ var library_plus = (plus);
+/* harmony default export */ const library_plus = (plus);
 
 ;// CONCATENATED MODULE: ./packages/icons/build-module/library/more-vertical.js
 
@@ -51054,7 +51068,7 @@ const moreVertical = (0,external_wp_element_namespaceObject.createElement)(exter
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M13 19h-2v-2h2v2zm0-6h-2v-2h2v2zm0-6h-2V5h2v2z"
 }));
-/* harmony default export */ var more_vertical = (moreVertical);
+/* harmony default export */ const more_vertical = (moreVertical);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/item-group/styles.js
 function item_group_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
@@ -51184,12 +51198,11 @@ function ItemGroup(props, forwardedRef) {
   })));
 }
 
-/* harmony default export */ var item_group_component = (contextConnect(ItemGroup, 'ItemGroup'));
+/* harmony default export */ const item_group_component = (contextConnect(ItemGroup, 'ItemGroup'));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/custom-gradient-bar/constants.js
 const GRADIENT_MARKERS_WIDTH = 16;
 const INSERT_POINT_WIDTH = 16;
-const MINIMUM_ABSOLUTE_LEFT_POSITION = 5;
 const MINIMUM_DISTANCE_BETWEEN_INSERTER_AND_POINT = 10;
 const MINIMUM_DISTANCE_BETWEEN_POINTS = 0;
 const MINIMUM_SIGNIFICANT_MOVE = 5;
@@ -51355,14 +51368,13 @@ function updateControlPointColorByPosition(points, position, newColor) {
 /**
  * Gets the horizontal coordinate when dragging a control point with the mouse.
  *
- * @param {number}  mouseXCoordinate       Horizontal coordinate of the mouse position.
- * @param {Element} containerElement       Container for the gradient picker.
- * @param {number}  positionedElementWidth Width of the positioned element.
+ * @param {number}  mouseXCoordinate Horizontal coordinate of the mouse position.
+ * @param {Element} containerElement Container for the gradient picker.
  *
  * @return {number} Whole number percentage from the left.
  */
 
-function getHorizontalRelativeGradientPosition(mouseXCoordinate, containerElement, positionedElementWidth) {
+function getHorizontalRelativeGradientPosition(mouseXCoordinate, containerElement) {
   if (!containerElement) {
     return;
   }
@@ -51371,9 +51383,8 @@ function getHorizontalRelativeGradientPosition(mouseXCoordinate, containerElemen
     x,
     width
   } = containerElement.getBoundingClientRect();
-  const absolutePositionValue = mouseXCoordinate - x - MINIMUM_ABSOLUTE_LEFT_POSITION - positionedElementWidth / 2;
-  const availableWidth = width - MINIMUM_ABSOLUTE_LEFT_POSITION - INSERT_POINT_WIDTH;
-  return Math.round(clampPercent(absolutePositionValue * 100 / availableWidth));
+  const absolutePositionValue = mouseXCoordinate - x;
+  return Math.round(clampPercent(absolutePositionValue * 100 / width));
 }
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/custom-gradient-bar/control-points.js
@@ -51424,7 +51435,8 @@ function ControlPointButton(_ref) {
       'is-active': isOpen
     }),
     style: {
-      left: `${position}%`
+      left: `${position}%`,
+      transform: 'translateX( -50% )'
     }
   }, additionalProps)), (0,external_wp_element_namespaceObject.createElement)(visually_hidden_component, {
     id: descriptionId
@@ -51449,7 +51461,7 @@ function GradientColorPickerDropdown(_ref2) {
     }
 
     return result;
-  }, [gradientPickerDomRef.current, isRenderedInSidebar]);
+  }, [gradientPickerDomRef, isRenderedInSidebar]);
   return (0,external_wp_element_namespaceObject.createElement)(CustomColorPickerDropdown, extends_extends({
     isRenderedInSidebar: isRenderedInSidebar,
     popoverProps: popoverProps
@@ -51471,7 +51483,7 @@ function ControlPoints(_ref3) {
   const controlPointMoveState = (0,external_wp_element_namespaceObject.useRef)();
 
   const onMouseMove = event => {
-    const relativePosition = getHorizontalRelativeGradientPosition(event.clientX, gradientPickerDomRef.current, GRADIENT_MARKERS_WIDTH);
+    const relativePosition = getHorizontalRelativeGradientPosition(event.clientX, gradientPickerDomRef.current);
     const {
       initialPosition,
       index,
@@ -51492,11 +51504,16 @@ function ControlPoints(_ref3) {
       onStopControlPointChange();
       controlPointMoveState.current.listenersActivated = false;
     }
-  };
+  }; // Adding `cleanEventListeners` to the dependency array below requires the function itself to be wrapped in a `useCallback`
+  // This memoization would prevent the event listeners from being properly cleaned.
+  // Instead, we'll pass a ref to the function in our `useEffect` so `cleanEventListeners` itself is no longer a dependency.
 
+
+  const cleanEventListenersRef = (0,external_wp_element_namespaceObject.useRef)();
+  cleanEventListenersRef.current = cleanEventListeners;
   (0,external_wp_element_namespaceObject.useEffect)(() => {
     return () => {
-      cleanEventListeners();
+      cleanEventListenersRef.current();
     };
   }, []);
   return controlPoints.map((point, index) => {
@@ -51619,9 +51636,10 @@ function InsertPoint(_ref6) {
         },
         className: "components-custom-gradient-picker__insert-point",
         icon: library_plus,
-        style: {
-          left: insertPosition !== null ? `${insertPosition}%` : undefined
-        }
+        style: insertPosition !== null ? {
+          left: `${insertPosition}%`,
+          transform: 'translateX( -50% )'
+        } : undefined
       });
     },
     renderContent: () => (0,external_wp_element_namespaceObject.createElement)(LegacyAdapter, {
@@ -51639,7 +51657,7 @@ function InsertPoint(_ref6) {
 }
 
 ControlPoints.InsertPoint = InsertPoint;
-/* harmony default export */ var control_points = (ControlPoints);
+/* harmony default export */ const control_points = (ControlPoints);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/custom-gradient-bar/index.js
 
@@ -51737,11 +51755,11 @@ function CustomGradientBar(_ref) {
     disableAlpha = false,
     __experimentalIsRenderedInSidebar
   } = _ref;
-  const gradientPickerDomRef = (0,external_wp_element_namespaceObject.useRef)();
+  const gradientMarkersContainerDomRef = (0,external_wp_element_namespaceObject.useRef)();
   const [gradientBarState, gradientBarStateDispatch] = (0,external_wp_element_namespaceObject.useReducer)(customGradientBarReducer, customGradientBarReducerInitialState);
 
   const onMouseEnterAndMove = event => {
-    const insertPosition = getHorizontalRelativeGradientPosition(event.clientX, gradientPickerDomRef.current, INSERT_POINT_WIDTH); // If the insert point is close to an existing control point don't show it.
+    const insertPosition = getHorizontalRelativeGradientPosition(event.clientX, gradientMarkersContainerDomRef.current); // If the insert point is close to an existing control point don't show it.
 
     if ((0,external_lodash_namespaceObject.some)(controlPoints, _ref2 => {
       let {
@@ -51773,7 +51791,6 @@ function CustomGradientBar(_ref) {
   const isMovingInserter = gradientBarState.id === 'MOVING_INSERTER';
   const isInsertingControlPoint = gradientBarState.id === 'INSERTING_CONTROL_POINT';
   return (0,external_wp_element_namespaceObject.createElement)("div", {
-    ref: gradientPickerDomRef,
     className: classnames_default()('components-custom-gradient-picker__gradient-bar', {
       'has-gradient': hasGradient
     }),
@@ -51784,10 +51801,11 @@ function CustomGradientBar(_ref) {
     },
     onMouseLeave: onMouseLeave
   }, (0,external_wp_element_namespaceObject.createElement)("div", {
+    ref: gradientMarkersContainerDomRef,
     className: "components-custom-gradient-picker__markers-container"
   }, !disableInserter && (isMovingInserter || isInsertingControlPoint) && (0,external_wp_element_namespaceObject.createElement)(control_points.InsertPoint, {
     __experimentalIsRenderedInSidebar: __experimentalIsRenderedInSidebar,
-    gradientPickerDomRef: gradientPickerDomRef,
+    gradientPickerDomRef: gradientMarkersContainerDomRef,
     disableAlpha: disableAlpha,
     insertPosition: gradientBarState.insertPosition,
     value: controlPoints,
@@ -51806,7 +51824,7 @@ function CustomGradientBar(_ref) {
     __experimentalIsRenderedInSidebar: __experimentalIsRenderedInSidebar,
     disableAlpha: disableAlpha,
     disableRemove: disableInserter,
-    gradientPickerDomRef: gradientPickerDomRef,
+    gradientPickerDomRef: gradientMarkersContainerDomRef,
     ignoreMarkerPosition: isInsertingControlPoint ? gradientBarState.insertPosition : undefined,
     value: controlPoints,
     onChange: onChange,
@@ -52329,10 +52347,10 @@ const menu = (0,external_wp_element_namespaceObject.createElement)(external_wp_p
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M5 5v1.5h14V5H5zm0 7.8h14v-1.5H5v1.5zM5 19h14v-1.5H5V19z"
 }));
-/* harmony default export */ var library_menu = (menu);
+/* harmony default export */ const library_menu = (menu);
 
 ;// CONCATENATED MODULE: external ["wp","dom"]
-var external_wp_dom_namespaceObject = window["wp"]["dom"];
+const external_wp_dom_namespaceObject = window["wp"]["dom"];
 ;// CONCATENATED MODULE: ./packages/components/build-module/navigable-container/container.js
 
 
@@ -52347,6 +52365,9 @@ var external_wp_dom_namespaceObject = window["wp"]["dom"];
  */
 
 
+
+
+const container_noop = () => {};
 
 const MENU_ITEM_ROLES = ['menuitem', 'menuitemradio', 'menuitemcheckbox'];
 
@@ -52392,7 +52413,7 @@ class NavigableContainer extends external_wp_element_namespaceObject.Component {
     } = this.props;
     this.container = ref;
 
-    if ((0,external_lodash_namespaceObject.isFunction)(forwardedRef)) {
+    if (typeof forwardedRef === 'function') {
       forwardedRef(ref);
     } else if (forwardedRef && 'current' in forwardedRef) {
       forwardedRef.current = ref;
@@ -52437,7 +52458,7 @@ class NavigableContainer extends external_wp_element_namespaceObject.Component {
     const {
       cycle = true,
       eventToOffset,
-      onNavigate = external_lodash_namespaceObject.noop,
+      onNavigate = container_noop,
       stopNavigationEvents
     } = this.props;
     const offset = eventToOffset(event); // eventToOffset returns undefined if the event is not handled by the component.
@@ -52497,7 +52518,7 @@ const forwardedNavigableContainer = (props, ref) => {
 };
 
 forwardedNavigableContainer.displayName = 'NavigableContainer';
-/* harmony default export */ var container = ((0,external_wp_element_namespaceObject.forwardRef)(forwardedNavigableContainer));
+/* harmony default export */ const container = ((0,external_wp_element_namespaceObject.forwardRef)(forwardedNavigableContainer));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/navigable-container/menu.js
 
@@ -52564,7 +52585,7 @@ function NavigableMenu(_ref, ref) {
     eventToOffset: eventToOffset
   }, rest));
 }
-/* harmony default export */ var navigable_container_menu = ((0,external_wp_element_namespaceObject.forwardRef)(NavigableMenu));
+/* harmony default export */ const navigable_container_menu = ((0,external_wp_element_namespaceObject.forwardRef)(NavigableMenu));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/dropdown-menu/index.js
 
@@ -52603,6 +52624,17 @@ function mergeProps() {
 
   return mergedProps;
 }
+/**
+ * Whether the argument is a function.
+ *
+ * @param {*} maybeFunc The argument to check.
+ * @return {boolean} True if the argument is a function, false otherwise.
+ */
+
+
+function dropdown_menu_isFunction(maybeFunc) {
+  return typeof maybeFunc === 'function';
+}
 
 function DropdownMenu(dropdownMenuProps) {
   const {
@@ -52619,7 +52651,7 @@ function DropdownMenu(dropdownMenuProps) {
     noIcons
   } = dropdownMenuProps;
 
-  if ((0,external_lodash_namespaceObject.isEmpty)(controls) && !(0,external_lodash_namespaceObject.isFunction)(children)) {
+  if ((0,external_lodash_namespaceObject.isEmpty)(controls) && !dropdown_menu_isFunction(children)) {
     return null;
   } // Normalize controls to nested array of objects (sets of controls)
 
@@ -52696,7 +52728,7 @@ function DropdownMenu(dropdownMenuProps) {
       }, menuProps);
       return (0,external_wp_element_namespaceObject.createElement)(navigable_container_menu, extends_extends({}, mergedMenuProps, {
         role: "menu"
-      }), (0,external_lodash_namespaceObject.isFunction)(children) ? children(props) : null, (0,external_lodash_namespaceObject.flatMap)(controlSets, (controlSet, indexOfSet) => controlSet.map((control, indexOfControl) => (0,external_wp_element_namespaceObject.createElement)(build_module_button, {
+      }), dropdown_menu_isFunction(children) ? children(props) : null, (0,external_lodash_namespaceObject.flatMap)(controlSets, (controlSet, indexOfSet) => controlSet.map((control, indexOfControl) => (0,external_wp_element_namespaceObject.createElement)(build_module_button, {
         key: [indexOfSet, indexOfControl].join(),
         onClick: event => {
           event.stopPropagation();
@@ -52721,7 +52753,7 @@ function DropdownMenu(dropdownMenuProps) {
   });
 }
 
-/* harmony default export */ var dropdown_menu = (DropdownMenu);
+/* harmony default export */ const dropdown_menu = (DropdownMenu);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/palette-edit/styles.js
 
@@ -53108,70 +53140,55 @@ function PaletteEdit(_ref5) {
  * External dependencies
  */
 
+
 /**
  * WordPress dependencies
  */
 
+/**
+ * Internal dependencies
+ */
 
+function UnForwardedTokenInput(props, ref) {
+  const {
+    value,
+    isExpanded,
+    instanceId,
+    selectedSuggestionIndex,
+    className,
+    onChange,
+    ...restProps
+  } = props;
+  const size = value ? value.length + 1 : 0;
 
-class TokenInput extends external_wp_element_namespaceObject.Component {
-  constructor() {
-    super(...arguments);
-    this.onChange = this.onChange.bind(this);
-    this.bindInput = this.bindInput.bind(this);
-  }
+  const onChangeHandler = event => {
+    if (onChange) {
+      onChange({
+        value: event.target.value
+      });
+    }
+  };
 
-  focus() {
-    this.input.focus();
-  }
-
-  hasFocus() {
-    return this.input === this.input.ownerDocument.activeElement;
-  }
-
-  bindInput(ref) {
-    this.input = ref;
-  }
-
-  onChange(event) {
-    this.props.onChange({
-      value: event.target.value
-    });
-  }
-
-  render() {
-    const {
-      value,
-      isExpanded,
-      instanceId,
-      selectedSuggestionIndex,
-      className,
-      onChange,
-      ...props
-    } = this.props;
-    const size = value ? value.length + 1 : 0;
-    return (0,external_wp_element_namespaceObject.createElement)("input", extends_extends({
-      ref: this.bindInput,
-      id: `components-form-token-input-${instanceId}`,
-      type: "text"
-    }, props, {
-      value: value || '',
-      onChange: onChange ? this.onChange : undefined,
-      size: size,
-      className: classnames_default()(className, 'components-form-token-field__input'),
-      autoComplete: "off",
-      role: "combobox",
-      "aria-expanded": isExpanded,
-      "aria-autocomplete": "list",
-      "aria-owns": isExpanded ? `components-form-token-suggestions-${instanceId}` : undefined,
-      "aria-activedescendant": selectedSuggestionIndex !== -1 ? `components-form-token-suggestions-${instanceId}-${selectedSuggestionIndex}` : undefined,
-      "aria-describedby": `components-form-token-suggestions-howto-${instanceId}`
-    }));
-  }
-
+  return (0,external_wp_element_namespaceObject.createElement)("input", extends_extends({
+    ref: ref,
+    id: `components-form-token-input-${instanceId}`,
+    type: "text"
+  }, restProps, {
+    value: value || '',
+    onChange: onChangeHandler,
+    size: size,
+    className: classnames_default()(className, 'components-form-token-field__input'),
+    autoComplete: "off",
+    role: "combobox",
+    "aria-expanded": isExpanded,
+    "aria-autocomplete": "list",
+    "aria-owns": isExpanded ? `components-form-token-suggestions-${instanceId}` : undefined,
+    "aria-activedescendant": selectedSuggestionIndex !== -1 ? `components-form-token-suggestions-${instanceId}-${selectedSuggestionIndex}` : undefined,
+    "aria-describedby": `components-form-token-suggestions-howto-${instanceId}`
+  }));
 }
-
-/* harmony default export */ var token_input = (TokenInput);
+const TokenInput = (0,external_wp_element_namespaceObject.forwardRef)(UnForwardedTokenInput);
+/* harmony default export */ const token_input = (TokenInput);
 
 // EXTERNAL MODULE: ./node_modules/dom-scroll-into-view/lib/index.js
 var lib = __webpack_require__(5425);
@@ -53185,13 +53202,20 @@ var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
 
 
 
+
 /**
  * WordPress dependencies
  */
 
 
+/**
+ * Internal dependencies
+ */
 
-const emptyList = Object.freeze([]);
+const {
+  setTimeout: suggestions_list_setTimeout,
+  clearTimeout: suggestions_list_clearTimeout
+} = window;
 
 const handleMouseDown = e => {
   // By preventing default here, we will not lose focus of <input> when clicking a suggestion.
@@ -53202,27 +53226,34 @@ function SuggestionsList(_ref) {
   let {
     selectedIndex,
     scrollIntoView,
-    match = '',
+    match,
     onHover,
     onSelect,
-    suggestions = emptyList,
+    suggestions = [],
     displayTransform,
-    instanceId,
-    setTimeout
+    instanceId
   } = _ref;
   const [scrollingIntoView, setScrollingIntoView] = (0,external_wp_element_namespaceObject.useState)(false);
   const listRef = (0,external_wp_compose_namespaceObject.useRefEffect)(listNode => {
     // only have to worry about scrolling selected suggestion into view
     // when already expanded.
+    let id;
+
     if (selectedIndex > -1 && scrollIntoView && listNode.children[selectedIndex]) {
       setScrollingIntoView(true);
       lib_default()(listNode.children[selectedIndex], listNode, {
         onlyScrollIfNeeded: true
       });
-      setTimeout(() => {
+      id = suggestions_list_setTimeout(() => {
         setScrollingIntoView(false);
       }, 100);
     }
+
+    return () => {
+      if (id !== undefined) {
+        suggestions_list_clearTimeout(id);
+      }
+    };
   }, [selectedIndex, scrollIntoView]);
 
   const handleHover = suggestion => {
@@ -53240,24 +53271,20 @@ function SuggestionsList(_ref) {
   };
 
   const computeSuggestionMatch = suggestion => {
-    const matchText = displayTransform(match || '').toLocaleLowerCase();
+    const matchText = displayTransform(match).toLocaleLowerCase();
 
     if (matchText.length === 0) {
       return null;
     }
 
-    suggestion = displayTransform(suggestion);
-    const indexOfMatch = suggestion.toLocaleLowerCase().indexOf(matchText);
+    const transformedSuggestion = displayTransform(suggestion);
+    const indexOfMatch = transformedSuggestion.toLocaleLowerCase().indexOf(matchText);
     return {
-      suggestionBeforeMatch: suggestion.substring(0, indexOfMatch),
-      suggestionMatch: suggestion.substring(indexOfMatch, indexOfMatch + matchText.length),
-      suggestionAfterMatch: suggestion.substring(indexOfMatch + matchText.length)
+      suggestionBeforeMatch: transformedSuggestion.substring(0, indexOfMatch),
+      suggestionMatch: transformedSuggestion.substring(indexOfMatch, indexOfMatch + matchText.length),
+      suggestionAfterMatch: transformedSuggestion.substring(indexOfMatch + matchText.length)
     };
-  }; // We set `tabIndex` here because otherwise Firefox sets focus on this
-  // div when tabbing off of the input in `TokenField` -- not really sure
-  // why, since usually a div isn't focusable by default
-  // TODO does this still apply now that it's a <ul> and not a <div>?
-
+  };
 
   return (0,external_wp_element_namespaceObject.createElement)("ul", {
     ref: listRef,
@@ -53275,7 +53302,7 @@ function SuggestionsList(_ref) {
       id: `components-form-token-suggestions-${instanceId}-${index}`,
       role: "option",
       className: className,
-      key: suggestion !== null && suggestion !== void 0 && suggestion.value ? suggestion.value : displayTransform(suggestion),
+      key: typeof suggestion === 'object' && 'value' in suggestion ? suggestion === null || suggestion === void 0 ? void 0 : suggestion.value : displayTransform(suggestion),
       onMouseDown: handleMouseDown,
       onClick: handleClick(suggestion),
       onMouseEnter: handleHover(suggestion),
@@ -53288,8 +53315,7 @@ function SuggestionsList(_ref) {
     /* eslint-enable jsx-a11y/click-events-have-key-events */
   }));
 }
-
-/* harmony default export */ var suggestions_list = ((0,external_wp_compose_namespaceObject.withSafeTimeout)(SuggestionsList));
+/* harmony default export */ const suggestions_list = (SuggestionsList);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/higher-order/with-focus-outside/index.js
 
@@ -53301,7 +53327,7 @@ function SuggestionsList(_ref) {
  */
 
 
-/* harmony default export */ var with_focus_outside = ((0,external_wp_compose_namespaceObject.createHigherOrderComponent)(WrappedComponent => props => {
+/* harmony default export */ const with_focus_outside = ((0,external_wp_compose_namespaceObject.createHigherOrderComponent)(WrappedComponent => props => {
   const [handleFocusOutside, setHandleFocusOutside] = (0,external_wp_element_namespaceObject.useState)();
   const bindFocusOutsideHandler = (0,external_wp_element_namespaceObject.useCallback)(node => setHandleFocusOutside(() => node !== null && node !== void 0 && node.handleFocusOutside ? node.handleFocusOutside.bind(node) : undefined), []);
   return (0,external_wp_element_namespaceObject.createElement)("div", (0,external_wp_compose_namespaceObject.__experimentalUseFocusOutside)(handleFocusOutside), (0,external_wp_element_namespaceObject.createElement)(WrappedComponent, extends_extends({
@@ -53337,6 +53363,9 @@ function SuggestionsList(_ref) {
 
 
 
+
+const combobox_control_noop = () => {};
+
 const DetectOutside = with_focus_outside(class extends external_wp_element_namespaceObject.Component {
   handleFocusOutside(event) {
     this.props.onFocusOutside(event);
@@ -53356,7 +53385,7 @@ function ComboboxControl(_ref) {
     label,
     options,
     onChange,
-    onFilterValueChange = external_lodash_namespaceObject.noop,
+    onFilterValueChange = combobox_control_noop,
     hideLabelFromVision,
     help,
     allowReset = true,
@@ -53480,7 +53509,7 @@ function ComboboxControl(_ref) {
 
   const handleOnReset = () => {
     onChange(null);
-    inputContainer.current.input.focus();
+    inputContainer.current.focus();
   }; // Update current selections when the filter input changes.
 
 
@@ -53554,7 +53583,7 @@ function ComboboxControl(_ref) {
   /* eslint-enable jsx-a11y/no-static-element-interactions */
 }
 
-/* harmony default export */ var combobox_control = (ComboboxControl);
+/* harmony default export */ const combobox_control = (ComboboxControl);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/modal/aria-helper.js
 // @ts-nocheck
@@ -53704,7 +53733,7 @@ function Modal(props, forwardedRef) {
         showApp();
       }
     };
-  }, []);
+  }, [bodyOpenClassName]);
 
   function handleEscapeKeyDown(event) {
     if (shouldCloseOnEsc && event.keyCode === external_wp_keycodes_namespaceObject.ESCAPE && !event.defaultPrevented) {
@@ -53758,7 +53787,7 @@ function Modal(props, forwardedRef) {
   })), children)))), document.body);
 }
 
-/* harmony default export */ var modal = ((0,external_wp_element_namespaceObject.forwardRef)(Modal));
+/* harmony default export */ const modal = ((0,external_wp_element_namespaceObject.forwardRef)(Modal));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/confirm-dialog/styles.js
 function confirm_dialog_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
@@ -53866,7 +53895,7 @@ function ConfirmDialog(props, forwardedRef) {
   }, confirmLabel)))));
 }
 
-/* harmony default export */ var confirm_dialog_component = (contextConnect(ConfirmDialog, 'ConfirmDialog'));
+/* harmony default export */ const confirm_dialog_component = (contextConnect(ConfirmDialog, 'ConfirmDialog'));
 
 ;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js
 function objectWithoutPropertiesLoose_objectWithoutPropertiesLoose(source, excluded) {
@@ -57963,7 +57992,7 @@ function useMultipleSelection(userProps) {
   };
 }
 
-/* harmony default export */ var downshift_esm = ((/* unused pure expression or super */ null && (Downshift)));
+/* harmony default export */ const downshift_esm = ((/* unused pure expression or super */ null && (Downshift)));
 
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/custom-select-control/index.js
@@ -58151,7 +58180,7 @@ const arrowLeft = (0,external_wp_element_namespaceObject.createElement)(external
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M20 10.8H6.7l4.1-4.5-1.1-1.1-5.8 6.3 5.8 5.8 1.1-1.1-4-3.9H20z"
 }));
-/* harmony default export */ var arrow_left = (arrowLeft);
+/* harmony default export */ const arrow_left = (arrowLeft);
 
 ;// CONCATENATED MODULE: ./packages/icons/build-module/library/arrow-right.js
 
@@ -58166,7 +58195,7 @@ const arrowRight = (0,external_wp_element_namespaceObject.createElement)(externa
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M14.3 6.7l-1.1 1.1 4 4H4v1.5h13.3l-4.1 4.4 1.1 1.1 5.8-6.3z"
 }));
-/* harmony default export */ var arrow_right = (arrowRight);
+/* harmony default export */ const arrow_right = (arrowRight);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/date-time/date/utils.js
 /**
@@ -58247,9 +58276,8 @@ const NavNextButton = /*#__PURE__*/emotion_styled_base_browser_esm(build_module_
  * External dependencies
  */
 
- // Needed to initialise the default datepicker styles.
+// Needed to initialise the default datepicker styles.
 // See: https://github.com/airbnb/react-dates#initialize
-
  // `react-dates` doesn't tree-shake correctly, so we import from the individual
 // component here.
 
@@ -58269,6 +58297,8 @@ const NavNextButton = /*#__PURE__*/emotion_styled_base_browser_esm(build_module_
 
 const TIMEZONELESS_FORMAT = 'YYYY-MM-DDTHH:mm:ss';
 const ARIAL_LABEL_TIME_FORMAT = 'dddd, LL';
+
+const date_noop = () => {};
 
 function DatePickerDay(_ref) {
   let {
@@ -58305,7 +58335,7 @@ function DatePickerDay(_ref) {
     const dayWithEventsDescription = (0,external_wp_i18n_namespaceObject.sprintf)( // translators: 1: Calendar day format, 2: Calendar event number.
     (0,external_wp_i18n_namespaceObject._n)('%1$s. There is %2$d event.', '%1$s. There are %2$d events.', events.length), dayAriaLabel, events.length);
     parentNode.setAttribute('aria-label', dayWithEventsDescription);
-  }, [events.length]);
+  }, [day, events.length]);
   return (0,external_wp_element_namespaceObject.createElement)(Day, {
     ref: ref,
     className: "components-datetime__date__day" // Unused, for backwards compatibility.
@@ -58465,13 +58495,13 @@ function DatePicker(_ref2) {
         "aria-label": ariaLabel
       }, props));
     },
-    onFocusChange: external_lodash_namespaceObject.noop
+    onFocusChange: date_noop
   }));
 }
-/* harmony default export */ var date = (DatePicker);
+/* harmony default export */ const date = (DatePicker);
 
 ;// CONCATENATED MODULE: external ["wp","date"]
-var external_wp_date_namespaceObject = window["wp"]["date"];
+const external_wp_date_namespaceObject = window["wp"]["date"];
 ;// CONCATENATED MODULE: ./packages/components/build-module/date-time/time/styles.js
 
 
@@ -58582,7 +58612,7 @@ const timezone_TimeZone = () => {
   }, zoneAbbr));
 };
 
-/* harmony default export */ var timezone = (timezone_TimeZone);
+/* harmony default export */ const timezone = (timezone_TimeZone);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/date-time/time/index.js
 
@@ -58885,7 +58915,7 @@ function TimePicker(_ref) {
     __unstableStateReducer: buildPadInputStateReducer(4)
   }))));
 }
-/* harmony default export */ var time = (TimePicker);
+/* harmony default export */ const time = (TimePicker);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/date-time/date-time/styles.js
 
@@ -58909,7 +58939,6 @@ const CalendarHelp = emotion_styled_base_browser_esm("div",  true ? {
  * External dependencies
  */
 
-
 /**
  * WordPress dependencies
  */
@@ -58929,12 +58958,14 @@ const CalendarHelp = emotion_styled_base_browser_esm("div",  true ? {
 
 
 
+const date_time_noop = () => {};
+
 function UnforwardedDateTimePicker(_ref, ref) {
   let {
     currentDate,
     is12Hour,
     isInvalidDate,
-    onMonthPreviewed = external_lodash_namespaceObject.noop,
+    onMonthPreviewed = date_time_noop,
     onChange,
     events,
     __nextRemoveHelpButton = false,
@@ -59045,7 +59076,7 @@ function UnforwardedDateTimePicker(_ref, ref) {
 
 
 const DateTimePicker = (0,external_wp_element_namespaceObject.forwardRef)(UnforwardedDateTimePicker);
-/* harmony default export */ var date_time = (DateTimePicker);
+/* harmony default export */ const date_time = (DateTimePicker);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/date-time/index.js
 /**
@@ -59055,7 +59086,7 @@ const DateTimePicker = (0,external_wp_element_namespaceObject.forwardRef)(Unforw
 
 
 
-/* harmony default export */ var build_module_date_time = (date_time);
+/* harmony default export */ const build_module_date_time = (date_time);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/dimension-control/sizes.js
 /**
@@ -59082,7 +59113,7 @@ const DateTimePicker = (0,external_wp_element_namespaceObject.forwardRef)(Unforw
  */
 
 const findSizeBySlug = (sizes, slug) => sizes.find(size => slug === size.slug);
-/* harmony default export */ var dimension_control_sizes = ([{
+/* harmony default export */ const dimension_control_sizes = ([{
   name: (0,external_wp_i18n_namespaceObject._x)('None', 'Size of a UI element'),
   slug: 'none'
 }, {
@@ -59105,7 +59136,6 @@ const findSizeBySlug = (sizes, slug) => sizes.find(size => slug === size.slug);
 /**
  * External dependencies
  */
-
 
 /**
  * WordPress dependencies
@@ -59138,7 +59168,7 @@ function DimensionControl(props) {
 
     if (!theSize || value === theSize.slug) {
       onChange(undefined);
-    } else if ((0,external_lodash_namespaceObject.isFunction)(onChange)) {
+    } else if (typeof onChange === 'function') {
       onChange(theSize.slug);
     }
   };
@@ -59172,7 +59202,7 @@ function DimensionControl(props) {
     options: formatSizesAsOptions(sizes)
   });
 }
-/* harmony default export */ var dimension_control = (DimensionControl);
+/* harmony default export */ const dimension_control = (DimensionControl);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/disabled/styles/disabled-styles.js
 
@@ -59252,7 +59282,7 @@ function Disabled(_ref) {
 
 Disabled.Context = Context;
 Disabled.Consumer = Consumer;
-/* harmony default export */ var disabled = (Disabled);
+/* harmony default export */ const disabled = (Disabled);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/draggable/index.js
 
@@ -59485,7 +59515,7 @@ const upload = (0,external_wp_element_namespaceObject.createElement)(external_wp
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M18.5 15v3.5H13V6.7l4.5 4.1 1-1.1-6.2-5.8-5.8 5.8 1 1.1 4-4v11.7h-6V15H4v5h16v-5z"
 }));
-/* harmony default export */ var library_upload = (upload);
+/* harmony default export */ const library_upload = (upload);
 
 ;// CONCATENATED MODULE: ./node_modules/framer-motion/dist/es/utils/use-is-mounted.mjs
 
@@ -59934,7 +59964,7 @@ const swatch = (0,external_wp_element_namespaceObject.createElement)(external_wp
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M5 17.7c.4.5.8.9 1.2 1.2l1.1-1.4c-.4-.3-.7-.6-1-1L5 17.7zM5 6.3l1.4 1.1c.3-.4.6-.7 1-1L6.3 5c-.5.4-.9.8-1.3 1.3zm.1 7.8l-1.7.5c.2.6.4 1.1.7 1.6l1.5-.8c-.2-.4-.4-.8-.5-1.3zM4.8 12v-.7L3 11.1v1.8l1.7-.2c.1-.2.1-.5.1-.7zm3 7.9c.5.3 1.1.5 1.6.7l.5-1.7c-.5-.1-.9-.3-1.3-.5l-.8 1.5zM19 6.3c-.4-.5-.8-.9-1.2-1.2l-1.1 1.4c.4.3.7.6 1 1L19 6.3zm-.1 3.6l1.7-.5c-.2-.6-.4-1.1-.7-1.6l-1.5.8c.2.4.4.8.5 1.3zM5.6 8.6l-1.5-.8c-.3.5-.5 1-.7 1.6l1.7.5c.1-.5.3-.9.5-1.3zm2.2-4.5l.8 1.5c.4-.2.8-.4 1.3-.5l-.5-1.7c-.6.2-1.1.4-1.6.7zm8.8 13.5l1.1 1.4c.5-.4.9-.8 1.2-1.2l-1.4-1.1c-.2.3-.5.6-.9.9zm1.8-2.2l1.5.8c.3-.5.5-1.1.7-1.6l-1.7-.5c-.1.5-.3.9-.5 1.3zm2.6-4.3l-1.7.2v1.4l1.7.2V12v-.9zM11.1 3l.2 1.7h1.4l.2-1.7h-1.8zm3 2.1c.5.1.9.3 1.3.5l.8-1.5c-.5-.3-1.1-.5-1.6-.7l-.5 1.7zM12 19.2h-.7l-.2 1.8h1.8l-.2-1.7c-.2-.1-.5-.1-.7-.1zm2.1-.3l.5 1.7c.6-.2 1.1-.4 1.6-.7l-.8-1.5c-.4.2-.8.4-1.3.5z"
 }));
-/* harmony default export */ var library_swatch = (swatch);
+/* harmony default export */ const library_swatch = (swatch);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/swatch/index.js
 
@@ -59963,7 +59993,7 @@ function Swatch(_ref) {
   });
 }
 
-/* harmony default export */ var build_module_swatch = (Swatch);
+/* harmony default export */ const build_module_swatch = (Swatch);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/duotone-picker/utils.js
 /**
@@ -60080,7 +60110,7 @@ function DuotoneSwatch(_ref) {
   });
 }
 
-/* harmony default export */ var duotone_swatch = (DuotoneSwatch);
+/* harmony default export */ const duotone_swatch = (DuotoneSwatch);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/color-list-picker/index.js
 
@@ -60150,7 +60180,7 @@ function ColorListPicker(_ref2) {
   })));
 }
 
-/* harmony default export */ var color_list_picker = (ColorListPicker);
+/* harmony default export */ const color_list_picker = (ColorListPicker);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/duotone-picker/custom-duotone-bar.js
 
@@ -60270,7 +60300,7 @@ function DuotonePicker(_ref) {
   }));
 }
 
-/* harmony default export */ var duotone_picker = (DuotonePicker);
+/* harmony default export */ const duotone_picker = (DuotonePicker);
 
 ;// CONCATENATED MODULE: ./packages/icons/build-module/library/external.js
 
@@ -60285,7 +60315,7 @@ const external = (0,external_wp_element_namespaceObject.createElement)(external_
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M18.2 17c0 .7-.6 1.2-1.2 1.2H7c-.7 0-1.2-.6-1.2-1.2V7c0-.7.6-1.2 1.2-1.2h3.2V4.2H7C5.5 4.2 4.2 5.5 4.2 7v10c0 1.5 1.2 2.8 2.8 2.8h10c1.5 0 2.8-1.2 2.8-2.8v-3.6h-1.5V17zM14.9 3v1.5h3.7l-6.4 6.4 1.1 1.1 6.4-6.4v3.7h1.5V3h-6.3z"
 }));
-/* harmony default export */ var library_external = (external);
+/* harmony default export */ const library_external = (external);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/external-link/styles/external-link-styles.js
 
@@ -60301,7 +60331,7 @@ function external_link_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You hav
  */
 
 const StyledIcon = /*#__PURE__*/emotion_styled_base_browser_esm(icons_build_module_icon,  true ? {
-  target: "etxm6pv0"
+  target: "esh4a730"
 } : 0)( true ? {
   name: "rvs7bx",
   styles: "width:1em;height:1em;margin:0;vertical-align:middle;fill:currentColor"
@@ -60316,10 +60346,10 @@ const StyledIcon = /*#__PURE__*/emotion_styled_base_browser_esm(icons_build_modu
  */
 
 
+
 /**
  * WordPress dependencies
  */
-
 
 
 
@@ -60329,15 +60359,16 @@ const StyledIcon = /*#__PURE__*/emotion_styled_base_browser_esm(icons_build_modu
 
 
 
-function ExternalLink(_ref, ref) {
-  let {
+
+function UnforwardedExternalLink(props, ref) {
+  const {
     href,
     children,
     className,
     rel = '',
     ...additionalProps
-  } = _ref;
-  rel = (0,external_lodash_namespaceObject.uniq)((0,external_lodash_namespaceObject.compact)([...rel.split(' '), 'external', 'noreferrer', 'noopener'])).join(' ');
+  } = props;
+  const optimizedRel = (0,external_lodash_namespaceObject.uniq)((0,external_lodash_namespaceObject.compact)([...rel.split(' '), 'external', 'noreferrer', 'noopener'])).join(' ');
   const classes = classnames_default()('components-external-link', className);
   return (
     /* eslint-disable react/jsx-no-target-blank */
@@ -60345,7 +60376,7 @@ function ExternalLink(_ref, ref) {
       className: classes,
       href: href,
       target: "_blank",
-      rel: rel,
+      rel: optimizedRel,
       ref: ref
     }), children, (0,external_wp_element_namespaceObject.createElement)(visually_hidden_component, {
       as: "span"
@@ -60359,7 +60390,21 @@ function ExternalLink(_ref, ref) {
 
   );
 }
-/* harmony default export */ var external_link = ((0,external_wp_element_namespaceObject.forwardRef)(ExternalLink));
+/**
+ * Link to an external resource.
+ *
+ * ```jsx
+ * import { ExternalLink } from '@wordpress/components';
+ *
+ * const MyExternalLink = () => (
+ *   <ExternalLink href="https://wordpress.org">WordPress.org</ExternalLink>
+ * );
+ * ```
+ */
+
+
+const ExternalLink = (0,external_wp_element_namespaceObject.forwardRef)(UnforwardedExternalLink);
+/* harmony default export */ const external_link = (ExternalLink);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/focal-point-picker/styles/focal-point-picker-style.js
 
@@ -60482,13 +60527,8 @@ function fractionToPercentage(fraction) {
 
 
 /**
- * External dependencies
- */
-
-/**
  * WordPress dependencies
  */
-
 
 /**
  * Internal dependencies
@@ -60498,9 +60538,12 @@ function fractionToPercentage(fraction) {
 
 const TEXTCONTROL_MIN = 0;
 const TEXTCONTROL_MAX = 100;
+
+const controls_noop = () => {};
+
 function FocalPointPickerControls(_ref) {
   let {
-    onChange = external_lodash_namespaceObject.noop,
+    onChange = controls_noop,
     percentages = {
       x: 0.5,
       y: 0.5
@@ -60657,7 +60700,7 @@ function use_update_effect_useUpdateEffect(effect, deps) {
   }, deps);
 }
 
-/* harmony default export */ var use_update_effect = (use_update_effect_useUpdateEffect);
+/* harmony default export */ const use_update_effect = (use_update_effect_useUpdateEffect);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/focal-point-picker/grid.js
 
@@ -60734,13 +60777,8 @@ function useRevealAnimation(value) {
 
 
 /**
- * External dependencies
- */
-
-/**
  * WordPress dependencies
  */
-
 
 /**
  * Internal dependencies
@@ -60748,12 +60786,15 @@ function useRevealAnimation(value) {
 
 
 
+
+const media_noop = () => {};
+
 function media_Media(_ref) {
   let {
     alt,
     autoPlay,
     src,
-    onLoad = external_lodash_namespaceObject.noop,
+    onLoad = media_noop,
     mediaRef,
     // Exposing muted prop for test rendering purposes
     // https://github.com/testing-library/react-testing-library/issues/470
@@ -60790,7 +60831,7 @@ function media_Media(_ref) {
 function MediaPlaceholderElement(_ref2) {
   let {
     mediaRef,
-    onLoad = external_lodash_namespaceObject.noop,
+    onLoad = media_noop,
     ...props
   } = _ref2;
   const onLoadRef = (0,external_wp_element_namespaceObject.useRef)(onLoad);
@@ -61184,7 +61225,7 @@ FocalPointPicker.defaultProps = {
   },
   url: null
 };
-/* harmony default export */ var focal_point_picker = ((0,external_wp_compose_namespaceObject.withInstanceId)(FocalPointPicker));
+/* harmony default export */ const focal_point_picker = ((0,external_wp_compose_namespaceObject.withInstanceId)(FocalPointPicker));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/focusable-iframe/index.js
 
@@ -61227,7 +61268,7 @@ const settings = (0,external_wp_element_namespaceObject.createElement)(external_
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M14.5 13.8c-1.1 0-2.1.7-2.4 1.8H4V17h8.1c.3 1 1.3 1.8 2.4 1.8s2.1-.7 2.4-1.8H20v-1.5h-3.1c-.3-1-1.3-1.7-2.4-1.7zM11.9 7c-.3-1-1.3-1.8-2.4-1.8S7.4 6 7.1 7H4v1.5h3.1c.3 1 1.3 1.8 2.4 1.8s2.1-.7 2.4-1.8H20V7h-8.1z"
 }));
-/* harmony default export */ var library_settings = (settings);
+/* harmony default export */ const library_settings = (settings);
 
 ;// CONCATENATED MODULE: ./node_modules/reakit/es/Radio/RadioState.js
 
@@ -61438,7 +61479,7 @@ function ToggleGroupControlBackdrop(_ref) {
   });
 }
 
-/* harmony default export */ var toggle_group_control_backdrop = ((0,external_wp_element_namespaceObject.memo)(ToggleGroupControlBackdrop));
+/* harmony default export */ const toggle_group_control_backdrop = ((0,external_wp_element_namespaceObject.memo)(ToggleGroupControlBackdrop));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/toggle-group-control/context.js
 /**
@@ -61451,7 +61492,7 @@ function ToggleGroupControlBackdrop(_ref) {
 
 const ToggleGroupControlContext = (0,external_wp_element_namespaceObject.createContext)({});
 const useToggleGroupControlContext = () => (0,external_wp_element_namespaceObject.useContext)(ToggleGroupControlContext);
-/* harmony default export */ var toggle_group_control_context = (ToggleGroupControlContext);
+/* harmony default export */ const toggle_group_control_context = (ToggleGroupControlContext);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/toggle-group-control/toggle-group-control/component.js
 
@@ -61566,7 +61607,7 @@ function component_ToggleGroupControl(props, forwardedRef) {
 
 
 const ConnectedToggleGroupControl = contextConnect(component_ToggleGroupControl, 'ToggleGroupControl');
-/* harmony default export */ var toggle_group_control_component = (ConnectedToggleGroupControl);
+/* harmony default export */ const toggle_group_control_component = (ConnectedToggleGroupControl);
 
 ;// CONCATENATED MODULE: ./node_modules/reakit/es/Radio/Radio.js
 
@@ -61881,7 +61922,7 @@ function ToggleGroupControlOptionBase(props, forwardedRef) {
 
 
 const ConnectedToggleGroupControlOptionBase = contextConnect(ToggleGroupControlOptionBase, 'ToggleGroupControlOptionBase');
-/* harmony default export */ var toggle_group_control_option_base_component = (ConnectedToggleGroupControlOptionBase);
+/* harmony default export */ const toggle_group_control_option_base_component = (ConnectedToggleGroupControlOptionBase);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/toggle-group-control/toggle-group-control-option/component.js
 
@@ -62124,7 +62165,7 @@ function FontSizePicker(_ref, ref) {
     }
 
     return hint;
-  }, [showCustomValueControl, selectedOption === null || selectedOption === void 0 ? void 0 : selectedOption.slug, value, isCustomValue, fontSizesContainComplexValues]);
+  }, [showCustomValueControl, selectedOption === null || selectedOption === void 0 ? void 0 : selectedOption.name, selectedOption === null || selectedOption === void 0 ? void 0 : selectedOption.size, value, isCustomValue, shouldUseSelectControl, fontSizesContainComplexValues]);
 
   if (!options) {
     return null;
@@ -62228,7 +62269,7 @@ function FontSizePicker(_ref, ref) {
   }));
 }
 
-/* harmony default export */ var font_size_picker = ((0,external_wp_element_namespaceObject.forwardRef)(FontSizePicker));
+/* harmony default export */ const font_size_picker = ((0,external_wp_element_namespaceObject.forwardRef)(FontSizePicker));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/form-file-upload/index.js
 
@@ -62281,7 +62322,7 @@ function FormFileUpload(_ref) {
   }));
 }
 
-/* harmony default export */ var form_file_upload = (FormFileUpload);
+/* harmony default export */ const form_file_upload = (FormFileUpload);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/form-toggle/index.js
 
@@ -62291,7 +62332,7 @@ function FormFileUpload(_ref) {
  * External dependencies
  */
 
-
+const form_toggle_noop = () => {};
 
 function FormToggle(_ref) {
   let {
@@ -62299,7 +62340,7 @@ function FormToggle(_ref) {
     checked,
     id,
     disabled,
-    onChange = external_lodash_namespaceObject.noop,
+    onChange = form_toggle_noop,
     ...props
   } = _ref;
   const wrapperClasses = classnames_default()('components-form-toggle', className, {
@@ -62322,7 +62363,7 @@ function FormToggle(_ref) {
   }));
 }
 
-/* harmony default export */ var form_toggle = (FormToggle);
+/* harmony default export */ const form_toggle = (FormToggle);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/form-token-field/token.js
 
@@ -62330,7 +62371,6 @@ function FormToggle(_ref) {
 /**
  * External dependencies
  */
-
 
 /**
  * WordPress dependencies
@@ -62345,6 +62385,9 @@ function FormToggle(_ref) {
 
 
 
+
+const token_noop = () => {};
+
 function Token(_ref) {
   let {
     value,
@@ -62353,7 +62396,7 @@ function Token(_ref) {
     displayTransform,
     isBorderless = false,
     disabled = false,
-    onClickRemove = external_lodash_namespaceObject.noop,
+    onClickRemove = token_noop,
     onMouseEnter,
     onMouseLeave,
     messages,
@@ -62398,37 +62441,14 @@ function Token(_ref) {
   }));
 }
 
-;// CONCATENATED MODULE: ./packages/components/build-module/higher-order/with-spoken-messages/index.js
-
-
-
-/**
- * WordPress dependencies
- */
-
-
-/**
- * A Higher Order Component used to be provide speak and debounced speak
- * functions.
- *
- * @see https://developer.wordpress.org/block-editor/packages/packages-a11y/#speak
- *
- * @param {WPComponent} Component The component to be wrapped.
- *
- * @return {WPComponent} The wrapped component.
- */
-
-/* harmony default export */ var with_spoken_messages = ((0,external_wp_compose_namespaceObject.createHigherOrderComponent)(Component => props => (0,external_wp_element_namespaceObject.createElement)(Component, extends_extends({}, props, {
-  speak: external_wp_a11y_namespaceObject.speak,
-  debouncedSpeak: (0,external_wp_compose_namespaceObject.useDebounce)(external_wp_a11y_namespaceObject.speak, 500)
-})), 'withSpokenMessages'));
-
 ;// CONCATENATED MODULE: ./packages/components/build-module/form-token-field/index.js
+
 
 
 /**
  * External dependencies
  */
+
 
 
 /**
@@ -62448,154 +62468,173 @@ function Token(_ref) {
 
 
 
-const initialState = {
-  incompleteTokenValue: '',
-  inputOffsetFromEnd: 0,
-  isActive: false,
-  isExpanded: false,
-  selectedSuggestionIndex: -1,
-  selectedSuggestionScroll: false
-};
+/**
+ * A `FormTokenField` is a field similar to the tags and categories fields in the interim editor chrome,
+ * or the "to" field in Mail on OS X. Tokens can be entered by typing them or selecting them from a list of suggested tokens.
+ *
+ * Up to one hundred suggestions that match what the user has typed so far will be shown from which the user can pick from (auto-complete).
+ * Tokens are separated by the "," character. Suggestions can be selected with the up or down arrows and added with the tab or enter key.
+ *
+ * The `value` property is handled in a manner similar to controlled form components.
+ * See [Forms](http://facebook.github.io/react/docs/forms.html) in the React Documentation for more information.
+ */
+function FormTokenField(props) {
+  const {
+    autoCapitalize,
+    autoComplete,
+    maxLength,
+    placeholder,
+    label = (0,external_wp_i18n_namespaceObject.__)('Add item'),
+    className,
+    suggestions = [],
+    maxSuggestions = 100,
+    value = [],
+    displayTransform = external_lodash_namespaceObject.identity,
+    saveTransform = token => token.trim(),
+    onChange = () => {},
+    onInputChange = () => {},
+    onFocus = undefined,
+    isBorderless = false,
+    disabled = false,
+    tokenizeOnSpace = false,
+    messages = {
+      added: (0,external_wp_i18n_namespaceObject.__)('Item added.'),
+      removed: (0,external_wp_i18n_namespaceObject.__)('Item removed.'),
+      remove: (0,external_wp_i18n_namespaceObject.__)('Remove item'),
+      __experimentalInvalid: (0,external_wp_i18n_namespaceObject.__)('Invalid item')
+    },
+    __experimentalExpandOnFocus = false,
+    __experimentalValidateInput = () => true,
+    __experimentalShowHowTo = true
+  } = props;
+  const instanceId = (0,external_wp_compose_namespaceObject.useInstanceId)(FormTokenField); // We reset to these initial values again in the onBlur
 
-class FormTokenField extends external_wp_element_namespaceObject.Component {
-  constructor() {
-    super(...arguments);
-    this.state = initialState;
-    this.onKeyDown = this.onKeyDown.bind(this);
-    this.onKeyPress = this.onKeyPress.bind(this);
-    this.onFocus = this.onFocus.bind(this);
-    this.onBlur = this.onBlur.bind(this);
-    this.deleteTokenBeforeInput = this.deleteTokenBeforeInput.bind(this);
-    this.deleteTokenAfterInput = this.deleteTokenAfterInput.bind(this);
-    this.addCurrentToken = this.addCurrentToken.bind(this);
-    this.onContainerTouched = this.onContainerTouched.bind(this);
-    this.renderToken = this.renderToken.bind(this);
-    this.onTokenClickRemove = this.onTokenClickRemove.bind(this);
-    this.onSuggestionHovered = this.onSuggestionHovered.bind(this);
-    this.onSuggestionSelected = this.onSuggestionSelected.bind(this);
-    this.onInputChange = this.onInputChange.bind(this);
-    this.bindInput = this.bindInput.bind(this);
-    this.bindTokensAndInput = this.bindTokensAndInput.bind(this);
-    this.updateSuggestions = this.updateSuggestions.bind(this);
-  }
-
-  componentDidUpdate(prevProps) {
+  const [incompleteTokenValue, setIncompleteTokenValue] = (0,external_wp_element_namespaceObject.useState)('');
+  const [inputOffsetFromEnd, setInputOffsetFromEnd] = (0,external_wp_element_namespaceObject.useState)(0);
+  const [isActive, setIsActive] = (0,external_wp_element_namespaceObject.useState)(false);
+  const [isExpanded, setIsExpanded] = (0,external_wp_element_namespaceObject.useState)(false);
+  const [selectedSuggestionIndex, setSelectedSuggestionIndex] = (0,external_wp_element_namespaceObject.useState)(-1);
+  const [selectedSuggestionScroll, setSelectedSuggestionScroll] = (0,external_wp_element_namespaceObject.useState)(false);
+  const prevSuggestions = (0,external_wp_compose_namespaceObject.usePrevious)(suggestions);
+  const prevValue = (0,external_wp_compose_namespaceObject.usePrevious)(value);
+  const input = (0,external_wp_element_namespaceObject.useRef)(null);
+  const tokensAndInput = (0,external_wp_element_namespaceObject.useRef)(null);
+  const debouncedSpeak = (0,external_wp_compose_namespaceObject.useDebounce)(external_wp_a11y_namespaceObject.speak, 500);
+  (0,external_wp_element_namespaceObject.useEffect)(() => {
     // Make sure to focus the input when the isActive state is true.
-    if (this.state.isActive && !this.input.hasFocus()) {
-      this.input.focus();
+    if (isActive && !hasFocus()) {
+      focus();
     }
+  }, [isActive]);
+  (0,external_wp_element_namespaceObject.useEffect)(() => {
+    const suggestionsDidUpdate = !external_wp_isShallowEqual_default()(suggestions, prevSuggestions || []);
 
-    const {
-      suggestions,
-      value
-    } = this.props;
-    const suggestionsDidUpdate = !external_wp_isShallowEqual_default()(suggestions, prevProps.suggestions);
+    if (suggestionsDidUpdate || value !== prevValue) {
+      updateSuggestions(suggestionsDidUpdate);
+    } // TODO: updateSuggestions() should first be refactored so its actual deps are clearer.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
 
-    if (suggestionsDidUpdate || value !== prevProps.value) {
-      this.updateSuggestions(suggestionsDidUpdate);
-    }
+  }, [suggestions, prevSuggestions, value, prevValue]);
+  (0,external_wp_element_namespaceObject.useEffect)(() => {
+    updateSuggestions(); // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [incompleteTokenValue]);
+
+  if (disabled && isActive) {
+    setIsActive(false);
+    setIncompleteTokenValue('');
   }
 
-  static getDerivedStateFromProps(props, state) {
-    if (!props.disabled || !state.isActive) {
-      return null;
-    }
+  function focus() {
+    var _input$current;
 
-    return {
-      isActive: false,
-      incompleteTokenValue: ''
-    };
+    (_input$current = input.current) === null || _input$current === void 0 ? void 0 : _input$current.focus();
   }
 
-  bindInput(ref) {
-    this.input = ref;
+  function hasFocus() {
+    var _input$current2;
+
+    return input.current === ((_input$current2 = input.current) === null || _input$current2 === void 0 ? void 0 : _input$current2.ownerDocument.activeElement);
   }
 
-  bindTokensAndInput(ref) {
-    this.tokensAndInput = ref;
-  }
-
-  onFocus(event) {
-    const {
-      __experimentalExpandOnFocus
-    } = this.props; // If focus is on the input or on the container, set the isActive state to true.
-
-    if (this.input.hasFocus() || event.target === this.tokensAndInput) {
-      this.setState({
-        isActive: true,
-        isExpanded: !!__experimentalExpandOnFocus || this.state.isExpanded
-      });
+  function onFocusHandler(event) {
+    // If focus is on the input or on the container, set the isActive state to true.
+    if (hasFocus() || event.target === tokensAndInput.current) {
+      setIsActive(true);
+      setIsExpanded(__experimentalExpandOnFocus || isExpanded);
     } else {
       /*
        * Otherwise, focus is on one of the token "remove" buttons and we
        * set the isActive state to false to prevent the input to be
        * re-focused, see componentDidUpdate().
        */
-      this.setState({
-        isActive: false
-      });
+      setIsActive(false);
     }
 
-    if ('function' === typeof this.props.onFocus) {
-      this.props.onFocus(event);
+    if ('function' === typeof onFocus) {
+      onFocus(event);
     }
   }
 
-  onBlur() {
-    if (this.inputHasValidValue()) {
-      this.setState({
-        isActive: false
-      });
+  function onBlur() {
+    if (inputHasValidValue()) {
+      setIsActive(false);
     } else {
-      this.setState(initialState);
+      // Reset to initial state
+      setIncompleteTokenValue('');
+      setInputOffsetFromEnd(0);
+      setIsActive(false);
+      setIsExpanded(false);
+      setSelectedSuggestionIndex(-1);
+      setSelectedSuggestionScroll(false);
     }
   }
 
-  onKeyDown(event) {
+  function onKeyDown(event) {
     let preventDefault = false;
 
     if (event.defaultPrevented) {
       return;
-    }
+    } // TODO: replace to event.code;
+
 
     switch (event.keyCode) {
       case external_wp_keycodes_namespaceObject.BACKSPACE:
-        preventDefault = this.handleDeleteKey(this.deleteTokenBeforeInput);
+        preventDefault = handleDeleteKey(deleteTokenBeforeInput);
         break;
 
       case external_wp_keycodes_namespaceObject.ENTER:
-        preventDefault = this.addCurrentToken();
+        preventDefault = addCurrentToken();
         break;
 
       case external_wp_keycodes_namespaceObject.LEFT:
-        preventDefault = this.handleLeftArrowKey();
+        preventDefault = handleLeftArrowKey();
         break;
 
       case external_wp_keycodes_namespaceObject.UP:
-        preventDefault = this.handleUpArrowKey();
+        preventDefault = handleUpArrowKey();
         break;
 
       case external_wp_keycodes_namespaceObject.RIGHT:
-        preventDefault = this.handleRightArrowKey();
+        preventDefault = handleRightArrowKey();
         break;
 
       case external_wp_keycodes_namespaceObject.DOWN:
-        preventDefault = this.handleDownArrowKey();
+        preventDefault = handleDownArrowKey();
         break;
 
       case external_wp_keycodes_namespaceObject.DELETE:
-        preventDefault = this.handleDeleteKey(this.deleteTokenAfterInput);
+        preventDefault = handleDeleteKey(deleteTokenAfterInput);
         break;
 
       case external_wp_keycodes_namespaceObject.SPACE:
-        if (this.props.tokenizeOnSpace) {
-          preventDefault = this.addCurrentToken();
+        if (tokenizeOnSpace) {
+          preventDefault = addCurrentToken();
         }
 
         break;
 
       case external_wp_keycodes_namespaceObject.ESCAPE:
-        preventDefault = this.handleEscapeKey(event);
+        preventDefault = handleEscapeKey(event);
         break;
 
       default:
@@ -62607,13 +62646,13 @@ class FormTokenField extends external_wp_element_namespaceObject.Component {
     }
   }
 
-  onKeyPress(event) {
-    let preventDefault = false;
+  function onKeyPress(event) {
+    let preventDefault = false; // TODO: replace to event.code;
 
     switch (event.charCode) {
       case 44:
         // Comma.
-        preventDefault = this.handleCommaKey();
+        preventDefault = handleCommaKey();
         break;
 
       default:
@@ -62625,212 +62664,201 @@ class FormTokenField extends external_wp_element_namespaceObject.Component {
     }
   }
 
-  onContainerTouched(event) {
+  function onContainerTouched(event) {
     // Prevent clicking/touching the tokensAndInput container from blurring
     // the input and adding the current token.
-    if (event.target === this.tokensAndInput && this.state.isActive) {
+    if (event.target === tokensAndInput.current && isActive) {
       event.preventDefault();
     }
   }
 
-  onTokenClickRemove(event) {
-    this.deleteToken(event.value);
-    this.input.focus();
+  function onTokenClickRemove(event) {
+    deleteToken(event.value);
+    focus();
   }
 
-  onSuggestionHovered(suggestion) {
-    const index = this.getMatchingSuggestions().indexOf(suggestion);
+  function onSuggestionHovered(suggestion) {
+    const index = getMatchingSuggestions().indexOf(suggestion);
 
     if (index >= 0) {
-      this.setState({
-        selectedSuggestionIndex: index,
-        selectedSuggestionScroll: false
-      });
+      setSelectedSuggestionIndex(index);
+      setSelectedSuggestionScroll(false);
     }
   }
 
-  onSuggestionSelected(suggestion) {
-    this.addNewToken(suggestion);
+  function onSuggestionSelected(suggestion) {
+    addNewToken(suggestion);
   }
 
-  onInputChange(event) {
+  function onInputChangeHandler(event) {
     const text = event.value;
-    const separator = this.props.tokenizeOnSpace ? /[ ,\t]+/ : /[,\t]+/;
+    const separator = tokenizeOnSpace ? /[ ,\t]+/ : /[,\t]+/;
     const items = text.split(separator);
     const tokenValue = (0,external_lodash_namespaceObject.last)(items) || '';
 
     if (items.length > 1) {
-      this.addNewTokens(items.slice(0, -1));
+      addNewTokens(items.slice(0, -1));
     }
 
-    this.setState({
-      incompleteTokenValue: tokenValue
-    }, this.updateSuggestions);
-    this.props.onInputChange(tokenValue);
+    setIncompleteTokenValue(tokenValue);
+    onInputChange(tokenValue);
   }
 
-  handleDeleteKey(deleteToken) {
+  function handleDeleteKey(_deleteToken) {
     let preventDefault = false;
 
-    if (this.input.hasFocus() && this.isInputEmpty()) {
-      deleteToken();
+    if (hasFocus() && isInputEmpty()) {
+      _deleteToken();
+
       preventDefault = true;
     }
 
     return preventDefault;
   }
 
-  handleLeftArrowKey() {
+  function handleLeftArrowKey() {
     let preventDefault = false;
 
-    if (this.isInputEmpty()) {
-      this.moveInputBeforePreviousToken();
+    if (isInputEmpty()) {
+      moveInputBeforePreviousToken();
       preventDefault = true;
     }
 
     return preventDefault;
   }
 
-  handleRightArrowKey() {
+  function handleRightArrowKey() {
     let preventDefault = false;
 
-    if (this.isInputEmpty()) {
-      this.moveInputAfterNextToken();
+    if (isInputEmpty()) {
+      moveInputAfterNextToken();
       preventDefault = true;
     }
 
     return preventDefault;
   }
 
-  handleUpArrowKey() {
-    this.setState((state, props) => ({
-      selectedSuggestionIndex: (state.selectedSuggestionIndex === 0 ? this.getMatchingSuggestions(state.incompleteTokenValue, props.suggestions, props.value, props.maxSuggestions, props.saveTransform).length : state.selectedSuggestionIndex) - 1,
-      selectedSuggestionScroll: true
-    }));
-    return true; // PreventDefault.
-  }
-
-  handleDownArrowKey() {
-    this.setState((state, props) => ({
-      selectedSuggestionIndex: (state.selectedSuggestionIndex + 1) % this.getMatchingSuggestions(state.incompleteTokenValue, props.suggestions, props.value, props.maxSuggestions, props.saveTransform).length,
-      selectedSuggestionScroll: true
-    }));
-    return true; // PreventDefault.
-  }
-
-  handleEscapeKey(event) {
-    this.setState({
-      incompleteTokenValue: event.target.value,
-      isExpanded: false,
-      selectedSuggestionIndex: -1,
-      selectedSuggestionScroll: false
+  function handleUpArrowKey() {
+    setSelectedSuggestionIndex(index => {
+      return (index === 0 ? getMatchingSuggestions(incompleteTokenValue, suggestions, value, maxSuggestions, saveTransform).length : index) - 1;
     });
+    setSelectedSuggestionScroll(true);
     return true; // PreventDefault.
   }
 
-  handleCommaKey() {
-    if (this.inputHasValidValue()) {
-      this.addNewToken(this.state.incompleteTokenValue);
+  function handleDownArrowKey() {
+    setSelectedSuggestionIndex(index => {
+      return (index + 1) % getMatchingSuggestions(incompleteTokenValue, suggestions, value, maxSuggestions, saveTransform).length;
+    });
+    setSelectedSuggestionScroll(true);
+    return true; // PreventDefault.
+  }
+
+  function handleEscapeKey(event) {
+    if (event.target instanceof HTMLInputElement) {
+      setIncompleteTokenValue(event.target.value);
+      setIsExpanded(false);
+      setSelectedSuggestionIndex(-1);
+      setSelectedSuggestionScroll(false);
     }
 
     return true; // PreventDefault.
   }
 
-  moveInputToIndex(index) {
-    this.setState((state, props) => ({
-      inputOffsetFromEnd: props.value.length - Math.max(index, -1) - 1
-    }));
+  function handleCommaKey() {
+    if (inputHasValidValue()) {
+      addNewToken(incompleteTokenValue);
+    }
+
+    return true; // PreventDefault.
   }
 
-  moveInputBeforePreviousToken() {
-    this.setState((state, props) => ({
-      inputOffsetFromEnd: Math.min(state.inputOffsetFromEnd + 1, props.value.length)
-    }));
+  function moveInputToIndex(index) {
+    setInputOffsetFromEnd(value.length - Math.max(index, -1) - 1);
   }
 
-  moveInputAfterNextToken() {
-    this.setState(state => ({
-      inputOffsetFromEnd: Math.max(state.inputOffsetFromEnd - 1, 0)
-    }));
+  function moveInputBeforePreviousToken() {
+    setInputOffsetFromEnd(prevInputOffsetFromEnd => {
+      return Math.min(prevInputOffsetFromEnd + 1, value.length);
+    });
   }
 
-  deleteTokenBeforeInput() {
-    const index = this.getIndexOfInput() - 1;
+  function moveInputAfterNextToken() {
+    setInputOffsetFromEnd(prevInputOffsetFromEnd => {
+      return Math.max(prevInputOffsetFromEnd - 1, 0);
+    });
+  }
+
+  function deleteTokenBeforeInput() {
+    const index = getIndexOfInput() - 1;
 
     if (index > -1) {
-      this.deleteToken(this.props.value[index]);
+      deleteToken(value[index]);
     }
   }
 
-  deleteTokenAfterInput() {
-    const index = this.getIndexOfInput();
+  function deleteTokenAfterInput() {
+    const index = getIndexOfInput();
 
-    if (index < this.props.value.length) {
-      this.deleteToken(this.props.value[index]); // Update input offset since it's the offset from the last token.
+    if (index < value.length) {
+      deleteToken(value[index]); // Update input offset since it's the offset from the last token.
 
-      this.moveInputToIndex(index);
+      moveInputToIndex(index);
     }
   }
 
-  addCurrentToken() {
+  function addCurrentToken() {
     let preventDefault = false;
-    const selectedSuggestion = this.getSelectedSuggestion();
+    const selectedSuggestion = getSelectedSuggestion();
 
     if (selectedSuggestion) {
-      this.addNewToken(selectedSuggestion);
+      addNewToken(selectedSuggestion);
       preventDefault = true;
-    } else if (this.inputHasValidValue()) {
-      this.addNewToken(this.state.incompleteTokenValue);
+    } else if (inputHasValidValue()) {
+      addNewToken(incompleteTokenValue);
       preventDefault = true;
     }
 
     return preventDefault;
   }
 
-  addNewTokens(tokens) {
-    const tokensToAdd = (0,external_lodash_namespaceObject.uniq)(tokens.map(this.props.saveTransform).filter(Boolean).filter(token => !this.valueContainsToken(token)));
+  function addNewTokens(tokens) {
+    const tokensToAdd = (0,external_lodash_namespaceObject.uniq)(tokens.map(saveTransform).filter(Boolean).filter(token => !valueContainsToken(token)));
 
     if (tokensToAdd.length > 0) {
-      const newValue = (0,external_lodash_namespaceObject.clone)(this.props.value);
-      newValue.splice.apply(newValue, [this.getIndexOfInput(), 0].concat(tokensToAdd));
-      this.props.onChange(newValue);
+      const newValue = (0,external_lodash_namespaceObject.clone)(value);
+      newValue.splice(getIndexOfInput(), 0, ...tokensToAdd);
+      onChange(newValue);
     }
   }
 
-  addNewToken(token) {
-    const {
-      __experimentalExpandOnFocus,
-      __experimentalValidateInput
-    } = this.props;
-
+  function addNewToken(token) {
     if (!__experimentalValidateInput(token)) {
-      this.props.speak(this.props.messages.__experimentalInvalid, 'assertive');
+      (0,external_wp_a11y_namespaceObject.speak)(messages.__experimentalInvalid, 'assertive');
       return;
     }
 
-    this.addNewTokens([token]);
-    this.props.speak(this.props.messages.added, 'assertive');
-    this.setState({
-      incompleteTokenValue: '',
-      selectedSuggestionIndex: -1,
-      selectedSuggestionScroll: false,
-      isExpanded: !__experimentalExpandOnFocus
-    });
+    addNewTokens([token]);
+    (0,external_wp_a11y_namespaceObject.speak)(messages.added, 'assertive');
+    setIncompleteTokenValue('');
+    setSelectedSuggestionIndex(-1);
+    setSelectedSuggestionScroll(false);
+    setIsExpanded(!__experimentalExpandOnFocus);
 
-    if (this.state.isActive) {
-      this.input.focus();
+    if (isActive) {
+      focus();
     }
   }
 
-  deleteToken(token) {
-    const newTokens = this.props.value.filter(item => {
-      return this.getTokenValue(item) !== this.getTokenValue(token);
+  function deleteToken(token) {
+    const newTokens = value.filter(item => {
+      return getTokenValue(item) !== getTokenValue(token);
     });
-    this.props.onChange(newTokens);
-    this.props.speak(this.props.messages.removed, 'assertive');
+    onChange(newTokens);
+    (0,external_wp_a11y_namespaceObject.speak)(messages.removed, 'assertive');
   }
 
-  getTokenValue(token) {
+  function getTokenValue(token) {
     if ('object' === typeof token) {
       return token.value;
     }
@@ -62838,24 +62866,39 @@ class FormTokenField extends external_wp_element_namespaceObject.Component {
     return token;
   }
 
-  getMatchingSuggestions() {
-    let searchValue = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.state.incompleteTokenValue;
-    let suggestions = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : this.props.suggestions;
-    let value = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : this.props.value;
-    let maxSuggestions = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : this.props.maxSuggestions;
-    let saveTransform = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : this.props.saveTransform;
-    let match = saveTransform(searchValue);
+  function getMatchingSuggestions() {
+    let searchValue = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : incompleteTokenValue;
+
+    let _suggestions = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : suggestions;
+
+    let _value = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : value;
+
+    let _maxSuggestions = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : maxSuggestions;
+
+    let _saveTransform = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : saveTransform;
+
+    let match = _saveTransform(searchValue);
+
     const startsWithMatch = [];
     const containsMatch = [];
 
+    const normalizedValue = _value.map(item => {
+      if (typeof item === 'string') {
+        return item;
+      }
+
+      return item.value;
+    });
+
     if (match.length === 0) {
-      suggestions = (0,external_lodash_namespaceObject.difference)(suggestions, value);
+      _suggestions = (0,external_lodash_namespaceObject.difference)(_suggestions, normalizedValue);
     } else {
       match = match.toLocaleLowerCase();
-      (0,external_lodash_namespaceObject.each)(suggestions, suggestion => {
+
+      _suggestions.forEach(suggestion => {
         const index = suggestion.toLocaleLowerCase().indexOf(match);
 
-        if (value.indexOf(suggestion) === -1) {
+        if (normalizedValue.indexOf(suggestion) === -1) {
           if (index === 0) {
             startsWithMatch.push(suggestion);
           } else if (index > 0) {
@@ -62863,62 +62906,52 @@ class FormTokenField extends external_wp_element_namespaceObject.Component {
           }
         }
       });
-      suggestions = startsWithMatch.concat(containsMatch);
+
+      _suggestions = startsWithMatch.concat(containsMatch);
     }
 
-    return (0,external_lodash_namespaceObject.take)(suggestions, maxSuggestions);
+    return _suggestions.slice(0, _maxSuggestions);
   }
 
-  getSelectedSuggestion() {
-    if (this.state.selectedSuggestionIndex !== -1) {
-      return this.getMatchingSuggestions()[this.state.selectedSuggestionIndex];
+  function getSelectedSuggestion() {
+    if (selectedSuggestionIndex !== -1) {
+      return getMatchingSuggestions()[selectedSuggestionIndex];
     }
+
+    return undefined;
   }
 
-  valueContainsToken(token) {
-    return (0,external_lodash_namespaceObject.some)(this.props.value, item => {
-      return this.getTokenValue(token) === this.getTokenValue(item);
+  function valueContainsToken(token) {
+    return (0,external_lodash_namespaceObject.some)(value, item => {
+      return getTokenValue(token) === getTokenValue(item);
     });
   }
 
-  getIndexOfInput() {
-    return this.props.value.length - this.state.inputOffsetFromEnd;
+  function getIndexOfInput() {
+    return value.length - inputOffsetFromEnd;
   }
 
-  isInputEmpty() {
-    return this.state.incompleteTokenValue.length === 0;
+  function isInputEmpty() {
+    return incompleteTokenValue.length === 0;
   }
 
-  inputHasValidValue() {
-    return this.props.saveTransform(this.state.incompleteTokenValue).length > 0;
+  function inputHasValidValue() {
+    return saveTransform(incompleteTokenValue).length > 0;
   }
 
-  updateSuggestions() {
+  function updateSuggestions() {
     let resetSelectedSuggestion = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : true;
-    const {
-      __experimentalExpandOnFocus
-    } = this.props;
-    const {
-      incompleteTokenValue
-    } = this.state;
     const inputHasMinimumChars = incompleteTokenValue.trim().length > 1;
-    const matchingSuggestions = this.getMatchingSuggestions(incompleteTokenValue);
+    const matchingSuggestions = getMatchingSuggestions(incompleteTokenValue);
     const hasMatchingSuggestions = matchingSuggestions.length > 0;
-    const newState = {
-      isExpanded: __experimentalExpandOnFocus || inputHasMinimumChars && hasMatchingSuggestions
-    };
+    setIsExpanded(__experimentalExpandOnFocus || inputHasMinimumChars && hasMatchingSuggestions);
 
     if (resetSelectedSuggestion) {
-      newState.selectedSuggestionIndex = -1;
-      newState.selectedSuggestionScroll = false;
+      setSelectedSuggestionIndex(-1);
+      setSelectedSuggestionScroll(false);
     }
 
-    this.setState(newState);
-
     if (inputHasMinimumChars) {
-      const {
-        debouncedSpeak
-      } = this.props;
       const message = hasMatchingSuggestions ? (0,external_wp_i18n_namespaceObject.sprintf)(
       /* translators: %d: number of results. */
       (0,external_wp_i18n_namespaceObject._n)('%d result found, use up and down arrow keys to navigate.', '%d results found, use up and down arrow keys to navigate.', matchingSuggestions.length), matchingSuggestions.length) : (0,external_wp_i18n_namespaceObject.__)('No results.');
@@ -62926,149 +62959,102 @@ class FormTokenField extends external_wp_element_namespaceObject.Component {
     }
   }
 
-  renderTokensAndInput() {
-    const components = (0,external_lodash_namespaceObject.map)(this.props.value, this.renderToken);
-    components.splice(this.getIndexOfInput(), 0, this.renderInput());
+  function renderTokensAndInput() {
+    const components = (0,external_lodash_namespaceObject.map)(value, renderToken);
+    components.splice(getIndexOfInput(), 0, renderInput());
     return components;
   }
 
-  renderToken(token, index, tokens) {
-    const value = this.getTokenValue(token);
-    const status = token.status ? token.status : undefined;
+  function renderToken(token, index, tokens) {
+    const _value = getTokenValue(token);
+
+    const status = typeof token !== 'string' ? token.status : undefined;
     const termPosition = index + 1;
     const termsCount = tokens.length;
     return (0,external_wp_element_namespaceObject.createElement)(Token, {
-      key: 'token-' + value,
-      value: value,
+      key: 'token-' + _value,
+      value: _value,
       status: status,
-      title: token.title,
-      displayTransform: this.props.displayTransform,
-      onClickRemove: this.onTokenClickRemove,
-      isBorderless: token.isBorderless || this.props.isBorderless,
-      onMouseEnter: token.onMouseEnter,
-      onMouseLeave: token.onMouseLeave,
-      disabled: 'error' !== status && this.props.disabled,
-      messages: this.props.messages,
+      title: typeof token !== 'string' ? token.title : undefined,
+      displayTransform: displayTransform,
+      onClickRemove: onTokenClickRemove,
+      isBorderless: typeof token !== 'string' && token.isBorderless || isBorderless,
+      onMouseEnter: typeof token !== 'string' ? token.onMouseEnter : undefined,
+      onMouseLeave: typeof token !== 'string' ? token.onMouseLeave : undefined,
+      disabled: 'error' !== status && disabled,
+      messages: messages,
       termsCount: termsCount,
       termPosition: termPosition
     });
   }
 
-  renderInput() {
-    const {
-      autoCapitalize,
-      autoComplete,
-      maxLength,
-      placeholder,
-      value,
-      instanceId
-    } = this.props;
-    let props = {
+  function renderInput() {
+    const inputProps = {
       instanceId,
       autoCapitalize,
       autoComplete,
       placeholder: value.length === 0 ? placeholder : '',
-      ref: this.bindInput,
       key: 'input',
-      disabled: this.props.disabled,
-      value: this.state.incompleteTokenValue,
-      onBlur: this.onBlur,
-      isExpanded: this.state.isExpanded,
-      selectedSuggestionIndex: this.state.selectedSuggestionIndex
-    };
-
-    if (!(maxLength && value.length >= maxLength)) {
-      props = { ...props,
-        onChange: this.onInputChange
-      };
-    }
-
-    return (0,external_wp_element_namespaceObject.createElement)(token_input, props);
-  }
-
-  render() {
-    const {
       disabled,
-      label = (0,external_wp_i18n_namespaceObject.__)('Add item'),
-      instanceId,
-      className,
-      __experimentalShowHowTo
-    } = this.props;
-    const {
-      isExpanded
-    } = this.state;
-    const classes = classnames_default()(className, 'components-form-token-field__input-container', {
-      'is-active': this.state.isActive,
-      'is-disabled': disabled
-    });
-    let tokenFieldProps = {
-      className: 'components-form-token-field',
-      tabIndex: '-1'
+      value: incompleteTokenValue,
+      onBlur,
+      isExpanded,
+      selectedSuggestionIndex
     };
-    const matchingSuggestions = this.getMatchingSuggestions();
-
-    if (!disabled) {
-      tokenFieldProps = Object.assign({}, tokenFieldProps, {
-        onKeyDown: this.onKeyDown,
-        onKeyPress: this.onKeyPress,
-        onFocus: this.onFocus
-      });
-    } // Disable reason: There is no appropriate role which describes the
-    // input container intended accessible usability.
-    // TODO: Refactor click detection to use blur to stop propagation.
-
-    /* eslint-disable jsx-a11y/no-static-element-interactions */
-
-
-    return (0,external_wp_element_namespaceObject.createElement)("div", tokenFieldProps, (0,external_wp_element_namespaceObject.createElement)("label", {
-      htmlFor: `components-form-token-input-${instanceId}`,
-      className: "components-form-token-field__label"
-    }, label), (0,external_wp_element_namespaceObject.createElement)("div", {
-      ref: this.bindTokensAndInput,
-      className: classes,
-      tabIndex: "-1",
-      onMouseDown: this.onContainerTouched,
-      onTouchStart: this.onContainerTouched
-    }, this.renderTokensAndInput(), isExpanded && (0,external_wp_element_namespaceObject.createElement)(suggestions_list, {
-      instanceId: instanceId,
-      match: this.props.saveTransform(this.state.incompleteTokenValue),
-      displayTransform: this.props.displayTransform,
-      suggestions: matchingSuggestions,
-      selectedIndex: this.state.selectedSuggestionIndex,
-      scrollIntoView: this.state.selectedSuggestionScroll,
-      onHover: this.onSuggestionHovered,
-      onSelect: this.onSuggestionSelected
-    })), __experimentalShowHowTo && (0,external_wp_element_namespaceObject.createElement)("p", {
-      id: `components-form-token-suggestions-howto-${instanceId}`,
-      className: "components-form-token-field__help"
-    }, this.props.tokenizeOnSpace ? (0,external_wp_i18n_namespaceObject.__)('Separate with commas, spaces, or the Enter key.') : (0,external_wp_i18n_namespaceObject.__)('Separate with commas or the Enter key.')));
-    /* eslint-enable jsx-a11y/no-static-element-interactions */
+    return (0,external_wp_element_namespaceObject.createElement)(token_input, extends_extends({}, inputProps, {
+      onChange: !(maxLength && value.length >= maxLength) ? onInputChangeHandler : undefined,
+      ref: input
+    }));
   }
 
-}
+  const classes = classnames_default()(className, 'components-form-token-field__input-container', {
+    'is-active': isActive,
+    'is-disabled': disabled
+  });
+  let tokenFieldProps = {
+    className: 'components-form-token-field',
+    tabIndex: -1
+  };
+  const matchingSuggestions = getMatchingSuggestions();
 
-FormTokenField.defaultProps = {
-  suggestions: Object.freeze([]),
-  maxSuggestions: 100,
-  value: Object.freeze([]),
-  displayTransform: external_lodash_namespaceObject.identity,
-  saveTransform: token => token.trim(),
-  onChange: () => {},
-  onInputChange: () => {},
-  isBorderless: false,
-  disabled: false,
-  tokenizeOnSpace: false,
-  messages: {
-    added: (0,external_wp_i18n_namespaceObject.__)('Item added.'),
-    removed: (0,external_wp_i18n_namespaceObject.__)('Item removed.'),
-    remove: (0,external_wp_i18n_namespaceObject.__)('Remove item'),
-    __experimentalInvalid: (0,external_wp_i18n_namespaceObject.__)('Invalid item')
-  },
-  __experimentalExpandOnFocus: false,
-  __experimentalValidateInput: () => true,
-  __experimentalShowHowTo: true
-};
-/* harmony default export */ var form_token_field = (with_spoken_messages((0,external_wp_compose_namespaceObject.withInstanceId)(FormTokenField)));
+  if (!disabled) {
+    tokenFieldProps = Object.assign({}, tokenFieldProps, {
+      onKeyDown,
+      onKeyPress,
+      onFocus: onFocusHandler
+    });
+  } // Disable reason: There is no appropriate role which describes the
+  // input container intended accessible usability.
+  // TODO: Refactor click detection to use blur to stop propagation.
+
+  /* eslint-disable jsx-a11y/no-static-element-interactions */
+
+
+  return (0,external_wp_element_namespaceObject.createElement)("div", tokenFieldProps, (0,external_wp_element_namespaceObject.createElement)("label", {
+    htmlFor: `components-form-token-input-${instanceId}`,
+    className: "components-form-token-field__label"
+  }, label), (0,external_wp_element_namespaceObject.createElement)("div", {
+    ref: tokensAndInput,
+    className: classes,
+    tabIndex: -1,
+    onMouseDown: onContainerTouched,
+    onTouchStart: onContainerTouched
+  }, renderTokensAndInput(), isExpanded && (0,external_wp_element_namespaceObject.createElement)(suggestions_list, {
+    instanceId: instanceId,
+    match: saveTransform(incompleteTokenValue),
+    displayTransform: displayTransform,
+    suggestions: matchingSuggestions,
+    selectedIndex: selectedSuggestionIndex,
+    scrollIntoView: selectedSuggestionScroll,
+    onHover: onSuggestionHovered,
+    onSelect: onSuggestionSelected
+  })), __experimentalShowHowTo && (0,external_wp_element_namespaceObject.createElement)("p", {
+    id: `components-form-token-suggestions-howto-${instanceId}`,
+    className: "components-form-token-field__help"
+  }, tokenizeOnSpace ? (0,external_wp_i18n_namespaceObject.__)('Separate with commas, spaces, or the Enter key.') : (0,external_wp_i18n_namespaceObject.__)('Separate with commas or the Enter key.')));
+  /* eslint-enable jsx-a11y/no-static-element-interactions */
+}
+/* harmony default export */ const form_token_field = (FormTokenField);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/guide/icons.js
 
@@ -63302,7 +63288,7 @@ function IconButton(_ref, ref) {
   }));
 }
 
-/* harmony default export */ var deprecated = ((0,external_wp_element_namespaceObject.forwardRef)(IconButton));
+/* harmony default export */ const deprecated = ((0,external_wp_element_namespaceObject.forwardRef)(IconButton));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/item-group/item/hook.js
 /**
@@ -63378,7 +63364,7 @@ function component_Item(props, forwardedRef) {
   })));
 }
 
-/* harmony default export */ var item_component = (contextConnect(component_Item, 'Item'));
+/* harmony default export */ const item_component = (contextConnect(component_Item, 'Item'));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/keyboard-shortcuts/index.js
 
@@ -63437,7 +63423,7 @@ function KeyboardShortcuts(_ref2) {
   }, element, children);
 }
 
-/* harmony default export */ var keyboard_shortcuts = (KeyboardShortcuts);
+/* harmony default export */ const keyboard_shortcuts = (KeyboardShortcuts);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/menu-group/index.js
 
@@ -63481,7 +63467,7 @@ function MenuGroup(props) {
     "aria-labelledby": label ? labelId : null
   }, children));
 }
-/* harmony default export */ var menu_group = (MenuGroup);
+/* harmony default export */ const menu_group = (MenuGroup);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/menu-item/index.js
 
@@ -63553,29 +63539,27 @@ function MenuItem(props, ref) {
     icon: icon
   }));
 }
-/* harmony default export */ var menu_item = ((0,external_wp_element_namespaceObject.forwardRef)(MenuItem));
+/* harmony default export */ const menu_item = ((0,external_wp_element_namespaceObject.forwardRef)(MenuItem));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/menu-items-choice/index.js
 
 
 /**
- * External dependencies
- */
-
-/**
  * WordPress dependencies
  */
-
 
 /**
  * Internal dependencies
  */
 
 
+
+const menu_items_choice_noop = () => {};
+
 function MenuItemsChoice(_ref) {
   let {
     choices = [],
-    onHover = external_lodash_namespaceObject.noop,
+    onHover = menu_items_choice_noop,
     onSelect,
     value
   } = _ref;
@@ -63655,7 +63639,7 @@ function TabbableContainer(_ref, ref) {
     eventToOffset: innerEventToOffset
   }, props));
 }
-/* harmony default export */ var tabbable = ((0,external_wp_element_namespaceObject.forwardRef)(TabbableContainer));
+/* harmony default export */ const tabbable = ((0,external_wp_element_namespaceObject.forwardRef)(TabbableContainer));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/navigation/constants.js
 const ROOT_MENU = 'root';
@@ -63663,36 +63647,34 @@ const SEARCH_FOCUS_DELAY = 100;
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/navigation/context.js
 /**
- * External dependencies
- */
-
-/**
  * WordPress dependencies
  */
-
 
 /**
  * Internal dependencies
  */
 
 
+
+const context_noop = () => {};
+
 const NavigationContext = (0,external_wp_element_namespaceObject.createContext)({
   activeItem: undefined,
   activeMenu: ROOT_MENU,
-  setActiveMenu: external_lodash_namespaceObject.noop,
-  isMenuEmpty: external_lodash_namespaceObject.noop,
+  setActiveMenu: context_noop,
+  isMenuEmpty: context_noop,
   navigationTree: {
     items: {},
-    getItem: external_lodash_namespaceObject.noop,
-    addItem: external_lodash_namespaceObject.noop,
-    removeItem: external_lodash_namespaceObject.noop,
+    getItem: context_noop,
+    addItem: context_noop,
+    removeItem: context_noop,
     menus: {},
-    getMenu: external_lodash_namespaceObject.noop,
-    addMenu: external_lodash_namespaceObject.noop,
-    removeMenu: external_lodash_namespaceObject.noop,
+    getMenu: context_noop,
+    addMenu: context_noop,
+    removeMenu: context_noop,
     childMenu: {},
-    traverseMenu: external_lodash_namespaceObject.noop,
-    isMenuEmpty: external_lodash_namespaceObject.noop
+    traverseMenu: context_noop,
+    isMenuEmpty: context_noop
   }
 });
 const useNavigationContext = () => (0,external_wp_element_namespaceObject.useContext)(NavigationContext);
@@ -63710,7 +63692,7 @@ const search = (0,external_wp_element_namespaceObject.createElement)(external_wp
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M13.5 6C10.5 6 8 8.5 8 11.5c0 1.1.3 2.1.9 3l-3.4 3 1 1.1 3.4-2.9c1 .9 2.2 1.4 3.6 1.4 3 0 5.5-2.5 5.5-5.5C19 8.5 16.5 6 13.5 6zm0 9.5c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"
 }));
-/* harmony default export */ var library_search = (search);
+/* harmony default export */ const library_search = (search);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/search-control/index.js
 
@@ -63798,7 +63780,7 @@ function SearchControl(_ref, forwardedRef) {
   }, renderRightButton())));
 }
 
-/* harmony default export */ var search_control = ((0,external_wp_element_namespaceObject.forwardRef)(SearchControl));
+/* harmony default export */ const search_control = ((0,external_wp_element_namespaceObject.forwardRef)(SearchControl));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/navigation/styles/navigation-styles.js
 
@@ -64005,7 +63987,6 @@ const useCreateNavigationTree = () => {
  * External dependencies
  */
 
-
 /**
  * WordPress dependencies
  */
@@ -64021,13 +64002,16 @@ const useCreateNavigationTree = () => {
 
 
 
+
+const navigation_noop = () => {};
+
 function Navigation(_ref) {
   let {
     activeItem,
     activeMenu = ROOT_MENU,
     children,
     className,
-    onActivateMenu = external_lodash_namespaceObject.noop
+    onActivateMenu = navigation_noop
   } = _ref;
   const [menu, setMenu] = (0,external_wp_element_namespaceObject.useState)(activeMenu);
   const [slideOrigin, setSlideOrigin] = (0,external_wp_element_namespaceObject.useState)();
@@ -64094,7 +64078,7 @@ const chevronRight = (0,external_wp_element_namespaceObject.createElement)(exter
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M10.6 6L9.4 7l4.6 5-4.6 5 1.2 1 5.4-6z"
 }));
-/* harmony default export */ var chevron_right = (chevronRight);
+/* harmony default export */ const chevron_right = (chevronRight);
 
 ;// CONCATENATED MODULE: ./packages/icons/build-module/library/chevron-left.js
 
@@ -64109,7 +64093,7 @@ const chevronLeft = (0,external_wp_element_namespaceObject.createElement)(extern
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M14.6 7l-1.2-1L8 12l5.4 6 1.2-1-4.6-5z"
 }));
-/* harmony default export */ var chevron_left = (chevronLeft);
+/* harmony default export */ const chevron_left = (chevronLeft);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/navigation/back-button/index.js
 
@@ -64173,7 +64157,7 @@ function NavigationBackButton(_ref, ref) {
   }), backButtonLabel || parentMenuTitle || (0,external_wp_i18n_namespaceObject.__)('Back'));
 }
 
-/* harmony default export */ var back_button = ((0,external_wp_element_namespaceObject.forwardRef)(NavigationBackButton));
+/* harmony default export */ const back_button = ((0,external_wp_element_namespaceObject.forwardRef)(NavigationBackButton));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/navigation/group/context.js
 /**
@@ -64382,7 +64366,6 @@ function NavigationItemBase(props) {
  * External dependencies
  */
 
-
 /**
  * WordPress dependencies
  */
@@ -64398,6 +64381,9 @@ function NavigationItemBase(props) {
 
 
 
+
+const item_noop = () => {};
+
 function NavigationItem(props) {
   const {
     badge,
@@ -64406,7 +64392,7 @@ function NavigationItem(props) {
     href,
     item,
     navigateToMenu,
-    onClick = external_lodash_namespaceObject.noop,
+    onClick = item_noop,
     title,
     icon,
     hideIfTargetMenuEmpty,
@@ -64491,6 +64477,31 @@ const useNavigationTreeMenu = props => {
     };
   }, []);
 };
+
+;// CONCATENATED MODULE: ./packages/components/build-module/higher-order/with-spoken-messages/index.js
+
+
+
+/**
+ * WordPress dependencies
+ */
+
+
+/**
+ * A Higher Order Component used to be provide speak and debounced speak
+ * functions.
+ *
+ * @see https://developer.wordpress.org/block-editor/packages/packages-a11y/#speak
+ *
+ * @param {WPComponent} Component The component to be wrapped.
+ *
+ * @return {WPComponent} The wrapped component.
+ */
+
+/* harmony default export */ const with_spoken_messages = ((0,external_wp_compose_namespaceObject.createHigherOrderComponent)(Component => props => (0,external_wp_element_namespaceObject.createElement)(Component, extends_extends({}, props, {
+  speak: external_wp_a11y_namespaceObject.speak,
+  debouncedSpeak: (0,external_wp_compose_namespaceObject.useDebounce)(external_wp_a11y_namespaceObject.speak, 500)
+})), 'withSpokenMessages'));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/navigation/menu/menu-title-search.js
 
@@ -64587,7 +64598,7 @@ function MenuTitleSearch(_ref) {
   }));
 }
 
-/* harmony default export */ var menu_title_search = (with_spoken_messages(MenuTitleSearch));
+/* harmony default export */ const menu_title_search = (with_spoken_messages(MenuTitleSearch));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/navigation/menu/menu-title.js
 
@@ -64909,10 +64920,10 @@ function NavigatorProvider(props, forwardedRef) {
 
 
 const ConnectedNavigatorProvider = contextConnect(NavigatorProvider, 'NavigatorProvider');
-/* harmony default export */ var navigator_provider_component = (ConnectedNavigatorProvider);
+/* harmony default export */ const navigator_provider_component = (ConnectedNavigatorProvider);
 
 ;// CONCATENATED MODULE: external ["wp","escapeHtml"]
-var external_wp_escapeHtml_namespaceObject = window["wp"]["escapeHtml"];
+const external_wp_escapeHtml_namespaceObject = window["wp"]["escapeHtml"];
 ;// CONCATENATED MODULE: ./packages/components/build-module/navigator/navigator-screen/component.js
 
 
@@ -65078,7 +65089,7 @@ function NavigatorScreen(props, forwardedRef) {
 
 
 const ConnectedNavigatorScreen = contextConnect(NavigatorScreen, 'NavigatorScreen');
-/* harmony default export */ var navigator_screen_component = (ConnectedNavigatorScreen);
+/* harmony default export */ const navigator_screen_component = (ConnectedNavigatorScreen);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/navigator/use-navigator.js
 /**
@@ -65107,7 +65118,7 @@ function useNavigator() {
   };
 }
 
-/* harmony default export */ var use_navigator = (useNavigator);
+/* harmony default export */ const use_navigator = (useNavigator);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/navigator/navigator-button/hook.js
 /**
@@ -65213,7 +65224,7 @@ function NavigatorButton(props, forwardedRef) {
 
 
 const ConnectedNavigatorButton = contextConnect(NavigatorButton, 'NavigatorButton');
-/* harmony default export */ var navigator_button_component = (ConnectedNavigatorButton);
+/* harmony default export */ const navigator_button_component = (ConnectedNavigatorButton);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/navigator/navigator-back-button/hook.js
 /**
@@ -65310,7 +65321,7 @@ function NavigatorBackButton(props, forwardedRef) {
 
 
 const ConnectedNavigatorBackButton = contextConnect(NavigatorBackButton, 'NavigatorBackButton');
-/* harmony default export */ var navigator_back_button_component = (ConnectedNavigatorBackButton);
+/* harmony default export */ const navigator_back_button_component = (ConnectedNavigatorBackButton);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/notice/index.js
 
@@ -65318,7 +65329,6 @@ const ConnectedNavigatorBackButton = contextConnect(NavigatorBackButton, 'Naviga
 /**
  * External dependencies
  */
-
 
 /**
  * WordPress dependencies
@@ -65335,6 +65345,7 @@ const ConnectedNavigatorBackButton = contextConnect(NavigatorBackButton, 'Naviga
 
 /** @typedef {import('@wordpress/element').WPElement} WPElement */
 
+const notice_noop = () => {};
 /**
  * Custom hook which announces the message with the given politeness, if a
  * valid message is provided.
@@ -65342,6 +65353,7 @@ const ConnectedNavigatorBackButton = contextConnect(NavigatorBackButton, 'Naviga
  * @param {string|WPElement}     [message]  Message to announce.
  * @param {'polite'|'assertive'} politeness Politeness to announce.
  */
+
 
 function useSpokenMessage(message, politeness) {
   const spokenMessage = typeof message === 'string' ? message : (0,external_wp_element_namespaceObject.renderToString)(message);
@@ -65380,7 +65392,7 @@ function Notice(_ref) {
     status = 'info',
     children,
     spokenMessage = children,
-    onRemove = external_lodash_namespaceObject.noop,
+    onRemove = notice_noop,
     isDismissible = true,
     actions = [],
     politeness = getDefaultPoliteness(status),
@@ -65388,7 +65400,7 @@ function Notice(_ref) {
     // onDismiss is a callback executed when the notice is dismissed.
     // It is distinct from onRemove, which _looks_ like a callback but is
     // actually the function to call to remove the notice from the UI.
-    onDismiss = external_lodash_namespaceObject.noop
+    onDismiss = notice_noop
   } = _ref;
   useSpokenMessage(spokenMessage, politeness);
   const classes = classnames_default()(className, 'components-notice', 'is-' + status, {
@@ -65449,7 +65461,7 @@ function Notice(_ref) {
   }));
 }
 
-/* harmony default export */ var build_module_notice = (Notice);
+/* harmony default export */ const build_module_notice = (Notice);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/notice/list.js
 
@@ -65465,6 +65477,8 @@ function Notice(_ref) {
  */
 
 
+
+const list_noop = () => {};
 /**
  * Renders a list of notices.
  *
@@ -65477,10 +65491,11 @@ function Notice(_ref) {
  * @return {Object} The rendered notices list.
  */
 
+
 function NoticeList(_ref) {
   let {
     notices,
-    onRemove = external_lodash_namespaceObject.noop,
+    onRemove = list_noop,
     className,
     children
   } = _ref;
@@ -65496,7 +65511,7 @@ function NoticeList(_ref) {
   }), notice.content)));
 }
 
-/* harmony default export */ var list = (NoticeList);
+/* harmony default export */ const list = (NoticeList);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/panel/header.js
 
@@ -65511,7 +65526,7 @@ function PanelHeader(_ref) {
   }, label && (0,external_wp_element_namespaceObject.createElement)("h2", null, label), children);
 }
 
-/* harmony default export */ var panel_header = (PanelHeader);
+/* harmony default export */ const panel_header = (PanelHeader);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/panel/index.js
 
@@ -65546,7 +65561,7 @@ function Panel(_ref, ref) {
   }), children);
 }
 
-/* harmony default export */ var panel = ((0,external_wp_element_namespaceObject.forwardRef)(Panel));
+/* harmony default export */ const panel = ((0,external_wp_element_namespaceObject.forwardRef)(Panel));
 
 ;// CONCATENATED MODULE: ./packages/icons/build-module/library/chevron-up.js
 
@@ -65561,7 +65576,7 @@ const chevronUp = (0,external_wp_element_namespaceObject.createElement)(external
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M6.5 12.4L12 8l5.5 4.4-.9 1.2L12 10l-4.5 3.6-1-1.2z"
 }));
-/* harmony default export */ var chevron_up = (chevronUp);
+/* harmony default export */ const chevron_up = (chevronUp);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/panel/body.js
 
@@ -65570,7 +65585,6 @@ const chevronUp = (0,external_wp_element_namespaceObject.createElement)(external
 /**
  * External dependencies
  */
-
 
 /**
  * WordPress dependencies
@@ -65586,6 +65600,9 @@ const chevronUp = (0,external_wp_element_namespaceObject.createElement)(external
 
 
 
+
+const body_noop = () => {};
+
 function PanelBody(_ref, ref) {
   let {
     buttonProps = {},
@@ -65593,7 +65610,7 @@ function PanelBody(_ref, ref) {
     className,
     icon,
     initialOpen,
-    onToggle = external_lodash_namespaceObject.noop,
+    onToggle = body_noop,
     opened,
     title,
     scrollAfterOpen = true
@@ -65675,7 +65692,7 @@ const PanelBodyTitle = (0,external_wp_element_namespaceObject.forwardRef)((_ref2
 });
 const body_ForwardedComponent = (0,external_wp_element_namespaceObject.forwardRef)(PanelBody);
 body_ForwardedComponent.displayName = 'PanelBody';
-/* harmony default export */ var body = (body_ForwardedComponent);
+/* harmony default export */ const body = (body_ForwardedComponent);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/panel/row.js
 
@@ -65699,7 +65716,7 @@ const PanelRow = (0,external_wp_element_namespaceObject.forwardRef)((_ref, ref) 
     ref: ref
   }, children);
 });
-/* harmony default export */ var row = (PanelRow);
+/* harmony default export */ const row = (PanelRow);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/placeholder/index.js
 
@@ -65714,23 +65731,35 @@ const PanelRow = (0,external_wp_element_namespaceObject.forwardRef)((_ref, ref) 
  */
 
 
+
 /**
  * Internal dependencies
  */
 
 
+const PlaceholderIllustration = (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.SVG, {
+  className: "components-placeholder__illustration",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 60 60",
+  preserveAspectRatio: "none"
+}, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
+  vectorEffect: "non-scaling-stroke",
+  d: "M60 60 0 0"
+}));
 /**
  * Renders a placeholder. Normally used by blocks to render their empty state.
  *
- * @param {Object}    props                The component props.
- * @param {WPIcon}    props.icon           An icon rendered before the label.
- * @param {WPElement} props.children       Children to be rendered.
- * @param {string}    props.label          Title of the placeholder.
- * @param {string}    props.instructions   Instructions of the placeholder.
- * @param {string}    props.className      Class to set on the container div.
- * @param {Object}    props.notices        A rendered notices list.
- * @param {Object}    props.preview        Preview to be rendered in the placeholder.
- * @param {boolean}   props.isColumnLayout Whether a column layout should be used.
+ * @param {Object}    props                  The component props.
+ * @param {WPIcon}    props.icon             An icon rendered before the label.
+ * @param {WPElement} props.children         Children to be rendered.
+ * @param {string}    props.label            Title of the placeholder.
+ * @param {string}    props.instructions     Instructions of the placeholder.
+ * @param {string}    props.className        Class to set on the container div.
+ * @param {Object}    props.notices          A rendered notices list.
+ * @param {Object}    props.preview          Preview to be rendered in the placeholder.
+ * @param {boolean}   props.isColumnLayout   Whether a column layout should be used.
+ * @param {boolean}   props.withIllustration Whether to add an illustration to the placeholder.
  *
  * @return {Object} The rendered placeholder.
  */
@@ -65745,6 +65774,7 @@ function Placeholder(_ref) {
     notices,
     preview,
     isColumnLayout,
+    withIllustration,
     ...additionalProps
   } = _ref;
   const [resizeListener, {
@@ -65762,13 +65792,13 @@ function Placeholder(_ref) {
     };
   }
 
-  const classes = classnames_default()('components-placeholder', className, modifierClassNames);
+  const classes = classnames_default()('components-placeholder', className, modifierClassNames, withIllustration ? 'has-illustration' : null);
   const fieldsetClasses = classnames_default()('components-placeholder__fieldset', {
     'is-column-layout': isColumnLayout
   });
   return (0,external_wp_element_namespaceObject.createElement)("div", extends_extends({}, additionalProps, {
     className: classes
-  }), resizeListener, notices, preview && (0,external_wp_element_namespaceObject.createElement)("div", {
+  }), withIllustration ? PlaceholderIllustration : null, resizeListener, notices, preview && (0,external_wp_element_namespaceObject.createElement)("div", {
     className: "components-placeholder__preview"
   }, preview), (0,external_wp_element_namespaceObject.createElement)("div", {
     className: "components-placeholder__label"
@@ -65781,7 +65811,7 @@ function Placeholder(_ref) {
   }, instructions), children));
 }
 
-/* harmony default export */ var placeholder = (Placeholder);
+/* harmony default export */ const placeholder = (Placeholder);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/query-controls/terms.js
 /**
@@ -65848,6 +65878,55 @@ function tree_select_getSelectOptions(tree) {
     label: (0,external_lodash_namespaceObject.repeat)('\u00A0', level * 3) + (0,external_lodash_namespaceObject.unescape)(treeNode.name)
   }, ...tree_select_getSelectOptions(treeNode.children || [], level + 1)]);
 }
+/**
+ * TreeSelect component is used to generate select input fields.
+ *
+ * @example
+ * ```jsx
+ * import { TreeSelect } from '@wordpress/components';
+ * import { useState } from '@wordpress/element';
+ *
+ * const MyTreeSelect = () => {
+ * 	const [ page, setPage ] = useState( 'p21' );
+ *
+ * 	return (
+ * 		<TreeSelect
+ * 			label="Parent page"
+ * 			noOptionLabel="No parent page"
+ * 			onChange={ ( newPage ) => setPage( newPage ) }
+ * 			selectedId={ page }
+ * 			tree={ [
+ * 				{
+ * 					name: 'Page 1',
+ * 					id: 'p1',
+ * 					children: [
+ * 						{ name: 'Descend 1 of page 1', id: 'p11' },
+ * 						{ name: 'Descend 2 of page 1', id: 'p12' },
+ * 					],
+ * 				},
+ * 				{
+ * 					name: 'Page 2',
+ * 					id: 'p2',
+ * 					children: [
+ * 						{
+ * 							name: 'Descend 1 of page 2',
+ * 							id: 'p21',
+ * 							children: [
+ * 								{
+ * 									name: 'Descend 1 of Descend 1 of page 2',
+ * 									id: 'p211',
+ * 								},
+ * 							],
+ * 						},
+ * 					],
+ * 				},
+ * 			] }
+ * 		/>
+ * 	);
+ * }
+ * ```
+ */
+
 
 function TreeSelect(_ref) {
   let {
@@ -65855,7 +65934,7 @@ function TreeSelect(_ref) {
     noOptionLabel,
     onChange,
     selectedId,
-    tree,
+    tree = [],
     ...props
   } = _ref;
   const options = (0,external_wp_element_namespaceObject.useMemo)(() => {
@@ -65864,13 +65943,14 @@ function TreeSelect(_ref) {
       label: noOptionLabel
     }, ...tree_select_getSelectOptions(tree)]);
   }, [noOptionLabel, tree]);
-  return (0,external_wp_element_namespaceObject.createElement)(select_control, extends_extends({
+  return (0,external_wp_element_namespaceObject.createElement)(SelectControl, extends_extends({
     label,
     options,
     onChange,
     value: selectedId
   }, props));
 }
+/* harmony default export */ const tree_select = (TreeSelect);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/query-controls/category-select.js
 
@@ -65898,7 +65978,7 @@ function CategorySelect(_ref) {
   const termsTree = (0,external_wp_element_namespaceObject.useMemo)(() => {
     return buildTermsTree(categoriesList);
   }, [categoriesList]);
-  return (0,external_wp_element_namespaceObject.createElement)(TreeSelect, extends_extends({
+  return (0,external_wp_element_namespaceObject.createElement)(tree_select, extends_extends({
     label,
     noOptionLabel,
     onChange,
@@ -65925,7 +66005,7 @@ function AuthorSelect(_ref) {
   } = _ref;
   if (!authorList) return null;
   const termsTree = buildTermsTree(authorList);
-  return (0,external_wp_element_namespaceObject.createElement)(TreeSelect, {
+  return (0,external_wp_element_namespaceObject.createElement)(tree_select, {
     label,
     noOptionLabel,
     onChange,
@@ -66044,7 +66124,7 @@ const RadioContext = (0,external_wp_element_namespaceObject.createContext)({
   state: null,
   setState: () => {}
 });
-/* harmony default export */ var radio_context = (RadioContext);
+/* harmony default export */ const radio_context = (RadioContext);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/radio/index.js
 
@@ -66082,7 +66162,7 @@ function radio_Radio(_ref, ref) {
   }, radioContext, props), children || value);
 }
 
-/* harmony default export */ var build_module_radio = ((0,external_wp_element_namespaceObject.forwardRef)(radio_Radio));
+/* harmony default export */ const build_module_radio = ((0,external_wp_element_namespaceObject.forwardRef)(radio_Radio));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/radio-group/index.js
 
@@ -66132,7 +66212,7 @@ function radio_group_RadioGroup(_ref, ref) {
   }, radioState, props)));
 }
 
-/* harmony default export */ var radio_group = ((0,external_wp_element_namespaceObject.forwardRef)(radio_group_RadioGroup));
+/* harmony default export */ const radio_group = ((0,external_wp_element_namespaceObject.forwardRef)(radio_group_RadioGroup));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/radio-control/index.js
 
@@ -66143,18 +66223,46 @@ function radio_group_RadioGroup(_ref, ref) {
  */
 
 
+
 /**
  * WordPress dependencies
  */
-
 
 /**
  * Internal dependencies
  */
 
 
-function RadioControl(_ref) {
-  let {
+
+/**
+ * Render a user interface to select the user type using radio inputs.
+ *
+ * ```jsx
+ * import { RadioControl } from '@wordpress/components';
+ * import { useState } from '@wordpress/element';
+ *
+ * const MyRadioControl = () => {
+ *   const [ option, setOption ] = useState( 'a' );
+ *
+ *   return (
+ *     <RadioControl
+ *       label="User type"
+ *       help="The type of the current user"
+ *       selected={ option }
+ *       options={ [
+ *         { label: 'Author', value: 'a' },
+ *         { label: 'Editor', value: 'e' },
+ *       ] }
+ *       onChange={ ( value ) => setOption( value ) }
+ *     />
+ *   );
+ * };
+ * ```
+ */
+function RadioControl( // ref is omitted until we have `WordPressComponentPropsWithoutRef` or add
+// ref forwarding to RadioControl.
+props) {
+  const {
     label,
     className,
     selected,
@@ -66162,14 +66270,18 @@ function RadioControl(_ref) {
     onChange,
     hideLabelFromVision,
     options = [],
-    ...props
-  } = _ref;
+    ...additionalProps
+  } = props;
   const instanceId = (0,external_wp_compose_namespaceObject.useInstanceId)(RadioControl);
   const id = `inspector-radio-control-${instanceId}`;
 
   const onChangeValue = event => onChange(event.target.value);
 
-  return !(0,external_lodash_namespaceObject.isEmpty)(options) && (0,external_wp_element_namespaceObject.createElement)(base_control, {
+  if ((0,external_lodash_namespaceObject.isEmpty)(options)) {
+    return null;
+  }
+
+  return (0,external_wp_element_namespaceObject.createElement)(base_control, {
     label: label,
     id: id,
     hideLabelFromVision: hideLabelFromVision,
@@ -66187,10 +66299,11 @@ function RadioControl(_ref) {
     onChange: onChangeValue,
     checked: option.value === selected,
     "aria-describedby": !!help ? `${id}__help` : undefined
-  }, props)), (0,external_wp_element_namespaceObject.createElement)("label", {
+  }, additionalProps)), (0,external_wp_element_namespaceObject.createElement)("label", {
     htmlFor: `${id}-${index}`
   }, option.label))));
 }
+/* harmony default export */ const radio_control = (RadioControl);
 
 ;// CONCATENATED MODULE: ./node_modules/re-resizable/lib/resizer.js
 var resizer_extends = (undefined && undefined.__extends) || (function () {
@@ -67066,19 +67179,17 @@ var Resizable = /** @class */ (function (_super) {
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/resizable-box/resize-tooltip/utils.js
 /**
- * External dependencies
- */
-
-/**
  * WordPress dependencies
  */
-
 
 
 const {
   clearTimeout: utils_clearTimeout,
   setTimeout: utils_setTimeout
 } = window;
+
+const resize_tooltip_utils_noop = () => {};
+
 const POSITIONS = {
   bottom: 'bottom',
   corner: 'corner'
@@ -67101,7 +67212,7 @@ function useResizeLabel(_ref) {
   let {
     axis,
     fadeTimeout = 180,
-    onResize = external_lodash_namespaceObject.noop,
+    onResize = resize_tooltip_utils_noop,
     position = POSITIONS.bottom,
     showPx = false
   } = _ref;
@@ -67398,7 +67509,7 @@ function resize_tooltip_label_Label(_ref, ref) {
 }
 
 const label_ForwardedComponent = (0,external_wp_element_namespaceObject.forwardRef)(resize_tooltip_label_Label);
-/* harmony default export */ var resize_tooltip_label = (label_ForwardedComponent);
+/* harmony default export */ const resize_tooltip_label = (label_ForwardedComponent);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/resizable-box/resize-tooltip/index.js
 
@@ -67407,7 +67518,6 @@ const label_ForwardedComponent = (0,external_wp_element_namespaceObject.forwardR
 /**
  * External dependencies
  */
-
 
 
 /**
@@ -67422,6 +67532,8 @@ const label_ForwardedComponent = (0,external_wp_element_namespaceObject.forwardR
 
 
 
+const resize_tooltip_noop = () => {};
+
 function ResizeTooltip(_ref, ref) {
   let {
     axis,
@@ -67429,7 +67541,7 @@ function ResizeTooltip(_ref, ref) {
     fadeTimeout = 180,
     isVisible = true,
     labelRef,
-    onResize = external_lodash_namespaceObject.noop,
+    onResize = resize_tooltip_noop,
     position = POSITIONS.bottom,
     showPx = true,
     zIndex = 1000,
@@ -67461,7 +67573,7 @@ function ResizeTooltip(_ref, ref) {
 }
 
 const resize_tooltip_ForwardedComponent = (0,external_wp_element_namespaceObject.forwardRef)(ResizeTooltip);
-/* harmony default export */ var resize_tooltip = (resize_tooltip_ForwardedComponent);
+/* harmony default export */ const resize_tooltip = (resize_tooltip_ForwardedComponent);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/resizable-box/index.js
 
@@ -67532,7 +67644,7 @@ function ResizableBox(_ref, ref) {
   }, props), children, showTooltip && (0,external_wp_element_namespaceObject.createElement)(resize_tooltip, tooltipProps));
 }
 
-/* harmony default export */ var resizable_box = ((0,external_wp_element_namespaceObject.forwardRef)(ResizableBox));
+/* harmony default export */ const resizable_box = ((0,external_wp_element_namespaceObject.forwardRef)(ResizableBox));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/responsive-wrapper/index.js
 
@@ -67576,7 +67688,7 @@ function ResponsiveWrapper(_ref) {
   }));
 }
 
-/* harmony default export */ var responsive_wrapper = (ResponsiveWrapper);
+/* harmony default export */ const responsive_wrapper = (ResponsiveWrapper);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/sandbox/index.js
 
@@ -67822,7 +67934,6 @@ function Sandbox(_ref) {
  * External dependencies
  */
 
-
 /**
  * WordPress dependencies
  */
@@ -67835,6 +67946,9 @@ function Sandbox(_ref) {
  * Internal dependencies
  */
 
+
+
+const snackbar_noop = () => {};
 
 const NOTICE_TIMEOUT = 10000;
 /** @typedef {import('@wordpress/element').WPElement} WPElement */
@@ -67863,16 +67977,16 @@ function Snackbar(_ref, ref) {
     spokenMessage = children,
     politeness = 'polite',
     actions = [],
-    onRemove = external_lodash_namespaceObject.noop,
+    onRemove = snackbar_noop,
     icon = null,
     explicitDismiss = false,
     // onDismiss is a callback executed when the snackbar is dismissed.
     // It is distinct from onRemove, which _looks_ like a callback but is
     // actually the function to call to remove the snackbar from the UI.
-    onDismiss = external_lodash_namespaceObject.noop,
+    onDismiss = snackbar_noop,
     listRef
   } = _ref;
-  onDismiss = onDismiss || external_lodash_namespaceObject.noop;
+  onDismiss = onDismiss || snackbar_noop;
 
   function dismissMe(event) {
     if (event && event.preventDefault) {
@@ -67922,10 +68036,10 @@ function Snackbar(_ref, ref) {
   return (0,external_wp_element_namespaceObject.createElement)("div", {
     ref: ref,
     className: classes,
-    onClick: !explicitDismiss ? dismissMe : external_lodash_namespaceObject.noop,
+    onClick: !explicitDismiss ? dismissMe : snackbar_noop,
     tabIndex: "0",
     role: !explicitDismiss ? 'button' : '',
-    onKeyPress: !explicitDismiss ? dismissMe : external_lodash_namespaceObject.noop,
+    onKeyPress: !explicitDismiss ? dismissMe : snackbar_noop,
     "aria-label": !explicitDismiss ? (0,external_wp_i18n_namespaceObject.__)('Dismiss this notice') : ''
   }, (0,external_wp_element_namespaceObject.createElement)("div", {
     className: snackbarContentClassnames
@@ -67954,7 +68068,7 @@ function Snackbar(_ref, ref) {
   }, "\u2715")));
 }
 
-/* harmony default export */ var snackbar = ((0,external_wp_element_namespaceObject.forwardRef)(Snackbar));
+/* harmony default export */ const snackbar = ((0,external_wp_element_namespaceObject.forwardRef)(Snackbar));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/snackbar/list.js
 
@@ -67976,6 +68090,9 @@ function Snackbar(_ref, ref) {
  */
 
 
+
+
+const snackbar_list_noop = () => {};
 
 const SNACKBAR_VARIANTS = {
   init: {
@@ -68021,7 +68138,7 @@ function SnackbarList(_ref) {
     notices,
     className,
     children,
-    onRemove = external_lodash_namespaceObject.noop
+    onRemove = snackbar_list_noop
   } = _ref;
   const listRef = (0,external_wp_element_namespaceObject.useRef)();
   const isReducedMotion = (0,external_wp_compose_namespaceObject.useReducedMotion)();
@@ -68051,7 +68168,7 @@ function SnackbarList(_ref) {
   })));
 }
 
-/* harmony default export */ var snackbar_list = (SnackbarList);
+/* harmony default export */ const snackbar_list = (SnackbarList);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/spinner/styles.js
 
@@ -68181,7 +68298,7 @@ function UnconnectedSurface(props, forwardedRef) {
 
 
 const component_Surface = contextConnect(UnconnectedSurface, 'Surface');
-/* harmony default export */ var surface_component = (component_Surface);
+/* harmony default export */ const surface_component = (component_Surface);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/tab-panel/index.js
 
@@ -68204,6 +68321,8 @@ const component_Surface = contextConnect(UnconnectedSurface, 'Surface');
 
 
 
+
+const tab_panel_noop = () => {};
 
 const TabButton = _ref => {
   let {
@@ -68232,7 +68351,7 @@ function TabPanel(_ref2) {
     initialTabName,
     orientation = 'horizontal',
     activeClass = 'is-active',
-    onSelect = external_lodash_namespaceObject.noop
+    onSelect = tab_panel_noop
   } = _ref2;
   const instanceId = (0,external_wp_compose_namespaceObject.useInstanceId)(TabPanel, 'tab-panel');
   const [selected, setSelected] = (0,external_wp_element_namespaceObject.useState)(null);
@@ -68360,7 +68479,7 @@ function UnforwardedTextControl(props, ref) {
 
 
 const TextControl = (0,external_wp_element_namespaceObject.forwardRef)(UnforwardedTextControl);
-/* harmony default export */ var text_control = (TextControl);
+/* harmony default export */ const text_control = (TextControl);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/utils/input/base.js
 /**
@@ -68378,7 +68497,7 @@ const inputStyleNeutral = /*#__PURE__*/emotion_react_browser_esm_css("box-shadow
 const inputStyleFocus = /*#__PURE__*/emotion_react_browser_esm_css("border-color:var( --wp-admin-theme-color );box-shadow:0 0 0 calc( ", config_values.borderWidthFocus, " - ", config_values.borderWidth, " ) var( --wp-admin-theme-color );outline:2px solid transparent;" + ( true ? "" : 0),  true ? "" : 0);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/utils/breakpoint-values.js
-/* harmony default export */ var breakpoint_values = ({
+/* harmony default export */ const breakpoint_values = ({
   huge: '1440px',
   wide: '1280px',
   'x-large': '1080px',
@@ -68508,7 +68627,7 @@ props) {
     value: value
   }, additionalProps)));
 }
-/* harmony default export */ var textarea_control = (TextareaControl);
+/* harmony default export */ const textarea_control = (TextareaControl);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/text-highlight/index.js
 
@@ -68540,7 +68659,7 @@ const TextHighlight = _ref => {
   });
 };
 
-/* harmony default export */ var text_highlight = (TextHighlight);
+/* harmony default export */ const text_highlight = (TextHighlight);
 
 ;// CONCATENATED MODULE: ./packages/icons/build-module/library/tip.js
 
@@ -68555,7 +68674,7 @@ const tip = (0,external_wp_element_namespaceObject.createElement)(external_wp_pr
 }, (0,external_wp_element_namespaceObject.createElement)(external_wp_primitives_namespaceObject.Path, {
   d: "M12 15.8c-3.7 0-6.8-3-6.8-6.8s3-6.8 6.8-6.8c3.7 0 6.8 3 6.8 6.8s-3.1 6.8-6.8 6.8zm0-12C9.1 3.8 6.8 6.1 6.8 9s2.4 5.2 5.2 5.2c2.9 0 5.2-2.4 5.2-5.2S14.9 3.8 12 3.8zM8 17.5h8V19H8zM10 20.5h4V22h-4z"
 }));
-/* harmony default export */ var library_tip = (tip);
+/* harmony default export */ const library_tip = (tip);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/tip/index.js
 
@@ -68582,7 +68701,7 @@ function Tip(props) {
   }), (0,external_wp_element_namespaceObject.createElement)("p", null, props.children));
 }
 
-/* harmony default export */ var build_module_tip = (Tip);
+/* harmony default export */ const build_module_tip = (Tip);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/toggle-control/index.js
 
@@ -68590,7 +68709,6 @@ function Tip(props) {
 /**
  * External dependencies
  */
-
 
 /**
  * WordPress dependencies
@@ -68623,7 +68741,7 @@ function ToggleControl(_ref) {
 
   if (help) {
     describedBy = id + '__help';
-    helpLabel = (0,external_lodash_namespaceObject.isFunction)(help) ? help(checked) : help;
+    helpLabel = typeof help === 'function' ? help(checked) : help;
   }
 
   return (0,external_wp_element_namespaceObject.createElement)(base_control, {
@@ -68749,7 +68867,7 @@ var ToolbarItem = createComponent({
  */
 
 const ToolbarContext = (0,external_wp_element_namespaceObject.createContext)();
-/* harmony default export */ var toolbar_context = (ToolbarContext);
+/* harmony default export */ const toolbar_context = (ToolbarContext);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/toolbar-item/index.js
 
@@ -68802,7 +68920,7 @@ function toolbar_item_ToolbarItem(_ref, ref) {
   }), children);
 }
 
-/* harmony default export */ var toolbar_item = ((0,external_wp_element_namespaceObject.forwardRef)(toolbar_item_ToolbarItem));
+/* harmony default export */ const toolbar_item = ((0,external_wp_element_namespaceObject.forwardRef)(toolbar_item_ToolbarItem));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/toolbar-button/toolbar-button-container.js
 
@@ -68811,7 +68929,7 @@ const ToolbarButtonContainer = props => (0,external_wp_element_namespaceObject.c
   className: props.className
 }, props.children);
 
-/* harmony default export */ var toolbar_button_container = (ToolbarButtonContainer);
+/* harmony default export */ const toolbar_button_container = (ToolbarButtonContainer);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/toolbar-button/index.js
 
@@ -68885,7 +69003,7 @@ function ToolbarButton(_ref, ref) {
   }, toolbarItemProps), children));
 }
 
-/* harmony default export */ var toolbar_button = ((0,external_wp_element_namespaceObject.forwardRef)(ToolbarButton));
+/* harmony default export */ const toolbar_button = ((0,external_wp_element_namespaceObject.forwardRef)(ToolbarButton));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/toolbar-group/toolbar-group-container.js
 
@@ -68902,7 +69020,7 @@ const ToolbarGroupContainer = _ref => {
   }, props), children);
 };
 
-/* harmony default export */ var toolbar_group_container = (ToolbarGroupContainer);
+/* harmony default export */ const toolbar_group_container = (ToolbarGroupContainer);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/toolbar-group/toolbar-group-collapsed.js
 
@@ -68944,7 +69062,7 @@ function ToolbarGroupCollapsed(_ref) {
   return renderDropdownMenu(toggleProps);
 }
 
-/* harmony default export */ var toolbar_group_collapsed = (ToolbarGroupCollapsed);
+/* harmony default export */ const toolbar_group_collapsed = (ToolbarGroupCollapsed);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/toolbar-group/index.js
 
@@ -69043,7 +69161,7 @@ function ToolbarGroup(_ref) {
   }, control)))), children);
 }
 
-/* harmony default export */ var toolbar_group = (ToolbarGroup);
+/* harmony default export */ const toolbar_group = (ToolbarGroup);
 
 ;// CONCATENATED MODULE: ./node_modules/reakit/es/Toolbar/ToolbarState.js
 
@@ -69173,7 +69291,7 @@ function ToolbarContainer(_ref, ref) {
   );
 }
 
-/* harmony default export */ var toolbar_container = ((0,external_wp_element_namespaceObject.forwardRef)(ToolbarContainer));
+/* harmony default export */ const toolbar_container = ((0,external_wp_element_namespaceObject.forwardRef)(ToolbarContainer));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/toolbar/index.js
 
@@ -69233,7 +69351,7 @@ function toolbar_Toolbar(_ref, ref) {
   }, props));
 }
 
-/* harmony default export */ var toolbar = ((0,external_wp_element_namespaceObject.forwardRef)(toolbar_Toolbar));
+/* harmony default export */ const toolbar = ((0,external_wp_element_namespaceObject.forwardRef)(toolbar_Toolbar));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/toolbar-dropdown-menu/index.js
 
@@ -69272,7 +69390,7 @@ function ToolbarDropdownMenu(props, ref) {
   })));
 }
 
-/* harmony default export */ var toolbar_dropdown_menu = ((0,external_wp_element_namespaceObject.forwardRef)(ToolbarDropdownMenu));
+/* harmony default export */ const toolbar_dropdown_menu = ((0,external_wp_element_namespaceObject.forwardRef)(ToolbarDropdownMenu));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/tools-panel/styles.js
 function tools_panel_styles_EMOTION_STRINGIFIED_CSS_ERROR_() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
@@ -69336,7 +69454,7 @@ const styles_DropdownMenu =  true ? {
  * Internal dependencies
  */
 
-const context_noop = () => undefined;
+const tools_panel_context_noop = () => undefined;
 
 const ToolsPanelContext = (0,external_wp_element_namespaceObject.createContext)({
   menuItems: {
@@ -69346,9 +69464,9 @@ const ToolsPanelContext = (0,external_wp_element_namespaceObject.createContext)(
   hasMenuItems: false,
   isResetting: false,
   shouldRenderPlaceholderItems: false,
-  registerPanelItem: context_noop,
-  deregisterPanelItem: context_noop,
-  flagItemCustomization: context_noop,
+  registerPanelItem: tools_panel_context_noop,
+  deregisterPanelItem: tools_panel_context_noop,
+  flagItemCustomization: tools_panel_context_noop,
   areAllOptionalControlsHidden: true
 });
 const useToolsPanelContext = () => (0,external_wp_element_namespaceObject.useContext)(ToolsPanelContext);
@@ -69557,7 +69675,7 @@ const component_ToolsPanelHeader = (props, forwardedRef) => {
 };
 
 const ConnectedToolsPanelHeader = contextConnect(component_ToolsPanelHeader, 'ToolsPanelHeader');
-/* harmony default export */ var tools_panel_header_component = (ConnectedToolsPanelHeader);
+/* harmony default export */ const tools_panel_header_component = (ConnectedToolsPanelHeader);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/tools-panel/tools-panel/hook.js
 /**
@@ -69822,7 +69940,7 @@ const component_ToolsPanel = (props, forwardedRef) => {
 };
 
 const ConnectedToolsPanel = contextConnect(component_ToolsPanel, 'ToolsPanel');
-/* harmony default export */ var tools_panel_component = (ConnectedToolsPanel);
+/* harmony default export */ const tools_panel_component = (ConnectedToolsPanel);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/tools-panel/tools-panel-item/hook.js
 /**
@@ -69972,7 +70090,7 @@ const component_ToolsPanelItem = (props, forwardedRef) => {
 };
 
 const ConnectedToolsPanelItem = contextConnect(component_ToolsPanelItem, 'ToolsPanelItem');
-/* harmony default export */ var tools_panel_item_component = (ConnectedToolsPanelItem);
+/* harmony default export */ const tools_panel_item_component = (ConnectedToolsPanelItem);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/tree-grid/roving-tab-index-context.js
 /**
@@ -70289,7 +70407,7 @@ function TreeGrid(_ref, ref) {
   /* eslint-enable jsx-a11y/no-noninteractive-element-to-interactive-role */
 }
 
-/* harmony default export */ var tree_grid = ((0,external_wp_element_namespaceObject.forwardRef)(TreeGrid));
+/* harmony default export */ const tree_grid = ((0,external_wp_element_namespaceObject.forwardRef)(TreeGrid));
 
 
 
@@ -70329,7 +70447,7 @@ function TreeGridRow(_ref, ref) {
   );
 }
 
-/* harmony default export */ var tree_grid_row = ((0,external_wp_element_namespaceObject.forwardRef)(TreeGridRow));
+/* harmony default export */ const tree_grid_row = ((0,external_wp_element_namespaceObject.forwardRef)(TreeGridRow));
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/tree-grid/roving-tab-index-item.js
 
@@ -70343,7 +70461,7 @@ function TreeGridRow(_ref, ref) {
  */
 
 
-/* harmony default export */ var roving_tab_index_item = ((0,external_wp_element_namespaceObject.forwardRef)(function RovingTabIndexItem(_ref, forwardedRef) {
+/* harmony default export */ const roving_tab_index_item = ((0,external_wp_element_namespaceObject.forwardRef)(function RovingTabIndexItem(_ref, forwardedRef) {
   let {
     children,
     as: Component,
@@ -70390,7 +70508,7 @@ function TreeGridRow(_ref, ref) {
  */
 
 
-/* harmony default export */ var tree_grid_item = ((0,external_wp_element_namespaceObject.forwardRef)(function TreeGridItem(_ref, ref) {
+/* harmony default export */ const tree_grid_item = ((0,external_wp_element_namespaceObject.forwardRef)(function TreeGridItem(_ref, ref) {
   let {
     children,
     ...props
@@ -70413,7 +70531,7 @@ function TreeGridRow(_ref, ref) {
  */
 
 
-/* harmony default export */ var cell = ((0,external_wp_element_namespaceObject.forwardRef)(function TreeGridCell(_ref, ref) {
+/* harmony default export */ const cell = ((0,external_wp_element_namespaceObject.forwardRef)(function TreeGridCell(_ref, ref) {
   let {
     children,
     withoutGridItem = false,
@@ -70440,7 +70558,7 @@ function stopPropagation(event) {
   event.stopPropagation();
 }
 
-/* harmony default export */ var isolated_event_container = ((0,external_wp_element_namespaceObject.forwardRef)((_ref, ref) => {
+/* harmony default export */ const isolated_event_container = ((0,external_wp_element_namespaceObject.forwardRef)((_ref, ref) => {
   let {
     children,
     ...props
@@ -70533,7 +70651,7 @@ const positionRelative =  true ? {
 
 
 
-function ZStack(props, forwardedRef) {
+function UnconnectedZStack(props, forwardedRef) {
   const {
     children,
     className,
@@ -70560,8 +70678,27 @@ function ZStack(props, forwardedRef) {
     ref: forwardedRef
   }), clonedChildren);
 }
+/**
+ * `ZStack` allows you to stack things along the Z-axis.
+ *
+ * ```jsx
+ * import { __experimentalZStack as ZStack } from '@wordpress/components';
+ *
+ * function Example() {
+ *   return (
+ *     <ZStack offset={ 20 } isLayered>
+ *       <ExampleImage />
+ *       <ExampleImage />
+ *       <ExampleImage />
+ *     </ZStack>
+ *   );
+ * }
+ * ```
+ */
 
-/* harmony default export */ var z_stack_component = (contextConnect(ZStack, 'ZStack'));
+
+const ZStack = contextConnect(UnconnectedZStack, 'ZStack');
+/* harmony default export */ const z_stack_component = (ZStack);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/higher-order/navigate-regions/index.js
 
@@ -70650,7 +70787,7 @@ function useNavigateRegions() {
 
   };
 }
-/* harmony default export */ var navigate_regions = ((0,external_wp_compose_namespaceObject.createHigherOrderComponent)(Component => _ref3 => {
+/* harmony default export */ const navigate_regions = ((0,external_wp_compose_namespaceObject.createHigherOrderComponent)(Component => _ref3 => {
   let {
     shortcuts,
     ...props
@@ -70672,7 +70809,7 @@ const withConstrainedTabbing = (0,external_wp_compose_namespaceObject.createHigh
     tabIndex: "-1"
   }, (0,external_wp_element_namespaceObject.createElement)(WrappedComponent, props));
 }, 'withConstrainedTabbing');
-/* harmony default export */ var with_constrained_tabbing = (withConstrainedTabbing);
+/* harmony default export */ const with_constrained_tabbing = (withConstrainedTabbing);
 
 ;// CONCATENATED MODULE: ./packages/components/build-module/higher-order/with-fallback-styles/index.js
 
@@ -70688,7 +70825,7 @@ const withConstrainedTabbing = (0,external_wp_compose_namespaceObject.createHigh
 
 
 
-/* harmony default export */ var with_fallback_styles = (mapNodeToProps => (0,external_wp_compose_namespaceObject.createHigherOrderComponent)(WrappedComponent => {
+/* harmony default export */ const with_fallback_styles = (mapNodeToProps => (0,external_wp_compose_namespaceObject.createHigherOrderComponent)(WrappedComponent => {
   return class extends external_wp_element_namespaceObject.Component {
     constructor() {
       super(...arguments);
@@ -70745,7 +70882,7 @@ const withConstrainedTabbing = (0,external_wp_compose_namespaceObject.createHigh
 }, 'withFallbackStyles'));
 
 ;// CONCATENATED MODULE: external ["wp","hooks"]
-var external_wp_hooks_namespaceObject = window["wp"]["hooks"];
+const external_wp_hooks_namespaceObject = window["wp"]["hooks"];
 ;// CONCATENATED MODULE: ./packages/components/build-module/higher-order/with-filters/index.js
 
 
@@ -70896,7 +71033,7 @@ function isComponentLike(object) {
  */
 
 
-/* harmony default export */ var with_focus_return = ((0,external_wp_compose_namespaceObject.createHigherOrderComponent)(options => {
+/* harmony default export */ const with_focus_return = ((0,external_wp_compose_namespaceObject.createHigherOrderComponent)(options => {
   const HoC = function () {
     let {
       onFocusReturn
@@ -70958,7 +71095,7 @@ const with_focus_return_Provider = _ref => {
  * @return {WPComponent} Wrapped component.
  */
 
-/* harmony default export */ var with_notices = ((0,external_wp_compose_namespaceObject.createHigherOrderComponent)(OriginalComponent => {
+/* harmony default export */ const with_notices = ((0,external_wp_compose_namespaceObject.createHigherOrderComponent)(OriginalComponent => {
   function Component(props, ref) {
     const [noticeList, setNoticeList] = (0,external_wp_element_namespaceObject.useState)([]);
     const noticeOperations = (0,external_wp_element_namespaceObject.useMemo)(() => {
@@ -71166,7 +71303,8 @@ const with_focus_return_Provider = _ref => {
 
 
 
-}();
+})();
+
 (window.wp = window.wp || {}).components = __webpack_exports__;
 /******/ })()
 ;

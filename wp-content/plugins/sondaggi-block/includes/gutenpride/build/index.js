@@ -263,7 +263,6 @@ __webpack_require__.r(__webpack_exports__);
  */
 
 
-
 /**
  * The save function defines the way in which the different attributes should
  * be combined into the final markup, which is then serialized by the block
@@ -286,38 +285,50 @@ function save(_ref) {
   debugger;
   var choice;
   var showStats = true;
-
-  function handleFormSubmit(event) {
-    event.preventDefault();
-    const reactAppData = window.wpRoomDesigner || {};
-    const {
-      ajax_url
-    } = reactAppData;
-
-    if (choice == sondaggi_elenco[0].text) {
-      sondaggi_elenco[0].count++;
-    } else sondaggi_elenco[1].count++;
-
-    var parameters_to_send = {
-      id: idson,
-      elenco: sondaggi_elenco,
-      risposta: choice
-    };
-    console.log('You have selected:', choice);
-    fetch(`http://localhost/wordpress/wp-admin/admin-ajax.php`, {
-      method: 'POST',
-      body: JSON.stringify(parameters_to_send),
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    }).then(res => res.json()).then(data => console.log(data)).catch(err => console.error("Error:", err));
-    showStats = false;
-  }
+  /*
+  function handleFormSubmit (event) {
+  	event.preventDefault();
+  	const reactAppData = window.wpRoomDesigner || {}
+  	const { ajax_url} = reactAppData
+  	if(choice == sondaggi_elenco[0].text){
+  		sondaggi_elenco[0].count++;
+  	} 
+  	else sondaggi_elenco[1].count++;
+  	
+  	var parameters_to_send = {id:idson, elenco: sondaggi_elenco,risposta:choice};
+  	console.log('You have selected:', choice );
+  	fetch(`http://localhost/wordpress/wp-admin/admin-ajax.php`, {
+  		method: 'POST',
+  		body: JSON.stringify(parameters_to_send),
+  		headers: {
+  			'Content-Type': 'application/json'
+  		}
+  	}).then(res => res.json())
+  	.then(data => console.log(data))
+  	.catch(err => console.error("Error:", err));
+  	showStats=false;
+  }*/
 
   var bigresponse = sondaggi_elenco[0].count + sondaggi_elenco[1].count;
   var per0 = parseInt(sondaggi_elenco[0].count / bigresponse * 100);
   var per1 = parseInt(sondaggi_elenco[1].count / bigresponse * 100);
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps.save(), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, idson ? title : "Choose a sondaggio"), idson && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
+  var stylesondaggio;
+  var styleresults;
+
+  if (document.cookie.includes("sondaggioSent")) {
+    stylesondaggio = "visibility: hidden;";
+    styleresults = "visibility: visible;";
+  } else {
+    stylesondaggio = "visibility: visible;";
+    styleresults = "visibility: hidden;";
+  }
+
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps.save(), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    id: "frontSondaggio",
+    style: "visibility: visible;"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, idson ? title : "Choose a sondaggio"), idson && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("form", {
+    id: "sendForm"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
     type: "radio",
     id: sondaggi_elenco[0].text,
     value: sondaggi_elenco[0].text,
@@ -330,16 +341,24 @@ function save(_ref) {
     name: "choice",
     onChange: choice = sondaggi_elenco[1].text
   }), sondaggi_elenco[1].text + " ", sondaggi_elenco[1].count), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {
-    id: "btnSave"
-  }, "Save")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("dl", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("dt", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("dd", {
+    type: "submit"
+  }, "Save"))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    id: "resultChart",
+    style: "visibility: hidden;"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("dl", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("dt", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("dd", {
     class: `percentage percentage-` + per0
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
+    id: "bar" + 0,
     class: "text"
   }, sondaggi_elenco[0].text, ": ", sondaggi_elenco[0].count)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("dd", {
     class: `percentage percentage-` + per1
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
+    id: "bar" + 1,
     class: "text"
-  }, sondaggi_elenco[1].text, ": ", sondaggi_elenco[1].count))));
+  }, sondaggi_elenco[1].text, ": ", sondaggi_elenco[1].count)))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    id: "idson",
+    hidden: true
+  }, idson));
 }
 
 /***/ }),

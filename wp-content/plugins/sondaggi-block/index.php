@@ -163,29 +163,46 @@ add_action( 'init', 'myguten_register_post_meta' );
 add_action('wp_enqueue_scripts', 'insert_js');
 
 function insert_js(){
-	wp_enqueue_script('miscript',plugin_dir_url(__FILE__). '/js/script.js', array(), '1', true);
+    wp_enqueue_script('miscript',plugin_dir_url(__FILE__). '/js/script.js', array(), '1', true);
     wp_localize_script('miscript','ajax_obj',['ajaxurl'=>admin_url('admin-ajax.php')]);
 }
 
 
-
-
 //Devolver datos a archivo js
 
-add_action('wp_ajax_nopriv_ajax_send','send_content');
-add_action('wp_ajax_ajax_send','send_content');
+add_action('wp_ajax_nopriv_send','send_content');
+add_action('wp_ajax_send','send_content');
 
 function send_content()
 {
     //verify nonce
-    wp_verify_nonce();
+    //wp_verify_nonce();
 
-	$id_post = absint($_POST['id_post']);
-	$content = apply_filters('the_content', get_post_field('post_content', $id_post));
+    if(isset($_POST['idson'])) $id_post = intval($_POST['idson']);
+	$selected = strval($_POST['selected']);
 
-	//sleep(2);
-	
-	echo $content;
+    $boxmeta = get_post_meta($id_post, 'sondaggio');
+    $newboxmeta = get_post_meta($id_post, 'sondaggio');
+    $newboxmeta[0][$selected]['count'] = $boxmeta[0][$selected]['count'] + 1 ;
+    $status = update_post_meta($id_post, 'sondaggio',$newboxmeta[0]);
+
+    $return = [$id_post,$selected,$boxmeta, $newboxmeta,$status ];
+    wp_send_json($return);
 	wp_die();
+}
+
+add_action('wp_enqueue_scripts','visibility_controller');
+function visibility_controller()
+{
+    if(isset($_COOKIE['sondaggioSent']))
+    {
+        wp_register_script( 'visibility-control', plugins_url( '/js/vcontroller.js' , __FILE__ ) );
+        wp_enqueue_script( 'visibility-control' );
+    }
+    else
+    {
+        wp_register_script( 'invisibility-control', plugins_url( '/js/nonvcontroller.js' , __FILE__ ) );
+        wp_enqueue_script( 'invisibility-control' );
+    }
 }
 

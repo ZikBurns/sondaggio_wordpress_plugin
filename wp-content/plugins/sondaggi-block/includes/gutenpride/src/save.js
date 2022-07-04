@@ -12,7 +12,6 @@ import { __ } from '@wordpress/i18n';
  * @see https://developer.wordpress.org/block-editor/packages/packages-block-editor/#useBlockProps
  */
 import { useBlockProps } from '@wordpress/block-editor';
-import { useState, useEffect } from '@wordpress/element';
 
 /**
  * The save function defines the way in which the different attributes should
@@ -29,6 +28,7 @@ export default function save({ attributes }) {
 	
 	var choice;
 	var showStats = true;
+	/*
 	function handleFormSubmit (event) {
 		event.preventDefault();
 		const reactAppData = window.wpRoomDesigner || {}
@@ -50,47 +50,64 @@ export default function save({ attributes }) {
 		.then(data => console.log(data))
 		.catch(err => console.error("Error:", err));
 		showStats=false;
-	}
+	}*/
 	var bigresponse = sondaggi_elenco[0].count + sondaggi_elenco[1].count;
 	var per0 = parseInt(sondaggi_elenco[0].count / bigresponse * 100);
 	var per1 = parseInt(sondaggi_elenco[1].count / bigresponse * 100);
+	var stylesondaggio;
+	var styleresults;
+	if(document.cookie.includes("sondaggioSent")){
+		stylesondaggio="visibility: hidden;"
+		styleresults="visibility: visible;"
+	} 
+	else{
+		stylesondaggio="visibility: visible;"
+		styleresults="visibility: hidden;"
+	}
+
 	return (
 		<div { ...useBlockProps.save() }>
-			<p>{idson ? title : "Choose a sondaggio"}</p>
-			{idson && <div>
-					<label>
-						<input type="radio" 
-						id = {sondaggi_elenco[0].text}
-						value={sondaggi_elenco[0].text}
-						name="choice"
-						onChange={
-						choice = sondaggi_elenco[0].text
-						}
-						/>
-						{sondaggi_elenco[0].text+" "}
-						{sondaggi_elenco[0].count}
-					</label>
-					<label>
-						<input type="radio" 
-						id = {sondaggi_elenco[1].text}
-						value={sondaggi_elenco[1].text} 
-						name="choice"
-						onChange={
-						choice = sondaggi_elenco[1].text
-						}
-						/>
-						{sondaggi_elenco[1].text+" "}
-						{sondaggi_elenco[1].count}
-					</label>
-					<button id="btnSave">Save</button>
-				</div>
-			}
-			<dl>
-				<dt>
-				</dt>
-				<dd class={`percentage percentage-`+per0}><span class="text">{sondaggi_elenco[0].text}: { sondaggi_elenco[0].count}</span></dd>
-				<dd class={`percentage percentage-`+per1}><span class="text">{sondaggi_elenco[1].text}: { sondaggi_elenco[1].count}</span></dd>
-			</dl>
+			<div id='frontSondaggio' style="visibility: visible;">
+				<p>{idson ? title : "Choose a sondaggio"}</p>
+				{idson && <form id="sendForm">
+						<label>
+							<input type="radio" 
+							id = {sondaggi_elenco[0].text}
+							value={sondaggi_elenco[0].text}
+							name="choice"
+							onChange={
+							choice = sondaggi_elenco[0].text
+							}
+							/>
+							{sondaggi_elenco[0].text+" "}
+							{sondaggi_elenco[0].count}
+						</label>
+						<label>
+							<input type="radio" 
+							id = {sondaggi_elenco[1].text}
+							value={sondaggi_elenco[1].text} 
+							name="choice"
+							onChange={
+							choice = sondaggi_elenco[1].text
+							}
+							/>
+							{sondaggi_elenco[1].text+" "}
+							{sondaggi_elenco[1].count}
+						</label>
+						<button type='submit' >Save</button>
+					</form>
+				}
+			</div>
+			<div id='resultChart' style="visibility: hidden;">
+				<dl>
+					<dt>
+					</dt>
+					<dd class={`percentage percentage-`+per0}><span id={"bar"+0} class="text">{sondaggi_elenco[0].text}: { sondaggi_elenco[0].count}</span></dd>
+					<dd class={`percentage percentage-`+per1}><span id={"bar"+1} class="text">{sondaggi_elenco[1].text}: { sondaggi_elenco[1].count}</span></dd>
+				</dl>
+			</div>
+			
+			<p id='idson' hidden>{idson}</p>
 		</div>
 	);
 }
