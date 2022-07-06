@@ -254,8 +254,11 @@ add_action( 'init', 'myguten_register_post_meta' );
 add_action('wp_enqueue_scripts', 'insert_js');
 
 function insert_js(){
-    wp_enqueue_script('miscript',plugin_dir_url(__FILE__). '/js/script.js', array(), '4', true);
-    wp_localize_script('miscript','ajax_obj',['ajaxurl'=>admin_url('admin-ajax.php')]);
+    wp_enqueue_script('miscript',plugin_dir_url(__FILE__). '/js/script.js', array(), '5', true);
+    wp_localize_script('miscript','ajax_obj',[
+        'ajaxurl'=>admin_url('admin-ajax.php'),
+        'nonce'=> wp_create_nonce('send')
+    ]);
 }
 
 
@@ -266,8 +269,10 @@ add_action('wp_ajax_send','send_content');
 
 function send_content()
 {
-    //verify nonce
-    //wp_verify_nonce();
+
+    // Check for nonce security      
+    if ( ! wp_verify_nonce( $_POST['nonce'], 'send' ) ) die ( 'NOPE!');
+    
 
     if(isset($_POST['idson'])) $id_post = intval($_POST['idson']);
 	$selected = strval($_POST['selected']);
@@ -280,7 +285,7 @@ function send_content()
     }
     
 
-    $return = [$newboxmeta, $id_post,$selected,$boxmeta , $status ];
+    $return = [$newboxmeta, $status ];
     wp_send_json($return);
 	wp_die();
 }

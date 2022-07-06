@@ -97,7 +97,7 @@ export default function Edit({ setAttributes, attributes }) {
 			{answers && 
 			<dl>
 				<dt></dt>
-				<div id="stats">
+				<div>
 					{
 						pers.map((per,i)=>
 							{

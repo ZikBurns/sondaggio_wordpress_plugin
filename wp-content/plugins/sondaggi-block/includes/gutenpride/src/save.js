@@ -28,10 +28,13 @@ export default function save({ attributes }) {
 	
 	var choice;
 	var showStats = true;
-	
-	var bigresponse = sondaggi_elenco[0].count + sondaggi_elenco[1].count;
-	var per0 = parseInt(sondaggi_elenco[0].count / bigresponse * 100);
-	var per1 = parseInt(sondaggi_elenco[1].count / bigresponse * 100);
+
+	var bigresponse = 0; 
+	sondaggi_elenco.forEach(answer => bigresponse = bigresponse + answer.count)
+	var pers = [];
+	sondaggi_elenco.forEach(answer => pers.push(parseInt(answer.count / bigresponse * 100)))
+
+
 	var stylesondaggio;
 	var styleresults;
 	//if(document.cookie.includes("sondaggioSent")){
@@ -48,40 +51,44 @@ export default function save({ attributes }) {
 			<div id='frontSondaggio' style={stylesondaggio}>
 				<p>{idson ? title : "Choose a sondaggio"}</p>
 				{idson && <form id="sendForm">
-						<label>
-							<input type="radio" 
-							id = {sondaggi_elenco[0].text}
-							value={sondaggi_elenco[0].text}
-							name="choice"
-							onChange={
-							choice = sondaggi_elenco[0].text
-							}
-							/>
-							{sondaggi_elenco[0].text+" "}
-							{sondaggi_elenco[0].count}
-						</label>
-						<label>
-							<input type="radio" 
-							id = {sondaggi_elenco[1].text}
-							value={sondaggi_elenco[1].text} 
-							name="choice"
-							onChange={
-							choice = sondaggi_elenco[1].text
-							}
-							/>
-							{sondaggi_elenco[1].text+" "}
-							{sondaggi_elenco[1].count}
-						</label>
-						<button type='submit' >Save</button>
-					</form>
+					<div>
+						{
+							sondaggi_elenco.map((son,i)=>
+								{
+									return <label>
+										<input type="radio" 
+										id = {son.text}
+										value={son.text}
+										name="choice"
+										onChange={
+										choice = son.text
+										}
+										/>
+										{son.text+" "}
+										{/*son.count*/}
+									</label>;
+								}
+							)
+						}
+					</div>
+					<button type='submit' >Save</button>
+				</form>
 				}
 			</div>
 			<div id='resultChart' style={styleresults}>
 				<dl>
 					<dt>
 					</dt>
-					<dd class={`percentage percentage-`+per0}><span id={"bar"+0} class="text">{sondaggi_elenco[0].text}: { sondaggi_elenco[0].count}</span></dd>
-					<dd class={`percentage percentage-`+per1}><span id={"bar"+1} class="text">{sondaggi_elenco[1].text}: { sondaggi_elenco[1].count}</span></dd>
+					<div>
+						{
+							pers.map((per,i)=>
+								{
+									console.log(per+" "+i);
+									return <dd className={`percentage percentage-`+per}><span id={"bar"+i} className="text">{sondaggi_elenco[i].text}: { sondaggi_elenco[i].count}</span></dd>
+								}
+							)
+						}
+					</div>
 				</dl>
 			</div>
 			
