@@ -72,16 +72,12 @@ function Edit(_ref) {
     setAttributes,
     attributes
   } = _ref;
-  const {
-    idson,
-    title,
-    sondaggi_elenco
-  } = attributes;
   const posts = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_2__.useSelect)(select => {
     return select('core').getEntityRecords('postType', 'sondaggi');
   });
   var questionListIDs = posts && posts.map(element => element.title.raw + ' (' + element.id + ')');
   var selectedQuestionString = [];
+  var choice;
   const [count, setCount] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)("");
 
   if (attributes.idson) {
@@ -91,47 +87,54 @@ function Edit(_ref) {
     if (selectedQuestion) {
       selectedQuestionString = [selectedQuestion.title.raw + ' (' + selectedQuestion.id + ')'];
       answers = selectedQuestion.meta.sondaggio[0];
-      if (answers) var selectedOption = answers[0].text;else {
-        answers = sondaggi_elenco;
-        var selectedOption = answers[0].text;
+
+      if (answers) {
+        var bigresponse = 0;
+        answers.forEach(answer => bigresponse = bigresponse + answer.count);
+        var pers = [];
+        answers.forEach(answer => pers.push(parseInt(answer.count / bigresponse * 100)));
       }
     }
-    /*if (attributes.sondaggi_elenco){
-    	answers = attributes.sondaggi_elenco
-    }*/
+  }
+  /*
+  	function handleOptionChange (changeEvent) {
+  		selectedOption= changeEvent.target.value
+  		setCount( changeEvent.target.value)	
+  	  }
+  	
+  	function handleFormSubmit (formSubmitEvent) {
+  		formSubmitEvent.preventDefault();
+  
+  		console.log('You have selected:', count);
+  	}
+  */
 
+
+  function buildStats() {
+    var div = document.getElementById("stats");
+    var html = "";
+
+    for (var i = 0; i < pers.length; i++) {
+      html += "	<dd className={`percentage percentage-`+" + pers[0] + "}><span id={`bar`+" + i + "} className=`text`>{" + answers[i].text + "}: { " + answers[i].count + "}</span></dd>";
+    }
+
+    div.appendChild(html);
   }
 
-  function handleOptionChange(changeEvent) {
-    selectedOption = changeEvent.target.value;
-    setCount(changeEvent.target.value);
-  }
-
-  function handleFormSubmit(formSubmitEvent) {
-    formSubmitEvent.preventDefault();
-    console.log('You have selected:', count);
-  }
-
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_6__.useBlockProps)(), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, selectedQuestion ? selectedQuestion.title.raw : "Selecciona alguna pregunta"), selectedQuestion && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("form", {
-    onSubmit: handleFormSubmit
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "radio"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
-    type: "radio",
-    value: answers[0].text,
-    checked: count === answers[0].text,
-    onChange: handleOptionChange
-  }), answers[0].text)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "radio"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
-    type: "radio",
-    value: answers[1].text,
-    checked: count === answers[1].text,
-    onChange: handleOptionChange
-  }), answers[1].text)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {
-    className: "btn btn-default",
-    type: "submit"
-  }, "Save")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_6__.InspectorControls, {
+  window.addEventListener('DOMContentLoaded', event => {
+    buildStats();
+  });
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_6__.useBlockProps)(), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, answers ? selectedQuestion.title.raw : "Selecciona alguna pregunta"), answers && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("dl", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("dt", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    id: "stats"
+  }, pers.map((per, i) => {
+    console.log(per + " " + i);
+    return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("dd", {
+      className: `percentage percentage-` + per
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
+      id: "bar" + i,
+      className: "text"
+    }, answers[i].text, ": ", answers[i].count));
+  }))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_6__.InspectorControls, {
     key: "setting"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     id: "gutenpride-controls"

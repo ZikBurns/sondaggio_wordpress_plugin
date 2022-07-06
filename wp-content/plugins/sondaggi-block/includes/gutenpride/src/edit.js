@@ -40,13 +40,13 @@ import './editor.scss';
  * @return {WPElement} Element to render.
  */
 export default function Edit({ setAttributes, attributes }) {
-	const { idson, title, sondaggi_elenco } = attributes;
 	const posts = useSelect ( (select) =>{
 		return select('core').getEntityRecords('postType', 'sondaggi');
 	} );
 	var questionListIDs = posts && posts.map((element) =>element.title.raw+' ('+element.id+')');
 	var selectedQuestionString= [];
-	
+	var choice;
+
 	const [count, setCount] = useState("");
 	if (attributes.idson){
 		var answers;
@@ -54,17 +54,16 @@ export default function Edit({ setAttributes, attributes }) {
 		if (selectedQuestion) {
 			selectedQuestionString = [selectedQuestion.title.raw+' ('+selectedQuestion.id+')'];
 			answers =selectedQuestion.meta.sondaggio[0];
-			if(answers) var selectedOption= answers[0].text;
-			else{
-				answers=sondaggi_elenco;
-				var selectedOption= answers[0].text;
-			}			
+			if(answers){
+				var bigresponse = 0; 
+				answers.forEach(answer => bigresponse = bigresponse + answer.count)
+				var pers = [];
+				answers.forEach(answer => pers.push(parseInt(answer.count / bigresponse * 100)))
+			}
 		}
-		/*if (attributes.sondaggi_elenco){
-			answers = attributes.sondaggi_elenco
-		}*/
-	}
 
+	}
+/*
 	function handleOptionChange (changeEvent) {
 		selectedOption= changeEvent.target.value
 		setCount( changeEvent.target.value)	
@@ -75,33 +74,43 @@ export default function Edit({ setAttributes, attributes }) {
 
 		console.log('You have selected:', count);
 	}
+*/
+	
+	function buildStats(){
+		var div = document.getElementById("stats");
+		var html = "";
+		for (var i=0; i< pers.length; i++) {
+			html+="	<dd className={`percentage percentage-`+"+pers[0]+"}><span id={`bar`+"+i+"} className=`text`>{"+answers[i].text+"}: { "+answers[i].count+"}</span></dd>"
+		}
+		div.appendChild(html);
+	}
+
+	window.addEventListener('DOMContentLoaded', (event) => {
+		buildStats();
+	});
+
 	return (
 		<div { ...useBlockProps() }>
 			<p>
-				{selectedQuestion?selectedQuestion.title.raw:"Selecciona alguna pregunta"}
+				{answers?selectedQuestion.title.raw:"Selecciona alguna pregunta"}
 			</p>
-			{selectedQuestion && <form onSubmit={handleFormSubmit}>
-              <div className="radio">
-                <label>
-                  <input type="radio" 
-				  value={answers[0].text}
-				  checked={count === answers[0].text}
-				  onChange={handleOptionChange} />
-                  {answers[0].text}
-                </label>
-              </div>
-              <div className="radio">
-                <label>
-                  <input type="radio" 
-				  value={answers[1].text} 
-				  checked={count === answers[1].text} 
-				  onChange={handleOptionChange}/>
-                  {answers[1].text}
-                </label>
-              </div>
-              <button className="btn btn-default" type="submit">Save</button>
-            </form>
+			{answers && 
+			<dl>
+				<dt></dt>
+				<div id="stats">
+					{
+						pers.map((per,i)=>
+							{
+								console.log(per+" "+i);
+								return <dd className={`percentage percentage-`+per}><span id={"bar"+i} className="text">{answers[i].text}: { answers[i].count}</span></dd>
+							}
+						)
+					}
+				</div>
+			</dl>
+			
 			}
+			
 			<InspectorControls key="setting">
                     <div id="gutenpride-controls">
                             <FormTokenField

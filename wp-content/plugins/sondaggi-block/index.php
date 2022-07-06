@@ -76,22 +76,119 @@ add_action('add_meta_boxes', 'diwp_custom_metabox');
 function diwp_custom_metabox_callback(){
      
     global $post;
-    $sondaggio = get_post_meta($post->ID, 'sondaggio', true)
+    $sondaggio = get_post_meta($post->ID, 'sondaggio', true);
+    $acount = count($sondaggio);
+    $encoded_sondaggio = json_encode((array)$sondaggio);
     ?>
-    <div class="row">
-		<div class="label">Answer 1</div>
-        <div class="fields">
-            <input type="text" name="sondaggi_answer1" value="<?php if (isset($sondaggio)) {echo  $sondaggio[0]['text'];}?>"/>
-			<label for="sondaggi_result1">Nº:</label>
-			<input type="number" size="1" name="sondaggi_result1" value="<?php if (isset($sondaggio)) {echo $sondaggio[0]['count'];}?>"/>
-		</div>
-		<div class="label">Answer 2</div>
-        <div class="fields">
-            <input type="text" name="sondaggi_answer2" value="<?php if (isset($sondaggio)) {echo  $sondaggio[1]['text'];}?>"/>
-			<label for="sondaggi_result2">Nº:</label>
-			<input type="number" size="1" name="sondaggi_result2" value="<?php if (isset($sondaggio)) { echo $sondaggio[1]['count'];}?>"/>
-		</div>
+    
+    <div class="row" id = "myRow">
+        <input type="hidden" id="Anscount" name="Anscount" value=<?php echo $acount ?> >
     </div>
+    <input type="button" onclick="insert_Row()" value="Insert row"> 
+    <script>console.log(<?= json_encode($sondaggio); ?>);</script>
+    <script> 
+        var elenco = <?php echo $encoded_sondaggio ?>;
+        console.log(elenco);
+        for (i=0; i<elenco.length; i++) {
+            index = i +1 ;
+            //label general
+            let label1 = document.createElement('div');
+            label1.className = "label";
+            label1.textContent = "Answer "+index;
+            var ref = document.getElementById('myRow');
+
+            //input 1
+            let input1 = document.createElement('input');
+            input1.type = "text";
+            input1.name= "sondaggi_answer"+index;
+            input1.value = elenco[i].text;
+            
+            //Label Nº
+            let labeln = document.createElement('label');
+            labeln.for = "sondaggi_result"+index;
+            labeln.textContent = " Nº: ";
+
+            //input 2
+            let input2 = document.createElement('input');
+            input2.type = "number";
+            input2.name= "sondaggi_result"+index;
+            input2.value = elenco[i].count;
+
+            //Delete button
+            let delbutton = document.createElement('button')
+            delbutton.innerHTML = "X"
+            delbutton.name = index
+            delbutton.onclick = function(){
+                console.log("Hola"+delbutton.name);
+                document.getElementById('fields_'+delbutton.name).remove();
+            }
+            
+            //fields general
+            let fieldgeneral = document.createElement('div');
+            fieldgeneral.className = "fields";
+            fieldgeneral.id = "fields_"+index;
+            fieldgeneral.appendChild(label1);
+            fieldgeneral.appendChild(input1);
+            fieldgeneral.appendChild(labeln);
+            fieldgeneral.appendChild(input2);
+            fieldgeneral.appendChild(delbutton);
+            ref.appendChild(fieldgeneral);
+        }
+
+        
+
+        function insert_Row(){
+            var acount = document.getElementById('Anscount');
+            let nextEle = parseInt(acount.value) +1;
+            acount.value = parseInt(acount.value) +1;
+
+
+            //label general
+            let label1 = document.createElement('div');
+            label1.className = "label";
+            label1.textContent = "Answer "+nextEle;
+            var ref = document.getElementById('myRow');
+            
+            
+            //input 1
+            let input1 = document.createElement('input');
+            input1.type = "text";
+            input1.name= "sondaggi_answer"+nextEle;
+            input1.value = "<?php {echo  "";}?>";
+            
+            //Label Nº
+            let labeln = document.createElement('label');
+            labeln.for = "sondaggi_result"+nextEle;
+            labeln.textContent = " Nº: ";
+
+            //input 2
+            let input2 = document.createElement('input');
+            input2.type = "text";
+            input2.name= "sondaggi_result"+nextEle;
+            input2.value = "<?php {echo  0;}?>";
+
+            //Delete button
+            let delbutton = document.createElement('button')
+            delbutton.innerHTML = "X"
+            delbutton.onclick = function(){
+                console.log("Hola"+nextEle);
+                document.getElementById('fields_'+nextEle).remove();
+                nextEle = parseInt(nextEle) +1;
+            }
+
+            //fields general
+            let fieldgeneral = document.createElement('div');
+            fieldgeneral.className = "fields";
+            fieldgeneral.id = "fields_"+nextEle;
+            fieldgeneral.appendChild(label1);
+            fieldgeneral.appendChild(input1);
+            fieldgeneral.appendChild(labeln);
+            fieldgeneral.appendChild(input2);
+            fieldgeneral.appendChild(delbutton);
+            ref.appendChild(fieldgeneral);
+            
+        }
+    </script>
     <?php
 
 }
@@ -99,24 +196,21 @@ function diwp_custom_metabox_callback(){
 function diwp_save_custom_metabox(){
     // Autosave + Revision check 
     global $post;
-    if ( array_key_exists( 'sondaggi_answer1', $_POST ) &&
-         array_key_exists( 'sondaggi_result1', $_POST ) &&
-         array_key_exists( 'sondaggi_answer2', $_POST ) &&
-         array_key_exists( 'sondaggi_result2', $_POST ) 
-    )
-    {
-    $sondaggio = [
-         [
-            'text' => $_POST["sondaggi_answer1"],
-            'count' => $_POST["sondaggi_result1"]
-        ],
-        [
-            'text' => $_POST["sondaggi_answer2"],
-            'count' => $_POST["sondaggi_result2"]
-        ],
-    ];
-    update_post_meta($post->ID, 'sondaggio',$sondaggio);
+    $index = 1;
+    $sondaggio = [];
+    for($i=1; $i<=$_POST['Anscount'];$i=$i+1){
+        if(array_key_exists( 'sondaggi_answer'.strval($i), $_POST ))
+        {
+            array_push($sondaggio, 
+            [
+                'text' => $_POST["sondaggi_answer".strval($i)],
+                'count' => $_POST["sondaggi_result".strval($i)]
+            ] );
+        }
     }
+    
+    update_post_meta( $post->ID, 'sondaggio', $sondaggio );
+    
 
 }
  
@@ -160,7 +254,7 @@ add_action( 'init', 'myguten_register_post_meta' );
 add_action('wp_enqueue_scripts', 'insert_js');
 
 function insert_js(){
-    wp_enqueue_script('miscript',plugin_dir_url(__FILE__). '/js/script.js', array(), '3', true);
+    wp_enqueue_script('miscript',plugin_dir_url(__FILE__). '/js/script.js', array(), '4', true);
     wp_localize_script('miscript','ajax_obj',['ajaxurl'=>admin_url('admin-ajax.php')]);
 }
 
@@ -177,17 +271,20 @@ function send_content()
 
     if(isset($_POST['idson'])) $id_post = intval($_POST['idson']);
 	$selected = strval($_POST['selected']);
-    if (isset($selected)){
-        $boxmeta = get_post_meta($id_post, 'sondaggio',true);
-        $newboxmeta = get_post_meta($id_post, 'sondaggio',true);
-        $newboxmeta[$selected]['count'] = $boxmeta[$selected]['count'] + 1 ;
-        $status = update_post_meta($id_post, 'sondaggio',$newboxmeta);
+    $boxmeta = get_post_meta($id_post, 'sondaggio',true);
+    $newboxmeta = get_post_meta($id_post, 'sondaggio',true);
+    if (! empty($selected))
+    {
+        $newboxmeta[$selected]['count'] = $newboxmeta[$selected]['count'] + 1 ;
+        $status = update_post_meta( $id_post, 'sondaggio', $newboxmeta );
     }
+    
 
-    $return = [$id_post,$selected,$boxmeta, $newboxmeta,$status ];
+    $return = [$newboxmeta, $id_post,$selected,$boxmeta , $status ];
     wp_send_json($return);
 	wp_die();
 }
+
 /*
 add_action('wp_enqueue_scripts','visibility_controller');
 function visibility_controller()
