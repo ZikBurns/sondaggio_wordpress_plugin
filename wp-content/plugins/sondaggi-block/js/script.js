@@ -9,7 +9,8 @@ if(document.cookie.includes("sondaggioSent")){
 */
 	const idson = document.querySelector('#idson').innerHTML; 
 	var formData = new FormData();
-	formData.append("selected", null);
+	var selected;
+	formData.append("selected", "");
 	formData.append("action", "send");
 	formData.append("idson", idson);
 	fetch(ajax_obj.ajaxurl,{
@@ -77,14 +78,14 @@ function updateChart(data){
 	const frontsondaggio = document.querySelector('#frontSondaggio');        
 	frontsondaggio.style.display = 'none';
 
-	var updatedRes = data[3][0].count;
+	var updatedRes = data[0][0].count;
 	var chosenbar = document.querySelector('#bar'+0).innerHTML;
 	var splitbar = chosenbar.split(": ");
 	var firstpart = splitbar[splitbar.length-2]
 	chosenbar = firstpart+": "+updatedRes;
 	document.querySelector('#bar'+0).innerHTML = chosenbar;
 	
-	var updatedRes = data[3][1].count;
+	var updatedRes = data[0][1].count;
 	var chosenbar = document.querySelector('#bar'+1).innerHTML;
 	var splitbar = chosenbar.split(": ");
 	var firstpart = splitbar[splitbar.length-2]
