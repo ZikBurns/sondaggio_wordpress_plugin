@@ -1,7 +1,7 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 2,
-  "name": "create-block/gutenpride",
+  "name": "create-block/sondaggio",
   "version": "0.1.0",
   "title": "Gutenpride",
   "category": "widgets",
@@ -21,7 +21,7 @@
       "type": "array"
     }
   },
-  "textdomain": "gutenpride",
+  "textdomain": "sondaggio",
   "editorScript": "file:./index.js",
   "script": "file:./js/index.js",
   "editorStyle": "file:./index.css",

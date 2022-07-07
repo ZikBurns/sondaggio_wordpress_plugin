@@ -5,12 +5,21 @@ if(document.cookie.includes("sondaggioSent"))
 {
 	
 	const idson = document.querySelector('#idson').innerHTML; 
+
+	var formData ={
+		"selected": "",
+		"action":"send",
+		"idson": idson,
+		"nonce": ajax_obj.nonce
+	}
+	/*
 	var formData = new FormData();
 	var selected;
 	formData.append("selected", "");
 	formData.append("action", "send");
 	formData.append("idson", idson);
 	formData.append("nonce", ajax_obj.nonce);
+	
 	fetch(ajax_obj.ajaxurl,{
         method:'POST',
         body: formData
@@ -20,6 +29,21 @@ if(document.cookie.includes("sondaggioSent"))
 		updateChart(data[0]);
 	})
     .catch(err => console.error("Error:", err));   
+*/
+	var xhr = new XMLHttpRequest();
+	var params = 'selected='+""+'&action='+"send"+""+'&idson='+idson+""+'&nonce='+ajax_obj.nonce;
+	xhr.open('POST',ajax_obj.resturl +'baseURL/v1/endPoint', true);
+	xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+	xhr.onload = function() 
+	{
+		if (xhr.readyState == 4 && xhr.status == 200) 
+		{
+			var response = xhr.responseText.substring(xhr.responseText.indexOf("["));
+			updateChart(JSON.parse(response)[0]);
+		}
+	}
+	xhr.send(params);
+
 } 
 else
 {
@@ -52,12 +76,22 @@ function doStuff(event){
         }
 		index++;
     }
-	const idson = document.querySelector('#idson').innerHTML;        
+	const idson = document.querySelector('#idson').innerHTML;    
+	 
+	var formData ={
+		"selected": selectedRadio,
+		"action":"send",
+		"idson": idson,
+		"nonce": ajax_obj.nonce
+	}
+	/* 
 	var formData = new FormData();
 	formData.append("selected", selectedRadio);
 	formData.append("action", "send");
 	formData.append("idson", idson);
 	formData.append("nonce", ajax_obj.nonce);
+	*/
+	/*
 	fetch(ajax_obj.ajaxurl,{
         method:'POST',
         body: formData
@@ -67,8 +101,21 @@ function doStuff(event){
 		updateChart(data[0]);
 	})
     .catch(err => console.error("Error:", err));   
+	*/
+	var xhr = new XMLHttpRequest();
+	var params = 'selected='+selectedRadio.toString()+'&action='+"send"+""+'&idson='+idson+""+'&nonce='+ajax_obj.nonce;
+	xhr.open('POST',ajax_obj.resturl +'baseURL/v1/endPoint', true);
+	xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+	xhr.onload = function() {
+		if (xhr.readyState == 4 && xhr.status == 200) {
+			var response = xhr.responseText.substring(xhr.responseText.indexOf("["));
+			updateChart(JSON.parse(response)[0]);
+		}
+	}
+	xhr.send(params);
 
 }
+
 
 function updateChart(data){
 	console.log(data);

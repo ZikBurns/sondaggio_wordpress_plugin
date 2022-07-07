@@ -443,7 +443,7 @@ module.exports = window["wp"]["i18n"];
   \************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"create-block/gutenpride","version":"0.1.0","title":"Gutenpride","category":"widgets","icon":"smiley","description":"Example static block scaffolded with Create Block tool.","supports":{"html":false},"attributes":{"idson":{"type":"string"},"title":{"type":"string"},"sondaggi_elenco":{"type":"array"}},"textdomain":"gutenpride","editorScript":"file:./index.js","script":"file:./js/index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"create-block/sondaggio","version":"0.1.0","title":"Gutenpride","category":"widgets","icon":"smiley","description":"Example static block scaffolded with Create Block tool.","supports":{"html":false},"attributes":{"idson":{"type":"string"},"title":{"type":"string"},"sondaggi_elenco":{"type":"array"}},"textdomain":"sondaggio","editorScript":"file:./index.js","script":"file:./js/index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
 
 /***/ })
 

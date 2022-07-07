@@ -14,29 +14,6 @@ function sondaggi_block_script_register()
 add_action( 'init', 'sondaggi_block_script_register' );
 
 
-
-/*
-Plugin Name: Sidebar plugin
-
-function sidebar_plugin_register() {
-    wp_register_script(
-        'plugin-sidebar-js',
-        plugins_url( 'plugin-sidebar.js', __FILE__ ),
-        array(
-            'wp-plugins',
-            'wp-edit-post',
-            'wp-element',
-            'wp-components'
-        )
-    );
-}
-add_action( 'init', 'sidebar_plugin_register' );
- 
-function sidebar_plugin_script_enqueue() {
-    wp_enqueue_script( 'plugin-sidebar-js' );
-}
-add_action( 'enqueue_block_editor_assets', 'sidebar_plugin_script_enqueue' );
-*/
    
 function create_posttype() {
   
@@ -113,6 +90,7 @@ function diwp_custom_metabox_callback(){
             input2.type = "number";
             input2.name= "sondaggi_result"+index;
             input2.value = elenco[i].count;
+            input2.readOnly = true;
 
             //Delete button
             let delbutton = document.createElement('button')
@@ -166,7 +144,8 @@ function diwp_custom_metabox_callback(){
             input2.type = "text";
             input2.name= "sondaggi_result"+nextEle;
             input2.value = "<?php {echo  0;}?>";
-
+            input2.readOnly = true;
+            
             //Delete button
             let delbutton = document.createElement('button')
             delbutton.innerHTML = "X"
@@ -238,44 +217,51 @@ function add_register_post_meta() {
     ); 
 }
 add_action( 'init', 'add_register_post_meta' );
-/*
-function myguten_register_post_meta() {
-    register_post_meta( 'post', 'myguten_meta_block_field', array(
-        'show_in_rest' => true,
-        'single' => true,
-        'type' => 'string',
-    ) );
-}
-add_action( 'init', 'myguten_register_post_meta' );
- */
 
-//Insertar Javascript js y enviar ruta admin-ajax.php
 
 add_action('wp_enqueue_scripts', 'insert_js');
 
 function insert_js(){
-    wp_enqueue_script('miscript',plugin_dir_url(__FILE__). '/js/script.js', array(), '5', true);
+    wp_enqueue_script('miscript',plugin_dir_url(__FILE__). '/js/script.js', array(), false, true);
     wp_localize_script('miscript','ajax_obj',[
-        'ajaxurl'=>admin_url('admin-ajax.php'),
+        'resturl'=>rest_url(),
         'nonce'=> wp_create_nonce('send')
     ]);
 }
 
+add_action('rest_api_init', 'register_routes');
 
-//Devolver datos a archivo js
+function register_routes(){
+    register_rest_route('baseURL/v1', '/endPoint', array(
+        'methods' => 'POST',
+        'callback' => 'restAPI_endpoint_callback',
+        'args'     => [
+			'selected' => [
+				'required' => false,
+				'type'     => 'string',
+			],
+            'action' => [
+				'required' => true,
+				'type'     => 'string',
+			],
+            'idson' => [
+				'required' => true,
+				'type'     => 'string',
+			],
+            'nonce' => [
+				'required' => true,
+				'type'     => 'string',
+			],
+		],
+    ));
+}
 
-add_action('wp_ajax_nopriv_send','send_content');
-add_action('wp_ajax_send','send_content');
-
-function send_content()
-{
-
+function restAPI_endpoint_callback($req){
     // Check for nonce security      
-    if ( ! wp_verify_nonce( $_POST['nonce'], 'send' ) ) die ( 'NOPE!');
+    //if ( ! wp_verify_nonce( $req['nonce'], 'send' ) ) die ( 'NOPE!');
     
-
-    if(isset($_POST['idson'])) $id_post = intval($_POST['idson']);
-	$selected = strval($_POST['selected']);
+    if(isset($req['idson'])) $id_post = intval($req['idson']);
+	$selected = strval($req['selected']);
     $boxmeta = get_post_meta($id_post, 'sondaggio',true);
     $newboxmeta = get_post_meta($id_post, 'sondaggio',true);
     if (! empty($selected))
@@ -284,25 +270,7 @@ function send_content()
         $status = update_post_meta( $id_post, 'sondaggio', $newboxmeta );
     }
     
-
-    $return = [$newboxmeta, $status ];
-    wp_send_json($return);
-	wp_die();
+    $return = [$newboxmeta,$req['nonce'], "Hello world" ];
+    
+    return ($return);
 }
-
-/*
-add_action('wp_enqueue_scripts','visibility_controller');
-function visibility_controller()
-{
-    if(isset($_COOKIE['sondaggioSent']))
-    {
-        wp_register_script( 'visibility-control', plugins_url( '/js/vis.js' , __FILE__ ) );
-        wp_enqueue_script( 'visibility-control' );
-    }
-    else
-    {
-        wp_register_script( 'invisibility-control', plugins_url( '/js/invis.js' , __FILE__ ) );
-        wp_enqueue_script( 'invisibility-control' );
-    }
-}
-*/
