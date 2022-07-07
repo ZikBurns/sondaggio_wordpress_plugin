@@ -3,7 +3,10 @@ var radioButtons;
 debugger;
 if(document.cookie.includes("sondaggioSent"))
 {
-	
+	const resultschart = document.querySelector('#resultChart');        
+	resultschart.style.display='block';
+	const frontsondaggio = document.querySelector('#frontSondaggio');        
+	frontsondaggio.style.display = 'none';
 	const idson = document.querySelector('#idson').innerHTML; 
 
 	var formData ={
