@@ -10,7 +10,7 @@
 
 /**
  * Enqueue the style.css file.
- * 
+ *
  * @since 1.0.0
  */
 function fse_styles() {
@@ -22,3 +22,12 @@ function fse_styles() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'fse_styles' );
+
+if ( ! function_exists( 'fse_setup' ) ) {
+	function fse_setup() {
+		add_theme_support( 'wp-block-styles' );
+	}
+}
+add_action( 'after_setup_theme', 'fse_setup' );
+
+add_theme_support( 'align-wide' );
