@@ -90,8 +90,8 @@
 				"units": [ "px", "em", "rem", "vh", "vw", "%" ]
 			},
 			"layout": {
-				 "contentSize": "1040px",
-				 "wideSize": "3000px"
+				"wideSize": "1000px",
+				"contentSize": "800px"
 		}
 	},
 	"styles": {
@@ -112,18 +112,8 @@
 			"lineHeight": "1.7"
 		},
 		"spacing": {
-			"margin": {
-				"top": "0px",
-				"right": "0px",
-				"bottom": "60px",
-				"left": "0px"
-			},
-			"padding": {
-				"top": "0px",
-				"right": "30px",
-				"bottom": "0px",
-				"left": "30px"
-			}
+			"blockGap": "1.5rem"
 		}
+		
 	}
 }
