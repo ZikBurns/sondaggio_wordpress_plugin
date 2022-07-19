@@ -30,4 +30,3 @@ if ( ! function_exists( 'fse_setup' ) ) {
 }
 add_action( 'after_setup_theme', 'fse_setup' );
 
-add_theme_support( 'align-wide' );

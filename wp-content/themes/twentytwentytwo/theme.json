@@ -215,10 +215,6 @@
 					"slug": "x-large"
 				}
 			]
-		},
-		"layout": {
-			"contentSize": "650px",
-			"wideSize": "1000px"
 		}
 	},
 	"styles": {
