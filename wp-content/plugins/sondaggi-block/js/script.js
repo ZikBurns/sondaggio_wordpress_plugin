@@ -1,6 +1,5 @@
 var form;
 var radioButtons; 
-debugger;
 if(document.cookie.includes("sondaggioSent"))
 {
 	
