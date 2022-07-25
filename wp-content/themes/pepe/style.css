@@ -17,28 +17,32 @@ Text Domain: pepe
 }
 
 .wp-block-create-block-gutenpride.alignfull {
-	margin: 32px calc( ( 800px - 1000px ) / 2 ) !important ;
-    max-width: 100vw ;
+	margin: 32px calc( ( 103% - 100vw ) / 2 ) !important ;
+    max-width: 1000% ;
     width: auto ;
-    border: 3px solid rgb(15, 218, 42) ;
+    border: 0px solid rgb(15, 218, 42) ;
 }
 
-.alignwide {
-	margin: 32px calc(25% - 25vw) ;
-	max-width: 100vw ;
+.wp-block-create-block-gutenpride.alignwide {
+	margin: 32px calc( ( 103% - 100vw ) / 2 ) !important;
 	width: auto ;
-    border: 3px solid rgb(22, 7, 226) ;
+    border: 0px solid rgb(229, 255, 0) ;
+}
+@media screen and (min-width: 1010px) {
+	.wp-block-create-block-gutenpride.alignwide {
+        margin: 32px calc( ( 100% - 1000px ) / 2 ) !important;
+	}
 }
 .aligncenter {
     width: 50%;
-    border: 3px solid rgb(128, 0, 0);
+    border: 0px solid rgb(128, 0, 0);
     padding: 10px;
 }
 
 .alignright {
     float: right;
     width: 50%;
-    border: 3px solid #cf1b1b;
+    border: 0px solid #cf1b1b;
     padding: 10px;
 }
 
@@ -46,7 +50,7 @@ Text Domain: pepe
 .alignleft {
     float: left;
     width: 50%;
-    border: 3px solid #cf1b1b;
+    border: 0px solid #cf1b1b;
     padding: 10px;
 }
 
