@@ -16,22 +16,21 @@ Text Domain: pepe
     text-align: center;
 }
 
-.wp-block-create-block-gutenpride.alignfull {
-	margin: 32px calc( ( 103% - 100vw ) / 2 ) !important ;
-    max-width: 1000% ;
-    width: auto ;
-    border: 0px solid rgb(15, 218, 42) ;
-}
-
 .wp-block-create-block-gutenpride.alignwide {
-	margin: 32px calc( ( 103% - 100vw ) / 2 ) !important;
-	width: auto ;
+	width: 100% ;
     border: 0px solid rgb(229, 255, 0) ;
 }
-@media screen and (min-width: 1010px) {
-	.wp-block-create-block-gutenpride.alignwide {
-        margin: 32px calc( ( 100% - 1000px ) / 2 ) !important;
-	}
+@media (min-width: 1001px) {
+    .wp-block-create-block-gutenpride.alignwide{
+        margin: 32px calc(-1 * ( (1000px - 800px) / 2 ); 
+        width: 100%;
+    }
+}
+@media (min-width: 801px) {
+    .wp-block-create-block-gutenpride.alignfull{
+        margin: 32px calc(-1 * ( (100vw - 800px) / 2 ) ); 
+        width: 100%;
+    }
 }
 .aligncenter {
     width: 50%;
